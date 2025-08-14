@@ -21,7 +21,7 @@ const BasesPanel = () => {
 const BasesList = () => {
   const zone = App.getSortedZone(ZONE_MAIN, "Base");
   const values = _.values(zone);
-  const cards = _.flat(values);
+  const cards = _.flat(values).reverse();
 
   return (
     <fieldset className="ExportDeckPanel fieldset">

@@ -43,7 +43,7 @@ const getZoneDetails = (appState, zoneName, cards) => {
 const Zone = ({ name: zoneName, filter }) => {
   const zone = App.getSortedZone(zoneName, filter);
   const values = _.values(zone);
-  const cards = _.flat(values);
+  const cards = _.flat(values).reverse();
   const cardTypes = uniq(cards, function(card) {
     return card.type;
   });

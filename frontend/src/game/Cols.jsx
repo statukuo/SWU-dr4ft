@@ -65,7 +65,7 @@ Cols.propTypes = {
 
 const Zones = ({onMouseOver, zoneNames, onMouseLeave, filter}) => {
   const renderZone = (zoneName) => {
-    const zone = App.getSortedZone(zoneName, filter);
+    const zone = App.getSortedZone(zoneName, filter).reverse();
     let sum = 0;
     let cols = [];
 

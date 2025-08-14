@@ -4,13 +4,6 @@ import EventEmitter from "events";
 import {ZONE_JUNK, ZONE_MAIN, ZONE_PACK, ZONE_SIDEBOARD} from "./zones";
 import BASIC_LANDS_BY_COLOR_SIGN from "./basiclands";
 
-export const COLORS_TO_LANDS_NAME = {
-  "W": "Plains",
-  "U": "Island",
-  "B": "Swamp",
-  "R": "Mountain",
-  "G": "Forest",
-};
 
 const defaultState = () => ({
   [ZONE_MAIN]: [],
@@ -126,10 +119,6 @@ class GameState extends EventEmitter {
     this.updState();
   }
 
-  getLandDistribution(zoneName, color) {
-    return this.#landDistribution[zoneName][color] || 0;
-  }
-
   _setLands(zoneName, card, n) {
     const zone = this.get(zoneName);
     remove(zone, (c) => c.name === card.name);
@@ -140,16 +129,6 @@ class GameState extends EventEmitter {
 
   setLands(zoneName, color, n) {
     this._setLands(zoneName, BASIC_LANDS_BY_COLOR_SIGN[color], n);
-    this.updState();
-  }
-
-  resetLands() {
-    Object.values(COLORS_TO_LANDS_NAME).forEach((basicLandName) => {
-      [ZONE_MAIN, ZONE_SIDEBOARD, ZONE_JUNK].forEach((zoneName) => {
-        remove(this.get(zoneName), ({name}) => basicLandName.toLowerCase() === name.toLowerCase());
-      });
-    });
-    this.#landDistribution = defaultLandDistribution();
     this.updState();
   }
 
@@ -176,7 +155,7 @@ class GameState extends EventEmitter {
 
     const groups = _.group(filteredCards || cards, sort);
     for (const key in groups) {
-      _.sort(groups[key], "defaultCardNumber");
+      _.sort(groups[key], "defaultRarity");
     }
     return Key(groups, sort);
   }
@@ -263,23 +242,13 @@ class GameState extends EventEmitter {
   }
 }
 
-const isLand = ({type}) => /land/i.test(type);
-
-const sortLandsBeforeNonLands = (lhs, rhs) => {
-  const lhsIsLand = isLand(lhs);
-  const rhsIsLand = isLand(rhs);
-  return rhsIsLand - lhsIsLand;
-};
 
 function Key(groups, sort) {
   let keys = Object.keys(groups);
-  let arr;
-
   switch (sort) {
-
-  case "rarity":
+  case "defaultRarity":
     keys =
-      ["Legendary", "Rare", "Uncommon", "Common", "Special"]
+      ["1", "2", "3", "4", "5"]
         .filter(x => keys.indexOf(x) > -1);
     break;
   }

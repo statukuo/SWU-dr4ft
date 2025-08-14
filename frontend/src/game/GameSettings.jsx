@@ -40,7 +40,7 @@ const SortCards = () => (
   <div className="sort-cards">
     Sort cards by:
     <div className='connected-container' >
-      {["Rarity"].map((sort, index) => {
+      {["defaultRarity"].map((sort, index) => {
         const isActive = sort.toLowerCase() === App.state.sort;
 
         return (
