@@ -1,4 +1,0 @@
-data/*
-!data/scores.json
-node_modules
-frontend/lib
