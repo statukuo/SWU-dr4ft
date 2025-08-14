@@ -16,6 +16,8 @@ const ASPECTS = {
   6: "Villany"
 };
 
+const generateBoosterInfo = require("./generateBoosterData");
+
 async function importSet() {
   const allSets = await (await fetch("https://swudb.com/api/card/getAllSets")).json();
 
@@ -112,7 +114,7 @@ async function importSet() {
         if (setsToFetch[setIdx].expansionType === 1 && setsToFetch[setIdx].formatLegality !== 0) {
           if (!sets[setsToFetch[setIdx].expansionAbbreviation]) {
             sets[setsToFetch[setIdx].expansionAbbreviation] = {
-              cardsByNumber: {},
+              cards: [],
               code: setsToFetch[setIdx].expansionAbbreviation,
               releaseDate: setsToFetch[setIdx].releaseDate,
               baseSetSize: setsToFetch[setIdx].cardCount,
@@ -120,23 +122,7 @@ async function importSet() {
             };
           }
 
-          sets[setsToFetch[setIdx].expansionAbbreviation].cardsByNumber[formattedCardNumber(cardIdx)] = baseCardCode;
-
-          if (!sets[setsToFetch[setIdx].expansionAbbreviation][data.cardTypeDescription]) {
-            sets[setsToFetch[setIdx].expansionAbbreviation][data.cardTypeDescription] = [];
-          }
-
-          sets[setsToFetch[setIdx].expansionAbbreviation][data.cardTypeDescription].push(baseCardCode);
-
-          if (data.cardTypeDescription === "Leader" || (data.cardTypeDescription === "Base" && data.alternativePrintings[0].rarity !== 3)) {
-            console.log("Skipping", baseCardCode, data.cardTypeDescription, RARITY[data.alternativePrintings[0].rarity]);
-          } else {
-            if (!sets[setsToFetch[setIdx].expansionAbbreviation][RARITY[data.alternativePrintings[0].rarity]]) {
-              sets[setsToFetch[setIdx].expansionAbbreviation][RARITY[data.alternativePrintings[0].rarity]] = [];
-            }
-
-            sets[setsToFetch[setIdx].expansionAbbreviation][RARITY[data.alternativePrintings[0].rarity]].push(baseCardCode);
-          }
+          sets[setsToFetch[setIdx].expansionAbbreviation].cards.push = baseCardCode;
 
           console.log("ADDED to set", setsToFetch[setIdx].expansionAbbreviation, RARITY[data.alternativePrintings[0].rarity], baseCardCode, `${cardIdx} / ${setsToFetch[setIdx].cardCount}`);
         }
@@ -148,6 +134,8 @@ async function importSet() {
     setIdx++;
   }
 
+
+
   fs.writeFile("data/cards.json", JSON.stringify(cards), function (err) {
     if (err) {
       console.log(err);
@@ -158,7 +146,7 @@ async function importSet() {
         console.log(err);
       }
       console.log("DONE cards by name");
-      fs.writeFile("data/sets.json", JSON.stringify(sets), function (err) {
+      fs.writeFile("data/sets.json", JSON.stringify(generateBoosterInfo(sets, cards)), function (err) {
         if (err) {
           console.log(err);
         }

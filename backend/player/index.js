@@ -45,7 +45,7 @@ class Player extends EventEmitter {
 
     console.log("Load common bases for", uniq(sets) );
 
-    this.pool = uniq(sets).map(setCode => getSet(setCode)).map(set=> set.Base).flat().map(getCardByUuid).filter(card => card.defaultRarity === 1);
+    this.pool = uniq(sets).map(setCode => getSet(setCode)).map(set=> set.boosterData.poolBases).flat().map(getCardByUuid);
   }
 
   getPlayerDeck() {

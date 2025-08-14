@@ -7,15 +7,15 @@ const makeBoosterFromRules = (setCode, withLeader) => {
 };
 
 const getDefaultBooster = (set, withLeader) => {
-  let { Common, Uncommon, Rare, Legendary, Special, Leader } = set;
-  const isLegendary = Legendary && !random(6);
+  let { common, uncommon, rare, legendary, leader, foil, legendaryRatio } = set.boosterData;
+  const isLegendary = legendary && !random(legendaryRatio);
 
   const cardNames = concat(
-    withLeader? sampleSize(Leader, 1) : [],
-    sampleSize(Common, 9),
-    sampleSize(Uncommon, 3),
-    sampleSize(isLegendary? Legendary : Rare, 1),
-    sampleSize([...Common,...Uncommon,...Rare,...Legendary,...Special], 1)
+    withLeader? sampleSize(leader, 1) : [],
+    sampleSize(common, 9),
+    sampleSize(uncommon, 3),
+    sampleSize(isLegendary? legendary : rare, 1),
+    sampleSize(foil, 1)
   );
 
   return cardNames.map(getCardByUuid);
