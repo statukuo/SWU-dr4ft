@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import _ from "utils/utils";
+import { uniq } from "lodash";
 import App from "../app";
 import Spaced from "../components/Spaced";
 import {ZONE_PACK, getZoneDisplayName} from "../zones";
@@ -10,14 +11,15 @@ import CardGlimpse from "./card/CardGlimpse.jsx";
 import CardPlaceholder from "./card/CardPlaceholder.jsx";
 import "./Grid.scss";
 
-const Grid = ({zones}) => (
+const Grid = ({zones, filter}) => (
   <div>
-    {zones.map((name, i) => <Zone name={name} key={name + i} />)}
+    {zones.map((name, i) => <Zone name={name} key={name + i} filter={filter} />)}
   </div>
 );
 
 Grid.propTypes = {
-  zones: PropTypes.array.isRequired
+  zones: PropTypes.array.isRequired,
+  filter: PropTypes.string
 };
 
 const getZoneDetails = (appState, zoneName, cards) => {
@@ -38,15 +40,17 @@ const getZoneDetails = (appState, zoneName, cards) => {
   }
 };
 
-const Zone = ({ name: zoneName }) => {
-  const zone = App.getSortedZone(zoneName);
+const Zone = ({ name: zoneName, filter }) => {
+  const zone = App.getSortedZone(zoneName, filter);
   const values = _.values(zone);
   const cards = _.flat(values);
+  const cardTypes = uniq(cards, function(card) {
+    return card.type;
+  });
+
   const isPackZone = zoneName === ZONE_PACK;
 
   const { round, picksPerPack, gameState, packSize, pickNumber, game } = App.state;
-
-  console.log(zoneName);
 
   const remainingCardsToSelect = Math.min(picksPerPack, cards.length);
   const remainingCardsToBurn = Math.min(game.burnsPerPack, cards.length);
@@ -90,7 +94,7 @@ const Zone = ({ name: zoneName }) => {
         }
       </div>
 
-      <div className="cards">
+      <div className={`cards -${cardTypes.map(({type}) => type).join(" -")} -${filter}`}>
         {
           cards.map((card, i) => isPackZone && game.burnsPerPack > 0
             ? <CardGlimpse key={i+zoneName+card.name+card.foil} card={card} zoneName={zoneName} />
