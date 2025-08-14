@@ -14,6 +14,16 @@ export const STRINGS = {
     FOOTER:
       <div style={{ padding: 10 }}>
         Contributions welcome! &nbsp;
+        <a href='https://github.com/statukuo/SWU-dr4ft' target='_blank' rel='noreferrer'>
+          <img
+            src='https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg'
+            alt='GitHub' title='GitHub Repository' align='top' height='18'
+            style={{ marginRight: 5}}
+          />
+          statukuo/SWU-dr4ft
+        </a>
+
+        Based on the awesome work of
         <a href='https://github.com/dr4fters/dr4ft' target='_blank' rel='noreferrer'>
           <img
             src='https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg'

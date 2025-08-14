@@ -1,6 +1,6 @@
 {
-    "name": "dr4ft",
-    "short_name": "dr4ft",
+    "name": "swu-dr4ft",
+    "short_name": "swudr4ft",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -15,6 +15,6 @@
     ],
     "theme_color": "#fafafa",
     "background_color": "#fafafa",
-    "start_url": "https://dr4ft.info/",
+    "start_url": "https://swu-dr4ft.up.railway.app/",
     "display": "standalone"
 }
