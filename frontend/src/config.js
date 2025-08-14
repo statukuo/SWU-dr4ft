@@ -3,7 +3,7 @@ import React from "react";
 export const STRINGS = {
   BRANDING: {
     SITE_TITLE: ["dr4ft", "info"].join("."),
-    SITE_NAME: <span>DR<img src='4.png' alt='4'/>FT</span>,
+    SITE_NAME: <span>DR<img src='4.png' alt='4' />FT</span>,
     DEFAULT_USERNAME: "dr4fter",
     PAYPAL: "",
   },
@@ -12,26 +12,30 @@ export const STRINGS = {
     MOTD: null, // TODO: handle overwrite of this message of the day; can be a React element
 
     FOOTER:
-      <div style={{ padding: 10 }}>
-        Contributions welcome! &nbsp;
-        <a href='https://github.com/statukuo/SWU-dr4ft' target='_blank' rel='noreferrer'>
-          <img
-            src='https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg'
-            alt='GitHub' title='GitHub Repository' align='top' height='18'
-            style={{ marginRight: 5}}
-          />
-          statukuo/SWU-dr4ft
-        </a>
+      <div>
+        <div style={{ padding: 10 }}>
+          Contributions welcome! &nbsp;
+          <a href='https://github.com/statukuo/SWU-dr4ft' target='_blank' rel='noreferrer'>
+            <img
+              src='https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg'
+              alt='GitHub' title='GitHub Repository' align='top' height='18'
+              style={{ marginRight: 5 }}
+            />
+            statukuo/SWU-dr4ft
+          </a>
+        </div>
+        <div style={{ padding: 10 }}>
 
-        Based on the awesome work of
-        <a href='https://github.com/dr4fters/dr4ft' target='_blank' rel='noreferrer'>
-          <img
-            src='https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg'
-            alt='GitHub' title='GitHub Repository' align='top' height='18'
-            style={{ marginRight: 5}}
-          />
-          dr4fters/dr4ft
-        </a>
+          Based on the awesome work of
+          <a href='https://github.com/dr4fters/dr4ft' target='_blank' rel='noreferrer'>
+            <img
+              src='https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg'
+              alt='GitHub' title='GitHub Repository' align='top' height='18'
+              style={{ marginRight: 5 }}
+            />
+            dr4fters/dr4ft
+          </a>
+        </div>
       </div>
   }
 };
