@@ -306,25 +306,6 @@ const events = {
 
 Object.keys(events).forEach((event) => App.on(event, events[event]));
 
-const parseCubeOptions = () => {
-  let {list, cards, packs, cubePoolSize, burnsPerPack} = App.state;
-  cards = Number(cards);
-  packs = Number(packs);
-  cubePoolSize = Number(cubePoolSize);
-
-  list = list
-    .split("\n")
-    .map(x => x
-      .trim()
-      .replace(/^\d+.\s*/, "")
-      .replace(/\s*\/+\s*/g, " // ")
-      .toLowerCase())
-    .filter(x => x)
-    .join("\n");
-
-  return {list, cards, packs, cubePoolSize, burnsPerPack};
-};
-
 const clickPack = (card) => {
   if (!App.state.gameState.isPick(card.cardId)) {
     App.state.gameState.updateCardPick(card.cardId, App.state.picksPerPack);
@@ -343,8 +324,6 @@ const hash = () => {
 };
 
 const collectDeck = () => {
-  console.log(App.state.gameState.get(ZONE_MAIN));
-
   return ({
     [ZONE_MAIN]: collectByName(App.state.gameState.get(ZONE_MAIN)),
     [ZONE_SIDEBOARD]: collectByName(App.state.gameState.get(ZONE_SIDEBOARD), true)

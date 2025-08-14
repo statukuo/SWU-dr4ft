@@ -18,7 +18,7 @@ const addCardIdsToBoosterCards = (pack) => pack.map(addCardId);
 
 const SealedNormal = ({ playersLength, sets }) => (
   times(playersLength , constant(sets))
-    .map(sets => sets.flatMap(boosterGenerator))
+    .map(sets => sets.flatMap((set) => boosterGenerator(set, true)))
     .map(addCardIdsToBoosterCards)
 );
 
@@ -27,7 +27,7 @@ const DraftNormal = ({ playersLength, sets }) => (
     .map(makeLeaderBooster)
     .map(addCardIdsToBoosterCards),
   ...sets.flatMap(set => times(playersLength, constant(set)))
-    .map(boosterGenerator)
+    .map((set) => boosterGenerator(set, false))
     .map(addCardIdsToBoosterCards)]
 );
 
