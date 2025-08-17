@@ -53,6 +53,15 @@
 
      font-size: 18px;
      padding: 0 0 0 20px;
+     opacity: 0; //Not sure how to change the logos, so let's hide them for now
+    }
+    span.code {
+      grid-row: 1;
+      grid-column: 1;
+      justify-self: start;
+
+      font-size: 18px;
+      padding: 0 0 0 20px;
     }
     .SelectSet__input {
      grid-row: 1;
@@ -146,7 +155,8 @@
 
     i {
      justify-self: center;
-     font-size: 18px;
+     font-size: 8px;
+     opacity: 0; //Not sure how to change the logos, so let's hide them for now
     }
     span.set-code {
      font-size: 10px;

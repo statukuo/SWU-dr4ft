@@ -26,7 +26,7 @@ export const STRINGS = {
         </div>
         <div style={{ padding: 10 }}>
 
-          Based on the awesome work of
+          Based on the awesome work of &nbsp;
           <a href='https://github.com/dr4fters/dr4ft' target='_blank' rel='noreferrer'>
             <img
               src='https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg'

@@ -106,7 +106,7 @@ export default class CardBase extends Component {
         }
         <SelectionState selection isPick={isLeaderSelected} card={card} isRotated={this.state.isFlipped}/>
         <SelectionState selection isPick={isBaseSelected} card={card} isRotated={this.state.isFlipped} base={base}/>
-        <SelectionState isPick={isPick} card={card} isRotated={this.state.isFlipped}/>
+        <SelectionState isPick={isPick} card={card} isRotated={this.state.isFlipped} base={base}/>
       </div>
     );
   }
