@@ -22,7 +22,12 @@ export default function generateBoosterInfo(sets, cards) {
       };
 
       setsCopy[key].boosterData = {
-        legendaryRatio: 8,
+        slots: [
+          {type: "common", count: 9},
+          {type: "uncommon", count: 3},
+          {type: "rare", count: 1, replacement: "legendary", ratio: 8},
+          {type: "foil", count: 1, foil: true}
+        ],
         leader: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] !== "Special" && cards[c].type === "Leader"),
         poolLeaders: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] === "Special" && cards[c].type === "Leader"),
         poolBases: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] === "Common" && cards[c].type === "Base"),
@@ -48,7 +53,12 @@ export default function generateBoosterInfo(sets, cards) {
       };
 
       setsCopy[key].boosterData = {
-        legendaryRatio: 8,
+        slots: [
+          {type: "common", count: 9},
+          {type: "uncommon", count: 3},
+          {type: "rare", count: 1, replacement: "legendary", ratio: 8},
+          {type: "foil", count: 1, foil: true}
+        ],
         leader: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] !== "Special" && cards[c].type === "Leader"),
         poolLeaders: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] === "Special" && cards[c].type === "Leader"),
         poolBases: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] === "Common" && cards[c].type === "Base"),
@@ -73,7 +83,12 @@ export default function generateBoosterInfo(sets, cards) {
       };
 
       setsCopy[key].boosterData = {
-        legendaryRatio: 8,
+        slots: [
+          {type: "common", count: 9},
+          {type: "uncommon", count: 3},
+          {type: "rare", count: 1, replacement: "legendary", ratio: 8},
+          {type: "foil", count: 1, foil: true}
+        ],
         leader: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] !== "Special" && cards[c].type === "Leader"),
         poolLeaders: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] === "Special" && cards[c].type === "Leader"),
         poolBases: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] === "Common" && cards[c].type === "Base"),
@@ -98,7 +113,12 @@ export default function generateBoosterInfo(sets, cards) {
       };
 
       setsCopy[key].boosterData = {
-        legendaryRatio: 5,
+        slots: [
+          {type: "common", count: 9},
+          {type: "uncommon", count: 3},
+          {type: "rare", count: 1, replacement: "legendary", ratio: 5},
+          {type: "foil", count: 1, foil: true}
+        ],
         leader: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] !== "Special" && cards[c].type === "Leader"),
         poolLeaders: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] === "Special" && cards[c].type === "Leader"),
         poolBases: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] === "Common" && cards[c].type === "Base"),
@@ -124,7 +144,12 @@ export default function generateBoosterInfo(sets, cards) {
       };
 
       setsCopy[key].boosterData = {
-        legendaryRatio: 5,
+        slots: [
+          {type: "common", count: 9},
+          {type: "uncommon", count: 3},
+          {type: "rare", count: 1, replacement: "legendary", ratio: 5},
+          {type: "foil", count: 1, foil: true}
+        ],
         leader: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] !== "Special" && cards[c].type === "Leader"),
         poolLeaders: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] === "Special" && cards[c].type === "Leader"),
         poolBases: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] === "Common" && cards[c].type === "Base"),

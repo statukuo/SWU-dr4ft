@@ -7,18 +7,19 @@ const makeBoosterFromRules = (setCode, withLeader) => {
 };
 
 const getDefaultBooster = (set, withLeader) => {
-  let { common, uncommon, rare, legendary, leader, foil, legendaryRatio } = set.boosterData;
-  const isLegendary = legendary && !random(legendaryRatio);
+  let { leader, slots } = set.boosterData;
+
 
   const cardNames = concat(
     withLeader? sampleSize(leader, 1) : [],
-    sampleSize(common, 9),
-    sampleSize(uncommon, 3),
-    sampleSize(isLegendary? legendary : rare, 1),
-    sampleSize(foil, 1)
+    ...slots.map(({type, count, replacement, ratio, foil}) => {
+      const needsToBeReplaced = replacement && ratio && !random(ratio);
+
+      return sampleSize( set.boosterData[needsToBeReplaced? replacement : type], count).map(cardId => ({cardId, foil}));
+    })
   );
 
-  return cardNames.map(getCardByUuid).map((card, idx) => idx === cardNames.length -1 ? {...card, foil: true} : card);
+  return cardNames.map(({cardId, foil}) => ({...getCardByUuid(cardId), foil}));
 };
 
 module.exports = makeBoosterFromRules;
