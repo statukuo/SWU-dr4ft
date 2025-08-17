@@ -28,6 +28,7 @@ app.use(fileUpload());
 // Routing
 app.use(express.static("built"));
 app.use("/api", apiRouter);
+app.use(express.static(__dirname + "/public"));
 
 
 // Create server

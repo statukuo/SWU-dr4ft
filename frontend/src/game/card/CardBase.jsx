@@ -24,10 +24,12 @@ export default class CardBase extends Component {
 
   getCardImage(side) {
     const { card } = this.props;
+    const set = card.defaultExpansionAbbreviation;
+    const number = String(card.defaultCardNumber).padStart(3, "0");
     if (side === FLIP && card.type === "Leader")
-      return card.backImagePath || card.defaultImagePath;
+      return `/cardImages/${set}_${number}-back.webp` || `/cardImages/${set}_${number}.webp`;
 
-    return card.defaultImagePath;
+    return `/cardImages/${set}_${number}.webp`;
   }
 
   flip(event) {
