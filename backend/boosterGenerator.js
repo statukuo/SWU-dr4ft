@@ -18,7 +18,7 @@ const getDefaultBooster = (set, withLeader) => {
     sampleSize(foil, 1)
   );
 
-  return cardNames.map(getCardByUuid);
+  return cardNames.map(getCardByUuid).map((card, idx) => idx === cardNames.length -1 ? {...card, foil: true} : card);
 };
 
 module.exports = makeBoosterFromRules;

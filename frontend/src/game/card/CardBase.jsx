@@ -154,11 +154,11 @@ const CardBaseText = ({ cardName, title, rarity, aspects, rotated, base }) => {
     </div>
   );
 };
-function backgroundStyle(colors) {
-  if (!colors || !colors.length) return "var(--colorless)";
+function backgroundStyle(aspects) {
+  if (!aspects || !aspects.length) return "var(--colorless)";
 
-  const output = colors.map((c) => `var(--${c})`).join(", ");
-  if (colors.length === 1) return output;
+  const output = aspects.map((a) => `var(--${a})`).join(", ");
+  if (aspects.length === 1) return output;
   else return `linear-gradient(to right, ${output})`;
 }
 
