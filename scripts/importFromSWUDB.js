@@ -1,4 +1,7 @@
 const fs = require("fs");
+const cliProgress = require("cli-progress");
+const { default: generateBoosterInfo } = require("./generateBoosterData");
+
 const RARITY = {
   1: "Common",
   2: "Uncommon",
@@ -16,7 +19,6 @@ const ASPECTS = {
   6: "Villany"
 };
 
-const generateBoosterInfo = require("./generateBoosterData");
 
 async function importSet() {
   const allSets = await (await fetch("https://swudb.com/api/card/getAllSets")).json();
@@ -29,11 +31,25 @@ async function importSet() {
   const cards = {};
   const cardsByName = {};
 
+  const multibar = new cliProgress.MultiBar({
+    clearOnComplete: false,
+    hideCursor: true,
+    format: ' {bar} | {filename} | {value}/{total}',
+  }, cliProgress.Presets.shades_grey);
+
+
+  const bar1 = multibar.create(0, 0);
+  const bar2 = multibar.create(0, 0);
+
   while (setIdx < setsToFetch.length) {
     console.log("Started processing ", setsToFetch[setIdx].expansionAbbreviation, "total base cards:", setsToFetch[setIdx].cardCount);
-
     cardIdx = 1;
+    let totalCardProcessed = 0;
+
+    bar1.setTotal(setsToFetch[setIdx].cardCount);
     while (cardIdx <= setsToFetch[setIdx].cardCount) {
+      bar1.update(cardIdx, {filename: setsToFetch[setIdx].expansionAbbreviation});
+
       const response = await fetch("https://swudb.com/api/card/getPrintingInfo", {
         method: "POST",
         headers: {
@@ -54,12 +70,14 @@ async function importSet() {
 
         //Card whole collection
         let alternativeIdx = 0;
+
+
+        bar2.setTotal(data.alternativePrintings.length);
         while (alternativeIdx < data.alternativePrintings.length) {
+          bar2.update(alternativeIdx, {filename: formattedCardNumber(cardIdx)});
           const altCardCode = `${data.alternativePrintings[alternativeIdx].expansionAbbreviation}_${formattedCardNumber(data.alternativePrintings[alternativeIdx].cardNumber)}`;
 
-          if (cards[altCardCode]) {
-            console.log(altCardCode, " already on the DB");
-          } else {
+          if (!cards[altCardCode]) {
             const alternativeResponse = await fetch("https://swudb.com/api/card/getPrintingInfo", {
               method: "POST",
               headers: {
@@ -78,17 +96,15 @@ async function importSet() {
               cardName: alt.cardName,
               title: alt.title,
               defaultCardNumber: formattedCardNumber(data.alternativePrintings[alternativeIdx].cardNumber),
-              defaultImagePath: `https://swudb.com/images/${alt.frontImagePath}`.replaceAll("~/", ""),
-              frontImagePath: `https://swudb.com/images/${alt.frontImagePath}`.replaceAll("~/", ""),
-              backImagePath: (alt.backImagePath ? `https://swudb.com/images/${alt.backImagePath}` : "https://karabast.net/card-back.png").replaceAll("~/", ""),
+              defaultImagePath: `https://swudb.com/cdn-cgi/image/width=300/images/${alt.frontImagePath}`.replaceAll("~/", "").replaceAll("//", "/"),
+              frontImagePath: `https://swudb.com/cdn-cgi/image/width=300/images/${alt.frontImagePath}`.replaceAll("~/", "").replaceAll("//", "/"),
+              backImagePath: (alt.backImagePath ? `https://swudb.com/cdn-cgi/image/width=300/images/${alt.backImagePath}`.replaceAll("~/", "").replaceAll("//", "/") : "https://karabast.net/card-back.png").replaceAll("~/", ""),
               aspects: alt.aspects.map(aspect => ASPECTS[aspect]),
               defaultRarity: data.alternativePrintings[0].rarity,
               type: alt.cardTypeDescription
             };
-
-            console.log("ADDED ", altCardCode, data.cardName);
           }
-
+          totalCardProcessed++;
           alternativeIdx++;
         }
 
@@ -105,9 +121,6 @@ async function importSet() {
           }
 
           cardsByName[cardName][value.expansionAbbreviation][formattedCardNumber(value.cardNumber)] = baseCardCode;
-
-
-          console.log("ADDED to alts", cardName, value.expansionAbbreviation, formattedCardNumber(value.cardNumber));
         });
 
         //Set collection
@@ -123,18 +136,22 @@ async function importSet() {
           }
 
           sets[setsToFetch[setIdx].expansionAbbreviation].cards.push = baseCardCode;
-
-          console.log("ADDED to set", setsToFetch[setIdx].expansionAbbreviation, RARITY[data.alternativePrintings[0].rarity], baseCardCode, `${cardIdx} / ${setsToFetch[setIdx].cardCount}`);
         }
       }
 
       cardIdx++;
+
     }
+
+    bar1.stop();
+    bar2.stop();
+
+    console.log("")
+    console.log("")
+    console.log("Total cards processed:", totalCardProcessed)
 
     setIdx++;
   }
-
-
 
   fs.writeFile("data/cards.json", JSON.stringify(cards), function (err) {
     if (err) {
