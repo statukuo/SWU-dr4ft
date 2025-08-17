@@ -101,7 +101,7 @@ module.exports = class Human extends Player {
       this.send("leftLeaders", left?.cap?.packs?.["1"]);
     }
     if (right?.cap?.packs?.["1"]) {
-      this.send("rightLeaders", left?.cap?.packs?.["1"]);
+      this.send("rightLeaders", right?.cap?.packs?.["1"]);
     }
 
     this.send("pickNumber", ++this.pickNumber);
