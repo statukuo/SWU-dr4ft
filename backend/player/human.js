@@ -60,11 +60,11 @@ module.exports = class Human extends Player {
   _confirmSelection() {
     this.confirmSelection();
   }
-  getPack(pack) {
+  getPack(pack, left, right) {
     if (this.packs.push(pack) === 1)
-      this.sendPack(pack);
+      this.sendPack(pack, left, right);
   }
-  sendPack(pack) {
+  sendPack(pack, left, right) {
     if (this.useTimer) {
       let timer = [];
       // http://www.wizards.com/contentresources/wizards/wpn/main/documents/magic_the_gathering_tournament_rules_pdf1.pdf pp43
@@ -95,6 +95,13 @@ module.exports = class Human extends Player {
     }
     else {
       this.time = 0;
+    }
+
+    if (left?.cap?.packs?.["1"]) {
+      this.send("leftLeaders", left?.cap?.packs?.["1"]);
+    }
+    if (right?.cap?.packs?.["1"]) {
+      this.send("rightLeaders", left?.cap?.packs?.["1"]);
     }
 
     this.send("pickNumber", ++this.pickNumber);

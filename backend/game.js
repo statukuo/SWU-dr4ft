@@ -392,11 +392,11 @@ module.exports = class Game extends Room {
     this.packCount = players.length;
     this.delta *= -1;
 
-    players.forEach((p) => {
+    players.forEach((p, idx) => {
       if (!p.isBot) {
         p.pickNumber = 0;
         const pack = this.pool.shift();
-        p.getPack(pack);
+        p.getPack(pack, players[idx-1%players.length], players[idx+1%players.length]);
         p.send("set", { packSize: pack.length });
       }
     });

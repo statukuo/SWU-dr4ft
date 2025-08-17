@@ -127,7 +127,7 @@ export default function generateBoosterInfo(sets, cards) {
         rare: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] === "Rare" && cards[c].type !== "Leader"),
         legendary: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] === "Legendary"),
         foil: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] === "Legendary" ||
-            RARITY[cards[c].defaultRarity] === "Special" ||
+            (RARITY[cards[c].defaultRarity] === "Special" && cards[c].type !== "Leader") ||
             (RARITY[cards[c].defaultRarity] === "Rare" && cards[c].type !== "Leader") ||
             (RARITY[cards[c].defaultRarity] === "Uncommon" && cards[c].type !== "Leader") ||
             (RARITY[cards[c].defaultRarity] === "Common" && cards[c].type !== "Base" && cards[c].type !== "Leader")
@@ -158,7 +158,7 @@ export default function generateBoosterInfo(sets, cards) {
         rare: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] === "Rare" && cards[c].type !== "Leader"),
         legendary: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] === "Legendary"),
         foil: setsCopy[key].cards.filter(c => RARITY[cards[c].defaultRarity] === "Legendary" ||
-            RARITY[cards[c].defaultRarity] === "Special" ||
+            (RARITY[cards[c].defaultRarity] === "Special" && cards[c].type !== "Leader") ||
             (RARITY[cards[c].defaultRarity] === "Rare" && cards[c].type !== "Leader") ||
             (RARITY[cards[c].defaultRarity] === "Uncommon" && cards[c].type !== "Leader") ||
             (RARITY[cards[c].defaultRarity] === "Common" && cards[c].type !== "Base" && cards[c].type !== "Leader")
