@@ -27,10 +27,13 @@ const GameSettings = () => (
         {!App.state.isSealed &&
           <Checkbox side="left" text="Hide your picks" link="hidepicks" />
         }
-        <Checkbox side="left" text="Use column view" link="cols" />
+        {!App.state.isSealed &&
+          <Checkbox side="left" text="Hide your bases" link="hidebases" />
+        }
         <SortCards />
-        <CardsImageQuality />
-        {App.state.cardSize != "text" && <CardsImageLanguage />}
+        {App.state.sort === "aspect" &&
+          <PriorityAspects />
+        }
       </span>
     </fieldset>
   </div>
@@ -40,7 +43,7 @@ const SortCards = () => (
   <div className="sort-cards">
     Sort cards by:
     <div className='connected-container' >
-      {["defaultRarity"].map((sort, index) => {
+      {["Rarity", "Cost", "Aspect"].map((sort, index) => {
         const isActive = sort.toLowerCase() === App.state.sort;
 
         return (
@@ -58,6 +61,36 @@ const SortCards = () => (
               value={sort.toLowerCase()}
             />
             <div>{sort}</div>
+          </label>
+        );
+      })}
+    </div>
+  </div>
+);
+
+const PriorityAspects = () => (
+  <div className="sort-cards">
+    What aspects to prioritize:
+    <div className='connected-container' >
+      {["Vigilance", "Command", "Aggression", "Cunning", "Villainy", "Heroism"].map((aspect, index) => {
+        const isActive = App.state.aspectPriority.includes(aspect);
+
+        return (
+          <label key={index}
+            className={isActive
+              ? "active connected-component"
+              : "connected-component"
+            }
+          >
+            <img src={`./../media/SWH_Aspects_${aspect}.png`} width="18px" height="18px"/>
+            <input checked= {isActive}
+              className='radio-input'
+              name= 'sort-order'
+              onClick= {e => App.addRemoveAspectPriority(e.currentTarget.value)}
+              type='radio'
+              value={aspect}
+            />
+            <div>{aspect}</div>
           </label>
         );
       })}

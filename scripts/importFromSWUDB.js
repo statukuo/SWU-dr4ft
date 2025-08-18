@@ -11,12 +11,12 @@ const RARITY = {
 };
 
 const ASPECTS = {
-  1: "Aggresion",
+  1: "Aggression",
   2: "Command",
   3: "Cunning",
   4: "Vigilance",
   5: "Heroism",
-  6: "Villany"
+  6: "Villainy"
 };
 
 
@@ -100,7 +100,8 @@ async function importSet() {
               frontImagePath: `https://swudb.com/cdn-cgi/image/width=300/images/${alt.frontImagePath}`.replaceAll("~/", "").replaceAll("//", "/"),
               backImagePath: (alt.backImagePath ? `https://swudb.com/cdn-cgi/image/width=300/images/${alt.backImagePath}`.replaceAll("~/", "").replaceAll("//", "/") : "https://karabast.net/card-back.png").replaceAll("~/", ""),
               aspects: alt.aspects.map(aspect => ASPECTS[aspect]),
-              defaultRarity: data.alternativePrintings[0].rarity,
+              rarity: data.alternativePrintings[0].rarity,
+              cost: data.cost,
               type: alt.cardTypeDescription
             };
           }

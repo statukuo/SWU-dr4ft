@@ -1,4 +1,4 @@
-import {countBy, findIndex, pullAt, range, remove} from "lodash";
+import {countBy, findIndex, pullAt, range, remove, sortBy, intersection} from "lodash";
 import _ from "utils/utils";
 import EventEmitter from "events";
 import {ZONE_JUNK, ZONE_MAIN, ZONE_PACK, ZONE_SIDEBOARD} from "./zones";
@@ -136,7 +136,7 @@ class GameState extends EventEmitter {
     return this.get(ZONE_MAIN).length;
   }
 
-  getSortedZone(zoneName, sort, filter) {
+  getSortedZone(zoneName, sort, aspectPriority, filter) {
     const cards = this.get(zoneName);
     let filteredCards;
     if (filter) {
@@ -153,11 +153,11 @@ class GameState extends EventEmitter {
       }
     }
 
-    const groups = _.group(filteredCards || cards, sort);
-    for (const key in groups) {
-      _.sort(groups[key], "defaultRarity");
+    if (sort === "aspect") {
+      return sortBy(filteredCards || cards, (card) => intersection(card.aspects, aspectPriority).length);
     }
-    return Key(groups, sort);
+
+    return sortBy(filteredCards || cards, [sort]);
   }
 
   updState() {
@@ -240,22 +240,6 @@ class GameState extends EventEmitter {
 
     return true;
   }
-}
-
-
-function Key(groups, sort) {
-  let keys = Object.keys(groups);
-  switch (sort) {
-  case "defaultRarity":
-    keys =
-      ["1", "2", "3", "4", "5"]
-        .filter(x => keys.indexOf(x) > -1);
-    break;
-  }
-  let o = {};
-  for (let key of keys)
-    o[key] = groups[key];
-  return o;
 }
 
 export default GameState;

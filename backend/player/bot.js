@@ -31,7 +31,7 @@ module.exports = class Bot extends Player {
         otherMatch: intersection(card.aspects, otherCardsMatches).length
       }));
 
-      const selectedCard = sortBy(shuffle(packWithMatches), ["otherMatch", "leaderMatch", "defaultRarity"])[0];
+      const selectedCard = sortBy(shuffle(packWithMatches), ["otherMatch", "leaderMatch", "rarity"])[0];
 
       const randomPick = pack.filter(card => selectedCard.defaultExpansionAbbreviation === card.defaultExpansionAbbreviation && selectedCard.defaultCardNumber === card.defaultCardNumber)[0];
       const swuCardId = `${randomPick.defaultExpansionAbbreviation}_${randomPick.defaultCardNumber}`;

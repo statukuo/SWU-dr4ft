@@ -5,7 +5,7 @@ import App from "../app";
 import PlayersPanel from "./PlayersPanel";
 import StartPanel from "./StartPanel";
 import DeckSettings from "./DeckSettings";
-import Cols from "./Cols";
+import GameSettings from "./GameSettings";
 import Grid from "./Grid";
 import Chat from "./Chat";
 import {STRINGS} from "../config";
@@ -50,9 +50,10 @@ export default class Game extends Component {
               <PlayersPanel/>
               <StartPanel/>
               <DeckSettings/>
+              <GameSettings/>
             </div>
             <LeadersPanel/>
-            <BasesPanel/>
+            {(!App.state.hidebases || App.state.isGameFinished) && <BasesPanel/>}
           </div>
           <CardsZone/>
         </div>
@@ -68,9 +69,7 @@ const CardsZone = () => {
     : <div key={"pack"}/>;
 
   const props = { zones: [ZONE_MAIN, ZONE_SIDEBOARD] };
-  const pool = App.state.cols
-    ? <Cols key={"pool"} {...props} filter={"Rest"}/>
-    : <Grid key={"pool"} {...props} filter={"Rest"}/>;
+  const pool = <Grid key={"pool"} {...props} filter={"Rest"}/>;
 
   return !App.state.hidepicks || App.state.isGameFinished
     ? [pack, pool]

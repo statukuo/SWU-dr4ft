@@ -54,7 +54,6 @@ let App = {
     notify: false,
     notificationGranted: false,
     chat: false,
-    cols: false,
     hidepicks: false,
     deckSize: 40,
 
@@ -63,7 +62,9 @@ let App = {
     exportDeckFilename: "filename",
 
     side: false,
-    sort: "defaultRarity",
+    sort: "rarity",
+    aspectPriority: [],
+    hidebases: false,
     log: {},
     cardSize: "normal",
     cardLang: "en",
@@ -242,7 +243,7 @@ let App = {
     return App.state.gameState.get(zoneName);
   },
   getSortedZone(zoneName, filter) {
-    return App.state.gameState.getSortedZone(zoneName, App.state.sort, filter);
+    return App.state.gameState.getSortedZone(zoneName, App.state.sort, App.state.aspectPriority, filter);
   },
   updateSelectedLeader(selectedLeader) {
     App.state.selectedLeader = selectedLeader;
@@ -250,6 +251,15 @@ let App = {
   },
   updateSelectedBase(selectedBase) {
     App.state.selectedBase = selectedBase;
+    App.update();
+  },
+  addRemoveAspectPriority(aspect) {
+    if (App.state.aspectPriority.indexOf(aspect) != -1) {
+      App.state.aspectPriority.splice(App.state.aspectPriority.indexOf(aspect), 1);
+    } else {
+      App.state.aspectPriority.push(aspect);
+    }
+
     App.update();
   }
 };
