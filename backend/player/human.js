@@ -71,26 +71,31 @@ module.exports = class Human extends Player {
       // official WOTC timings are
       // pick #, time in seconds)
       // (1,40)(2,40)(3,35)(4,30)(5,25)(6,25)(7,20)(8,20)(9,15)(10,10)(11,10)(12,5)(13,5)(14,5)(15,0)
-      const MTRTimes = [40, 40, 35, 30, 25, 25, 20, 20, 15, 10, 10, 5, 5, 5, 5];
+      const OfficialTimes = [60,40,40,30,30,25,25,20,15,10,10,5,5,5];
+      const LeaderOfficialTimes = [15,10,5];
       // whereas MTGO starts @ 75s and decrements by 5s per pick
-      const MTGOTimes = [75, 70, 65, 60, 55, 50, 45, 40, 35, 30, 25, 20, 15, 12, 10];
+      const SlowTimes = [75, 70, 65, 60, 55, 50, 45, 40, 35, 30, 25, 20, 15, 12, 10];
       // and here's a happy medium
       timer = [55, 51, 47, 43, 38, 34, 30, 26, 22, 18, 14, 13, 11, 9, 7];
-      if (this.timerLength === "Fast") {
-        timer = MTRTimes;
+      if (this.timerLength === "Official") {
+        timer = OfficialTimes;
+        if (pack.length + this.picks.length === 3) {
+          timer = LeaderOfficialTimes;
+        }
       }
       if (this.timerLength === "Slow") {
-        timer = MTGOTimes;
+        timer = SlowTimes;
       }
       if (this.timerLength === "Leisurely") {
         timer = [90,85,80,75,70,65,60,55,50,45,40,35,30,25];
       }
       // if a pack has more than 25 cards in it, add the average decrement on to the first picks
       if (pack.length + this.picks.length > 25) {
-        for (let x = 15; x < (pack.length + this.picks.length); x++) {
+        for (let x = 25; x < (pack.length + this.picks.length); x++) {
           timer.splice(0, 0, ((timer[0] + ((timer[0] + timer[timer.length - 1]) / timer.length))) | 0);
         }
       }
+      console.log(pack, this.picks);
       this.time = timer[this.picks.length];
     }
     else {

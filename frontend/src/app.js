@@ -48,7 +48,7 @@ let App = {
     addBots: true,
     shufflePlayers: true,
     useTimer: true,
-    timerLength: "Moderate", // Fast Moderate or Slow
+    timerLength: "Official", // Official Moderate or Slow
 
     beep: true,
     notify: false,

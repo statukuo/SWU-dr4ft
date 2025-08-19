@@ -108,8 +108,8 @@ module.exports = {
     assert(typeof addBots === "boolean", "addBots must be a boolean");
     assert(typeof useTimer === "boolean", "useTimer must be a boolean");
     assert(typeof shufflePlayers === "boolean", "shufflePlayers must be a boolean");
-    assert(useTimer && ["Fast", "Moderate", "Slow", "Leisurely"].includes(timerLength),
-      "timerLength must be Fast, Moderate, Slow or Leisurely");
+    assert(useTimer && ["Official", "Moderate", "Slow", "Leisurely"].includes(timerLength),
+      "timerLength must be Official, Moderate, Slow or Leisurely");
   },
 
   // distributes elements in arr1 and arr2 as evenly as possible using a method

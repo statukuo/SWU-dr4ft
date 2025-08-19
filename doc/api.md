@@ -119,7 +119,7 @@ The `playerId` is important as two players could share the same name.
 |:-------------:|:-------:|:---------:|
 | addBots       | boolean | true      |
 | useTimer      | boolean | true      |
-| timer         | string  | "Fast", "Moderate", "Slow", or "Leisurely" |
+| timer         | string  | "Official", "Moderate", "Slow", or "Leisurely" |
 | shufflePlayers| boolean | false     |
 
 `timer` is mandatory only if `useTimer` is set to _true_.
