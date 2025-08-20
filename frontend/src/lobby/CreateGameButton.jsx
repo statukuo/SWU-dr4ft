@@ -5,12 +5,12 @@ import _ from "utils/utils";
 import App from "../app";
 import RadioOptions from "../components/RadioOptions";
 import Switch from "../components/Switch";
-import Modal from "../components/Modal"; 
+import Modal from "../components/Modal";
 import { toTitleCase } from "../utils";
 import GameTypes from "./GameTypes";
 import GameOptions from "./GameOptions";
 
-import "./CreateGameButton.scss"
+import "./CreateGameButton.scss";
 
 // set this out here so the create button has the capability
 // to open the modal
@@ -142,7 +142,7 @@ const CreateGameButton = () => {
         Create Game
       </button>
     </div>
-  )
+  );
 };
 
 export default CreateGameButton;

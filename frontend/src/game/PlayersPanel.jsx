@@ -1,11 +1,17 @@
-import React, {Component} from "react";
+import React, {Component, useState} from "react";
 import PropTypes from "prop-types";
 
 import App from "../app";
-import "./PlayersPanel.scss"
+import "./PlayersPanel.scss";
+import Modal from "../components/Modal";
+import LeadersPanel from "./Leaders";
+import CardDefault from "./card/CardDefault";
+
+let showModal;
 
 const PlayersPanel = () => (
   <fieldset className='PlayersPanel fieldset'>
+    <CreateLeadersModal />
     <legend className='legend game-legend'>Players ({App.state.players.length}/{App.state.gameSeats})</legend>
     <PlayersTable />
     <div id='self-time-fixed' hidden>
@@ -32,6 +38,7 @@ const PlayerTableHeader = () => (
     <th key="4" className={columnVisibility("packs")}>Packs</th>
     <th key="5" className={columnVisibility("timer")}>Timer</th>
     <th key="6" className={columnVisibility("trice")}>Hash</th>
+    <th key="7" className={columnVisibility("leader")}>Leaders</th>
   </tr>
 );
 
@@ -75,7 +82,7 @@ const fixPackTimeToScreen = () => {
   }
 };
 
-const columnVisibility = (columnName) => {
+const columnVisibility = (columnName, self) => {
   switch(columnName) {
   case "packs":
     return App.state.isGameFinished || !App.state.didGameStart || App.state.isSealed ? "hidden" : "";
@@ -83,6 +90,8 @@ const columnVisibility = (columnName) => {
     return App.state.isGameFinished || !App.state.didGameStart || App.state.isSealed ? "hidden" : "";
   case "trice":
     return !App.state.isGameFinished ? "hidden" : "";
+  case "leader":
+    return App.state.isGameFinished || !App.state.didGameStart || App.state.isSealed || App.state.round === 1 || self ? "hidden" : "";
   default:
     return "";
   }
@@ -116,6 +125,7 @@ const PlayerEntry = ({player, index}) => {
     <td key={3} className={columnVisibility("packs")} >{packs}</td>,
     <td key={4} id={className==="self" ? "self-time":""} className={columnVisibility("timer")}>{time}</td>,
     <td key={5} className={columnVisibility("trice")}>{hash && hash.cock}</td>,
+    <td key={6} className={columnVisibility("leader", index === self)} onClick={() => showModal(index, App.state.gameId, player) }><i className="icon ion-android-person"></i><i className="icon ion-android-person"></i><i className="icon ion-android-person"></i></td>,
   ];
 
   const selfTimeFixed = document.getElementById("self-time-fixed-time");
@@ -174,6 +184,36 @@ const SelfName = ({ name }) => (
 
 SelfName.propTypes = {
   name: PropTypes.string.isRequired,
+};
+
+const CreateLeadersModal = () => {
+  const [open, setOpen] = useState(false);
+  const [player, setPlayer] = useState(null);
+  const [playerLeaders, setPlayerLeaders] = useState([]);
+
+  showModal = async (id, gameId, player) => {
+    setOpen(true);
+    setPlayer(player);
+
+    setPlayerLeaders(await (await fetch(`/api/games/${gameId}/leaders/${id}`)).json());
+  };
+
+  const closeModal = () => {
+    setOpen(false);
+  };
+
+  return (
+    <Modal
+      show={open}
+      headerText={"Leaders picked by" + player?.name}
+      onClose={closeModal}
+      showButtons={false}
+    >
+      {playerLeaders.length &&
+          playerLeaders.map((card, i) => <CardDefault key={i+"Leader"+card.name+card.foil} card={card} />)
+      }
+    </Modal>
+  );
 };
 
 export default PlayersPanel;

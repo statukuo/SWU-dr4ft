@@ -10,7 +10,7 @@ const Room = require("./room");
 const Rooms = require("./rooms");
 const logger = require("./logger");
 const Sock = require("./sock");
-const {saveDraftStats, getDataDir} = require("./data");
+const {saveDraftStats, getDataDir, getCardByUuid} = require("./data");
 const {distributeArrays} = require("./util");
 
 module.exports = class Game extends Room {
@@ -442,6 +442,11 @@ module.exports = class Game extends Room {
     return this.players.map((player) => player.getPlayerDeck());
   }
 
+  getPlayerLeaders (playerId) {
+    const { players } = this;
+
+    return players[playerId].cap?.packs?.["1"].map(getCardByUuid);
+  }
 
   createPool() {
     switch (this.type) {

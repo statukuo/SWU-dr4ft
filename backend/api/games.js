@@ -89,6 +89,15 @@ gamesRouter
   // secret=[string]&seat=[int]&id[string]
   .get("/:gameId/deck", checkGameId, checkGameSecret, (req, res) => {
     res.send(req.game.getDecks(req.query));
+  })
+
+
+  /**
+   * sends an object according to the endpoint api/games/:gameId/leaders/:playerId.
+   * It returns the players picked leaders if already selected
+   */
+  .get("/:gameId/leaders/:playerId", checkGameId, (req, res) => {
+    res.send(req.game.getPlayerLeaders(req.params.playerId));
   });
 
 module.exports = gamesRouter;

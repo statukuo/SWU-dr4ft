@@ -95,7 +95,6 @@ module.exports = class Human extends Player {
           timer.splice(0, 0, ((timer[0] + ((timer[0] + timer[timer.length - 1]) / timer.length))) | 0);
         }
       }
-      console.log(pack, this.picks);
       this.time = timer[this.picks.length];
     }
     else {

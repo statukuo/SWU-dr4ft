@@ -13,6 +13,7 @@ const Modal = ({
   onClose,
   onConfirm,
   children,
+  showButtons = true
 }) => {
   if (!show) {
     return null;
@@ -42,10 +43,12 @@ const Modal = ({
           </div>
         </header>
         <div className="modal-body">{children}</div>
-        <div className="modal-footer">
-          <button onClick={onClose} className="secondary">{footerCancelButtonText || "Cancel"}</button>
-          <button onClick={onConfirm} className="primary">{footerConfirmButtonText || "Confirm"}</button>
-        </div>
+        {showButtons &&
+          <div className="modal-footer">
+            <button onClick={onClose} className="secondary">{footerCancelButtonText || "Cancel"}</button>
+            <button onClick={onConfirm} className="primary">{footerConfirmButtonText || "Confirm"}</button>
+          </div>
+        }
       </div>
 
       <ReactTooltip
@@ -69,7 +72,8 @@ Modal.propTypes = {
   onClose: PropTypes.func.isRequired,
   onConfirm: PropTypes.func.isRequired,
 
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
+  showButtons: PropTypes.bool
 };
 
 export default Modal;
