@@ -60,11 +60,11 @@ module.exports = class Human extends Player {
   _confirmSelection() {
     this.confirmSelection();
   }
-  getPack(pack, left, right) {
+  getPack(pack) {
     if (this.packs.push(pack) === 1)
-      this.sendPack(pack, left, right);
+      this.sendPack(pack);
   }
-  sendPack(pack, left, right) {
+  sendPack(pack) {
     if (this.useTimer) {
       let timer = [];
       // http://www.wizards.com/contentresources/wizards/wpn/main/documents/magic_the_gathering_tournament_rules_pdf1.pdf pp43
@@ -101,31 +101,14 @@ module.exports = class Human extends Player {
       this.time = 0;
     }
 
-    if (left?.cap?.packs?.["1"]) {
-      this.send("leftLeaders", left?.cap?.packs?.["1"]);
-    }
-    if (right?.cap?.packs?.["1"]) {
-      this.send("rightLeaders", right?.cap?.packs?.["1"]);
-    }
-
     this.send("pickNumber", ++this.pickNumber);
     this.send("pack", pack);
   }
-  updateDraftStats(pack, pool) {
-    this.draftStats.push({
-      picked: chain(pack)
-        .filter(card => this.selected.picks.includes(card.cardId))
-        .map(card => card.name)
-        .value(),
-      notPicked: chain(pack)
-        .filter(card => !this.selected.picks.includes(card.cardId))
-        .map(card => card.name)
-        .value(),
-      pool: pool.map(card => card.name)
-    });
-  }
   confirmSelection() {
     const pack = this.packs.shift();
+
+    this.updateDraftStats(pack, this.pool, this.selected.picks);
+
     this.selected.picks.forEach((cardId) => {
       const card = find(pack, c => c.cardId === cardId);
       if (!card) {
@@ -133,18 +116,12 @@ module.exports = class Human extends Player {
       }
       pull(pack, card);
       const swuCardId = `${card.defaultExpansionAbbreviation}_${card.defaultCardNumber}`;
-      logger.info(`GameID: ${this.GameId}, player ${this.name}, picked: ${card.cardName} ${card.title} (${swuCardId})`);
+      logger.info(`GameID: ${this.GameId}, pl ayer ${this.name}, picked: ${card.cardName} ${card.title} (${swuCardId})`);
       this.draftLog.pack.push( [`--> ${card.cardName} ${card.title}(${swuCardId})`].concat(pack.map(x => `    ${x.cardName}(${x.defaultExpansionAbbreviation}_${x.defaultCardNumber})`)) );
       this.pool.push(card);
       this.picks.push(swuCardId);
       this.send("add", card);
     });
-    // Remove burned cards from pack
-    remove(pack, (card) => this.selected.burns.includes(card.cardId));
-
-    // burn remaining if needed cards
-    const remainingToBurn = Math.min(pack.length, this.burnsPerPack - this.selected.burns.length);
-    pack.length-=remainingToBurn;
 
     const [next] = this.packs;
     if (!next)
@@ -152,15 +129,27 @@ module.exports = class Human extends Player {
     else
       this.sendPack(next);
 
+
     // reset state
     this.selected = {
       picks: [],
       burns: []
     };
 
-    this.updateDraftStats(this.draftLog.pack, this.pool);
-
     this.emit("pass", pack);
+  }
+  updateDraftStats(pack, pool, picks) {
+    this.draftStats.push({
+      picked: chain(pack)
+        .filter(card => picks.includes(card.cardId))
+        .map(card => `(${card.defaultExpansionAbbreviation}_${card.defaultCardNumber}) ${card.cardName} ${card.title}`)
+        .value(),
+      notPicked: chain(pack)
+        .filter(card => !picks.includes(card.cardId))
+        .map(card => `(${card.defaultExpansionAbbreviation}_${card.defaultCardNumber}) ${card.cardName} ${card.title}`)
+        .value(),
+      pool: pool.filter(c => !this.startingPool.includes(`${c.defaultExpansionAbbreviation}_${c.defaultCardNumber}`)).map(card => `(${card.defaultExpansionAbbreviation}_${card.defaultCardNumber}) ${card.cardName} ${card.title}`)
+    });
   }
   handleTimeout() {
     //TODO: filter instead of removing a copy of a pack

@@ -10,7 +10,7 @@ const Room = require("./room");
 const Rooms = require("./rooms");
 const logger = require("./logger");
 const Sock = require("./sock");
-const {saveDraftStats, getDataDir, getCardByUuid} = require("./data");
+const {saveDraftStats, getCardByUuid, getLogDir} = require("./data");
 const {distributeArrays} = require("./util");
 
 module.exports = class Game extends Room {
@@ -340,7 +340,7 @@ module.exports = class Game extends Room {
       }))
     };
 
-    const file = path.join(getDataDir(), "cap.json");
+    const file = path.join(getLogDir(), "cap.json");
     jsonfile.writeFile(file, draftcap, { flag: "a" }, function (err) {
       if (err) logger.error(err);
     });
@@ -392,11 +392,11 @@ module.exports = class Game extends Room {
     this.packCount = players.length;
     this.delta *= -1;
 
-    players.forEach((p, idx) => {
+    players.forEach((p) => {
       if (!p.isBot) {
         p.pickNumber = 0;
         const pack = this.pool.shift();
-        p.getPack(pack, players[idx-1%players.length], players[idx+1%players.length]);
+        p.getPack(pack);
         p.send("set", { packSize: pack.length });
       }
     });

@@ -2,6 +2,7 @@ const fs = require("fs");
 const _ = require("lodash");
 const path = require("path");
 const readFile = (path) => JSON.parse(fs.readFileSync(path, "UTF-8"));
+const { app: { LOG_PATH } } = require("../config");
 
 const DATA_DIR = "data";
 const DRAFT_STATS_DIR = "draftStats";
@@ -15,6 +16,12 @@ let cards, cubableCardsByName, sets, playableSets, latestSet, boosterRules;
 const getDataDir = () => {
   const repoRoot = process.cwd();
   const dataDir = path.join(repoRoot, DATA_DIR);
+  return dataDir;
+};
+
+const getLogDir = () => {
+  const repoRoot = process.cwd();
+  const dataDir = path.join(repoRoot, LOG_PATH);
   return dataDir;
 };
 
@@ -169,11 +176,11 @@ const getLatestReleasedSet = () => {
 
 
 function saveDraftStats(id, stats) {
-  if (!fs.existsSync(`${getDataDir()}/${DRAFT_STATS_DIR}`)) {
-    fs.mkdirSync(`${getDataDir()}/${DRAFT_STATS_DIR}`);
+  if (!fs.existsSync(`${getLogDir()}/${DRAFT_STATS_DIR}`)) {
+    fs.mkdirSync(`${getLogDir()}/${DRAFT_STATS_DIR}`);
   }
 
-  fs.writeFileSync(`${getDataDir()}/${DRAFT_STATS_DIR}/${id}.json`, JSON.stringify(stats, undefined, 4));
+  fs.writeFileSync(`${getLogDir()}/${DRAFT_STATS_DIR}/${id}.json`, JSON.stringify(stats, undefined, 4));
 }
 
 const getBoosterRules = (setCode) => {
@@ -200,6 +207,7 @@ const saveBoosterRules = (boosterRules) => {
 
 module.exports = {
   getDataDir,
+  getLogDir,
   getCards,
   getSets,
   getSet,

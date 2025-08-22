@@ -6,7 +6,9 @@ const envVarsSchema = joi.object({
   HOST: joi.string()
     .default("localhost"),
   DEFAULT_USERNAME: joi.string()
-    .default("dr4fter")
+    .default("dr4fter"),
+  LOG_PATH: joi.string()
+    .default("log")
 }).unknown()
   .required();
 
