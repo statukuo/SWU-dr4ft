@@ -31,7 +31,7 @@ app.use(fileUpload());
 app.use(express.static("built"));
 app.use("/api", apiRouter);
 app.use(express.static(__dirname + "/public"));
-app.use("/log", express.static(`/${LOG_PATH}`), serveIndex("log", {"icons": true}));
+app.use("/log", express.static(__dirname + `/${LOG_PATH}`), serveIndex("log", {"icons": true}));
 
 
 // Create server
