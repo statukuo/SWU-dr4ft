@@ -83,6 +83,7 @@
     "react-select-search": "^3.0.10",
     "react-tooltip": "^4.5.1",
     "semver": "^7.4.0",
+    "serve-index": "^1.9.1",
     "unzipper": "^0.10.11",
     "url-exist": "^3.0.1",
     "url-exists": "^1.0.3",

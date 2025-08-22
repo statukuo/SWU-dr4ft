@@ -13,6 +13,8 @@ const logger = require("./backend/logger");
 const router = require("./backend/router");
 const apiRouter = require("./backend/api/");
 require("./backend/data-watch");
+const { app: { LOG_PATH } } = require("./config");
+const serveIndex = require("serve-index");
 
 const app = express();
 
@@ -29,6 +31,7 @@ app.use(fileUpload());
 app.use(express.static("built"));
 app.use("/api", apiRouter);
 app.use(express.static(__dirname + "/public"));
+app.use("/log", express.static(__dirname + `/${LOG_PATH}`), serveIndex("log", {"icons": true}));
 
 
 // Create server
