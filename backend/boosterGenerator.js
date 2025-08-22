@@ -11,7 +11,7 @@ const getDefaultBooster = (set, withLeader) => {
 
 
   const cardNames = concat(
-    withLeader? sampleSize(leader, 1) : [],
+    withLeader? sampleSize(leader, 1).map(cardId => ({cardId})) : [],
     ...slots.map(({type, count, replacement, ratio, foil}) => {
       const needsToBeReplaced = replacement && ratio && !random(ratio);
 

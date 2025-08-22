@@ -6,13 +6,13 @@ const hash = require("../hash");
 const logger = require("../logger");
 
 module.exports = class Human extends Player {
-  constructor(sock, picksPerPack, burnsPerPack, gameId, sets) {
+  constructor(sock, picksPerPack, burnsPerPack, gameId, sets, sealed) {
     super({
       isBot: false,
       isConnected: true,
       name: sock.name,
       id: sock.id,
-      sets
+      sets, sealed
     });
     this.GameId = gameId;
     this.picksPerPack = picksPerPack;

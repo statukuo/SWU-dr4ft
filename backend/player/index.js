@@ -7,7 +7,7 @@ const { getSet, getCardByUuid } = require("../data");
  * Abstract class for Human and Bot
  */
 class Player extends EventEmitter {
-  constructor({id, isBot, isConnected, name, sets}) {
+  constructor({id, isBot, isConnected, name, sets, sealed}) {
     super();
 
     if (this.constructor === Player) {
@@ -46,8 +46,14 @@ class Player extends EventEmitter {
 
     console.log("Load common bases for", uniq(sets) );
 
-    this.pool = uniq(sets).map(setCode => getSet(setCode)).map(set=> set.boosterData.poolBases).flat().map(getCardByUuid);
-    this.startingPool = uniq(sets).map(setCode => getSet(setCode)).map(set=> set.boosterData.poolBases).flat();
+    this.pool = [
+      ...uniq(sets).map(setCode => getSet(setCode)).map(set=> set.boosterData.poolBases).flat().map(getCardByUuid),
+      ...(sealed ? uniq(sets).map(setCode => getSet(setCode)).map(set=> set.boosterData.poolLeaders).flat().map(getCardByUuid) : [])
+    ];
+    this.startingPool = [
+      ...uniq(sets).map(setCode => getSet(setCode)).map(set=> set.boosterData.poolBases).flat(),
+      ...(sealed ? uniq(sets).map(setCode => getSet(setCode)).map(set=> set.boosterData.poolLeaders).flat().map(getCardByUuid) : [])
+    ];
   }
 
   getPlayerDeck() {

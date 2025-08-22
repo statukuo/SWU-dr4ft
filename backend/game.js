@@ -183,7 +183,7 @@ module.exports = class Game extends Room {
     super.join(sock);
     this.logger.debug(`${sock.name} joined the game`);
 
-    const h = new Human(sock, this.picksPerPack, this.getBurnsPerPack(), this.id, this.sets);
+    const h = new Human(sock, this.picksPerPack, this.getBurnsPerPack(), this.id, this.sets, this.type === "sealed");
     if (h.id === this.hostID) {
       h.isHost = true;
       sock.once("start", this.start.bind(this));
