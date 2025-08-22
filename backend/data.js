@@ -20,7 +20,8 @@ const getDataDir = () => {
 };
 
 const getLogDir = () => {
-  const dataDir =`/${LOG_PATH}`;
+  const repoRoot = process.cwd();
+  const dataDir =path.join(repoRoot, LOG_PATH);
   return dataDir;
 };
 
