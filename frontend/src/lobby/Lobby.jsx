@@ -6,7 +6,6 @@ import {STRINGS} from "../config";
 import Header from "./Header";
 import GamesPanel from "./GamesPanel";
 import NewsPanel from "./NewsPanel";
-import Version from "./Version";
 
 export default class Lobby extends Component {
 
@@ -16,7 +15,7 @@ export default class Lobby extends Component {
   }
   render() {
     document.title = STRINGS.BRANDING.SITE_TITLE;
-    const { roomInfo, serverVersion, mtgJsonVersion, boosterRulesVersion } = App.state;
+    const { roomInfo } = App.state;
 
     return (
       <div className="container">
@@ -25,8 +24,8 @@ export default class Lobby extends Component {
           <GamesPanel roomInfo={roomInfo}/>
           {STRINGS.PAGE_SECTIONS.MOTD && <NewsPanel motd={STRINGS.PAGE_SECTIONS.MOTD}/>}
           {STRINGS.BRANDING.PAYPAL}
+          {STRINGS.PAGE_SECTIONS.PATREON}
           {STRINGS.PAGE_SECTIONS.FOOTER}
-          <Version version={serverVersion} MTGJSONVersion={mtgJsonVersion} boosterRulesVersion={boosterRulesVersion}/>
         </div>
       </div>
     );

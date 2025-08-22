@@ -36,6 +36,17 @@ export const STRINGS = {
             dr4fters/dr4ft
           </a>
         </div>
-      </div>
+      </div>,
+    PATREON:
+      <div style={{ padding: 10 }}>
+        <a href="https://www.patreon.com/bePatron?u=21317292" target='_blank' rel='noreferrer'>
+          <img
+            src='https://upload.wikimedia.org/wikipedia/commons/9/90/Patreon_logomark_2023.svg'
+            alt='GitHub' title='GitHub Repository' align='top' height='18'
+            style={{ marginRight: 5 }}
+          />
+            Help me keep this alive :)
+        </a>
+      </div>,
   }
 };
