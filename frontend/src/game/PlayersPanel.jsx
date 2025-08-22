@@ -4,7 +4,6 @@ import PropTypes from "prop-types";
 import App from "../app";
 import "./PlayersPanel.scss";
 import Modal from "../components/Modal";
-import LeadersPanel from "./Leaders";
 import CardDefault from "./card/CardDefault";
 
 let showModal;

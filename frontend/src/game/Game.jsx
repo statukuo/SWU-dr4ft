@@ -47,10 +47,10 @@ export default class Game extends Component {
         <div className='game'>
           <div className='game-controls'>
             <div className='game-status'>
-              <PlayersPanel/>
               <StartPanel/>
-              <DeckSettings/>
+              <PlayersPanel/>
               <GameSettings/>
+              {App.state.isGameFinished && <DeckSettings/>}
             </div>
             <LeadersPanel/>
             {(!App.state.hidebases || App.state.isGameFinished) && <BasesPanel/>}

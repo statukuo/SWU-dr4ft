@@ -19,6 +19,9 @@ const StartPanel = () => {
         {(App.state.isHost && !App.state.didGameStart)
           ? <StartControls/>
           : <div />}
+        {App.state.didGameStart
+          ? <ExitControls/>
+          : <div />}
       </span>
     </fieldset>
   );
@@ -36,6 +39,14 @@ const StartControls = () => {
       <div>
         <button onClick={App._emit("start")}>Start Game</button>
       </div>
+    </div>
+  );
+};
+
+const ExitControls = () => {
+  return (
+    <div>
+      <button onClick={() => App.send("exitPlayer")}>Exit Game</button>
     </div>
   );
 };

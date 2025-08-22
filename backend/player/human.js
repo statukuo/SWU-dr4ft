@@ -31,7 +31,7 @@ module.exports = class Human extends Player {
     sock.on("confirmSelection", this._confirmSelection.bind(this));
     sock.removeAllListeners("hash");
     sock.on("hash", this._hash.bind(this));
-    sock.once("exit", this._farewell.bind(this));
+    sock.once("exitPlayer", this._farewell.bind(this));
 
     let [pack] = this.packs;
     if (pack)
@@ -50,6 +50,7 @@ module.exports = class Human extends Player {
     this.emit("meta");
   }
   _farewell() {
+    this.send("route", "/");
     this.isConnected = false;
     this.send = () => {};
     this.emit("meta");
