@@ -28,6 +28,13 @@ const getDefaultBooster = (set, withLeader) => {
         Neutral: 0
       };
 
+      const mandatoryAspects = {
+        Vigilance : 0,
+        Command: 0 ,
+        Aggression: 0,
+        Cunning: 0
+      };
+
       while (selectedCards.length < count) {
         minimunCount++;
         let validCard = false;
@@ -40,7 +47,7 @@ const getDefaultBooster = (set, withLeader) => {
           const importantAspect = candidateCard.aspects[0] || "Neutral";
 
           if (ensureAspects) {
-            if (aspectsCount[importantAspect] > 0 && some(aspectsCount, (count, aspect) => count === 0 && aspect !== importantAspect)) {
+            if ( aspectsCount[importantAspect] > 0 && some(mandatoryAspects, (count, aspect) => count === 0 && aspect !== importantAspect) ) {
               validCard = false;
               continue;
             }
@@ -60,9 +67,14 @@ const getDefaultBooster = (set, withLeader) => {
 
           validCard = true;
           aspectsCount[importantAspect]++;
+          mandatoryAspects[importantAspect] >= 0 && mandatoryAspects[importantAspect]++;
         }
 
         selectedCards.push(candidateCardUUID);
+      }
+
+      if (ensureAspects && some(mandatoryAspects, (count) => count === 0)) {
+        console.error("WRONG BOOSTER: ", mandatoryAspects, aspectsCount);
       }
 
       return selectedCards.map(cardId => ({cardId, foil}));
