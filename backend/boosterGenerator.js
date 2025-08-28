@@ -1,5 +1,7 @@
-const {getCardByUuid, getSet} = require("./data");
-const {sampleSize, random, concat} = require("lodash");
+const {getCardByUuid, getSet, getLogDir} = require("./data");
+const { sample, random, concat, some} = require("lodash");
+const path = require("path");
+const jsonfile = require("jsonfile");
 
 const makeBoosterFromRules = (setCode, withLeader) => {
   const set = getSet(setCode);
@@ -8,16 +10,76 @@ const makeBoosterFromRules = (setCode, withLeader) => {
 
 const getDefaultBooster = (set, withLeader) => {
   let { leader, slots } = set.boosterData;
-
+  let minimunCount = withLeader? 1: 0;
+  let realCount = withLeader? 1: 0;
 
   const cardNames = concat(
-    withLeader? sampleSize(leader, 1).map(cardId => ({cardId})) : [],
-    ...slots.map(({type, count, replacement, ratio, foil}) => {
+    withLeader? [sample(leader)].map(cardId => ({cardId})) : [],
+    ...slots.map(({type, count, replacement, ratio, foil, ensureAspects, maxPerAspect}) => {
+      const selectedCards = [];
       const needsToBeReplaced = replacement && ratio && !random(ratio);
+      const aspectsCount = {
+        Vigilance : 0,
+        Command: 0 ,
+        Aggression: 0,
+        Cunning: 0,
+        Heroism: 0,
+        Villainy: 0,
+        Neutral: 0
+      };
 
-      return sampleSize( set.boosterData[needsToBeReplaced? replacement : type], count).map(cardId => ({cardId, foil}));
+      while (selectedCards.length < count) {
+        minimunCount++;
+        let validCard = false;
+        let candidateCardUUID;
+
+        while (!validCard) {
+          realCount++;
+          candidateCardUUID = sample( set.boosterData[needsToBeReplaced? replacement : type]);
+          const candidateCard = getCardByUuid(candidateCardUUID);
+          const importantAspect = candidateCard.aspects[0] || "Neutral";
+
+          if (ensureAspects) {
+            if (aspectsCount[importantAspect] > 0 && some(aspectsCount, (count, aspect) => count === 0 && aspect !== importantAspect)) {
+              validCard = false;
+              continue;
+            }
+          }
+
+          if (maxPerAspect) {
+            if (aspectsCount[importantAspect] === maxPerAspect) {
+              validCard = false;
+              continue;
+            }
+          }
+
+          if (selectedCards.includes(candidateCardUUID)) {
+            validCard = false;
+            continue;
+          }
+
+          validCard = true;
+          aspectsCount[importantAspect]++;
+        }
+
+        selectedCards.push(candidateCardUUID);
+      }
+
+      return selectedCards.map(cardId => ({cardId, foil}));
     })
   );
+
+  const file = path.join(getLogDir(), "boosterMetrics.json");
+  jsonfile.writeFile(file, {
+    date: Date.now(),
+    cardsGenerated: minimunCount,
+    cardAttemps: realCount,
+    accuracy: (minimunCount / realCount * 100).toFixed(2)
+  }, { flag: "a" }, function (err) {
+    if (err) console.log(err);
+  });
+
+  console.log("BOOSTER PACK GENERATED WITH ", minimunCount, "CARDS (took ", realCount, "calls to get it ", (minimunCount / realCount * 100).toFixed(2) , "% accuracy)");
 
   return cardNames.map(({cardId, foil}) => ({...getCardByUuid(cardId), foil}));
 };

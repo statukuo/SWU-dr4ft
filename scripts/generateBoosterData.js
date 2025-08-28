@@ -10,7 +10,6 @@ export default function generateBoosterInfo(sets, cards) {
   const setsCopy = {};
 
   Object.entries(sets).forEach(([key, set]) => {
-    console.log(key);
     switch (key) {
     case "SOR":
       setsCopy[key] = {
@@ -21,11 +20,10 @@ export default function generateBoosterInfo(sets, cards) {
         cards: set.cards || Object.entries(set.cardsByNumber).map(([_, card]) => card),
       };
 
-      setsCopy[key].cards.forEach(card => console.log(card.rarity));
       setsCopy[key].boosterData = {
         slots: [
-          {type: "common", count: 9},
-          {type: "uncommon", count: 3},
+          {type: "common", count: 9, ensureAspects: true, maxPerAspect: 3},
+          {type: "uncommon", count: 3, maxPerAspect: 2},
           {type: "rare", count: 1, replacement: "legendary", ratio: 8},
           {type: "foil", count: 1, foil: true}
         ],
@@ -55,8 +53,8 @@ export default function generateBoosterInfo(sets, cards) {
 
       setsCopy[key].boosterData = {
         slots: [
-          {type: "common", count: 9},
-          {type: "uncommon", count: 3},
+          {type: "common", count: 9, ensureAspects: true, maxPerAspect: 3},
+          {type: "uncommon", count: 3, maxPerAspect: 2},
           {type: "rare", count: 1, replacement: "legendary", ratio: 8},
           {type: "foil", count: 1, foil: true}
         ],
@@ -85,8 +83,8 @@ export default function generateBoosterInfo(sets, cards) {
 
       setsCopy[key].boosterData = {
         slots: [
-          {type: "common", count: 9},
-          {type: "uncommon", count: 3},
+          {type: "common", count: 9, ensureAspects: true, maxPerAspect: 3},
+          {type: "uncommon", count: 3, maxPerAspect: 2},
           {type: "rare", count: 1, replacement: "legendary", ratio: 8},
           {type: "foil", count: 1, foil: true}
         ],
@@ -115,8 +113,8 @@ export default function generateBoosterInfo(sets, cards) {
 
       setsCopy[key].boosterData = {
         slots: [
-          {type: "common", count: 9},
-          {type: "uncommon", count: 3},
+          {type: "common", count: 9, ensureAspects: true, maxPerAspect: 3},
+          {type: "uncommon", count: 3, maxPerAspect: 2},
           {type: "rare", count: 1, replacement: "legendary", ratio: 5},
           {type: "foil", count: 1, foil: true}
         ],
@@ -146,8 +144,8 @@ export default function generateBoosterInfo(sets, cards) {
 
       setsCopy[key].boosterData = {
         slots: [
-          {type: "common", count: 9},
-          {type: "uncommon", count: 3},
+          {type: "common", count: 9, ensureAspects: true, maxPerAspect: 3},
+          {type: "uncommon", count: 3, maxPerAspect: 2},
           {type: "rare", count: 1, replacement: "legendary", ratio: 5},
           {type: "foil", count: 1, foil: true}
         ],
