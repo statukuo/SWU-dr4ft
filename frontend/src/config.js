@@ -48,5 +48,9 @@ export const STRINGS = {
             Help me keep this alive :)
         </a>
       </div>,
+    DISCLAIMER:
+      <div style={{ padding: 10, paddingTop: 50, fontSize: 12 }}>
+        SWUDr4ft is in no way affiliated with Disney or Fantasy Flight Games. Star Wars characters, cards, logos, and art are property of Disney and/or Fantasy Flight Games.
+      </div>,
   }
 };

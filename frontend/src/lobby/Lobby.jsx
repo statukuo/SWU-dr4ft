@@ -26,6 +26,7 @@ export default class Lobby extends Component {
           {STRINGS.BRANDING.PAYPAL}
           {STRINGS.PAGE_SECTIONS.PATREON}
           {STRINGS.PAGE_SECTIONS.FOOTER}
+          {STRINGS.PAGE_SECTIONS.DISCLAIMER}
         </div>
       </div>
     );
