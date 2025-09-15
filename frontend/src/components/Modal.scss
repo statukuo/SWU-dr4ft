@@ -142,7 +142,19 @@
     .modal-section-content {}
   }
 
-  .modal-body { border: 1px solid #D9DBDB; }
+  .modal-body {
+    border: 1px solid #D9DBDB;
+
+    .leaders {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(2, 1fr);
+
+      .CardDefault {
+        margin: auto;
+      }
+    }
+  }
   .modal-tooltip {
 
     letter-spacing: 0.5px;
@@ -176,7 +188,7 @@
       border: 1px solid #586069;
       border-radius: 4px;
 
-      transition: background 250ms ease-in-out, 
+      transition: background 250ms ease-in-out,
       transform 150ms ease;
       -webkit-appearance: none;
       -moz-appearance: none;

@@ -445,7 +445,17 @@ module.exports = class Game extends Room {
   getPlayerLeaders (playerId) {
     const { players } = this;
 
-    return players[playerId].cap?.packs?.["1"].map(getCardByUuid);
+    if(!players[playerId].cap?.packs["1"]) {
+      console.log(players[playerId].packs[0]);
+      return {
+        picked: players[playerId].picks.map(getCardByUuid),
+        currentPack: players[playerId].packs[0]?.map(({defaultExpansionAbbreviation, defaultCardNumber}) => getCardByUuid(`${defaultExpansionAbbreviation}-${defaultCardNumber}`))
+      };
+    }
+
+    return {
+      picked: players[playerId].cap?.packs?.["1"].map(getCardByUuid)
+    };
   }
 
   createPool() {

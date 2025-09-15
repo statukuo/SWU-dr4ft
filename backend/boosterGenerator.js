@@ -17,9 +17,9 @@ const getDefaultBooster = (set, withLeader) => {
 
   const cardNames = concat(
     withLeader? [sample(isRareLeader ? leaderRare : leaderCommon)].map(cardId => ({cardId})) : [],
-    ...slots.map(({type, count, replacement, ratio, foil, ensureAspects, maxPerAspect, singleReplace}) => {
+    ...slots.map(({count, ratio, foil, ensureAspects, maxPerAspect}) => {
       const selectedCards = [];
-      let needsToBeReplaced = replacement && ratio && !random(ratio);
+
       const aspectsCount = {
         Vigilance : 0,
         Command: 0 ,
@@ -41,10 +41,19 @@ const getDefaultBooster = (set, withLeader) => {
         minimunCount++;
         let validCard = false;
         let candidateCardUUID;
+        const cardRatio = ratio[selectedCards.length] || ratio[0];
+        const randomNumber = random(cardRatio.n, true);
+        const cardType = cardRatio.distribution.reduceRight((acc, current) => {
+          if (randomNumber <= current.max) {
+            return current;
+          }
+          return acc;
+        }, cardRatio.distribution[0]).group;
+
 
         while (!validCard) {
           realCount++;
-          candidateCardUUID = sample( set.boosterData[needsToBeReplaced? replacement : type]);
+          candidateCardUUID = sample( set.boosterData[cardType]);
 
           const candidateCard = getCardByUuid(candidateCardUUID);
           const importantAspect = candidateCard.aspects[0] || "Neutral";
@@ -69,10 +78,6 @@ const getDefaultBooster = (set, withLeader) => {
           }
 
           validCard = true;
-
-          if (singleReplace) {
-            needsToBeReplaced = false;
-          }
 
           aspectsCount[importantAspect]++;
           mandatoryAspects[importantAspect] >= 0 && mandatoryAspects[importantAspect]++;

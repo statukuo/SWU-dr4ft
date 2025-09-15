@@ -1,5 +1,5 @@
 const {EventEmitter} = require("events");
-const { uniq, chain} = require("lodash");
+const { uniq} = require("lodash");
 const { getSet, getCardByUuid } = require("../data");
 
 
@@ -47,12 +47,10 @@ class Player extends EventEmitter {
     console.log("Load common bases for", uniq(sets) );
 
     this.pool = [
-      ...uniq(sets).map(setCode => getSet(setCode)).map(set=> set.boosterData.poolBases).flat().map(getCardByUuid),
-      ...(sealed ? uniq(sets).map(setCode => getSet(setCode)).map(set=> set.boosterData.poolLeaders).flat().map(getCardByUuid) : [])
+      ...uniq(sets).map(setCode => getSet(setCode)).map(set=> set.boosterData.poolBases).flat().map(getCardByUuid)
     ];
     this.startingPool = [
-      ...uniq(sets).map(setCode => getSet(setCode)).map(set=> set.boosterData.poolBases).flat(),
-      ...(sealed ? uniq(sets).map(setCode => getSet(setCode)).map(set=> set.boosterData.poolLeaders).flat().map(getCardByUuid) : [])
+      ...uniq(sets).map(setCode => getSet(setCode)).map(set=> set.boosterData.poolBases).flat()
     ];
   }
 

@@ -9,7 +9,7 @@ import "./CardDefault.scss";
 // mixmix - this could be a stateless functional component
 export default class CardDefault extends Component {
   render () {
-    const { card, zoneName } = this.props;
+    const { card, zoneName, staticCard } = this.props;
     const isPick = zoneName === ZONE_PACK && App.state.gameState.isPick(card.cardId);
 
     return (
@@ -18,7 +18,7 @@ export default class CardDefault extends Component {
         title={isPick ? "This card will be automatically picked if your time expires." : ""}
         onClick={App._emit("click", zoneName, card)}
       >
-        <CardBase card={card} zoneName={zoneName}/>
+        <CardBase card={card} zoneName={zoneName} staticCard={staticCard}/>
       </div>
     );
   }
@@ -26,5 +26,6 @@ export default class CardDefault extends Component {
 
 CardDefault.propTypes = {
   card: PropTypes.object.isRequired,
-  zoneName: PropTypes.string.isRequired
+  zoneName: PropTypes.string.isRequired,
+  staticCard: PropTypes.bool
 };

@@ -63,7 +63,7 @@ const Zone = ({ name: zoneName, filter }) => {
       <div className='header'>
         <h1>
           <Spaced elements={[
-            getZoneDisplayName(zoneName) + (isPackZone ? " " + round : ""),
+            getZoneDisplayName(zoneName) + (isPackZone ? " " + (round === 1? "Leader" : (round -1)) : ""),
             getZoneDetails(App.state, zoneName, cards)
           ]} />
         </h1>

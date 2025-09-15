@@ -43,6 +43,10 @@ export default class CardBase extends Component {
   }
 
   handleCardSelection(card, swuCardId) {
+    if (this.props.staticCard) {
+      return;
+    }
+
     if (card.type === "Leader") {
       App.updateSelectedLeader(swuCardId);
     }
@@ -104,8 +108,12 @@ export default class CardBase extends Component {
           </button>
         </div>
         }
-        <SelectionState selection isPick={isLeaderSelected} card={card} isRotated={this.state.isFlipped}/>
-        <SelectionState selection isPick={isBaseSelected} card={card} isRotated={this.state.isFlipped} base={base}/>
+        {!this.props.staticCard &&
+          <SelectionState selection isPick={isLeaderSelected} card={card} isRotated={this.state.isFlipped}/>
+        }
+        {!this.props.staticCard &&
+          <SelectionState selection isPick={isBaseSelected} card={card} isRotated={this.state.isFlipped} base={base}/>
+        }
         <SelectionState isPick={isPick} card={card} isRotated={this.state.isFlipped} base={base}/>
       </div>
     );
@@ -115,7 +123,8 @@ export default class CardBase extends Component {
 CardBase.propTypes = {
   card: PropTypes.object.isRequired,
   zoneName: PropTypes.string,
-  showFlipped: PropTypes.bool, // whether the card should be flipped by default
+  showFlipped: PropTypes.bool, // whether the card should be flipped by default,
+  staticCard:  PropTypes.bool
 };
 
 const CardBaseImage = ({ src, handleError, name, rotated, base }) => (

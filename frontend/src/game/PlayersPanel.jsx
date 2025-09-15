@@ -90,7 +90,7 @@ const columnVisibility = (columnName, self) => {
   case "trice":
     return !App.state.isGameFinished ? "hidden" : "";
   case "leader":
-    return App.state.isGameFinished || !App.state.didGameStart || App.state.isSealed || App.state.round === 1 || self ? "hidden" : "";
+    return App.state.isGameFinished || !App.state.didGameStart || App.state.isSealed || self ? "hidden" : "";
   default:
     return "";
   }
@@ -208,8 +208,23 @@ const CreateLeadersModal = () => {
       onClose={closeModal}
       showButtons={false}
     >
-      {playerLeaders.length &&
-          playerLeaders.map((card, i) => <CardDefault key={i+"Leader"+card.name+card.foil} card={card} />)
+      {
+        playerLeaders?.currentPack?.length &&
+        <div>
+          <h2>Current Pack</h2>
+          <div className="leaders">
+            {playerLeaders.currentPack.map((card, i) => <CardDefault key={i+"Leader"+card.name+card.foil} card={card} staticCard/>)}
+          </div>
+        </div>
+      }
+      {
+        playerLeaders?.picked?.length &&
+        <div>
+          <h2>Picked</h2>
+          <div className="leaders">
+            {playerLeaders.picked.map((card, i) => <CardDefault key={i+"Leader"+card.name+card.foil} card={card} staticCard/>)}
+          </div>
+        </div>
       }
     </Modal>
   );
