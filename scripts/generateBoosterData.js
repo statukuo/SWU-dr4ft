@@ -23,7 +23,7 @@ export default function generateBoosterInfo(sets, cards) {
       setsCopy[key].boosterData = {
         slots: [
           {type: "common", count: 9, ensureAspects: true, maxPerAspect: 3},
-          {type: "uncommon", count: 3, maxPerAspect: 2},
+          {type: "uncommon", count: 3, maxPerAspect: 2, replacement: "rare", ratio: 10, singleReplace: true},
           {type: "rare", count: 1, replacement: "legendary", ratio: 8},
           {type: "foil", count: 1, foil: true}
         ],
@@ -54,7 +54,7 @@ export default function generateBoosterInfo(sets, cards) {
       setsCopy[key].boosterData = {
         slots: [
           {type: "common", count: 9, ensureAspects: true, maxPerAspect: 3},
-          {type: "uncommon", count: 3, maxPerAspect: 2},
+          {type: "uncommon", count: 3, maxPerAspect: 2, replacement: "rare", ratio: 10, singleReplace: true},
           {type: "rare", count: 1, replacement: "legendary", ratio: 8},
           {type: "foil", count: 1, foil: true}
         ],
@@ -84,7 +84,7 @@ export default function generateBoosterInfo(sets, cards) {
       setsCopy[key].boosterData = {
         slots: [
           {type: "common", count: 9, ensureAspects: true, maxPerAspect: 3},
-          {type: "uncommon", count: 3, maxPerAspect: 2},
+          {type: "uncommon", count: 3, maxPerAspect: 2, replacement: "rare", ratio: 10, singleReplace: true},
           {type: "rare", count: 1, replacement: "legendary", ratio: 8},
           {type: "foil", count: 1, foil: true}
         ],
@@ -114,7 +114,7 @@ export default function generateBoosterInfo(sets, cards) {
       setsCopy[key].boosterData = {
         slots: [
           {type: "common", count: 9, ensureAspects: true, maxPerAspect: 3},
-          {type: "uncommon", count: 3, maxPerAspect: 2},
+          {type: "uncommon", count: 3, maxPerAspect: 2, replacement: "rare", ratio: 10, singleReplace: true},
           {type: "rare", count: 1, replacement: "legendary", ratio: 5},
           {type: "foil", count: 1, foil: true}
         ],
@@ -145,7 +145,7 @@ export default function generateBoosterInfo(sets, cards) {
       setsCopy[key].boosterData = {
         slots: [
           {type: "common", count: 9, ensureAspects: true, maxPerAspect: 3},
-          {type: "uncommon", count: 3, maxPerAspect: 2},
+          {type: "uncommon", count: 3, maxPerAspect: 2, replacement: "rare", ratio: 10, singleReplace: true},
           {type: "rare", count: 1, replacement: "legendary", ratio: 5},
           {type: "foil", count: 1, foil: true}
         ],

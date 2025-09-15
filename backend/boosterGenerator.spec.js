@@ -3,7 +3,7 @@ const assert = require("assert");
 const boosterGenerator = require("./boosterGenerator");
 const {range} = require("lodash");
 
-range(1000).map((_, idx) => {
+range(10000).map((_, idx) => {
   describe("Acceptance tests for boosterGenerator function", () => {
     let boosterPack;
 
@@ -98,7 +98,21 @@ range(1000).map((_, idx) => {
 
       it("should have at least a rare or a legendary", function () {
         try {
-          assert(boosterPack.filter(card => (card.rarity === 3 || card.rarity === 4) && card.type !== "Leader" && !card.foil).length ===1);
+          assert(boosterPack.filter(card => (card.rarity === 3 || card.rarity === 4) && card.type !== "Leader" && !card.foil).length >=1);
+          assert(boosterPack.filter(card => (card.rarity === 3 || card.rarity === 4) && card.type !== "Leader" && !card.foil).length <=2);
+        } catch (error) {
+          console.error("FAILED TEST");
+          console.log(boosterPack);
+          console.log("==================");
+          throw error;
+        }
+      });
+
+      it("should have 2 rares without foil if only 2 uncommon", function () {
+        try {
+          if (boosterPack.filter(card => (card.rarity === 2 ) && card.type !== "Leader" && !card.foil) === 2) {
+            assert(boosterPack.filter(card => (card.rarity === 3) && card.type !== "Leader" && !card.foil).length === 2);
+          }
         } catch (error) {
           console.error("FAILED TEST");
           console.log(boosterPack);
