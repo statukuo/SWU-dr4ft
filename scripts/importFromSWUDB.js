@@ -1,14 +1,6 @@
 const fs = require("fs");
 const cliProgress = require("cli-progress");
-const { default: generateBoosterInfo } = require("./generateBoosterData");
-
-const RARITY = {
-  1: "Common",
-  2: "Uncommon",
-  3: "Rare",
-  4: "Legendary",
-  5: "Special"
-};
+const generateBoosterInfo = require("./generateBoosterData");
 
 const ASPECTS = {
   1: "Aggression",
@@ -34,7 +26,7 @@ async function importSet() {
   const multibar = new cliProgress.MultiBar({
     clearOnComplete: false,
     hideCursor: true,
-    format: ' {bar} | {filename} | {value}/{total}',
+    format: " {bar} | {filename} | {value}/{total}",
   }, cliProgress.Presets.shades_grey);
 
 
@@ -136,7 +128,7 @@ async function importSet() {
             };
           }
 
-          sets[setsToFetch[setIdx].expansionAbbreviation].cards.push = baseCardCode;
+          sets[setsToFetch[setIdx].expansionAbbreviation].cards.push(baseCardCode);
         }
       }
 
@@ -147,31 +139,37 @@ async function importSet() {
     bar1.stop();
     bar2.stop();
 
-    console.log("")
-    console.log("")
-    console.log("Total cards processed:", totalCardProcessed)
+    console.log("");
+    console.log("");
+    console.log("Total cards processed:", totalCardProcessed);
 
     setIdx++;
   }
 
-  fs.writeFile("data/cards.json", JSON.stringify(cards), function (err) {
-    if (err) {
-      console.log(err);
-    }
+  try {
+    fs.writeFileSync("data/cards.json", JSON.stringify(cards, null, 2));
     console.log("DONE with cards");
-    fs.writeFile("data/cubable_cards_by_name.json", JSON.stringify(cardsByName), function (err) {
-      if (err) {
-        console.log(err);
-      }
-      console.log("DONE cards by name");
-      fs.writeFile("data/sets.json", JSON.stringify(generateBoosterInfo(sets, cards)), function (err) {
-        if (err) {
-          console.log(err);
-        }
-        console.log("DONE with sets");
-      });
-    });
-  });
+  } catch (error) {
+    console.log("ERROR writing cards");
+  }
+
+
+  try {
+    fs.writeFileSync("data/cubable_cards_by_name.json", JSON.stringify(cardsByName, null, 2));
+    console.log("DONE cards by name");
+  } catch (error) {
+    console.log("ERROR writing cards");
+  }
+
+
+  try {
+    fs.writeFileSync("data/sets.json", JSON.stringify(generateBoosterInfo(sets, cards), null, 2));
+    console.log("DONE with sets");
+  } catch (error) {
+    console.log("ERROR writing cards");
+  }
+
+  process.exit();
 }
 
 importSet();

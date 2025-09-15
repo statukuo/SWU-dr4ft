@@ -9,12 +9,14 @@ const makeBoosterFromRules = (setCode, withLeader) => {
 };
 
 const getDefaultBooster = (set, withLeader) => {
-  let { leader, slots } = set.boosterData;
+  let { leaderCommon, leaderRare, slots } = set.boosterData;
   let minimunCount = withLeader? 1: 0;
   let realCount = withLeader? 1: 0;
 
+  const isRareLeader = !random(6);
+
   const cardNames = concat(
-    withLeader? [sample(leader)].map(cardId => ({cardId})) : [],
+    withLeader? [sample(isRareLeader ? leaderRare : leaderCommon)].map(cardId => ({cardId})) : [],
     ...slots.map(({type, count, replacement, ratio, foil, ensureAspects, maxPerAspect, singleReplace}) => {
       const selectedCards = [];
       let needsToBeReplaced = replacement && ratio && !random(ratio);
