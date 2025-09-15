@@ -164,7 +164,11 @@ const getPlayableSets = () => {
     });
   }
 
-  return playableSets;
+  //filter not released sets
+  return {
+    ...playableSets,
+    regular: playableSets.regular.filter(({releaseDate}) => Date.now() >= new Date(releaseDate) )
+  };
 };
 
 const getLatestReleasedSet = () => {
