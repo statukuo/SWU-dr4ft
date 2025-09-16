@@ -94,6 +94,8 @@ const getDefaultBooster = (set, withLeader) => {
     })
   );
 
+  //DISABLE BOOSTER LOG
+  /*
   const file = path.join(getLogDir(), "boosterMetrics.json");
   jsonfile.writeFile(file, {
     date: Date.now(),
@@ -103,6 +105,7 @@ const getDefaultBooster = (set, withLeader) => {
   }, { flag: "a" }, function (err) {
     if (err) console.log(err);
   });
+  */
 
   console.log("BOOSTER PACK GENERATED WITH ", minimunCount, "CARDS (took ", realCount, "calls to get it ", (minimunCount / realCount * 100).toFixed(2) , "% accuracy)");
 
