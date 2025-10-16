@@ -29,7 +29,7 @@ function parse(content) {
     }
 
     sets.set.forEach((set) => {
-      const { name: code, longname: name = "", settype: type = "", releasedate: releaseDate = "" } = set;
+      const { name: code, longname: name = "", settype: type = "", releasedate: releaseDate = "", readyToPlay = true } = set;
       if (!code) {
         throw new Error("<sets> property <set> must contain an attribute name");
       }
@@ -37,6 +37,7 @@ function parse(content) {
         code,
         name,
         type,
+        readyToPlay,
         releaseDate,
         cards: [],
         baseSetSize: 0

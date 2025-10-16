@@ -137,23 +137,22 @@ const getPlayableSets = () => {
 
   const AllSets = getSets();
   for (let code in AllSets) {
-    const { name, releaseDate } = AllSets[code];
+    const { name, releaseDate, readyToPlay } = AllSets[code];
     const type = "regular";
 
-
-    if (Date.parse(releaseDate) <= new Date()) {
+    if (readyToPlay) {
       if (!latestSet) {
-        latestSet = { code, type, name, releaseDate };
+        latestSet = { code, type, name, releaseDate, readyToPlay };
       } else if (new Date(releaseDate).getTime() > new Date(latestSet.releaseDate).getTime()) {
-        latestSet = { code, type, name, releaseDate };
+        latestSet = { code, type, name, releaseDate, readyToPlay };
       }
     }
 
 
     if (!playableSets[type]) {
-      playableSets[type] = [{ code, name, releaseDate }];
+      playableSets[type] = [{ code, name, releaseDate, readyToPlay }];
     } else {
-      playableSets[type].push({ code, name, releaseDate });
+      playableSets[type].push({ code, name, releaseDate, readyToPlay });
     }
   }
 
@@ -167,7 +166,7 @@ const getPlayableSets = () => {
   //filter not released sets
   return {
     ...playableSets,
-    regular: playableSets.regular.filter(({releaseDate}) => Date.now() >= new Date(releaseDate) )
+    regular: playableSets.regular.filter(({readyToPlay}) => readyToPlay )
   };
 };
 

@@ -281,7 +281,7 @@
     "aspects": [
       "Vigilance"
     ],
-    "rarity": 5,
+    "rarity": 1,
     "cost": 2,
     "type": "Upgrade"
   },
@@ -701,7 +701,7 @@
     "aspects": [
       "Command"
     ],
-    "rarity": 1,
+    "rarity": 2,
     "cost": 3,
     "type": "Event"
   },
@@ -738,7 +738,7 @@
   },
   "SEC_136": {
     "defaultExpansionAbbreviation": "SEC",
-    "cardName": "Arihdna Pryce",
+    "cardName": "Arihnda Pryce",
     "title": "On The Road To Power",
     "defaultCardNumber": "136",
     "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/136.png",
@@ -1061,7 +1061,7 @@
     ],
     "rarity": 2,
     "cost": 2,
-    "type": "Unit"
+    "type": "Event"
   },
   "SEC_234": {
     "defaultExpansionAbbreviation": "SEC",
@@ -66670,5 +66670,3052 @@
     "rarity": 5,
     "cost": 6,
     "type": "Event"
+  },
+  "SEC_002": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Jabba the Hutt",
+    "title": "Wonderful Human Being",
+    "defaultCardNumber": "002",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/002.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/002.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/002-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "SEC_003": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Lama Su",
+    "title": "We Modified Their Genetics",
+    "defaultCardNumber": "003",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/003.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/003.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/003-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "SEC_004": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Leia Organa",
+    "title": "Of A Secret Bloodline",
+    "defaultCardNumber": "004",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/004.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/004.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/004-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "SEC_006": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Colonel Yularen",
+    "title": "This Is Why We Plan",
+    "defaultCardNumber": "006",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/006.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/006.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/006-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "SEC_007": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Dryden Vos",
+    "title": "I Never Ask Twice",
+    "defaultCardNumber": "007",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/007.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/007.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/007-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 7,
+    "type": "Leader"
+  },
+  "SEC_008": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Bail Organa",
+    "title": "Doing Everything He Can",
+    "defaultCardNumber": "008",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/008.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/008.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/008-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Leader"
+  },
+  "SEC_009": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Mon Mothma",
+    "title": "Forming a Coalition",
+    "defaultCardNumber": "009",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/009.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/009.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/009-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "SEC_011": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Governor Pryce",
+    "title": "Threat of Lothal",
+    "defaultCardNumber": "011",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/011.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/011.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/011-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "SEC_012": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Cassian Andor",
+    "title": "Climb!",
+    "defaultCardNumber": "012",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/012.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/012.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/012-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "SEC_013": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Luthen Rael",
+    "title": "Don't You Want To Fight For Real",
+    "defaultCardNumber": "013",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/013.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/013.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/013-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "SEC_015": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "C-3PO",
+    "title": "Human Cyborg Relations",
+    "defaultCardNumber": "015",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/015.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/015.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/015-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Leader"
+  },
+  "SEC_017": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Sabé",
+    "title": "Queen's Shadow",
+    "defaultCardNumber": "017",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/017.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/017.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/017-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "SEC_018": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "DJ",
+    "title": "Need a Lift?",
+    "defaultCardNumber": "018",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/018.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/018.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/018-back.png",
+    "aspects": [
+      "Cunning",
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "SEC_019": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Rix Road",
+    "title": "Ferrix",
+    "defaultCardNumber": "019",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/019.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/019.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "SEC_020": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Uscru Entertainment District",
+    "title": "",
+    "defaultCardNumber": "020",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/020.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/020.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "SEC_021": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Republic City",
+    "title": "",
+    "defaultCardNumber": "021",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/021.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/021.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "SEC_022": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Senate Rotunda",
+    "title": "",
+    "defaultCardNumber": "022",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/022.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/022.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "SEC_023": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Imperial Prison Complex",
+    "title": "",
+    "defaultCardNumber": "023",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/023.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/023.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "SEC_024": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Naval Intelligence HQ",
+    "title": "",
+    "defaultCardNumber": "024",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/024.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/024.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "SEC_025": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Amnesty Housing",
+    "title": "",
+    "defaultCardNumber": "025",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/025.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/025.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "SEC_026": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Mount Tantiss",
+    "title": "",
+    "defaultCardNumber": "026",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/026.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/026.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "SEC_028": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Trayus Acolyte",
+    "title": "",
+    "defaultCardNumber": "028",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/028.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/028.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_029": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Zam Wesell",
+    "title": "Inconspicuous Assassin",
+    "defaultCardNumber": "029",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/029.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/029.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_030": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Death Trooper",
+    "title": "",
+    "defaultCardNumber": "030",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/030.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/030.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_035": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Darth Sion",
+    "title": "Lord of Pain",
+    "defaultCardNumber": "035",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/035.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/035.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_038": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Condemn",
+    "title": "",
+    "defaultCardNumber": "038",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/038.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/038.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "SEC_039": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Creditor's Claim",
+    "title": "",
+    "defaultCardNumber": "039",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/039.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/039.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "SEC_040": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Emergency Powers",
+    "title": "",
+    "defaultCardNumber": "040",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/040.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/040.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Event"
+  },
+  "SEC_041": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Populist Advisor",
+    "title": "",
+    "defaultCardNumber": "041",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/041.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/041.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "SEC_042": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Cassian Andor",
+    "title": "Lay Low",
+    "defaultCardNumber": "042",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/042.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/042.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_044": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Populist Champion",
+    "title": "",
+    "defaultCardNumber": "044",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/044.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/044.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_045": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Senator Chuchi",
+    "title": "Voice for the Voiceless",
+    "defaultCardNumber": "045",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/045.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/045.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_046": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Galen Erso",
+    "title": "You'll Never Win",
+    "defaultCardNumber": "046",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/046.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/046.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "SEC_048": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Captain Rex",
+    "title": "Into the Firefight",
+    "defaultCardNumber": "048",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/048.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/048.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "SEC_049": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Jade Squadron Patrol",
+    "title": "",
+    "defaultCardNumber": "049",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/049.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/049.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "SEC_050": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Vigil",
+    "title": "Securing the Future",
+    "defaultCardNumber": "050",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/050.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/050.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "SEC_052": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Diplomatic Immunity",
+    "title": "",
+    "defaultCardNumber": "052",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/052.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/052.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "SEC_053": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "One in a Million",
+    "title": "",
+    "defaultCardNumber": "053",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/053.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/053.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Event"
+  },
+  "SEC_054": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Exiled from the Force",
+    "title": "",
+    "defaultCardNumber": "054",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/054.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/054.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Vigilance"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "SEC_056": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Escape Pod",
+    "title": "",
+    "defaultCardNumber": "056",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/056.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/056.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "SEC_057": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Lobot",
+    "title": "Cloud City Coordinator",
+    "defaultCardNumber": "057",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/057.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/057.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_058": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Lost Jedi",
+    "title": "",
+    "defaultCardNumber": "058",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/058.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/058.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_059": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Senate Warden",
+    "title": "",
+    "defaultCardNumber": "059",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/059.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/059.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_060": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Defense Fleet X-Wing",
+    "title": "",
+    "defaultCardNumber": "060",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/060.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/060.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_061": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Willrow Hood",
+    "title": "On The Run",
+    "defaultCardNumber": "061",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/061.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/061.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_571": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Willrow Hood",
+    "title": "On The Run",
+    "defaultCardNumber": "571",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/571.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/571.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_062": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Bardottan Ornithopter",
+    "title": "",
+    "defaultCardNumber": "062",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/062.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/062.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "SEC_063": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Rotunda Senate Guards",
+    "title": "",
+    "defaultCardNumber": "063",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/063.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/063.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "SEC_064": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Congress of Malastare",
+    "title": "",
+    "defaultCardNumber": "064",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/064.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/064.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_065": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Nala Se",
+    "title": "Chief Medical Scientist",
+    "defaultCardNumber": "065",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/065.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/065.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_066": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Alderaanian Envoys",
+    "title": "",
+    "defaultCardNumber": "066",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/066.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/066.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "SEC_067": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Umbaran Mobile Cannon",
+    "title": "",
+    "defaultCardNumber": "067",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/067.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/067.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "SEC_068": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Lando Calrissian",
+    "title": "Trust Me",
+    "defaultCardNumber": "068",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/068.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/068.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "SEC_069": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Nimble Prowess",
+    "title": "",
+    "defaultCardNumber": "069",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/069.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/069.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "SEC_071": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Disciples' Devotion",
+    "title": "",
+    "defaultCardNumber": "071",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/071.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/071.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "SEC_072": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Scour The Archives",
+    "title": "",
+    "defaultCardNumber": "072",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/072.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/072.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Event"
+  },
+  "SEC_073": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "The Eye of Aldhani",
+    "title": "",
+    "defaultCardNumber": "073",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/073.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/073.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Event"
+  },
+  "SEC_074": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Relief Request",
+    "title": "",
+    "defaultCardNumber": "074",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/074.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/074.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "SEC_075": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Knowledge and Defense",
+    "title": "",
+    "defaultCardNumber": "075",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/075.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/075.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Event"
+  },
+  "SEC_078": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Hyperspace Disaster",
+    "title": "",
+    "defaultCardNumber": "078",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/078.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/078.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 3,
+    "cost": 7,
+    "type": "Event"
+  },
+  "SEC_080": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Imperial Dark Trooper",
+    "title": "",
+    "defaultCardNumber": "080",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/080.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/080.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_086": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Cruel Commandos",
+    "title": "",
+    "defaultCardNumber": "086",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/086.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/086.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_088": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "First Light",
+    "title": "Threatening Elegance",
+    "defaultCardNumber": "088",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/088.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/088.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "SEC_090": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Director Krennic",
+    "title": "I Lose Nothing But Time",
+    "defaultCardNumber": "090",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/090.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/090.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 9,
+    "type": "Unit"
+  },
+  "SEC_091": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Corporate Warmongering",
+    "title": "",
+    "defaultCardNumber": "091",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/091.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/091.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 4,
+    "type": "Event"
+  },
+  "SEC_095": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Theed Security",
+    "title": "",
+    "defaultCardNumber": "095",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/095.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/095.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_097": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Beloved Orator",
+    "title": "",
+    "defaultCardNumber": "097",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/097.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/097.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_100": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Dressellian Commandos",
+    "title": "",
+    "defaultCardNumber": "100",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/100.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/100.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_101": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Queen Amidala",
+    "title": "Championing Her People",
+    "defaultCardNumber": "101",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/101.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/101.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_102": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Renowned Dignitaries",
+    "title": "",
+    "defaultCardNumber": "102",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/102.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/102.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "SEC_104": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Figure of Unity",
+    "title": "",
+    "defaultCardNumber": "104",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/104.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/104.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "SEC_105": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Renewed Friendship",
+    "title": "",
+    "defaultCardNumber": "105",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/105.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/105.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 4,
+    "type": "Event"
+  },
+  "SEC_107": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Chancellor Valorum",
+    "title": "Civil Servant",
+    "defaultCardNumber": "107",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/107.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/107.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Command"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_108": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Senator's Aide",
+    "title": "",
+    "defaultCardNumber": "108",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/108.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/108.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "SEC_109": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Diplomatic Envoy",
+    "title": "",
+    "defaultCardNumber": "109",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/109.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/109.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_110": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "GNK Power Droid",
+    "title": "",
+    "defaultCardNumber": "110",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/110.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/110.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_112": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Orn Free Taa",
+    "title": "Political Power Broker",
+    "defaultCardNumber": "112",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/112.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/112.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_113": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Daro Commando",
+    "title": "",
+    "defaultCardNumber": "113",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/113.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/113.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_114": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Kino Loy",
+    "title": "You Answer to Me",
+    "defaultCardNumber": "114",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/114.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/114.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_117": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Consular's Cruiser",
+    "title": "",
+    "defaultCardNumber": "117",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/117.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/117.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_118": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Raxian Assembly",
+    "title": "",
+    "defaultCardNumber": "118",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/118.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/118.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_119": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Crucible",
+    "title": "Centuries of Wisdom",
+    "defaultCardNumber": "119",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/119.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/119.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "SEC_121": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Shadow Crawler",
+    "title": "",
+    "defaultCardNumber": "121",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/121.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/121.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "SEC_122": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Vuutun Palaa",
+    "title": "Droid Control Ship",
+    "defaultCardNumber": "122",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/122.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/122.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 4,
+    "cost": 9,
+    "type": "Unit"
+  },
+  "SEC_125": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Reconnaissance",
+    "title": "",
+    "defaultCardNumber": "125",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/125.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/125.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "SEC_126": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Trade Route Taxation",
+    "title": "",
+    "defaultCardNumber": "126",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/126.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/126.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Event"
+  },
+  "SEC_128": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Convene the Senate",
+    "title": "",
+    "defaultCardNumber": "128",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/128.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/128.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Event"
+  },
+  "SEC_130": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Ferrix Uprising",
+    "title": "",
+    "defaultCardNumber": "130",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/130.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/130.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Event"
+  },
+  "SEC_131": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Let's Talk",
+    "title": "",
+    "defaultCardNumber": "131",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/131.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/131.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 4,
+    "cost": 9,
+    "type": "Event"
+  },
+  "SEC_132": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Imperial Occupier",
+    "title": "",
+    "defaultCardNumber": "132",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/132.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/132.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_134": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Hunting Assassin Droid",
+    "title": "",
+    "defaultCardNumber": "134",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/134.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/134.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_135": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Muckraker Crab Droid",
+    "title": "",
+    "defaultCardNumber": "135",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/135.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/135.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": null,
+    "type": "Unit"
+  },
+  "SEC_137": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Dryden Vos",
+    "title": "I Get All Worked Up",
+    "defaultCardNumber": "137",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/137.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/137.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "SEC_138": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Enforcer Squadron",
+    "title": "",
+    "defaultCardNumber": "138",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/138.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/138.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "SEC_139": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Miraj Scintel",
+    "title": "The Weak Deserve to Kneel",
+    "defaultCardNumber": "139",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/139.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/139.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_140": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Hondo Ohnaka",
+    "title": "You Better Hurry",
+    "defaultCardNumber": "140",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/140.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/140.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "SEC_141": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "The Galleon",
+    "title": "Marauding Pirate Ship",
+    "defaultCardNumber": "141",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/141.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/141.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "SEC_143": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "The Elite Squad",
+    "title": "Neutralizing Insurgents",
+    "defaultCardNumber": "143",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/143.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/143.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 8,
+    "type": "Unit"
+  },
+  "SEC_144": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Tempest Assault",
+    "title": "",
+    "defaultCardNumber": "144",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/144.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/144.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 4,
+    "type": "Event"
+  },
+  "SEC_145": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Confidence in Victory",
+    "title": "",
+    "defaultCardNumber": "145",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/145.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/145.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 10,
+    "type": "Event"
+  },
+  "SEC_146": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Rebellious Functionary",
+    "title": "",
+    "defaultCardNumber": "146",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/146.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/146.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "SEC_148": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Karis Nemik",
+    "title": "Freedom Is a Pure Idea",
+    "defaultCardNumber": "148",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/148.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/148.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_150": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Valiant Commando",
+    "title": "",
+    "defaultCardNumber": "150",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/150.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/150.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_151": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Kazuda Xiono",
+    "title": "I'm not a spy",
+    "defaultCardNumber": "151",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/151.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/151.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "SEC_152": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Strike Force X-Wing",
+    "title": "",
+    "defaultCardNumber": "152",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/152.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/152.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "SEC_153": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Luthen's Haulcraft",
+    "title": "Countermeasures Armed",
+    "defaultCardNumber": "153",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/153.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/153.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_154": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Inner Rim Coalition",
+    "title": "",
+    "defaultCardNumber": "154",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/154.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/154.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "SEC_155": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Alexsandr Kallus",
+    "title": "With New Purpose",
+    "defaultCardNumber": "155",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/155.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/155.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "SEC_156": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Nemik's Manifesto",
+    "title": "",
+    "defaultCardNumber": "156",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/156.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/156.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "SEC_157": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "One Way Out",
+    "title": "",
+    "defaultCardNumber": "157",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/157.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/157.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Event"
+  },
+  "SEC_158": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Oppression Breeds Rebellion",
+    "title": "",
+    "defaultCardNumber": "158",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/158.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/158.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Event"
+  },
+  "SEC_159": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Chairman Papanoida",
+    "title": "Undaunted Diplomat",
+    "defaultCardNumber": "159",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/159.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/159.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Aggression"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_160": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Reckless Rebel",
+    "title": "",
+    "defaultCardNumber": "160",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/160.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/160.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "SEC_161": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Contraband Starhopper",
+    "title": "",
+    "defaultCardNumber": "161",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/161.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/161.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_162": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Crosshair",
+    "title": "Filled With Doubt",
+    "defaultCardNumber": "162",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/162.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/162.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_163": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Outer Rim Constable",
+    "title": "",
+    "defaultCardNumber": "163",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/163.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/163.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_164": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Warrior of Clan Ordo",
+    "title": "",
+    "defaultCardNumber": "164",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/164.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/164.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_165": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Academy Disciplinarian",
+    "title": "",
+    "defaultCardNumber": "165",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/165.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/165.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_166": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Republic Aurek Starfighter",
+    "title": "",
+    "defaultCardNumber": "166",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/166.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/166.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_167": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Coruscant Undercity Police",
+    "title": "",
+    "defaultCardNumber": "167",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/167.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/167.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "SEC_168": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Ziton Moj",
+    "title": "Black Sun Bully",
+    "defaultCardNumber": "168",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/168.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/168.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "SEC_169": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "AAT Incinerator",
+    "title": "",
+    "defaultCardNumber": "169",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/169.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/169.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_170": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Corellian Hounds",
+    "title": "",
+    "defaultCardNumber": "170",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/170.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/170.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_171": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Punishing One",
+    "title": "Takes No Prisoners",
+    "defaultCardNumber": "171",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/171.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/171.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_172": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Cinta Kaz",
+    "title": "The Struggle Comes First",
+    "defaultCardNumber": "172",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/172.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/172.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "SEC_173": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Republic War Walker",
+    "title": "",
+    "defaultCardNumber": "173",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/173.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/173.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "SEC_174": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Saw Gerrera's U-Wing",
+    "title": "Breaking the Rules",
+    "defaultCardNumber": "174",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/174.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/174.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "SEC_175": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Ambition's Reward",
+    "title": "",
+    "defaultCardNumber": "175",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/175.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/175.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "SEC_176": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Sudden Ferocity",
+    "title": "",
+    "defaultCardNumber": "176",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/176.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/176.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "SEC_178": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Pursue the Lead",
+    "title": "",
+    "defaultCardNumber": "178",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/178.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/178.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "SEC_179": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Aggressive Negotiations",
+    "title": "",
+    "defaultCardNumber": "179",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/179.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/179.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Event"
+  },
+  "SEC_180": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Let's Call It War",
+    "title": "",
+    "defaultCardNumber": "180",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/180.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/180.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Event"
+  },
+  "SEC_181": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Unauthorized Investigation",
+    "title": "",
+    "defaultCardNumber": "181",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/181.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/181.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Event"
+  },
+  "SEC_184": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "ISB Agent",
+    "title": "",
+    "defaultCardNumber": "184",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/184.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/184.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "SEC_185": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Screeching TIE Fighter",
+    "title": "",
+    "defaultCardNumber": "185",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/185.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/185.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "SEC_186": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Garindan",
+    "title": "Information Broker",
+    "defaultCardNumber": "186",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/186.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/186.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_187": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "General Grievous",
+    "title": "Scuttling to Safety",
+    "defaultCardNumber": "187",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/187.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/187.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_188": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Darth Traya",
+    "title": "Lord of Betrayal",
+    "defaultCardNumber": "188",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/188.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/188.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_189": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Lurking Snub Fighter",
+    "title": "",
+    "defaultCardNumber": "189",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/189.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/189.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_190": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Soulless One",
+    "title": "Swift and Agile",
+    "defaultCardNumber": "190",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/190.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/190.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_192": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Grand Moff Tarkin",
+    "title": "Taking Krennic's Achievement",
+    "defaultCardNumber": "192",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/192.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/192.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "SEC_193": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Grand Admiral Thrawn",
+    "title": "Grand Schemer",
+    "defaultCardNumber": "193",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/193.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/193.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "SEC_703": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Grand Admiral Thrawn",
+    "title": "Grand Schemer",
+    "defaultCardNumber": "703",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/703.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/703.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "SEC_194": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Fully Armed and Operational",
+    "title": "",
+    "defaultCardNumber": "194",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/194.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/194.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Event"
+  },
+  "SEC_195": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Arrest",
+    "title": "",
+    "defaultCardNumber": "195",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/195.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/195.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Event"
+  },
+  "SEC_200": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Junior Senator",
+    "title": "",
+    "defaultCardNumber": "200",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/200.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/200.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_202": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Rebel Propagandist",
+    "title": "",
+    "defaultCardNumber": "202",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/202.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/202.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_204": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Blue Ace",
+    "title": "Colorful Racer",
+    "defaultCardNumber": "204",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/204.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/204.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "SEC_205": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Obi-Wan Kenobi",
+    "title": "Finding What Doesn't Exist",
+    "defaultCardNumber": "205",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/205.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/205.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "SEC_206": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Emissaries from Ryloth",
+    "title": "",
+    "defaultCardNumber": "206",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/206.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/206.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_207": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Lightmaker",
+    "title": "I Have An Idea",
+    "defaultCardNumber": "207",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/207.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/207.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_210": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Stolen Starpath Unit",
+    "title": "",
+    "defaultCardNumber": "210",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/210.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/210.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "SEC_211": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Faith in Your Friends",
+    "title": "",
+    "defaultCardNumber": "211",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/211.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/211.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Event"
+  },
+  "SEC_212": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Libertine",
+    "title": "Under New Ownership",
+    "defaultCardNumber": "212",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/212.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/212.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "SEC_213": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "A-Wing",
+    "title": "",
+    "defaultCardNumber": "213",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/213.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/213.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "SEC_214": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Skyhopper Canyon Runner",
+    "title": "",
+    "defaultCardNumber": "214",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/214.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/214.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "SEC_215": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Emissary's Sheathipede",
+    "title": "",
+    "defaultCardNumber": "215",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/215.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/215.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_216": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Regulations Bureaucrat",
+    "title": "",
+    "defaultCardNumber": "216",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/216.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/216.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_217": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Zenuas Shadow Fighter",
+    "title": "",
+    "defaultCardNumber": "217",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/217.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/217.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_218": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Cikatro Vizago",
+    "title": "Business Is What Matters",
+    "defaultCardNumber": "218",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/218.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/218.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_219": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Ebon Hawk",
+    "title": "Cause and Effect",
+    "defaultCardNumber": "219",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/219.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/219.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_220": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Hired Slicer",
+    "title": "",
+    "defaultCardNumber": "220",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/220.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/220.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_221": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Unruly Astromech",
+    "title": "",
+    "defaultCardNumber": "221",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/221.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/221.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_222": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Loan Shark",
+    "title": "",
+    "defaultCardNumber": "222",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/222.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/222.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "SEC_223": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Duchess's Investigators",
+    "title": "",
+    "defaultCardNumber": "223",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/223.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/223.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_224": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Vel Sartha",
+    "title": "One Path, One Choice",
+    "defaultCardNumber": "224",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/224.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/224.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_227": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Special Modifications",
+    "title": "",
+    "defaultCardNumber": "227",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/227.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/227.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "SEC_228": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Accelerate Our Plans",
+    "title": "",
+    "defaultCardNumber": "228",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/228.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/228.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Event"
+  },
+  "SEC_229": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Catch Unawares",
+    "title": "",
+    "defaultCardNumber": "229",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/229.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/229.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "SEC_231": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Implicate",
+    "title": "",
+    "defaultCardNumber": "231",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/231.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/231.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Event"
+  },
+  "SEC_232": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Kreia's Whispers",
+    "title": "",
+    "defaultCardNumber": "232",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/232.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/232.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "SEC_233": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Beguile",
+    "title": "",
+    "defaultCardNumber": "233",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/233.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/233.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Event"
+  },
+  "SEC_235": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "The Wrong Ride",
+    "title": "",
+    "defaultCardNumber": "235",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/235.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/235.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Event"
+  },
+  "SEC_236": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Undercover Operation",
+    "title": "",
+    "defaultCardNumber": "236",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/236.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/236.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Event"
+  },
+  "SEC_237": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Supreme Council Aide",
+    "title": "",
+    "defaultCardNumber": "237",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/237.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/237.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "SEC_238": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Sith Assassin",
+    "title": "",
+    "defaultCardNumber": "238",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/238.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/238.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_239": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Viper Probe Droid",
+    "title": "",
+    "defaultCardNumber": "239",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/239.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/239.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_240": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Hutt Cartel Starfighter",
+    "title": "",
+    "defaultCardNumber": "240",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/240.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/240.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_243": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "FN Trooper Corps",
+    "title": "",
+    "defaultCardNumber": "243",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/243.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/243.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_244": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Darth Nihilus",
+    "title": "Lord of Hunger",
+    "defaultCardNumber": "244",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/244.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/244.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "SEC_246": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Contempt for Culture",
+    "title": "",
+    "defaultCardNumber": "246",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/246.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/246.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "SEC_247": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Evil is Everywhere",
+    "title": "",
+    "defaultCardNumber": "247",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/247.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/247.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Event"
+  },
+  "SEC_249": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "High Command Councilor",
+    "title": "",
+    "defaultCardNumber": "249",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/249.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/249.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_250": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Rebel Pathfinder",
+    "title": "",
+    "defaultCardNumber": "250",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/250.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/250.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_251": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Crait Veteran",
+    "title": "",
+    "defaultCardNumber": "251",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/251.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/251.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_253": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Covert Operative",
+    "title": "",
+    "defaultCardNumber": "253",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/253.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/253.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "SEC_254": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Heroic ARC-170",
+    "title": "",
+    "defaultCardNumber": "254",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/254.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/254.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "SEC_255": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Remote Escort Tank",
+    "title": "",
+    "defaultCardNumber": "255",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/255.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/255.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "SEC_256": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Moral Authority",
+    "title": "",
+    "defaultCardNumber": "256",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/256.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/256.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "SEC_257": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Restore Freedom",
+    "title": "",
+    "defaultCardNumber": "257",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/257.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/257.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Event"
+  },
+  "SEC_258": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Grassroots Resistance",
+    "title": "",
+    "defaultCardNumber": "258",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/258.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/258.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Event"
+  },
+  "SEC_259": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "ASP Laborer",
+    "title": "",
+    "defaultCardNumber": "259",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/259.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/259.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_260": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Inspector's Shuttle",
+    "title": "",
+    "defaultCardNumber": "260",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/260.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/260.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "SEC_261": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Inspiring Senator",
+    "title": "",
+    "defaultCardNumber": "261",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/261.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/261.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "SEC_262": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Ando Commission",
+    "title": "",
+    "defaultCardNumber": "262",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/262.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/262.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "SEC_263": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Assassin Probe",
+    "title": "",
+    "defaultCardNumber": "263",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/263.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/263.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "SEC_264": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Clandestine Connections",
+    "title": "",
+    "defaultCardNumber": "264",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/264.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/264.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "SEC_1024": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Leia Organa",
+    "title": "Of A Secret Bloodline",
+    "defaultCardNumber": "1024",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/1024.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/1024.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/1024-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Leader"
   }
 }

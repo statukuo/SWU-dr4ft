@@ -7969,16 +7969,19 @@
     }
   },
   "Death Trooper": {
-    "default": "SHD_030",
+    "default": "SEC_030",
     "SOR": {
-      "299": "SOR_033",
-      "033": "SOR_033"
+      "299": "SEC_030",
+      "033": "SEC_030"
     },
     "SOROP": {
-      "014": "SOR_033"
+      "014": "SEC_030"
     },
     "SHD": {
-      "030": "SOR_033"
+      "030": "SEC_030"
+    },
+    "SEC": {
+      "030": "SEC_030"
     }
   },
   "The Client, Dictated By Discretion": {
@@ -10945,10 +10948,13 @@
     }
   },
   "ISB Agent": {
-    "default": "SOR_176",
+    "default": "SEC_184",
     "SOR": {
-      "176": "SOR_176",
-      "439": "SOR_176"
+      "176": "SEC_184",
+      "439": "SEC_184"
+    },
+    "SEC": {
+      "184": "SEC_184"
     }
   },
   "Bib Fortuna, Jabba's Majordomo": {
@@ -11307,10 +11313,13 @@
     }
   },
   "Viper Probe Droid": {
-    "default": "SOR_228",
+    "default": "SEC_239",
     "SOR": {
-      "228": "SOR_228",
-      "489": "SOR_228"
+      "228": "SEC_239",
+      "489": "SEC_239"
+    },
+    "SEC": {
+      "239": "SEC_239"
     }
   },
   "General Veers, Blizzard Force Commander": {
@@ -11386,10 +11395,13 @@
     }
   },
   "Rebel Pathfinder": {
-    "default": "SOR_239",
+    "default": "SEC_250",
     "SOR": {
-      "239": "SOR_239",
-      "497": "SOR_239"
+      "239": "SEC_250",
+      "497": "SEC_250"
+    },
+    "SEC": {
+      "250": "SEC_250"
     }
   },
   "Fleet Lieutenant": {
@@ -11815,6 +11827,1161 @@
     "default": "IBH_104",
     "IBH": {
       "104": "IBH_104"
+    }
+  },
+  "Jabba the Hutt, Wonderful Human Being": {
+    "default": "SEC_002",
+    "SEC": {
+      "002": "SEC_002"
+    }
+  },
+  "Lama Su, We Modified Their Genetics": {
+    "default": "SEC_003",
+    "SEC": {
+      "003": "SEC_003"
+    }
+  },
+  "Leia Organa, Of A Secret Bloodline": {
+    "default": "SEC_004",
+    "SEC": {
+      "1024": "SEC_004",
+      "004": "SEC_004"
+    }
+  },
+  "Colonel Yularen, This Is Why We Plan": {
+    "default": "SEC_006",
+    "SEC": {
+      "006": "SEC_006"
+    }
+  },
+  "Dryden Vos, I Never Ask Twice": {
+    "default": "SEC_007",
+    "SEC": {
+      "007": "SEC_007"
+    }
+  },
+  "Bail Organa, Doing Everything He Can": {
+    "default": "SEC_008",
+    "SEC": {
+      "008": "SEC_008"
+    }
+  },
+  "Mon Mothma, Forming a Coalition": {
+    "default": "SEC_009",
+    "SEC": {
+      "009": "SEC_009"
+    }
+  },
+  "Governor Pryce, Threat of Lothal": {
+    "default": "SEC_011",
+    "SEC": {
+      "011": "SEC_011"
+    }
+  },
+  "Cassian Andor, Climb!": {
+    "default": "SEC_012",
+    "SEC": {
+      "012": "SEC_012"
+    }
+  },
+  "Luthen Rael, Don't You Want To Fight For Real": {
+    "default": "SEC_013",
+    "SEC": {
+      "013": "SEC_013"
+    }
+  },
+  "C-3PO, Human Cyborg Relations": {
+    "default": "SEC_015",
+    "SEC": {
+      "015": "SEC_015"
+    }
+  },
+  "Sabé, Queen's Shadow": {
+    "default": "SEC_017",
+    "SEC": {
+      "017": "SEC_017"
+    }
+  },
+  "DJ, Need a Lift?": {
+    "default": "SEC_018",
+    "SEC": {
+      "018": "SEC_018"
+    }
+  },
+  "Rix Road, Ferrix": {
+    "default": "SEC_019",
+    "SEC": {
+      "019": "SEC_019"
+    }
+  },
+  "Uscru Entertainment District": {
+    "default": "SEC_020",
+    "SEC": {
+      "020": "SEC_020"
+    }
+  },
+  "Republic City": {
+    "default": "SEC_021",
+    "SEC": {
+      "021": "SEC_021"
+    }
+  },
+  "Senate Rotunda": {
+    "default": "SEC_022",
+    "SEC": {
+      "022": "SEC_022"
+    }
+  },
+  "Imperial Prison Complex": {
+    "default": "SEC_023",
+    "SEC": {
+      "023": "SEC_023"
+    }
+  },
+  "Naval Intelligence HQ": {
+    "default": "SEC_024",
+    "SEC": {
+      "024": "SEC_024"
+    }
+  },
+  "Amnesty Housing": {
+    "default": "SEC_025",
+    "SEC": {
+      "025": "SEC_025"
+    }
+  },
+  "Mount Tantiss": {
+    "default": "SEC_026",
+    "SEC": {
+      "026": "SEC_026"
+    }
+  },
+  "Trayus Acolyte": {
+    "default": "SEC_028",
+    "SEC": {
+      "028": "SEC_028"
+    }
+  },
+  "Zam Wesell, Inconspicuous Assassin": {
+    "default": "SEC_029",
+    "SEC": {
+      "029": "SEC_029"
+    }
+  },
+  "Darth Sion, Lord of Pain": {
+    "default": "SEC_035",
+    "SEC": {
+      "035": "SEC_035"
+    }
+  },
+  "Condemn": {
+    "default": "SEC_038",
+    "SEC": {
+      "038": "SEC_038"
+    }
+  },
+  "Creditor's Claim": {
+    "default": "SEC_039",
+    "SEC": {
+      "039": "SEC_039"
+    }
+  },
+  "Emergency Powers": {
+    "default": "SEC_040",
+    "SEC": {
+      "040": "SEC_040"
+    }
+  },
+  "Populist Advisor": {
+    "default": "SEC_041",
+    "SEC": {
+      "041": "SEC_041"
+    }
+  },
+  "Cassian Andor, Lay Low": {
+    "default": "SEC_042",
+    "SEC": {
+      "042": "SEC_042"
+    }
+  },
+  "Populist Champion": {
+    "default": "SEC_044",
+    "SEC": {
+      "044": "SEC_044"
+    }
+  },
+  "Senator Chuchi, Voice for the Voiceless": {
+    "default": "SEC_045",
+    "SEC": {
+      "045": "SEC_045"
+    }
+  },
+  "Galen Erso, You'll Never Win": {
+    "default": "SEC_046",
+    "SEC": {
+      "046": "SEC_046"
+    }
+  },
+  "Captain Rex, Into the Firefight": {
+    "default": "SEC_048",
+    "SEC": {
+      "048": "SEC_048"
+    }
+  },
+  "Jade Squadron Patrol": {
+    "default": "SEC_049",
+    "SEC": {
+      "049": "SEC_049"
+    }
+  },
+  "Vigil, Securing the Future": {
+    "default": "SEC_050",
+    "SEC": {
+      "050": "SEC_050"
+    }
+  },
+  "Diplomatic Immunity": {
+    "default": "SEC_052",
+    "SEC": {
+      "052": "SEC_052"
+    }
+  },
+  "One in a Million": {
+    "default": "SEC_053",
+    "SEC": {
+      "053": "SEC_053"
+    }
+  },
+  "Exiled from the Force": {
+    "default": "SEC_054",
+    "SEC": {
+      "054": "SEC_054"
+    }
+  },
+  "Escape Pod": {
+    "default": "SEC_056",
+    "SEC": {
+      "056": "SEC_056"
+    }
+  },
+  "Lobot, Cloud City Coordinator": {
+    "default": "SEC_057",
+    "SEC": {
+      "057": "SEC_057"
+    }
+  },
+  "Lost Jedi": {
+    "default": "SEC_058",
+    "SEC": {
+      "058": "SEC_058"
+    }
+  },
+  "Senate Warden": {
+    "default": "SEC_059",
+    "SEC": {
+      "059": "SEC_059"
+    }
+  },
+  "Defense Fleet X-Wing": {
+    "default": "SEC_060",
+    "SEC": {
+      "060": "SEC_060"
+    }
+  },
+  "Willrow Hood, On The Run": {
+    "default": "SEC_061",
+    "SEC": {
+      "571": "SEC_061",
+      "061": "SEC_061"
+    }
+  },
+  "Bardottan Ornithopter": {
+    "default": "SEC_062",
+    "SEC": {
+      "062": "SEC_062"
+    }
+  },
+  "Rotunda Senate Guards": {
+    "default": "SEC_063",
+    "SEC": {
+      "063": "SEC_063"
+    }
+  },
+  "Congress of Malastare": {
+    "default": "SEC_064",
+    "SEC": {
+      "064": "SEC_064"
+    }
+  },
+  "Nala Se, Chief Medical Scientist": {
+    "default": "SEC_065",
+    "SEC": {
+      "065": "SEC_065"
+    }
+  },
+  "Alderaanian Envoys": {
+    "default": "SEC_066",
+    "SEC": {
+      "066": "SEC_066"
+    }
+  },
+  "Umbaran Mobile Cannon": {
+    "default": "SEC_067",
+    "SEC": {
+      "067": "SEC_067"
+    }
+  },
+  "Lando Calrissian, Trust Me": {
+    "default": "SEC_068",
+    "SEC": {
+      "068": "SEC_068"
+    }
+  },
+  "Nimble Prowess": {
+    "default": "SEC_069",
+    "SEC": {
+      "069": "SEC_069"
+    }
+  },
+  "Disciples' Devotion": {
+    "default": "SEC_071",
+    "SEC": {
+      "071": "SEC_071"
+    }
+  },
+  "Scour The Archives": {
+    "default": "SEC_072",
+    "SEC": {
+      "072": "SEC_072"
+    }
+  },
+  "The Eye of Aldhani": {
+    "default": "SEC_073",
+    "SEC": {
+      "073": "SEC_073"
+    }
+  },
+  "Relief Request": {
+    "default": "SEC_074",
+    "SEC": {
+      "074": "SEC_074"
+    }
+  },
+  "Knowledge and Defense": {
+    "default": "SEC_075",
+    "SEC": {
+      "075": "SEC_075"
+    }
+  },
+  "Hyperspace Disaster": {
+    "default": "SEC_078",
+    "SEC": {
+      "078": "SEC_078"
+    }
+  },
+  "Imperial Dark Trooper": {
+    "default": "SEC_080",
+    "SEC": {
+      "080": "SEC_080"
+    }
+  },
+  "Cruel Commandos": {
+    "default": "SEC_086",
+    "SEC": {
+      "086": "SEC_086"
+    }
+  },
+  "First Light, Threatening Elegance": {
+    "default": "SEC_088",
+    "SEC": {
+      "088": "SEC_088"
+    }
+  },
+  "Director Krennic, I Lose Nothing But Time": {
+    "default": "SEC_090",
+    "SEC": {
+      "090": "SEC_090"
+    }
+  },
+  "Corporate Warmongering": {
+    "default": "SEC_091",
+    "SEC": {
+      "091": "SEC_091"
+    }
+  },
+  "Theed Security": {
+    "default": "SEC_095",
+    "SEC": {
+      "095": "SEC_095"
+    }
+  },
+  "Beloved Orator": {
+    "default": "SEC_097",
+    "SEC": {
+      "097": "SEC_097"
+    }
+  },
+  "Dressellian Commandos": {
+    "default": "SEC_100",
+    "SEC": {
+      "100": "SEC_100"
+    }
+  },
+  "Queen Amidala, Championing Her People": {
+    "default": "SEC_101",
+    "SEC": {
+      "101": "SEC_101"
+    }
+  },
+  "Renowned Dignitaries": {
+    "default": "SEC_102",
+    "SEC": {
+      "102": "SEC_102"
+    }
+  },
+  "Figure of Unity": {
+    "default": "SEC_104",
+    "SEC": {
+      "104": "SEC_104"
+    }
+  },
+  "Renewed Friendship": {
+    "default": "SEC_105",
+    "SEC": {
+      "105": "SEC_105"
+    }
+  },
+  "Chancellor Valorum, Civil Servant": {
+    "default": "SEC_107",
+    "SEC": {
+      "107": "SEC_107"
+    }
+  },
+  "Senator's Aide": {
+    "default": "SEC_108",
+    "SEC": {
+      "108": "SEC_108"
+    }
+  },
+  "Diplomatic Envoy": {
+    "default": "SEC_109",
+    "SEC": {
+      "109": "SEC_109"
+    }
+  },
+  "GNK Power Droid": {
+    "default": "SEC_110",
+    "SEC": {
+      "110": "SEC_110"
+    }
+  },
+  "Orn Free Taa, Political Power Broker": {
+    "default": "SEC_112",
+    "SEC": {
+      "112": "SEC_112"
+    }
+  },
+  "Daro Commando": {
+    "default": "SEC_113",
+    "SEC": {
+      "113": "SEC_113"
+    }
+  },
+  "Kino Loy, You Answer to Me": {
+    "default": "SEC_114",
+    "SEC": {
+      "114": "SEC_114"
+    }
+  },
+  "Consular's Cruiser": {
+    "default": "SEC_117",
+    "SEC": {
+      "117": "SEC_117"
+    }
+  },
+  "Raxian Assembly": {
+    "default": "SEC_118",
+    "SEC": {
+      "118": "SEC_118"
+    }
+  },
+  "Crucible, Centuries of Wisdom": {
+    "default": "SEC_119",
+    "SEC": {
+      "119": "SEC_119"
+    }
+  },
+  "Shadow Crawler": {
+    "default": "SEC_121",
+    "SEC": {
+      "121": "SEC_121"
+    }
+  },
+  "Vuutun Palaa, Droid Control Ship": {
+    "default": "SEC_122",
+    "SEC": {
+      "122": "SEC_122"
+    }
+  },
+  "Reconnaissance": {
+    "default": "SEC_125",
+    "SEC": {
+      "125": "SEC_125"
+    }
+  },
+  "Trade Route Taxation": {
+    "default": "SEC_126",
+    "SEC": {
+      "126": "SEC_126"
+    }
+  },
+  "Convene the Senate": {
+    "default": "SEC_128",
+    "SEC": {
+      "128": "SEC_128"
+    }
+  },
+  "Ferrix Uprising": {
+    "default": "SEC_130",
+    "SEC": {
+      "130": "SEC_130"
+    }
+  },
+  "Let's Talk": {
+    "default": "SEC_131",
+    "SEC": {
+      "131": "SEC_131"
+    }
+  },
+  "Imperial Occupier": {
+    "default": "SEC_132",
+    "SEC": {
+      "132": "SEC_132"
+    }
+  },
+  "Hunting Assassin Droid": {
+    "default": "SEC_134",
+    "SEC": {
+      "134": "SEC_134"
+    }
+  },
+  "Muckraker Crab Droid": {
+    "default": "SEC_135",
+    "SEC": {
+      "135": "SEC_135"
+    }
+  },
+  "Arihnda Pryce, On The Road To Power": {
+    "default": "SEC_136",
+    "SEC": {
+      "136": "SEC_136"
+    }
+  },
+  "Dryden Vos, I Get All Worked Up": {
+    "default": "SEC_137",
+    "SEC": {
+      "137": "SEC_137"
+    }
+  },
+  "Enforcer Squadron": {
+    "default": "SEC_138",
+    "SEC": {
+      "138": "SEC_138"
+    }
+  },
+  "Miraj Scintel, The Weak Deserve to Kneel": {
+    "default": "SEC_139",
+    "SEC": {
+      "139": "SEC_139"
+    }
+  },
+  "Hondo Ohnaka, You Better Hurry": {
+    "default": "SEC_140",
+    "SEC": {
+      "140": "SEC_140"
+    }
+  },
+  "The Galleon, Marauding Pirate Ship": {
+    "default": "SEC_141",
+    "SEC": {
+      "141": "SEC_141"
+    }
+  },
+  "The Elite Squad, Neutralizing Insurgents": {
+    "default": "SEC_143",
+    "SEC": {
+      "143": "SEC_143"
+    }
+  },
+  "Tempest Assault": {
+    "default": "SEC_144",
+    "SEC": {
+      "144": "SEC_144"
+    }
+  },
+  "Confidence in Victory": {
+    "default": "SEC_145",
+    "SEC": {
+      "145": "SEC_145"
+    }
+  },
+  "Rebellious Functionary": {
+    "default": "SEC_146",
+    "SEC": {
+      "146": "SEC_146"
+    }
+  },
+  "Karis Nemik, Freedom Is a Pure Idea": {
+    "default": "SEC_148",
+    "SEC": {
+      "148": "SEC_148"
+    }
+  },
+  "Valiant Commando": {
+    "default": "SEC_150",
+    "SEC": {
+      "150": "SEC_150"
+    }
+  },
+  "Kazuda Xiono, I'm not a spy": {
+    "default": "SEC_151",
+    "SEC": {
+      "151": "SEC_151"
+    }
+  },
+  "Strike Force X-Wing": {
+    "default": "SEC_152",
+    "SEC": {
+      "152": "SEC_152"
+    }
+  },
+  "Luthen's Haulcraft, Countermeasures Armed": {
+    "default": "SEC_153",
+    "SEC": {
+      "153": "SEC_153"
+    }
+  },
+  "Inner Rim Coalition": {
+    "default": "SEC_154",
+    "SEC": {
+      "154": "SEC_154"
+    }
+  },
+  "Alexsandr Kallus, With New Purpose": {
+    "default": "SEC_155",
+    "SEC": {
+      "155": "SEC_155"
+    }
+  },
+  "Nemik's Manifesto": {
+    "default": "SEC_156",
+    "SEC": {
+      "156": "SEC_156"
+    }
+  },
+  "One Way Out": {
+    "default": "SEC_157",
+    "SEC": {
+      "157": "SEC_157"
+    }
+  },
+  "Oppression Breeds Rebellion": {
+    "default": "SEC_158",
+    "SEC": {
+      "158": "SEC_158"
+    }
+  },
+  "Chairman Papanoida, Undaunted Diplomat": {
+    "default": "SEC_159",
+    "SEC": {
+      "159": "SEC_159"
+    }
+  },
+  "Reckless Rebel": {
+    "default": "SEC_160",
+    "SEC": {
+      "160": "SEC_160"
+    }
+  },
+  "Contraband Starhopper": {
+    "default": "SEC_161",
+    "SEC": {
+      "161": "SEC_161"
+    }
+  },
+  "Crosshair, Filled With Doubt": {
+    "default": "SEC_162",
+    "SEC": {
+      "162": "SEC_162"
+    }
+  },
+  "Outer Rim Constable": {
+    "default": "SEC_163",
+    "SEC": {
+      "163": "SEC_163"
+    }
+  },
+  "Warrior of Clan Ordo": {
+    "default": "SEC_164",
+    "SEC": {
+      "164": "SEC_164"
+    }
+  },
+  "Academy Disciplinarian": {
+    "default": "SEC_165",
+    "SEC": {
+      "165": "SEC_165"
+    }
+  },
+  "Republic Aurek Starfighter": {
+    "default": "SEC_166",
+    "SEC": {
+      "166": "SEC_166"
+    }
+  },
+  "Coruscant Undercity Police": {
+    "default": "SEC_167",
+    "SEC": {
+      "167": "SEC_167"
+    }
+  },
+  "Ziton Moj, Black Sun Bully": {
+    "default": "SEC_168",
+    "SEC": {
+      "168": "SEC_168"
+    }
+  },
+  "AAT Incinerator": {
+    "default": "SEC_169",
+    "SEC": {
+      "169": "SEC_169"
+    }
+  },
+  "Corellian Hounds": {
+    "default": "SEC_170",
+    "SEC": {
+      "170": "SEC_170"
+    }
+  },
+  "Punishing One, Takes No Prisoners": {
+    "default": "SEC_171",
+    "SEC": {
+      "171": "SEC_171"
+    }
+  },
+  "Cinta Kaz, The Struggle Comes First": {
+    "default": "SEC_172",
+    "SEC": {
+      "172": "SEC_172"
+    }
+  },
+  "Republic War Walker": {
+    "default": "SEC_173",
+    "SEC": {
+      "173": "SEC_173"
+    }
+  },
+  "Saw Gerrera's U-Wing, Breaking the Rules": {
+    "default": "SEC_174",
+    "SEC": {
+      "174": "SEC_174"
+    }
+  },
+  "Ambition's Reward": {
+    "default": "SEC_175",
+    "SEC": {
+      "175": "SEC_175"
+    }
+  },
+  "Sudden Ferocity": {
+    "default": "SEC_176",
+    "SEC": {
+      "176": "SEC_176"
+    }
+  },
+  "Pursue the Lead": {
+    "default": "SEC_178",
+    "SEC": {
+      "178": "SEC_178"
+    }
+  },
+  "Aggressive Negotiations": {
+    "default": "SEC_179",
+    "SEC": {
+      "179": "SEC_179"
+    }
+  },
+  "Let's Call It War": {
+    "default": "SEC_180",
+    "SEC": {
+      "180": "SEC_180"
+    }
+  },
+  "Unauthorized Investigation": {
+    "default": "SEC_181",
+    "SEC": {
+      "181": "SEC_181"
+    }
+  },
+  "Screeching TIE Fighter": {
+    "default": "SEC_185",
+    "SEC": {
+      "185": "SEC_185"
+    }
+  },
+  "Garindan, Information Broker": {
+    "default": "SEC_186",
+    "SEC": {
+      "186": "SEC_186"
+    }
+  },
+  "General Grievous, Scuttling to Safety": {
+    "default": "SEC_187",
+    "SEC": {
+      "187": "SEC_187"
+    }
+  },
+  "Darth Traya, Lord of Betrayal": {
+    "default": "SEC_188",
+    "SEC": {
+      "188": "SEC_188"
+    }
+  },
+  "Lurking Snub Fighter": {
+    "default": "SEC_189",
+    "SEC": {
+      "189": "SEC_189"
+    }
+  },
+  "Soulless One, Swift and Agile": {
+    "default": "SEC_190",
+    "SEC": {
+      "190": "SEC_190"
+    }
+  },
+  "Grand Moff Tarkin, Taking Krennic's Achievement": {
+    "default": "SEC_192",
+    "SEC": {
+      "192": "SEC_192"
+    }
+  },
+  "Grand Admiral Thrawn, Grand Schemer": {
+    "default": "SEC_193",
+    "SEC": {
+      "193": "SEC_193",
+      "703": "SEC_193"
+    }
+  },
+  "Fully Armed and Operational": {
+    "default": "SEC_194",
+    "SEC": {
+      "194": "SEC_194"
+    }
+  },
+  "Arrest": {
+    "default": "SEC_195",
+    "SEC": {
+      "195": "SEC_195"
+    }
+  },
+  "Junior Senator": {
+    "default": "SEC_200",
+    "SEC": {
+      "200": "SEC_200"
+    }
+  },
+  "Rebel Propagandist": {
+    "default": "SEC_202",
+    "SEC": {
+      "202": "SEC_202"
+    }
+  },
+  "Blue Ace, Colorful Racer": {
+    "default": "SEC_204",
+    "SEC": {
+      "204": "SEC_204"
+    }
+  },
+  "Obi-Wan Kenobi, Finding What Doesn't Exist": {
+    "default": "SEC_205",
+    "SEC": {
+      "205": "SEC_205"
+    }
+  },
+  "Emissaries from Ryloth": {
+    "default": "SEC_206",
+    "SEC": {
+      "206": "SEC_206"
+    }
+  },
+  "Lightmaker, I Have An Idea": {
+    "default": "SEC_207",
+    "SEC": {
+      "207": "SEC_207"
+    }
+  },
+  "Stolen Starpath Unit": {
+    "default": "SEC_210",
+    "SEC": {
+      "210": "SEC_210"
+    }
+  },
+  "Faith in Your Friends": {
+    "default": "SEC_211",
+    "SEC": {
+      "211": "SEC_211"
+    }
+  },
+  "Libertine, Under New Ownership": {
+    "default": "SEC_212",
+    "SEC": {
+      "212": "SEC_212"
+    }
+  },
+  "A-Wing": {
+    "default": "SEC_213",
+    "SEC": {
+      "213": "SEC_213"
+    }
+  },
+  "Skyhopper Canyon Runner": {
+    "default": "SEC_214",
+    "SEC": {
+      "214": "SEC_214"
+    }
+  },
+  "Emissary's Sheathipede": {
+    "default": "SEC_215",
+    "SEC": {
+      "215": "SEC_215"
+    }
+  },
+  "Regulations Bureaucrat": {
+    "default": "SEC_216",
+    "SEC": {
+      "216": "SEC_216"
+    }
+  },
+  "Zenuas Shadow Fighter": {
+    "default": "SEC_217",
+    "SEC": {
+      "217": "SEC_217"
+    }
+  },
+  "Cikatro Vizago, Business Is What Matters": {
+    "default": "SEC_218",
+    "SEC": {
+      "218": "SEC_218"
+    }
+  },
+  "Ebon Hawk, Cause and Effect": {
+    "default": "SEC_219",
+    "SEC": {
+      "219": "SEC_219"
+    }
+  },
+  "Hired Slicer": {
+    "default": "SEC_220",
+    "SEC": {
+      "220": "SEC_220"
+    }
+  },
+  "Unruly Astromech": {
+    "default": "SEC_221",
+    "SEC": {
+      "221": "SEC_221"
+    }
+  },
+  "Loan Shark": {
+    "default": "SEC_222",
+    "SEC": {
+      "222": "SEC_222"
+    }
+  },
+  "Duchess's Investigators": {
+    "default": "SEC_223",
+    "SEC": {
+      "223": "SEC_223"
+    }
+  },
+  "Vel Sartha, One Path, One Choice": {
+    "default": "SEC_224",
+    "SEC": {
+      "224": "SEC_224"
+    }
+  },
+  "Special Modifications": {
+    "default": "SEC_227",
+    "SEC": {
+      "227": "SEC_227"
+    }
+  },
+  "Accelerate Our Plans": {
+    "default": "SEC_228",
+    "SEC": {
+      "228": "SEC_228"
+    }
+  },
+  "Catch Unawares": {
+    "default": "SEC_229",
+    "SEC": {
+      "229": "SEC_229"
+    }
+  },
+  "Implicate": {
+    "default": "SEC_231",
+    "SEC": {
+      "231": "SEC_231"
+    }
+  },
+  "Kreia's Whispers": {
+    "default": "SEC_232",
+    "SEC": {
+      "232": "SEC_232"
+    }
+  },
+  "Beguile": {
+    "default": "SEC_233",
+    "SEC": {
+      "233": "SEC_233"
+    }
+  },
+  "The Wrong Ride": {
+    "default": "SEC_235",
+    "SEC": {
+      "235": "SEC_235"
+    }
+  },
+  "Undercover Operation": {
+    "default": "SEC_236",
+    "SEC": {
+      "236": "SEC_236"
+    }
+  },
+  "Supreme Council Aide": {
+    "default": "SEC_237",
+    "SEC": {
+      "237": "SEC_237"
+    }
+  },
+  "Sith Assassin": {
+    "default": "SEC_238",
+    "SEC": {
+      "238": "SEC_238"
+    }
+  },
+  "Hutt Cartel Starfighter": {
+    "default": "SEC_240",
+    "SEC": {
+      "240": "SEC_240"
+    }
+  },
+  "FN Trooper Corps": {
+    "default": "SEC_243",
+    "SEC": {
+      "243": "SEC_243"
+    }
+  },
+  "Darth Nihilus, Lord of Hunger": {
+    "default": "SEC_244",
+    "SEC": {
+      "244": "SEC_244"
+    }
+  },
+  "Contempt for Culture": {
+    "default": "SEC_246",
+    "SEC": {
+      "246": "SEC_246"
+    }
+  },
+  "Evil is Everywhere": {
+    "default": "SEC_247",
+    "SEC": {
+      "247": "SEC_247"
+    }
+  },
+  "High Command Councilor": {
+    "default": "SEC_249",
+    "SEC": {
+      "249": "SEC_249"
+    }
+  },
+  "Crait Veteran": {
+    "default": "SEC_251",
+    "SEC": {
+      "251": "SEC_251"
+    }
+  },
+  "Covert Operative": {
+    "default": "SEC_253",
+    "SEC": {
+      "253": "SEC_253"
+    }
+  },
+  "Heroic ARC-170": {
+    "default": "SEC_254",
+    "SEC": {
+      "254": "SEC_254"
+    }
+  },
+  "Remote Escort Tank": {
+    "default": "SEC_255",
+    "SEC": {
+      "255": "SEC_255"
+    }
+  },
+  "Moral Authority": {
+    "default": "SEC_256",
+    "SEC": {
+      "256": "SEC_256"
+    }
+  },
+  "Restore Freedom": {
+    "default": "SEC_257",
+    "SEC": {
+      "257": "SEC_257"
+    }
+  },
+  "Grassroots Resistance": {
+    "default": "SEC_258",
+    "SEC": {
+      "258": "SEC_258"
+    }
+  },
+  "ASP Laborer": {
+    "default": "SEC_259",
+    "SEC": {
+      "259": "SEC_259"
+    }
+  },
+  "Inspector's Shuttle": {
+    "default": "SEC_260",
+    "SEC": {
+      "260": "SEC_260"
+    }
+  },
+  "Inspiring Senator": {
+    "default": "SEC_261",
+    "SEC": {
+      "261": "SEC_261"
+    }
+  },
+  "Ando Commission": {
+    "default": "SEC_262",
+    "SEC": {
+      "262": "SEC_262"
+    }
+  },
+  "Assassin Probe": {
+    "default": "SEC_263",
+    "SEC": {
+      "263": "SEC_263"
+    }
+  },
+  "Clandestine Connections": {
+    "default": "SEC_264",
+    "SEC": {
+      "264": "SEC_264"
     }
   }
 }

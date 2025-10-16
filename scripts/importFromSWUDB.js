@@ -1,6 +1,9 @@
 const fs = require("fs");
 const cliProgress = require("cli-progress");
 const generateBoosterInfo = require("./generateBoosterData");
+const previousSets = require("../data/sets.json");
+const previousCards = require("../data/cards.json");
+const previousCubableCardsByName = require("../data/cubable_cards_by_name.json");
 
 const ASPECTS = {
   1: "Aggression",
@@ -14,8 +17,21 @@ const ASPECTS = {
 
 async function importSet() {
   const allSets = await (await fetch("https://swudb.com/api/card/getAllSets")).json();
+  const setsToUpdate = ["SEC"];
 
-  const setsToFetch = allSets.filter(({ cardCount }) => cardCount);
+  const setsToFetch = allSets.filter(({ cardCount, expansionAbbreviation }) => cardCount && setsToUpdate.includes(expansionAbbreviation));
+
+  allSets.forEach(({expansionAbbreviation, cardCount}) => {
+    if (cardCount <= 0) {
+      console.log(`Not processing ${expansionAbbreviation} due to few cards`);
+      return;
+    }
+    if (!setsToUpdate.includes(expansionAbbreviation)) {
+      console.log(`Not processing ${expansionAbbreviation} due to not marked to update`);
+      return;
+    }
+  });
+
   let cardIdx = 1;
   let setIdx = 0;
 
@@ -117,7 +133,7 @@ async function importSet() {
         });
 
         //Set collection
-        if (setsToFetch[setIdx].expansionType === 1 && setsToFetch[setIdx].formatLegality !== 0) {
+        if (setsToFetch[setIdx].expansionType === 1) {
           if (!sets[setsToFetch[setIdx].expansionAbbreviation]) {
             sets[setsToFetch[setIdx].expansionAbbreviation] = {
               cards: [],
@@ -147,7 +163,7 @@ async function importSet() {
   }
 
   try {
-    fs.writeFileSync("data/cards.json", JSON.stringify(cards, null, 2));
+    fs.writeFileSync("data/cards.json", JSON.stringify({...previousCards, ...cards}, null, 2));
     console.log("DONE with cards");
   } catch (error) {
     console.log("ERROR writing cards");
@@ -155,7 +171,7 @@ async function importSet() {
 
 
   try {
-    fs.writeFileSync("data/cubable_cards_by_name.json", JSON.stringify(cardsByName, null, 2));
+    fs.writeFileSync("data/cubable_cards_by_name.json", JSON.stringify({...previousCubableCardsByName, ...cardsByName}, null, 2));
     console.log("DONE cards by name");
   } catch (error) {
     console.log("ERROR writing cards");
@@ -163,7 +179,7 @@ async function importSet() {
 
 
   try {
-    fs.writeFileSync("data/sets.json", JSON.stringify(generateBoosterInfo(sets, cards), null, 2));
+    fs.writeFileSync("data/sets.json", JSON.stringify(generateBoosterInfo({...previousSets, ...sets}, {...previousCards, ...cards}), null, 2));
     console.log("DONE with sets");
   } catch (error) {
     console.log("ERROR writing cards");

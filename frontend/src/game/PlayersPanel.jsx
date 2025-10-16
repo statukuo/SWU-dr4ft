@@ -206,6 +206,7 @@ const CreateLeadersModal = () => {
       show={open}
       headerText={"Leaders picked by" + player?.name}
       onClose={closeModal}
+      onConfirm={closeModal}
       showButtons={false}
     >
       {
