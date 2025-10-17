@@ -63,4 +63,6 @@ async function downloadAssets () {
   bar1.stop();
 }
 
+module.exports = downloadAssets;
+
 downloadAssets();

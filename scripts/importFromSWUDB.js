@@ -1,6 +1,7 @@
 const fs = require("fs");
 const cliProgress = require("cli-progress");
 const generateBoosterInfo = require("./generateBoosterData");
+const downloadAssets = require("./downloadAssets");
 const previousSets = require("../data/sets.json");
 const previousCards = require("../data/cards.json");
 const previousCubableCardsByName = require("../data/cubable_cards_by_name.json");
@@ -199,6 +200,12 @@ async function importSet() {
     console.log("ERROR writing sets");
     console.log(error);
   }
+
+
+  console.log("");
+  console.log("");
+
+  await downloadAssets();
 
   process.exit();
 }
