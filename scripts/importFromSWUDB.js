@@ -17,20 +17,30 @@ const ASPECTS = {
 
 async function importSet() {
   const allSets = await (await fetch("https://swudb.com/api/card/getAllSets")).json();
-  const setsToUpdate = ["SEC"];
-
-  const setsToFetch = allSets.filter(({ cardCount, expansionAbbreviation }) => cardCount && setsToUpdate.includes(expansionAbbreviation));
+  const setsToForceUpdate = [];
+  const setsToIgnore = ["CE25", "GGTS", "J25", "J24"];
 
   allSets.forEach(({expansionAbbreviation, cardCount}) => {
     if (cardCount <= 0) {
-      console.log(`Not processing ${expansionAbbreviation} due to few cards`);
+      console.log(`${expansionAbbreviation} not processed due to few cards`);
       return;
     }
-    if (!setsToUpdate.includes(expansionAbbreviation)) {
-      console.log(`Not processing ${expansionAbbreviation} due to not marked to update`);
+
+    if (setsToIgnore.includes(expansionAbbreviation)) {
+
+      console.log(`${expansionAbbreviation} skipping`);
       return;
+    }
+
+    if (cardCount !== previousSets[expansionAbbreviation]?.cards?.length) {
+      console.log(`${expansionAbbreviation} needs to be updated`);
+      setsToForceUpdate.push(expansionAbbreviation);
+    } else {
+      console.log(`${expansionAbbreviation} not processed since already have all cards`);
     }
   });
+
+  const setsToFetch = allSets.filter(({ cardCount, expansionAbbreviation }) => cardCount && setsToForceUpdate.includes(expansionAbbreviation) && !setsToIgnore.includes(expansionAbbreviation));
 
   let cardIdx = 1;
   let setIdx = 0;
@@ -133,19 +143,17 @@ async function importSet() {
         });
 
         //Set collection
-        if (setsToFetch[setIdx].expansionType === 1) {
-          if (!sets[setsToFetch[setIdx].expansionAbbreviation]) {
-            sets[setsToFetch[setIdx].expansionAbbreviation] = {
-              cards: [],
-              code: setsToFetch[setIdx].expansionAbbreviation,
-              releaseDate: setsToFetch[setIdx].releaseDate,
-              baseSetSize: setsToFetch[setIdx].cardCount,
-              name: setsToFetch[setIdx].expansionName
-            };
-          }
-
-          sets[setsToFetch[setIdx].expansionAbbreviation].cards.push(baseCardCode);
+        if (!sets[setsToFetch[setIdx].expansionAbbreviation]) {
+          sets[setsToFetch[setIdx].expansionAbbreviation] = {
+            cards: [],
+            code: setsToFetch[setIdx].expansionAbbreviation,
+            releaseDate: setsToFetch[setIdx].releaseDate,
+            baseSetSize: setsToFetch[setIdx].cardCount,
+            name: setsToFetch[setIdx].expansionName
+          };
         }
+
+        sets[setsToFetch[setIdx].expansionAbbreviation].cards.push(baseCardCode);
       }
 
       cardIdx++;
@@ -159,6 +167,10 @@ async function importSet() {
     console.log("");
     console.log("Total cards processed:", totalCardProcessed);
 
+    if (sets[setsToFetch[setIdx].expansionAbbreviation].cards.length !== setsToFetch[setIdx].cardCount) {
+      console.log(`ERROR on ${setsToFetch[setIdx].expansionAbbreviation}: should have ${setsToFetch[setIdx].cardCount} but it fetched ${sets[setsToFetch[setIdx].expansionAbbreviation].cards.length}`);
+    }
+
     setIdx++;
   }
 
@@ -167,6 +179,7 @@ async function importSet() {
     console.log("DONE with cards");
   } catch (error) {
     console.log("ERROR writing cards");
+    console.log(error);
   }
 
 
@@ -174,7 +187,8 @@ async function importSet() {
     fs.writeFileSync("data/cubable_cards_by_name.json", JSON.stringify({...previousCubableCardsByName, ...cardsByName}, null, 2));
     console.log("DONE cards by name");
   } catch (error) {
-    console.log("ERROR writing cards");
+    console.log("ERROR writing cards by name");
+    console.log(error);
   }
 
 
@@ -182,7 +196,8 @@ async function importSet() {
     fs.writeFileSync("data/sets.json", JSON.stringify(generateBoosterInfo({...previousSets, ...sets}, {...previousCards, ...cards}), null, 2));
     console.log("DONE with sets");
   } catch (error) {
-    console.log("ERROR writing cards");
+    console.log("ERROR writing sets");
+    console.log(error);
   }
 
   process.exit();

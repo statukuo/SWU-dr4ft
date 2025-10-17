@@ -270,7 +270,6 @@
       "SEC_263",
       "SEC_264"
     ],
-    "readyToPlay": true,
     "boosterData": {
       "slots": [
         {
@@ -670,7 +669,8 @@
         "SEC_197",
         "SEC_201"
       ]
-    }
+    },
+    "readyToPlay": true
   },
   "LOF": {
     "code": "LOF",
@@ -943,7 +943,6 @@
       "LOF_263",
       "LOF_264"
     ],
-    "readyToPlay": true,
     "boosterData": {
       "slots": [
         {
@@ -1343,7 +1342,8 @@
         "LOF_231",
         "LOF_233"
       ]
-    }
+    },
+    "readyToPlay": true
   },
   "JTL": {
     "code": "JTL",
@@ -1614,7 +1614,6 @@
       "JTL_261",
       "JTL_262"
     ],
-    "readyToPlay": true,
     "boosterData": {
       "slots": [
         {
@@ -2012,7 +2011,8 @@
         "JTL_240",
         "JTL_249"
       ]
-    }
+    },
+    "readyToPlay": true
   },
   "TWI": {
     "code": "TWI",
@@ -2278,7 +2278,6 @@
       "TWI_256",
       "TWI_257"
     ],
-    "readyToPlay": true,
     "boosterData": {
       "slots": [
         {
@@ -2667,7 +2666,8 @@
         "TWI_240",
         "TWI_248"
       ]
-    }
+    },
+    "readyToPlay": true
   },
   "SHD": {
     "code": "SHD",
@@ -2938,7 +2938,6 @@
       "SHD_261",
       "SHD_262"
     ],
-    "readyToPlay": true,
     "boosterData": {
       "slots": [
         {
@@ -3332,7 +3331,8 @@
         "SHD_245",
         "SHD_251"
       ]
-    }
+    },
+    "readyToPlay": true
   },
   "SOR": {
     "code": "SOR",
@@ -3593,7 +3593,6 @@
       "SOR_251",
       "SOR_252"
     ],
-    "readyToPlay": true,
     "boosterData": {
       "slots": [
         {
@@ -3977,6 +3976,135 @@
         "SOR_236",
         "SOR_238"
       ]
-    }
+    },
+    "readyToPlay": true
+  },
+  "CE24": {
+    "code": "CE24",
+    "releaseDate": "2024-08-01",
+    "baseSetSize": 6,
+    "name": "2024 Convention Exclusives",
+    "cards": [
+      "CE24_001",
+      "CE24_002",
+      "CE24_003",
+      "CE24_004",
+      "CE24_005",
+      "CE24_006"
+    ],
+    "readyToPlay": false
+  },
+  "IBH": {
+    "code": "IBH",
+    "releaseDate": "2025-10-03",
+    "baseSetSize": 104,
+    "name": "Intro Battle: Hoth",
+    "cards": [
+      "IBH_001",
+      "IBH_002",
+      "IBH_003",
+      "IBH_004",
+      "IBH_005",
+      "IBH_006",
+      "IBH_007",
+      "IBH_008",
+      "IBH_009",
+      "IBH_010",
+      "IBH_011",
+      "IBH_012",
+      "IBH_013",
+      "IBH_014",
+      "IBH_015",
+      "IBH_016",
+      "IBH_017",
+      "IBH_018",
+      "IBH_019",
+      "IBH_020",
+      "IBH_021",
+      "IBH_022",
+      "IBH_023",
+      "IBH_024",
+      "IBH_025",
+      "IBH_026",
+      "IBH_027",
+      "IBH_028",
+      "IBH_029",
+      "IBH_030",
+      "IBH_031",
+      "IBH_032",
+      "IBH_033",
+      "IBH_034",
+      "IBH_035",
+      "IBH_036",
+      "IBH_037",
+      "IBH_038",
+      "IBH_039",
+      "IBH_040",
+      "IBH_041",
+      "IBH_042",
+      "IBH_043",
+      "IBH_044",
+      "IBH_045",
+      "IBH_046",
+      "IBH_047",
+      "IBH_048",
+      "IBH_049",
+      "IBH_050",
+      "IBH_051",
+      "IBH_052",
+      "IBH_053",
+      "IBH_054",
+      "IBH_055",
+      "IBH_056",
+      "IBH_057",
+      "IBH_058",
+      "IBH_059",
+      "IBH_060",
+      "IBH_061",
+      "IBH_062",
+      "IBH_063",
+      "IBH_064",
+      "IBH_065",
+      "IBH_066",
+      "IBH_067",
+      "IBH_068",
+      "IBH_069",
+      "IBH_070",
+      "IBH_071",
+      "IBH_072",
+      "IBH_073",
+      "IBH_074",
+      "IBH_075",
+      "IBH_076",
+      "IBH_077",
+      "IBH_078",
+      "IBH_079",
+      "IBH_080",
+      "IBH_081",
+      "IBH_082",
+      "IBH_083",
+      "IBH_084",
+      "IBH_085",
+      "IBH_086",
+      "IBH_087",
+      "IBH_088",
+      "IBH_089",
+      "IBH_090",
+      "IBH_091",
+      "IBH_092",
+      "IBH_093",
+      "IBH_094",
+      "IBH_095",
+      "IBH_096",
+      "IBH_097",
+      "IBH_098",
+      "IBH_099",
+      "IBH_100",
+      "IBH_101",
+      "IBH_102",
+      "IBH_103",
+      "IBH_104"
+    ],
+    "readyToPlay": false
   }
 }

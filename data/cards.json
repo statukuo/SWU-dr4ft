@@ -68095,7 +68095,7 @@
       "Villainy"
     ],
     "rarity": 2,
-    "cost": null,
+    "cost": 3,
     "type": "Unit"
   },
   "SEC_137": {
@@ -69717,5 +69717,85 @@
     "rarity": 1,
     "cost": 6,
     "type": "Leader"
+  },
+  "P25_113": {
+    "defaultExpansionAbbreviation": "P25",
+    "cardName": "Darth Vader",
+    "title": "Commanding the First Legion",
+    "defaultCardNumber": "113",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P25/113.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P25/113.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "P25_114": {
+    "defaultExpansionAbbreviation": "P25",
+    "cardName": "Darth Vader",
+    "title": "Commanding the First Legion",
+    "defaultCardNumber": "114",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P25/114.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P25/114.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "P25_115": {
+    "defaultExpansionAbbreviation": "P25",
+    "cardName": "Darth Vader",
+    "title": "Commanding the First Legion",
+    "defaultCardNumber": "115",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P25/115.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P25/115.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "P25_116": {
+    "defaultExpansionAbbreviation": "P25",
+    "cardName": "Darth Vader",
+    "title": "Commanding the First Legion",
+    "defaultCardNumber": "116",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P25/116.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P25/116.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "P25_117": {
+    "defaultExpansionAbbreviation": "P25",
+    "cardName": "Darth Vader",
+    "title": "Commanding the First Legion",
+    "defaultCardNumber": "117",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P25/117.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P25/117.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
   }
 }

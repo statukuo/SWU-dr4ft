@@ -17,8 +17,7 @@ const generateBoosterInfo = (sets, cards) => {
         releaseDate: set.releaseDate,
         baseSetSize: set.baseSetSize,
         name: set.name,
-        cards: set.cards || Object.entries(set.cardsByNumber).map(([_, card]) => card),
-        readyToPlay: true
+        cards: set.cards || Object.entries(set.cardsByNumber).map(([_, card]) => card)
       };
 
       setsCopy[key].boosterData = {
@@ -38,6 +37,8 @@ const generateBoosterInfo = (sets, cards) => {
         legendary: setsCopy[key].cards.filter(c => RARITY[cards[c].rarity] === "Legendary"),
         special: setsCopy[key].cards.filter(c => RARITY[cards[c].rarity] === "Special" && cards[c].type !== "Leader")
       };
+
+      setsCopy[key].readyToPlay = setsCopy[key].cards.length === set.baseSetSize;
       break;
 
     case "SHD":
@@ -46,8 +47,7 @@ const generateBoosterInfo = (sets, cards) => {
         releaseDate: set.releaseDate,
         baseSetSize: set.baseSetSize,
         name: set.name,
-        cards: set.cards || Object.entries(set.cardsByNumber).map(([_, card]) => card),
-        readyToPlay: true
+        cards: set.cards || Object.entries(set.cardsByNumber).map(([_, card]) => card)
       };
 
       setsCopy[key].boosterData = {
@@ -67,6 +67,7 @@ const generateBoosterInfo = (sets, cards) => {
         legendary: setsCopy[key].cards.filter(c => RARITY[cards[c].rarity] === "Legendary"),
         special: setsCopy[key].cards.filter(c => RARITY[cards[c].rarity] === "Special" && cards[c].type !== "Leader")
       };
+      setsCopy[key].readyToPlay = setsCopy[key].cards.length === set.baseSetSize;
       break;
     case "TWI":
       setsCopy[key] = {
@@ -74,8 +75,7 @@ const generateBoosterInfo = (sets, cards) => {
         releaseDate: set.releaseDate,
         baseSetSize: set.baseSetSize,
         name: set.name,
-        cards: set.cards || Object.entries(set.cardsByNumber).map(([_, card]) => card),
-        readyToPlay: true
+        cards: set.cards || Object.entries(set.cardsByNumber).map(([_, card]) => card)
       };
 
       setsCopy[key].boosterData = {
@@ -95,6 +95,7 @@ const generateBoosterInfo = (sets, cards) => {
         legendary: setsCopy[key].cards.filter(c => RARITY[cards[c].rarity] === "Legendary"),
         special: setsCopy[key].cards.filter(c => RARITY[cards[c].rarity] === "Special" && cards[c].type !== "Leader")
       };
+      setsCopy[key].readyToPlay = setsCopy[key].cards.length === set.baseSetSize;
       break;
     case "JTL":
       setsCopy[key] = {
@@ -102,8 +103,7 @@ const generateBoosterInfo = (sets, cards) => {
         releaseDate: set.releaseDate,
         baseSetSize: set.baseSetSize,
         name: set.name,
-        cards: set.cards || Object.entries(set.cardsByNumber).map(([_, card]) => card),
-        readyToPlay: true
+        cards: set.cards || Object.entries(set.cardsByNumber).map(([_, card]) => card)
       };
 
       setsCopy[key].boosterData = {
@@ -123,6 +123,7 @@ const generateBoosterInfo = (sets, cards) => {
         legendary: setsCopy[key].cards.filter(c => RARITY[cards[c].rarity] === "Legendary"),
         special: setsCopy[key].cards.filter(c => RARITY[cards[c].rarity] === "Special" && cards[c].type !== "Leader")
       };
+      setsCopy[key].readyToPlay = setsCopy[key].cards.length === set.baseSetSize;
       break;
     case "LOF":
       setsCopy[key] = {
@@ -130,8 +131,7 @@ const generateBoosterInfo = (sets, cards) => {
         releaseDate: set.releaseDate,
         baseSetSize: set.baseSetSize,
         name: set.name,
-        cards: set.cards || Object.entries(set.cardsByNumber).map(([_, card]) => card),
-        readyToPlay: true
+        cards: set.cards || Object.entries(set.cardsByNumber).map(([_, card]) => card)
       };
 
       setsCopy[key].boosterData = {
@@ -151,6 +151,7 @@ const generateBoosterInfo = (sets, cards) => {
         legendary: setsCopy[key].cards.filter(c => RARITY[cards[c].rarity] === "Legendary"),
         special: setsCopy[key].cards.filter(c => RARITY[cards[c].rarity] === "Special" && cards[c].type !== "Leader")
       };
+      setsCopy[key].readyToPlay = setsCopy[key].cards.length === set.baseSetSize;
       break;
     case "SEC":
       setsCopy[key] = {
@@ -158,8 +159,7 @@ const generateBoosterInfo = (sets, cards) => {
         releaseDate: set.releaseDate,
         baseSetSize: set.baseSetSize,
         name: set.name,
-        cards: set.cards || Object.entries(set.cardsByNumber).map(([_, card]) => card),
-        readyToPlay: true
+        cards: set.cards || Object.entries(set.cardsByNumber).map(([_, card]) => card)
       };
 
       setsCopy[key].boosterData = {
@@ -179,6 +179,7 @@ const generateBoosterInfo = (sets, cards) => {
         legendary: setsCopy[key].cards.filter(c => RARITY[cards[c].rarity] === "Legendary"),
         special: setsCopy[key].cards.filter(c => RARITY[cards[c].rarity] === "Special" && cards[c].type !== "Leader")
       };
+      setsCopy[key].readyToPlay = setsCopy[key].cards.length === set.baseSetSize;
       break;
     default:
       setsCopy[key] = {
@@ -191,6 +192,8 @@ const generateBoosterInfo = (sets, cards) => {
       };
       break;
     }
+
+    console.log(`${key} is ${setsCopy[key].readyToPlay? "ready to player" : "NOT ready to play"}`);
   });
 
   return setsCopy;

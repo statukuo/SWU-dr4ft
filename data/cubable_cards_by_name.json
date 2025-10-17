@@ -6787,7 +6787,7 @@
     }
   },
   "Asajj Ventress, Count Dooku's Assassin": {
-    "default": "TWI_134",
+    "default": "CE24_005",
     "CE24": {
       "005": "CE24_005"
     },
@@ -6797,7 +6797,7 @@
     }
   },
   "Darth Maul, Revenge At Last": {
-    "default": "TWI_135",
+    "default": "CE24_006",
     "CE24": {
       "006": "CE24_006"
     },
@@ -8815,7 +8815,7 @@
     }
   },
   "Kylo Ren, Killing the Past": {
-    "default": "SHD_141",
+    "default": "CE24_004",
     "SHD": {
       "141": "CE24_004",
       "410": "CE24_004"
@@ -10030,7 +10030,7 @@
     }
   },
   "Count Dooku, Darth Tyranus": {
-    "default": "SOR_038",
+    "default": "CE24_001",
     "SOR": {
       "304": "CE24_001",
       "038": "CE24_001"
@@ -10345,7 +10345,7 @@
     }
   },
   "Darth Vader, Commanding the First Legion": {
-    "default": "SOR_087",
+    "default": "CE24_002",
     "SOR": {
       "351": "CE24_002",
       "087": "CE24_002"
@@ -10354,7 +10354,12 @@
       "002": "CE24_002"
     },
     "P25": {
-      "103": "CE24_002"
+      "103": "CE24_002",
+      "113": "CE24_002",
+      "114": "CE24_002",
+      "115": "CE24_002",
+      "116": "CE24_002",
+      "117": "CE24_002"
     }
   },
   "Blizzard Assault AT-AT": {
@@ -10661,7 +10666,7 @@
     }
   },
   "Emperor Palpatine, Master of the Dark Side": {
-    "default": "SOR_135",
+    "default": "CE24_003",
     "SOR": {
       "135": "CE24_003",
       "399": "CE24_003"
