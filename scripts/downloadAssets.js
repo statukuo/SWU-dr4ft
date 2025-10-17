@@ -6,6 +6,13 @@ const { default: imgdl } = require("img-dl");
 const BATCH_SIZE = 5;
 
 async function downloadAssets () {
+
+  console.log("");
+  console.log("=========================");
+  console.log("DOWNLOADING ASSETS");
+  console.log("=========================");
+  console.log("");
+
   const cardKeys = Object.keys(cards);
   let cardKeyIdx = 0;
 
@@ -64,5 +71,3 @@ async function downloadAssets () {
 }
 
 module.exports = downloadAssets;
-
-downloadAssets();

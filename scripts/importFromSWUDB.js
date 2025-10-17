@@ -17,6 +17,12 @@ const ASPECTS = {
 
 
 async function importSet() {
+  console.log("");
+  console.log("=========================");
+  console.log("IMPORTING SETS");
+  console.log("=========================");
+  console.log("");
+
   const allSets = await (await fetch("https://swudb.com/api/card/getAllSets")).json();
   const setsToForceUpdate = [];
   const setsToIgnore = ["CE25", "GGTS", "J25", "J24"];

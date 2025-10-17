@@ -9,6 +9,12 @@ const RARITY = {
 const generateBoosterInfo = (sets, cards) => {
   const setsCopy = {};
 
+  console.log("");
+  console.log("=========================");
+  console.log("GENERATING BOOSTER DATA");
+  console.log("=========================");
+  console.log("");
+
   Object.entries(sets).forEach(([key, set]) => {
     switch (key) {
     case "SOR":
