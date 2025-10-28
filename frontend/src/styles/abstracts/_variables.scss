@@ -1,15 +1,21 @@
 // Colors
-$color-primary: #6c63ff;
+$color-primary: #00FFFF;
 $color-secondary: #ff6584;
 $color-accent: #00c9a7;
 
-$color-bg: #f9f9fb;
-$color-text: #222;
-$color-muted: #777;
+$color-bg: #121212;
+$color-text: #FFF;
+$color-neutral-gray: #B3B3B3;
+$color-light-gray: #C4C4C4;
 
 // Fonts
-$font-family-base: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+$font-family-base: 'Helvetica', 'Arial';
+$font-family-heading: 'Montserrat', 'Arial', sans-serif;
+
 $font-size-base: 16px;
+$font-size-sm: 14px;
+$font-size-xs: 12px;
+
 $line-height-base: 1.5;
 
 // Spacing
@@ -17,6 +23,7 @@ $radius-sm: 4px;
 $radius-md: 8px;
 $radius-lg: 16px;
 
+// Radius
 $spacing-xs: 4px;
 $spacing-sm: 8px;
 $spacing-md: 16px;

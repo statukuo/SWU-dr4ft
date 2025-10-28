@@ -3,7 +3,7 @@ import React from "react";
 export const STRINGS = {
   BRANDING: {
     SITE_TITLE: ["dr4ft", "info"].join("."),
-    SITE_NAME: <span>DR<img src='4.png' alt='4' />FT</span>,
+    SITE_NAME: <span>SWU Draft App</span>,
     DEFAULT_USERNAME: "dr4fter",
     PAYPAL: "",
   },
@@ -12,45 +12,29 @@ export const STRINGS = {
     MOTD: null, // TODO: handle overwrite of this message of the day; can be a React element
 
     FOOTER:
-      <div>
-        <div style={{ padding: 10 }}>
-          Contributions welcome! &nbsp;
-          <a href='https://github.com/statukuo/SWU-dr4ft' target='_blank' rel='noreferrer'>
-            <img
-              src='https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg'
-              alt='GitHub' title='GitHub Repository' align='top' height='18'
-              style={{ marginRight: 5 }}
-            />
+      <div className="lobby__contributors">
+        <div className="lobby__contributor">
+          <span>Contributions welcome!</span>
+          <a href='https://github.com/statukuo/SWU-dr4ft' target='_blank' rel='noreferrer' className="link lobby__contributor-link">
             statukuo/SWU-dr4ft
           </a>
         </div>
-        <div style={{ padding: 10 }}>
-
-          Based on the awesome work of &nbsp;
-          <a href='https://github.com/dr4fters/dr4ft' target='_blank' rel='noreferrer'>
-            <img
-              src='https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg'
-              alt='GitHub' title='GitHub Repository' align='top' height='18'
-              style={{ marginRight: 5 }}
-            />
+        <div className="lobby__contributor">
+          <span>Based on the awesome work of</span>
+          <a href='https://github.com/dr4fters/dr4ft' target='_blank' rel='noreferrer' className="link lobby__contributor-link">
             dr4fters/dr4ft
           </a>
         </div>
       </div>,
     PATREON:
-      <div style={{ padding: 10 }}>
-        <a href="https://www.patreon.com/bePatron?u=21317292" target='_blank' rel='noreferrer'>
-          <img
-            src='https://upload.wikimedia.org/wikipedia/commons/9/90/Patreon_logomark_2023.svg'
-            alt='GitHub' title='GitHub Repository' align='top' height='18'
-            style={{ marginRight: 5 }}
-          />
+      <div className="lobby__patreon">
+        <a href="https://www.patreon.com/bePatron?u=21317292" target='_blank' rel='noreferrer' className="link lobby__patreon-link">
             Help me keep this alive :)
         </a>
       </div>,
     DISCLAIMER:
-      <div style={{ padding: 10, paddingTop: 50, fontSize: 12 }}>
+      <p className="lobby__disclaimer">
         SWUDr4ft is in no way affiliated with Disney or Fantasy Flight Games. Star Wars characters, cards, logos, and art are property of Disney and/or Fantasy Flight Games.
-      </div>,
+      </p>,
   }
 };

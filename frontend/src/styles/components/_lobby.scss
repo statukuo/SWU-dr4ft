@@ -1,15 +1,72 @@
 .lobby {
-  max-width: 900px;
-  margin: 0 auto;
-
   display: flex;
-  flex-grow: 1;
   flex-direction: column;
-}
+  height: 100vh;
 
-.lobby-header {
-  font-size: 40px;
-  height: 40px;
+  &__header {
+    display: flex;
+    flex-direction: column;
+    margin: $spacing-lg 0;
+  }
+
+  &__footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: $font-size-sm;
+    margin-bottom: $spacing-lg;
+    margin-top: auto;
+  }
+    
+  &__contributors {
+    margin: $spacing-lg 0;
+  }
+
+  &__contributor,
+  &__patreon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: $spacing-sm;
+  }
+
+  &__contributor-link {
+    &::before {
+      content: "";
+      display: inline-block;
+      width: $spacing-md;
+      height: $spacing-md;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+
+  &__patreon-link {
+    &::before {
+      content: "";
+      display: inline-block;
+      width: $spacing-md;
+      height: $spacing-md;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/9/90/Patreon_logomark_2023.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+  }
+
+  &__disclaimer {
+    color: $color-neutral-gray;
+    text-align: center;
+    font-size: $font-size-xs;
+  }
+
+  .fieldset:not(:last-child) {
+    margin-bottom: $spacing-lg;
+  }
 }
 
 .spacer-dot:after {
@@ -17,8 +74,4 @@
   display: inline-block;
   width: 0.75em;
   text-align: center;
-}
-
-.lobby .fieldset:not(:last-child) {
-  margin-bottom: 30px;
 }

@@ -5,8 +5,8 @@ import Spaced from "../components/Spaced";
 import App from "../app";
 
 const Header = () => (
-  <header>
-    <h1 className="lobby-header">
+  <header className="lobby__header">
+    <h1 className="lobby__heading">
       {STRINGS.BRANDING.SITE_NAME}
     </h1>
     <ServerInfo />
