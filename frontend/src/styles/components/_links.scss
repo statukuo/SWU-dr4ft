@@ -1,0 +1,11 @@
+.link {
+    color: $color-neutral-gray;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: $spacing-sm;
+
+    &:hover {
+        color: $color-light-gray;
+    }
+}
