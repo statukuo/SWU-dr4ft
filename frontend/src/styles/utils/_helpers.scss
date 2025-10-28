@@ -1,0 +1,23 @@
+/* for elements that should be read by screen readers, but not seen on the page */
+.vhidden {
+  position: fixed;
+  opacity: 0;
+  left: -100px;
+  top: -100px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.game-mode-description {
+  border-left: 2px solid #bbb;
+  margin-left: 0px;
+  padding: 1px 1px 1px 10px;
+  font-style: italic;
+}
+
+.filepond--credits {
+  display: none;
+}

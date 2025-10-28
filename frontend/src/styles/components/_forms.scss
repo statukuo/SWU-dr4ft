@@ -1,0 +1,147 @@
+.fieldset {
+  background-color: #eaeaea;
+  border-radius: 3px;
+  border: solid #ccc 1px;
+  line-height: 20px;
+  padding: 10px;
+}
+
+.legend {
+  background-color: #FFFFFF;
+  border: solid #ccc 1px;
+  box-shadow: 0 1px 1px 0 #ccc;
+  color: #089dff;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 3px 5px;
+}
+
+input[type=button],
+.uploadFile,
+input[type=button],
+button,
+input[type=text],
+textarea,
+select {
+  font-size: 16px;
+  line-height: 16px;
+  padding: 3px;
+}
+
+input[type=button],
+.uploadFile,
+button,
+input[type=text],
+textarea {
+  border: solid #d0d0d0 1px;
+}
+
+input[type=button],
+.uploadFile,
+button {
+  background-color: #f0f0f0;
+  padding: 5px;
+}
+
+input[type=button]:hover,
+.uploadFile:hover,
+button:hover,
+input[type=text]:hover,
+textarea:hover {
+  border-color: #909090;
+}
+
+input[type=button]:active,
+.uploadFile:active,
+button:active {
+  box-shadow: 0 0 1px 0 black inset;
+}
+
+input[type=button]:disabled,
+.uploadFile:disabled,
+button:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+input[type=button]:disabled:hover,
+.uploadFile:disabled:hover,
+button:disabled:hover {
+  border: solid #ccc 1px;
+}
+
+input[type=button]:disabled:active,
+.uploadFile:disabled:active,
+button:disabled:active {
+  box-shadow: none;
+}
+
+label.radio-label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 1rem !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.radio-label input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radio-button-replacement {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid #079DFF;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio-button-replacement:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-label input:checked ~ .radio-button-replacement:after {
+  display: block;
+}
+
+.radio-label input:focus ~ .radio-button-replacement {
+  box-shadow: 0 0px 0px 1px #6F686A, 0 0px 8px #079DFF;
+
+  /* Since box shadows don't show up in high contrast mode,
+   *          we're adding a transparent outline (which does show up). */
+  outline: 2px dotted transparent;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-label .radio-button-replacement:after {
+  top: 2px;
+  left: 2px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background-color: #079DFF;
+}
+
+.number {
+  width: 50px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  margin-right: 5px;
+  margin-left: 2px;
+}

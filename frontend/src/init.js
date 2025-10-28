@@ -1,3 +1,5 @@
+import "./styles/main.scss";
+
 import App from "./app";
 import "./events";
 import { default as router } from "./router";

@@ -1,0 +1,23 @@
+.waiting {
+  font-style: italic;
+}
+
+.name {
+  color: #393;
+}
+
+.error {
+  color: #E15252;
+}
+
+.success {
+  color: green;
+}
+
+.zone {
+  clear: both;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  border-top: solid #ccc 1px;
+}

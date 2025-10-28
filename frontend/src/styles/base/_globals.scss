@@ -1,0 +1,46 @@
+#root {
+  height: 100%;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+
+  --card-width: 240px;
+  --card-height: 340px;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: 'Helvetica', 'Arial';
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+textarea {
+  height: 16.5px;
+  /* same as input[type=text] */
+  vertical-align: top;
+}
+
+time {
+  color: #999;
+}
