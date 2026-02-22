@@ -23,9 +23,9 @@ async function importSet() {
   console.log("=========================");
   console.log("");
 
-  const allSets = await (await fetch("https://swudb.com/api/card/getAllSets")).json();
+  const allSets = (await (await fetch("https://swudb.com/api/card/getAllSets")).json()).map((set) => ({...set, cardCount: set.previewedCount}));
   const setsToForceUpdate = [];
-  const setsToIgnore = ["CE25", "GGTS", "J25", "J24"];
+  const setsToIgnore = ["CE25", "GGTS", "J25", "J24", "P25", "P26"];
 
   allSets.forEach(({expansionAbbreviation, cardCount}) => {
     if (cardCount <= 0) {

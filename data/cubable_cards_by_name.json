@@ -4452,12 +4452,16 @@
     }
   },
   "Prototype TIE Advanced": {
-    "default": "JTL_136",
+    "default": "LAW_175",
     "JTL": {
-      "136": "JTL_136",
-      "398": "JTL_136",
-      "634": "JTL_136",
-      "870": "JTL_136"
+      "136": "LAW_175",
+      "398": "LAW_175",
+      "634": "LAW_175",
+      "870": "LAW_175"
+    },
+    "LAW": {
+      "175": "LAW_175",
+      "439": "LAW_175"
     }
   },
   "Vonreg's TIE Interceptor, Ace of the First Order": {
@@ -8194,10 +8198,14 @@
     }
   },
   "Rickety Quadjumper": {
-    "default": "SHD_057",
+    "default": "LAW_115",
     "SHD": {
-      "332": "SHD_057",
-      "057": "SHD_057"
+      "332": "LAW_115",
+      "057": "LAW_115"
+    },
+    "LAW": {
+      "115": "LAW_115",
+      "379": "LAW_115"
     }
   },
   "Val, Loyal to the End": {
@@ -9720,10 +9728,14 @@
     }
   },
   "Street Gang Recruiter": {
-    "default": "SHD_260",
+    "default": "LAW_261",
     "SHD": {
-      "260": "SHD_260",
-      "521": "SHD_260"
+      "260": "LAW_261",
+      "521": "LAW_261"
+    },
+    "LAW": {
+      "261": "LAW_261",
+      "525": "LAW_261"
     }
   },
   "Rich Reward": {
@@ -11384,10 +11396,14 @@
     }
   },
   "Alliance X-Wing": {
-    "default": "SOR_237",
+    "default": "LAW_253",
     "SOR": {
-      "237": "SOR_237",
-      "496": "SOR_237"
+      "237": "LAW_253",
+      "496": "LAW_253"
+    },
+    "LAW": {
+      "253": "LAW_253",
+      "517": "LAW_253"
     }
   },
   "C-3PO, Protocol Droid": {
@@ -12987,6 +13003,1839 @@
     "default": "SEC_264",
     "SEC": {
       "264": "SEC_264"
+    }
+  },
+  "Saw Gerrera, Bring Down The Empire": {
+    "default": "LAW_001",
+    "LAW": {
+      "265": "LAW_001",
+      "001": "LAW_001"
+    }
+  },
+  "Tobias Beckett, People Are Predictable": {
+    "default": "LAW_002",
+    "LAW": {
+      "266": "LAW_002",
+      "002": "LAW_002"
+    }
+  },
+  "Agent Kallus, Reconsider Your Allegiance": {
+    "default": "LAW_003",
+    "LAW": {
+      "267": "LAW_003",
+      "003": "LAW_003"
+    }
+  },
+  "Aurra Sing, Assassin": {
+    "default": "LAW_004",
+    "LAW": {
+      "268": "LAW_004",
+      "770": "LAW_004",
+      "004": "LAW_004"
+    }
+  },
+  "Jyn Erso, Time to Fight": {
+    "default": "LAW_005",
+    "LAW": {
+      "269": "LAW_005",
+      "771": "LAW_005",
+      "005": "LAW_005"
+    }
+  },
+  "Vel Sartha, Aldhani Insurgent": {
+    "default": "LAW_006",
+    "LAW": {
+      "270": "LAW_006",
+      "006": "LAW_006"
+    }
+  },
+  "Boba Fett, Krayt's Claw Commander": {
+    "default": "LAW_007",
+    "LAW": {
+      "271": "LAW_007",
+      "007": "LAW_007"
+    }
+  },
+  "Director Krennic, Amidst My Achievement": {
+    "default": "LAW_008",
+    "LAW": {
+      "272": "LAW_008",
+      "774": "LAW_008",
+      "008": "LAW_008"
+    }
+  },
+  "Hera Syndulla, Not Fighting Alone": {
+    "default": "LAW_009",
+    "LAW": {
+      "273": "LAW_009",
+      "009": "LAW_009"
+    }
+  },
+  "Leia Organa, Someone who loves you": {
+    "default": "LAW_010",
+    "LAW": {
+      "274": "LAW_010",
+      "010": "LAW_010"
+    }
+  },
+  "Darth Vader, Unstoppable": {
+    "default": "LAW_011",
+    "LAW": {
+      "275": "LAW_011",
+      "777": "LAW_011",
+      "011": "LAW_011"
+    }
+  },
+  "Sebulba, Especially Dangerous Dug": {
+    "default": "LAW_012",
+    "LAW": {
+      "276": "LAW_012",
+      "012": "LAW_012"
+    }
+  },
+  "Chewbacca, Hero of Kessel": {
+    "default": "LAW_013",
+    "LAW": {
+      "277": "LAW_013",
+      "013": "LAW_013"
+    }
+  },
+  "Enfys Nest, Until We Can Go No Higher": {
+    "default": "LAW_014",
+    "LAW": {
+      "278": "LAW_014",
+      "780": "LAW_014",
+      "014": "LAW_014"
+    }
+  },
+  "Jabba the Hutt, Crime Boss": {
+    "default": "LAW_015",
+    "LAW": {
+      "279": "LAW_015",
+      "781": "LAW_015",
+      "015": "LAW_015"
+    }
+  },
+  "The Client, Please Lower Your Blaster": {
+    "default": "LAW_016",
+    "LAW": {
+      "280": "LAW_016",
+      "016": "LAW_016"
+    }
+  },
+  "Han Solo, I Got a Really Good Feeling": {
+    "default": "LAW_017",
+    "LAW": {
+      "281": "LAW_017",
+      "017": "LAW_017"
+    }
+  },
+  "Lando Calrissian, Full Sabacc": {
+    "default": "LAW_018",
+    "LAW": {
+      "282": "LAW_018",
+      "784": "LAW_018",
+      "018": "LAW_018"
+    }
+  },
+  "Alliance Outpost": {
+    "default": "LAW_019",
+    "LAW": {
+      "283": "LAW_019",
+      "019": "LAW_019"
+    }
+  },
+  "Daimyo's Palace": {
+    "default": "LAW_020",
+    "LAW": {
+      "284": "LAW_020",
+      "020": "LAW_020"
+    }
+  },
+  "Coaxium Mine": {
+    "default": "LAW_021",
+    "LAW": {
+      "285": "LAW_021",
+      "021": "LAW_021"
+    }
+  },
+  "Aldhani Garrison": {
+    "default": "LAW_022",
+    "LAW": {
+      "286": "LAW_022",
+      "022": "LAW_022"
+    }
+  },
+  "Great Pit of Carkoon": {
+    "default": "LAW_023",
+    "LAW": {
+      "287": "LAW_023",
+      "023": "LAW_023"
+    }
+  },
+  "Imperial Command Complex": {
+    "default": "LAW_024",
+    "LAW": {
+      "288": "LAW_024",
+      "024": "LAW_024"
+    }
+  },
+  "Contested Caverns": {
+    "default": "LAW_025",
+    "LAW": {
+      "289": "LAW_025",
+      "025": "LAW_025"
+    }
+  },
+  "Shipbreaking Yard": {
+    "default": "LAW_026",
+    "LAW": {
+      "290": "LAW_026",
+      "026": "LAW_026"
+    }
+  },
+  "Stygeon Spire": {
+    "default": "LAW_027",
+    "LAW": {
+      "291": "LAW_027",
+      "027": "LAW_027"
+    }
+  },
+  "Canto Bight": {
+    "default": "LAW_028",
+    "LAW": {
+      "292": "LAW_028",
+      "028": "LAW_028"
+    }
+  },
+  "Citadel Research Center": {
+    "default": "LAW_029",
+    "LAW": {
+      "293": "LAW_029",
+      "029": "LAW_029"
+    }
+  },
+  "Partisan Hideout": {
+    "default": "LAW_030",
+    "LAW": {
+      "294": "LAW_030",
+      "030": "LAW_030"
+    }
+  },
+  "Bossk, Join Our Merry Band": {
+    "default": "LAW_031",
+    "LAW": {
+      "295": "LAW_031",
+      "031": "LAW_031"
+    }
+  },
+  "Cad Bane, Now It's My Turn": {
+    "default": "LAW_032",
+    "LAW": {
+      "296": "LAW_032",
+      "032": "LAW_032"
+    }
+  },
+  "Hound's Tooth, Hunters' Approach": {
+    "default": "LAW_033",
+    "LAW": {
+      "297": "LAW_033",
+      "033": "LAW_033"
+    }
+  },
+  "Chewbacca, Mighty Rescuer": {
+    "default": "LAW_034",
+    "LAW": {
+      "298": "LAW_034",
+      "034": "LAW_034"
+    }
+  },
+  "Ezra Bridger, Spectre Six": {
+    "default": "LAW_035",
+    "LAW": {
+      "299": "LAW_035",
+      "035": "LAW_035"
+    }
+  },
+  "Obi-Wan Kenobi, Protector of Felucia": {
+    "default": "LAW_036",
+    "LAW": {
+      "300": "LAW_036",
+      "036": "LAW_036"
+    }
+  },
+  "Han Solo, Hibernation Sick": {
+    "default": "LAW_037",
+    "LAW": {
+      "301": "LAW_037",
+      "811": "LAW_037",
+      "037": "LAW_037"
+    }
+  },
+  "Lepi Lookout": {
+    "default": "LAW_038",
+    "LAW": {
+      "302": "LAW_038",
+      "038": "LAW_038"
+    }
+  },
+  "Latts Razzi, Deadly Whipmaster": {
+    "default": "LAW_039",
+    "LAW": {
+      "303": "LAW_039",
+      "039": "LAW_039"
+    }
+  },
+  "Taramyn Barcona, Eyes Front!": {
+    "default": "LAW_040",
+    "LAW": {
+      "304": "LAW_040",
+      "040": "LAW_040"
+    }
+  },
+  "Nothing Left to Fear": {
+    "default": "LAW_041",
+    "LAW": {
+      "305": "LAW_041",
+      "041": "LAW_041"
+    }
+  },
+  "IG-88, Programmed to Kill": {
+    "default": "LAW_042",
+    "LAW": {
+      "306": "LAW_042",
+      "042": "LAW_042"
+    }
+  },
+  "Shadow Cloaking": {
+    "default": "LAW_043",
+    "LAW": {
+      "307": "LAW_043",
+      "043": "LAW_043"
+    }
+  },
+  "Single Reactor Ignition": {
+    "default": "LAW_044",
+    "LAW": {
+      "308": "LAW_044",
+      "044": "LAW_044"
+    }
+  },
+  "Zeb Orellios, Spectre Four": {
+    "default": "LAW_045",
+    "LAW": {
+      "309": "LAW_045",
+      "045": "LAW_045"
+    }
+  },
+  "Chirrut Îmwe, I Don't Need Luck": {
+    "default": "LAW_046",
+    "LAW": {
+      "310": "LAW_046",
+      "046": "LAW_046"
+    }
+  },
+  "Baze Malbus, Good Luck": {
+    "default": "LAW_047",
+    "LAW": {
+      "311": "LAW_047",
+      "047": "LAW_047"
+    }
+  },
+  "Chio Fain, Four-Armed Slicer": {
+    "default": "LAW_048",
+    "LAW": {
+      "312": "LAW_048",
+      "048": "LAW_048"
+    }
+  },
+  "Bith Brute": {
+    "default": "LAW_049",
+    "LAW": {
+      "313": "LAW_049",
+      "049": "LAW_049"
+    }
+  },
+  "Honnah, Oink! Squee!": {
+    "default": "LAW_050",
+    "LAW": {
+      "314": "LAW_050",
+      "050": "LAW_050"
+    }
+  },
+  "Beilert Valance, Target: Vader": {
+    "default": "LAW_051",
+    "LAW": {
+      "315": "LAW_051",
+      "051": "LAW_051"
+    }
+  },
+  "The Mandalorian, Let's See the Puck": {
+    "default": "LAW_052",
+    "LAW": {
+      "316": "LAW_052",
+      "052": "LAW_052"
+    }
+  },
+  "Dengar, Take Your Shot": {
+    "default": "LAW_053",
+    "LAW": {
+      "317": "LAW_053",
+      "053": "LAW_053"
+    }
+  },
+  "Maul, Master of the Shadow Collective": {
+    "default": "LAW_054",
+    "LAW": {
+      "318": "LAW_054",
+      "054": "LAW_054"
+    }
+  },
+  "Chopper, Spectre Three": {
+    "default": "LAW_055",
+    "LAW": {
+      "319": "LAW_055",
+      "055": "LAW_055"
+    }
+  },
+  "Cassian Andor, Everything for the Rebellion": {
+    "default": "LAW_056",
+    "LAW": {
+      "320": "LAW_056",
+      "056": "LAW_056"
+    }
+  },
+  "Benthic “Two Tubes”, The War Has Just Begun": {
+    "default": "LAW_057",
+    "LAW": {
+      "321": "LAW_057",
+      "057": "LAW_057"
+    }
+  },
+  "Honor-Bound Partisan": {
+    "default": "LAW_058",
+    "LAW": {
+      "322": "LAW_058",
+      "058": "LAW_058"
+    }
+  },
+  "Highsinger, Deadly Droid": {
+    "default": "LAW_059",
+    "LAW": {
+      "323": "LAW_059",
+      "059": "LAW_059"
+    }
+  },
+  "Quarren Contractor": {
+    "default": "LAW_060",
+    "LAW": {
+      "324": "LAW_060",
+      "060": "LAW_060"
+    }
+  },
+  "Asajj Ventress, Reluctant Hunter": {
+    "default": "LAW_061",
+    "LAW": {
+      "325": "LAW_061",
+      "061": "LAW_061"
+    }
+  },
+  "Defiant Hammerhead": {
+    "default": "LAW_062",
+    "LAW": {
+      "326": "LAW_062",
+      "062": "LAW_062"
+    }
+  },
+  "L3-37, Radical Instigator": {
+    "default": "LAW_063",
+    "LAW": {
+      "327": "LAW_063",
+      "063": "LAW_063"
+    }
+  },
+  "Zuckuss, Dangerous": {
+    "default": "LAW_064",
+    "LAW": {
+      "328": "LAW_064",
+      "064": "LAW_064"
+    }
+  },
+  "4-LOM, Devious": {
+    "default": "LAW_065",
+    "LAW": {
+      "329": "LAW_065",
+      "065": "LAW_065"
+    }
+  },
+  "Tear This Ship Apart": {
+    "default": "LAW_066",
+    "LAW": {
+      "330": "LAW_066",
+      "066": "LAW_066"
+    }
+  },
+  "Jyn Erso, Take The Next Chance": {
+    "default": "LAW_067",
+    "LAW": {
+      "331": "LAW_067",
+      "800": "LAW_067",
+      "067": "LAW_067"
+    }
+  },
+  "Millennium Falcon, Dodging Patrols": {
+    "default": "LAW_068",
+    "LAW": {
+      "332": "LAW_068",
+      "812": "LAW_068",
+      "068": "LAW_068"
+    }
+  },
+  "The Ghost, Home of the Spectres": {
+    "default": "LAW_069",
+    "LAW": {
+      "333": "LAW_069",
+      "069": "LAW_069"
+    }
+  },
+  "Devaronian Doorbuster": {
+    "default": "LAW_070",
+    "LAW": {
+      "334": "LAW_070",
+      "070": "LAW_070"
+    }
+  },
+  "The Max Rebo Band, Jatz-Wailers": {
+    "default": "LAW_071",
+    "LAW": {
+      "335": "LAW_071",
+      "071": "LAW_071"
+    }
+  },
+  "Max Rebo, Encore!": {
+    "default": "LAW_072",
+    "LAW": {
+      "336": "LAW_072",
+      "072": "LAW_072"
+    }
+  },
+  "Patient Hunter": {
+    "default": "LAW_073",
+    "LAW": {
+      "337": "LAW_073",
+      "073": "LAW_073"
+    }
+  },
+  "Maz Kanata, Where's My Boyfriend?": {
+    "default": "LAW_074",
+    "LAW": {
+      "338": "LAW_074",
+      "074": "LAW_074"
+    }
+  },
+  "Interrogation Droid": {
+    "default": "LAW_075",
+    "LAW": {
+      "339": "LAW_075",
+      "075": "LAW_075"
+    }
+  },
+  "Vult Skerris's Defender, Secret Project": {
+    "default": "LAW_076",
+    "LAW": {
+      "340": "LAW_076",
+      "076": "LAW_076"
+    }
+  },
+  "Shadow of Stygeon Prime": {
+    "default": "LAW_077",
+    "LAW": {
+      "341": "LAW_077",
+      "077": "LAW_077"
+    }
+  },
+  "Sabine Wren, Spectre Five": {
+    "default": "LAW_078",
+    "LAW": {
+      "342": "LAW_078",
+      "078": "LAW_078"
+    }
+  },
+  "K-2SO, Locking the Vault": {
+    "default": "LAW_079",
+    "LAW": {
+      "343": "LAW_079",
+      "880": "LAW_079",
+      "079": "LAW_079"
+    }
+  },
+  "Luke Skywalker, Profit or Be Destroyed": {
+    "default": "LAW_080",
+    "LAW": {
+      "344": "LAW_080",
+      "080": "LAW_080"
+    }
+  },
+  "Sullustan Sapper": {
+    "default": "LAW_081",
+    "LAW": {
+      "345": "LAW_081",
+      "081": "LAW_081"
+    }
+  },
+  "Urrr'k, Elite Sharpshooter": {
+    "default": "LAW_082",
+    "LAW": {
+      "346": "LAW_082",
+      "082": "LAW_082"
+    }
+  },
+  "Broken Horn, Vizago's Pride": {
+    "default": "LAW_083",
+    "LAW": {
+      "347": "LAW_083",
+      "083": "LAW_083"
+    }
+  },
+  "Krrsantan, Hit and Run": {
+    "default": "LAW_084",
+    "LAW": {
+      "348": "LAW_084",
+      "084": "LAW_084"
+    }
+  },
+  "You Hold This": {
+    "default": "LAW_085",
+    "LAW": {
+      "349": "LAW_085",
+      "085": "LAW_085"
+    }
+  },
+  "The Stranger, No Survivors": {
+    "default": "LAW_086",
+    "LAW": {
+      "350": "LAW_086",
+      "086": "LAW_086"
+    }
+  },
+  "Jango Fett, Wily Mercenary": {
+    "default": "LAW_087",
+    "LAW": {
+      "351": "LAW_087",
+      "087": "LAW_087"
+    }
+  },
+  "Anakin Skywalker, Prescient Podracer": {
+    "default": "LAW_088",
+    "LAW": {
+      "352": "LAW_088",
+      "088": "LAW_088"
+    }
+  },
+  "Kanan Jarrus, Spectre One": {
+    "default": "LAW_089",
+    "LAW": {
+      "353": "LAW_089",
+      "089": "LAW_089"
+    }
+  },
+  "Toydarian Technician": {
+    "default": "LAW_090",
+    "LAW": {
+      "354": "LAW_090",
+      "090": "LAW_090"
+    }
+  },
+  "Val, It's Been a Ride, Babe": {
+    "default": "LAW_091",
+    "LAW": {
+      "355": "LAW_091",
+      "091": "LAW_091"
+    }
+  },
+  "Two-Faced Troig": {
+    "default": "LAW_092",
+    "LAW": {
+      "356": "LAW_092",
+      "092": "LAW_092"
+    }
+  },
+  "Rio Durant, Beckett's Right Hands": {
+    "default": "LAW_093",
+    "LAW": {
+      "357": "LAW_093",
+      "093": "LAW_093"
+    }
+  },
+  "Hondo Ohnaka, Plays By His Own Rules": {
+    "default": "LAW_094",
+    "LAW": {
+      "358": "LAW_094",
+      "094": "LAW_094"
+    }
+  },
+  "Finn, Looking Closer": {
+    "default": "LAW_095",
+    "LAW": {
+      "359": "LAW_095",
+      "095": "LAW_095"
+    }
+  },
+  "Rhydonium Detonation": {
+    "default": "LAW_096",
+    "LAW": {
+      "360": "LAW_096",
+      "096": "LAW_096"
+    }
+  },
+  "Imperial Door Technician": {
+    "default": "LAW_097",
+    "LAW": {
+      "361": "LAW_097",
+      "097": "LAW_097"
+    }
+  },
+  "Vandor Range Troopers": {
+    "default": "LAW_098",
+    "LAW": {
+      "362": "LAW_098",
+      "098": "LAW_098"
+    }
+  },
+  "Governor's Shuttle": {
+    "default": "LAW_099",
+    "LAW": {
+      "363": "LAW_099",
+      "099": "LAW_099"
+    }
+  },
+  "IGV-55 Listener": {
+    "default": "LAW_100",
+    "LAW": {
+      "100": "LAW_100",
+      "364": "LAW_100",
+      "602": "LAW_100"
+    }
+  },
+  "Lawbringer, Shadow Over Lothal": {
+    "default": "LAW_101",
+    "LAW": {
+      "101": "LAW_101",
+      "365": "LAW_101"
+    }
+  },
+  "Choke on Aspirations": {
+    "default": "LAW_102",
+    "LAW": {
+      "102": "LAW_102",
+      "366": "LAW_102"
+    }
+  },
+  "Display Piece": {
+    "default": "LAW_103",
+    "LAW": {
+      "103": "LAW_103",
+      "367": "LAW_103"
+    }
+  },
+  "Bodhi Rook, Creating a Diversion": {
+    "default": "LAW_104",
+    "LAW": {
+      "104": "LAW_104",
+      "368": "LAW_104"
+    }
+  },
+  "Cinta Kaz, Stone Cold and Fearless": {
+    "default": "LAW_105",
+    "LAW": {
+      "105": "LAW_105"
+    }
+  },
+  "Defiant Scrapper": {
+    "default": "LAW_106",
+    "LAW": {
+      "106": "LAW_106"
+    }
+  },
+  "Swoop Bike Marauder": {
+    "default": "LAW_107",
+    "LAW": {
+      "107": "LAW_107",
+      "371": "LAW_107",
+      "609": "LAW_107"
+    }
+  },
+  "Lando Calrissian, Eyes Open": {
+    "default": "LAW_108",
+    "LAW": {
+      "108": "LAW_108"
+    }
+  },
+  "Tantive IV, Carrying Hope": {
+    "default": "LAW_109",
+    "LAW": {
+      "109": "LAW_109"
+    }
+  },
+  "Phoenix Squadron Fighters": {
+    "default": "LAW_110",
+    "LAW": {
+      "110": "LAW_110",
+      "374": "LAW_110"
+    }
+  },
+  "Leia's Disguise": {
+    "default": "LAW_111",
+    "LAW": {
+      "111": "LAW_111",
+      "375": "LAW_111"
+    }
+  },
+  "Boonta Eve Flagbearer": {
+    "default": "LAW_112",
+    "LAW": {
+      "112": "LAW_112",
+      "376": "LAW_112"
+    }
+  },
+  "Shield Drive Outfitter": {
+    "default": "LAW_113",
+    "LAW": {
+      "113": "LAW_113",
+      "377": "LAW_113"
+    }
+  },
+  "Alkenzi Patroller": {
+    "default": "LAW_114",
+    "LAW": {
+      "114": "LAW_114",
+      "378": "LAW_114"
+    }
+  },
+  "Rodian Bondsman": {
+    "default": "LAW_116",
+    "LAW": {
+      "116": "LAW_116",
+      "380": "LAW_116"
+    }
+  },
+  "Conveyex Security Captain": {
+    "default": "LAW_117",
+    "LAW": {
+      "117": "LAW_117",
+      "381": "LAW_117"
+    }
+  },
+  "Droid Laser Turret": {
+    "default": "LAW_118",
+    "LAW": {
+      "118": "LAW_118",
+      "382": "LAW_118"
+    }
+  },
+  "Rogue One, At Any Cost": {
+    "default": "LAW_119",
+    "LAW": {
+      "119": "LAW_119",
+      "383": "LAW_119"
+    }
+  },
+  "Vigilant Scouts": {
+    "default": "LAW_120",
+    "LAW": {
+      "120": "LAW_120",
+      "384": "LAW_120"
+    }
+  },
+  "Canto Bight Security": {
+    "default": "LAW_121",
+    "LAW": {
+      "121": "LAW_121",
+      "385": "LAW_121"
+    }
+  },
+  "Shielded Hauler": {
+    "default": "LAW_122",
+    "LAW": {
+      "122": "LAW_122",
+      "386": "LAW_122"
+    }
+  },
+  "Syndicate Security": {
+    "default": "LAW_123",
+    "LAW": {
+      "123": "LAW_123",
+      "387": "LAW_123"
+    }
+  },
+  "Industrious Team": {
+    "default": "LAW_124",
+    "LAW": {
+      "124": "LAW_124",
+      "388": "LAW_124"
+    }
+  },
+  "Watchful": {
+    "default": "LAW_125",
+    "LAW": {
+      "125": "LAW_125",
+      "389": "LAW_125"
+    }
+  },
+  "Adventurer Sniper Rifle": {
+    "default": "LAW_126",
+    "LAW": {
+      "126": "LAW_126",
+      "390": "LAW_126"
+    }
+  },
+  "Kill Switch": {
+    "default": "LAW_127",
+    "LAW": {
+      "127": "LAW_127",
+      "391": "LAW_127"
+    }
+  },
+  "Veiled Strength": {
+    "default": "LAW_128",
+    "LAW": {
+      "128": "LAW_128",
+      "392": "LAW_128"
+    }
+  },
+  "Mastery": {
+    "default": "LAW_129",
+    "LAW": {
+      "129": "LAW_129",
+      "393": "LAW_129"
+    }
+  },
+  "Betrayed Trust": {
+    "default": "LAW_130",
+    "LAW": {
+      "130": "LAW_130",
+      "394": "LAW_130"
+    }
+  },
+  "Incapacitate": {
+    "default": "LAW_131",
+    "LAW": {
+      "131": "LAW_131",
+      "395": "LAW_131"
+    }
+  },
+  "The Tree Remembers": {
+    "default": "LAW_132",
+    "LAW": {
+      "132": "LAW_132",
+      "396": "LAW_132"
+    }
+  },
+  "Lost and Forgotten": {
+    "default": "LAW_133",
+    "LAW": {
+      "133": "LAW_133",
+      "397": "LAW_133"
+    }
+  },
+  "Bib Fortuna, Die Wanna Wanga?": {
+    "default": "LAW_134",
+    "LAW": {
+      "134": "LAW_134",
+      "398": "LAW_134"
+    }
+  },
+  "Pirate Snub Fighter": {
+    "default": "LAW_135",
+    "LAW": {
+      "135": "LAW_135",
+      "399": "LAW_135"
+    }
+  },
+  "Syndicate Spice Runner": {
+    "default": "LAW_136",
+    "LAW": {
+      "136": "LAW_136",
+      "400": "LAW_136"
+    }
+  },
+  " Ruthless Duo": {
+    "default": "LAW_137",
+    "LAW": {
+      "137": "LAW_137",
+      "401": "LAW_137"
+    }
+  },
+  "Undercity Hunting Team": {
+    "default": "LAW_138",
+    "LAW": {
+      "138": "LAW_138",
+      "402": "LAW_138"
+    }
+  },
+  "Admiral Motti, Chain of Command": {
+    "default": "LAW_139",
+    "LAW": {
+      "139": "LAW_139",
+      "403": "LAW_139"
+    }
+  },
+  "Intimidator, Citadel Overwatch": {
+    "default": "LAW_140",
+    "LAW": {
+      "140": "LAW_140",
+      "404": "LAW_140"
+    }
+  },
+  "Targeted For Removal": {
+    "default": "LAW_141",
+    "LAW": {
+      "141": "LAW_141",
+      "405": "LAW_141"
+    }
+  },
+  "Scarif Lieutenant": {
+    "default": "LAW_142",
+    "LAW": {
+      "142": "LAW_142",
+      "406": "LAW_142"
+    }
+  },
+  "Liberated Wookiee": {
+    "default": "LAW_143",
+    "LAW": {
+      "143": "LAW_143",
+      "407": "LAW_143"
+    }
+  },
+  "Phantom, Spectre Shuttle": {
+    "default": "LAW_144",
+    "LAW": {
+      "144": "LAW_144",
+      "408": "LAW_144"
+    }
+  },
+  "R2-D2, Part of the plan": {
+    "default": "LAW_145",
+    "LAW": {
+      "145": "LAW_145",
+      "409": "LAW_145"
+    }
+  },
+  "Massassi Group Marines": {
+    "default": "LAW_146",
+    "LAW": {
+      "146": "LAW_146",
+      "410": "LAW_146"
+    }
+  },
+  "Jaunty Light Freighter": {
+    "default": "LAW_147",
+    "LAW": {
+      "147": "LAW_147",
+      "411": "LAW_147"
+    }
+  },
+  "Smuggler's YT-2400": {
+    "default": "LAW_148",
+    "LAW": {
+      "148": "LAW_148",
+      "412": "LAW_148"
+    }
+  },
+  "Rey, Skywalker": {
+    "default": "LAW_149",
+    "LAW": {
+      "149": "LAW_149",
+      "413": "LAW_149"
+    }
+  },
+  "Fulcrum": {
+    "default": "LAW_150",
+    "LAW": {
+      "150": "LAW_150",
+      "414": "LAW_150"
+    }
+  },
+  "Profiteering Hunter": {
+    "default": "LAW_151",
+    "LAW": {
+      "151": "LAW_151",
+      "415": "LAW_151"
+    }
+  },
+  "C-3PO, Translation Protocol": {
+    "default": "LAW_152",
+    "LAW": {
+      "152": "LAW_152",
+      "416": "LAW_152",
+      "885": "LAW_152"
+    }
+  },
+  "Follower of the Code": {
+    "default": "LAW_153",
+    "LAW": {
+      "153": "LAW_153",
+      "417": "LAW_153"
+    }
+  },
+  "Partisan Infantry": {
+    "default": "LAW_154",
+    "LAW": {
+      "154": "LAW_154",
+      "418": "LAW_154"
+    }
+  },
+  "Getaway Freighter": {
+    "default": "LAW_155",
+    "LAW": {
+      "155": "LAW_155",
+      "419": "LAW_155"
+    }
+  },
+  "Hunter For Hire": {
+    "default": "LAW_156",
+    "LAW": {
+      "156": "LAW_156",
+      "420": "LAW_156"
+    }
+  },
+  "Target Tagger": {
+    "default": "LAW_157",
+    "LAW": {
+      "157": "LAW_157",
+      "421": "LAW_157"
+    }
+  },
+  "Khetanna, Upon The Dune Sea": {
+    "default": "LAW_158",
+    "LAW": {
+      "158": "LAW_158",
+      "422": "LAW_158"
+    }
+  },
+  "Expendable Mercenary": {
+    "default": "LAW_159",
+    "LAW": {
+      "159": "LAW_159",
+      "423": "LAW_159"
+    }
+  },
+  "Hidden Hunters": {
+    "default": "LAW_160",
+    "LAW": {
+      "160": "LAW_160",
+      "424": "LAW_160"
+    }
+  },
+  "Partisan U-Wing": {
+    "default": "LAW_161",
+    "LAW": {
+      "161": "LAW_161",
+      "425": "LAW_161"
+    }
+  },
+  "Beach Patrol AT-ACT": {
+    "default": "LAW_162",
+    "LAW": {
+      "162": "LAW_162",
+      "426": "LAW_162"
+    }
+  },
+  "The Sarlacc of Carkoon, Horror of the Dune Sea": {
+    "default": "LAW_163",
+    "LAW": {
+      "163": "LAW_163",
+      "427": "LAW_163"
+    }
+  },
+  "Mercenary Fleet": {
+    "default": "LAW_164",
+    "LAW": {
+      "164": "LAW_164",
+      "428": "LAW_164"
+    }
+  },
+  "Combat Exercise": {
+    "default": "LAW_165",
+    "LAW": {
+      "165": "LAW_165",
+      "429": "LAW_165"
+    }
+  },
+  "Putting a Team Together": {
+    "default": "LAW_166",
+    "LAW": {
+      "166": "LAW_166",
+      "430": "LAW_166"
+    }
+  },
+  "Common Cause": {
+    "default": "LAW_167",
+    "LAW": {
+      "167": "LAW_167",
+      "431": "LAW_167"
+    }
+  },
+  "Haymaker": {
+    "default": "LAW_168",
+    "LAW": {
+      "168": "LAW_168",
+      "432": "LAW_168"
+    }
+  },
+  "Payroll Heist": {
+    "default": "LAW_169",
+    "LAW": {
+      "169": "LAW_169",
+      "433": "LAW_169"
+    }
+  },
+  "Double-Cross": {
+    "default": "LAW_170",
+    "LAW": {
+      "170": "LAW_170",
+      "434": "LAW_170"
+    }
+  },
+  "Stockpile": {
+    "default": "LAW_171",
+    "LAW": {
+      "171": "LAW_171",
+      "435": "LAW_171"
+    }
+  },
+  "Storm Raider": {
+    "default": "LAW_172",
+    "LAW": {
+      "172": "LAW_172",
+      "436": "LAW_172"
+    }
+  },
+  "BT-1, Blastomech": {
+    "default": "LAW_173",
+    "LAW": {
+      "173": "LAW_173",
+      "437": "LAW_173"
+    }
+  },
+  "0-0-0, Translation and Torture": {
+    "default": "LAW_174",
+    "LAW": {
+      "174": "LAW_174",
+      "438": "LAW_174"
+    }
+  },
+  "Sebulba's Podracer, Taking the Lead": {
+    "default": "LAW_176",
+    "LAW": {
+      "176": "LAW_176",
+      "440": "LAW_176"
+    }
+  },
+  "Son-tuul Berserkers": {
+    "default": "LAW_177",
+    "LAW": {
+      "177": "LAW_177",
+      "441": "LAW_177"
+    }
+  },
+  "Persecutor, Fire Over Scarif": {
+    "default": "LAW_178",
+    "LAW": {
+      "178": "LAW_178",
+      "442": "LAW_178"
+    }
+  },
+  "Fear and Dead Men": {
+    "default": "LAW_179",
+    "LAW": {
+      "179": "LAW_179",
+      "443": "LAW_179"
+    }
+  },
+  "Inspired Recruit": {
+    "default": "LAW_180",
+    "LAW": {
+      "180": "LAW_180",
+      "444": "LAW_180"
+    }
+  },
+  "Cloud-Rider Veteran": {
+    "default": "LAW_181",
+    "LAW": {
+      "181": "LAW_181",
+      "445": "LAW_181"
+    }
+  },
+  "Weazel, Fighting Back": {
+    "default": "LAW_182",
+    "LAW": {
+      "182": "LAW_182",
+      "446": "LAW_182"
+    }
+  },
+  "B-Wing Skirmisher": {
+    "default": "LAW_183",
+    "LAW": {
+      "183": "LAW_183",
+      "447": "LAW_183"
+    }
+  },
+  "Aerie, Cloud-Rider Dropship": {
+    "default": "LAW_184",
+    "LAW": {
+      "184": "LAW_184",
+      "448": "LAW_184"
+    }
+  },
+  "Ben Solo, Facing the Light": {
+    "default": "LAW_185",
+    "LAW": {
+      "185": "LAW_185",
+      "449": "LAW_185"
+    }
+  },
+  "Enfys Nest's Helmet": {
+    "default": "LAW_186",
+    "LAW": {
+      "186": "LAW_186",
+      "450": "LAW_186"
+    }
+  },
+  "“Staccato Lightning” Repeater": {
+    "default": "LAW_187",
+    "LAW": {
+      "187": "LAW_187",
+      "451": "LAW_187"
+    }
+  },
+  "Savareen Survivor": {
+    "default": "LAW_188",
+    "LAW": {
+      "188": "LAW_188",
+      "452": "LAW_188"
+    }
+  },
+  "Cavern Angels X-Wing": {
+    "default": "LAW_189",
+    "LAW": {
+      "189": "LAW_189",
+      "453": "LAW_189"
+    }
+  },
+  "Haxion Aggressor": {
+    "default": "LAW_190",
+    "LAW": {
+      "190": "LAW_190",
+      "454": "LAW_190"
+    }
+  },
+  "Arvel Skeen, Win and Walk Away": {
+    "default": "LAW_191",
+    "LAW": {
+      "191": "LAW_191",
+      "455": "LAW_191"
+    }
+  },
+  "Bracca Shipbreaker": {
+    "default": "LAW_192",
+    "LAW": {
+      "192": "LAW_192",
+      "456": "LAW_192"
+    }
+  },
+  "Mid Rim Sharpshooter": {
+    "default": "LAW_193",
+    "LAW": {
+      "193": "LAW_193",
+      "457": "LAW_193"
+    }
+  },
+  "Doctor Aphra, Digging for answers": {
+    "default": "LAW_194",
+    "LAW": {
+      "194": "LAW_194",
+      "458": "LAW_194"
+    }
+  },
+  "Overcharged Transport": {
+    "default": "LAW_195",
+    "LAW": {
+      "195": "LAW_195",
+      "459": "LAW_195"
+    }
+  },
+  "Relentless Hunters": {
+    "default": "LAW_196",
+    "LAW": {
+      "196": "LAW_196",
+      "460": "LAW_196"
+    }
+  },
+  "Shifty Suspects": {
+    "default": "LAW_197",
+    "LAW": {
+      "197": "LAW_197",
+      "461": "LAW_197"
+    }
+  },
+  "Dogged Pursuers": {
+    "default": "LAW_198",
+    "LAW": {
+      "198": "LAW_198",
+      "462": "LAW_198"
+    }
+  },
+  "Ohnaka Gang Bandits": {
+    "default": "LAW_199",
+    "LAW": {
+      "199": "LAW_199",
+      "463": "LAW_199"
+    }
+  },
+  "Salvaged Blaster": {
+    "default": "LAW_200",
+    "LAW": {
+      "200": "LAW_200",
+      "464": "LAW_200"
+    }
+  },
+  "Thermal Detonator": {
+    "default": "LAW_201",
+    "LAW": {
+      "201": "LAW_201",
+      "465": "LAW_201"
+    }
+  },
+  "Commence the Festivities": {
+    "default": "LAW_202",
+    "LAW": {
+      "202": "LAW_202",
+      "466": "LAW_202"
+    }
+  },
+  "Daring Delve": {
+    "default": "LAW_203",
+    "LAW": {
+      "203": "LAW_203",
+      "467": "LAW_203"
+    }
+  },
+  "Every Day, More Lies": {
+    "default": "LAW_204",
+    "LAW": {
+      "204": "LAW_204",
+      "468": "LAW_204"
+    }
+  },
+  "Flash the Vents": {
+    "default": "LAW_205",
+    "LAW": {
+      "205": "LAW_205",
+      "469": "LAW_205"
+    }
+  },
+  "That's a Rock": {
+    "default": "LAW_206",
+    "LAW": {
+      "206": "LAW_206",
+      "470": "LAW_206"
+    }
+  },
+  "Attack From All Sides": {
+    "default": "LAW_207",
+    "LAW": {
+      "207": "LAW_207",
+      "471": "LAW_207"
+    }
+  },
+  "Collateral Damage": {
+    "default": "LAW_208",
+    "LAW": {
+      "208": "LAW_208",
+      "472": "LAW_208"
+    }
+  },
+  "Nihil Stormsower": {
+    "default": "LAW_209",
+    "LAW": {
+      "209": "LAW_209",
+      "473": "LAW_209"
+    }
+  },
+  "Salacious Crumb, Cackling Companion": {
+    "default": "LAW_210",
+    "LAW": {
+      "210": "LAW_210",
+      "474": "LAW_210"
+    }
+  },
+  "Black Sun Patroller": {
+    "default": "LAW_211",
+    "LAW": {
+      "211": "LAW_211",
+      "475": "LAW_211"
+    }
+  },
+  "Malakili, Keeper of the Menagerie": {
+    "default": "LAW_212",
+    "LAW": {
+      "212": "LAW_212",
+      "476": "LAW_212"
+    }
+  },
+  "Cutthroat Podracer": {
+    "default": "LAW_213",
+    "LAW": {
+      "213": "LAW_213",
+      "477": "LAW_213"
+    }
+  },
+  "Boba Fett, For a Price": {
+    "default": "LAW_214",
+    "LAW": {
+      "214": "LAW_214",
+      "478": "LAW_214"
+    }
+  },
+  "Vermillion, Qi'ra's Auction House": {
+    "default": "LAW_215",
+    "LAW": {
+      "215": "LAW_215",
+      "479": "LAW_215"
+    }
+  },
+  "Jabba's Rancor, Snack Time!": {
+    "default": "LAW_216",
+    "LAW": {
+      "216": "LAW_216",
+      "480": "LAW_216"
+    },
+    "LAWP": {
+      "017": "LAW_216"
+    }
+  },
+  "Hold For Questioning": {
+    "default": "LAW_217",
+    "LAW": {
+      "217": "LAW_217",
+      "481": "LAW_217"
+    }
+  },
+  "Artful Pickpocket": {
+    "default": "LAW_218",
+    "LAW": {
+      "218": "LAW_218",
+      "482": "LAW_218"
+    }
+  },
+  "Anakin's Podracer, So Wizard!": {
+    "default": "LAW_219",
+    "LAW": {
+      "219": "LAW_219",
+      "483": "LAW_219"
+    }
+  },
+  "Wookiee Guerilla": {
+    "default": "LAW_220",
+    "LAW": {
+      "220": "LAW_220",
+      "484": "LAW_220"
+    }
+  },
+  "Lieutenant Gorn, I Deserve Worse": {
+    "default": "LAW_221",
+    "LAW": {
+      "221": "LAW_221",
+      "485": "LAW_221"
+    }
+  },
+  "Rebel Blockade Runner": {
+    "default": "LAW_222",
+    "LAW": {
+      "222": "LAW_222",
+      "486": "LAW_222"
+    }
+  },
+  "Rose Tico, Now It's Worth It": {
+    "default": "LAW_223",
+    "LAW": {
+      "223": "LAW_223",
+      "487": "LAW_223"
+    }
+  },
+  "Liberty, Draw Their Fire!": {
+    "default": "LAW_224",
+    "LAW": {
+      "224": "LAW_224",
+      "488": "LAW_224"
+    }
+  },
+  "Han's Golden Dice": {
+    "default": "LAW_225",
+    "LAW": {
+      "225": "LAW_225",
+      "489": "LAW_225"
+    }
+  },
+  "Secret Battle of Pretend": {
+    "default": "LAW_226",
+    "LAW": {
+      "226": "LAW_226",
+      "490": "LAW_226"
+    }
+  },
+  "Rookie Rocket-Jumper": {
+    "default": "LAW_227",
+    "LAW": {
+      "227": "LAW_227",
+      "491": "LAW_227"
+    }
+  },
+  "Canyon Frontrunner": {
+    "default": "LAW_228",
+    "LAW": {
+      "228": "LAW_228",
+      "492": "LAW_228"
+    }
+  },
+  "The Master Codebreaker, High Stakes": {
+    "default": "LAW_229",
+    "LAW": {
+      "229": "LAW_229",
+      "493": "LAW_229"
+    }
+  },
+  "Ohnaka Gang Starhopper": {
+    "default": "LAW_230",
+    "LAW": {
+      "230": "LAW_230",
+      "494": "LAW_230"
+    }
+  },
+  "Weequay Pirate": {
+    "default": "LAW_231",
+    "LAW": {
+      "231": "LAW_231",
+      "495": "LAW_231"
+    }
+  },
+  "Champion's KT9 Podracer": {
+    "default": "LAW_232",
+    "LAW": {
+      "232": "LAW_232",
+      "496": "LAW_232"
+    }
+  },
+  "Galen Erso, Destroying His Creation": {
+    "default": "LAW_233",
+    "LAW": {
+      "233": "LAW_233",
+      "497": "LAW_233"
+    }
+  },
+  "Kage Elite": {
+    "default": "LAW_234",
+    "LAW": {
+      "234": "LAW_234",
+      "498": "LAW_234"
+    }
+  },
+  "Lady Proxima, Where's the Money?": {
+    "default": "LAW_235",
+    "LAW": {
+      "235": "LAW_235",
+      "499": "LAW_235"
+    }
+  },
+  "Bix Caleen, Selling Scrap": {
+    "default": "LAW_236",
+    "LAW": {
+      "236": "LAW_236",
+      "500": "LAW_236"
+    }
+  },
+  "Qui-Gon Jinn, Influencing Chance": {
+    "default": "LAW_237",
+    "LAW": {
+      "237": "LAW_237",
+      "501": "LAW_237"
+    }
+  },
+  "Scavenging Sandcrawler": {
+    "default": "LAW_238",
+    "LAW": {
+      "238": "LAW_238",
+      "502": "LAW_238"
+    }
+  },
+  "Guild Ambush Team": {
+    "default": "LAW_239",
+    "LAW": {
+      "239": "LAW_239",
+      "503": "LAW_239"
+    }
+  },
+  "Milodon Rider": {
+    "default": "LAW_240",
+    "LAW": {
+      "240": "LAW_240",
+      "504": "LAW_240"
+    }
+  },
+  "The Blade Wing, The Secret of Shantipole": {
+    "default": "LAW_241",
+    "LAW": {
+      "241": "LAW_241",
+      "505": "LAW_241"
+    }
+  },
+  "Improvise": {
+    "default": "LAW_242",
+    "LAW": {
+      "242": "LAW_242",
+      "506": "LAW_242"
+    }
+  },
+  "Transmission Jamming": {
+    "default": "LAW_243",
+    "LAW": {
+      "243": "LAW_243",
+      "507": "LAW_243"
+    }
+  },
+  "Unmarked Credits": {
+    "default": "LAW_244",
+    "LAW": {
+      "244": "LAW_244",
+      "508": "LAW_244"
+    }
+  },
+  "Salvaged Materials": {
+    "default": "LAW_245",
+    "LAW": {
+      "245": "LAW_245",
+      "509": "LAW_245"
+    }
+  },
+  "The Axe Forgets": {
+    "default": "LAW_246",
+    "LAW": {
+      "246": "LAW_246",
+      "510": "LAW_246"
+    }
+  },
+  "Backed by the Hutts": {
+    "default": "LAW_247",
+    "LAW": {
+      "247": "LAW_247",
+      "511": "LAW_247"
+    }
+  },
+  "Windfall": {
+    "default": "LAW_248",
+    "LAW": {
+      "248": "LAW_248",
+      "512": "LAW_248"
+    }
+  },
+  "Black Sun Cabalist": {
+    "default": "LAW_249",
+    "LAW": {
+      "249": "LAW_249",
+      "513": "LAW_249"
+    }
+  },
+  "Callous Bounty Hunter": {
+    "default": "LAW_250",
+    "LAW": {
+      "250": "LAW_250",
+      "514": "LAW_250"
+    }
+  },
+  "Night Wind Assailants": {
+    "default": "LAW_251",
+    "LAW": {
+      "251": "LAW_251",
+      "515": "LAW_251"
+    }
+  },
+  "Fett's Firespray, In Pursuit": {
+    "default": "LAW_252",
+    "LAW": {
+      "252": "LAW_252",
+      "516": "LAW_252"
+    }
+  },
+  "Stalwart Fleet Trooper": {
+    "default": "LAW_254",
+    "LAW": {
+      "254": "LAW_254",
+      "518": "LAW_254"
+    }
+  },
+  "Circuit Challenger": {
+    "default": "LAW_255",
+    "LAW": {
+      "255": "LAW_255",
+      "519": "LAW_255"
+    }
+  },
+  "Fire Across the Galaxy": {
+    "default": "LAW_256",
+    "LAW": {
+      "256": "LAW_256",
+      "520": "LAW_256"
+    }
+  },
+  "Hidden Hand Supplier": {
+    "default": "LAW_257",
+    "LAW": {
+      "257": "LAW_257",
+      "521": "LAW_257"
+    }
+  },
+  "Criminal Contact": {
+    "default": "LAW_258",
+    "LAW": {
+      "258": "LAW_258",
+      "522": "LAW_258"
+    }
+  },
+  "Cartel Heavy Fighter": {
+    "default": "LAW_259",
+    "LAW": {
+      "259": "LAW_259",
+      "523": "LAW_259"
+    }
+  },
+  "Seasoned Tracker": {
+    "default": "LAW_260",
+    "LAW": {
+      "260": "LAW_260",
+      "524": "LAW_260"
+    }
+  },
+  "Bank Job Fugitives": {
+    "default": "LAW_262",
+    "LAW": {
+      "262": "LAW_262",
+      "526": "LAW_262"
+    }
+  },
+  "Kessel Hulk": {
+    "default": "LAW_263",
+    "LAW": {
+      "263": "LAW_263",
+      "527": "LAW_263"
+    }
+  },
+  "From a Certain Point of View": {
+    "default": "LAW_264",
+    "LAW": {
+      "264": "LAW_264",
+      "528": "LAW_264"
     }
   }
 }
