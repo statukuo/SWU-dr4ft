@@ -6,6 +6,7 @@ import {STRINGS} from "../config";
 import Header from "./Header";
 import GamesPanel from "./GamesPanel";
 import NewsPanel from "./NewsPanel";
+import { Container, Row } from "react-bootstrap";
 
 export default class Lobby extends Component {
 
@@ -18,17 +19,13 @@ export default class Lobby extends Component {
     const { roomInfo } = App.state;
 
     return (
-      <div className="container">
-        <div className="lobby">
+      <Container fluid="lg">
+        <Row className="lobby">
           <Header/>
           <GamesPanel roomInfo={roomInfo}/>
           {STRINGS.PAGE_SECTIONS.MOTD && <NewsPanel motd={STRINGS.PAGE_SECTIONS.MOTD}/>}
-          {STRINGS.BRANDING.PAYPAL}
-          {STRINGS.PAGE_SECTIONS.PATREON}
-          {STRINGS.PAGE_SECTIONS.FOOTER}
-          {STRINGS.PAGE_SECTIONS.DISCLAIMER}
-        </div>
-      </div>
+        </Row>
+      </Container>
     );
   }
 }

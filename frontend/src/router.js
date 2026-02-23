@@ -1,6 +1,8 @@
 /* eslint-disable */
 import React, { Suspense } from "react";
+import { Container, Navbar } from "react-bootstrap";
 import { render } from "react-dom";
+import {STRINGS} from "./config";
 
 const Lobby = React.lazy(() => import("./lobby/Lobby"));
 const Game = React.lazy(() => import("./game/Game"));
@@ -42,6 +44,14 @@ function route() {
     component = (
       <Suspense fallback={Loading()}>
         <Lobby />
+        <Navbar className="bg-body-tertiary" fixed="bottom">
+          <Container>
+              <Navbar.Text>
+                {STRINGS.PAGE_SECTIONS.FOOTER}
+                {STRINGS.PAGE_SECTIONS.DISCLAIMER}
+              </Navbar.Text>
+          </Container>
+        </Navbar>
       </Suspense>
     );
     break;

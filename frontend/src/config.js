@@ -13,18 +13,7 @@ export const STRINGS = {
 
     FOOTER:
       <div>
-        <div style={{ padding: 10 }}>
-          Contributions welcome! &nbsp;
-          <a href='https://github.com/statukuo/SWU-dr4ft' target='_blank' rel='noreferrer'>
-            <img
-              src='https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg'
-              alt='GitHub' title='GitHub Repository' align='top' height='18'
-              style={{ marginRight: 5 }}
-            />
-            statukuo/SWU-dr4ft
-          </a>
-        </div>
-        <div style={{ padding: 10 }}>
+        <div style={{ fontSize: 12 }}>
 
           Based on the awesome work of &nbsp;
           <a href='https://github.com/dr4fters/dr4ft' target='_blank' rel='noreferrer'>
@@ -49,7 +38,7 @@ export const STRINGS = {
         </a>
       </div>,
     DISCLAIMER:
-      <div style={{ padding: 10, paddingTop: 50, fontSize: 12 }}>
+      <div style={{ fontSize: 12 }}>
         SWUDr4ft is in no way affiliated with Disney or Fantasy Flight Games. Star Wars characters, cards, logos, and art are property of Disney and/or Fantasy Flight Games.
       </div>,
   }
