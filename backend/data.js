@@ -166,7 +166,7 @@ const getPlayableSets = () => {
   //filter not released sets
   return {
     ...playableSets,
-    regular: playableSets.regular.filter(({readyToPlay}) => readyToPlay )
+    regular: playableSets.regular.filter(({readyToPlay}) => !!readyToPlay )
   };
 };
 
