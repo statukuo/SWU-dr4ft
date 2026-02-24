@@ -35,6 +35,7 @@ export default class CardBase extends Component {
 
   flip(event) {
     event.stopPropagation();
+    event.preventDefault();
     this.setState({ isFlipped: !this.state.isFlipped });
     this.setState({ url: this.getCardImage(this.state.isFlipped? FLIP : DEFAULT) });
   }
