@@ -70,7 +70,6 @@ export default class Game extends Component {
             <>
               <Col lg="3" className="d-none d-xl-block">
                 <StartPanel/>
-                <PlayersPanel/>
                 <GameSettings/>
               </Col>
 
@@ -81,6 +80,7 @@ export default class Game extends Component {
               </Col>
 
               <Col lg="3" className="d-none d-xl-block">
+                <PlayersPanel/>
                 <LeadersPanel/>
                 {(!App.state.hidebases || App.state.isGameFinished) && <BasesPanel/>}
               </Col>
@@ -91,16 +91,16 @@ export default class Game extends Component {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   <StartPanel/>
-                  <PlayersPanel/>
                   <GameSettings/>
                 </Offcanvas.Body>
               </Offcanvas>
 
               <Offcanvas show={this.state.showLeaders} onHide={() => this.setState({showLeaders: false})} placement="end">
                 <Offcanvas.Header closeButton>
-                  <Offcanvas.Title>Leaders and Bases</Offcanvas.Title>
+                  <Offcanvas.Title>Draft</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
+                  <PlayersPanel/>
                   <LeadersPanel/>
                   {(!App.state.hidebases || App.state.isGameFinished) && <BasesPanel/>}
                 </Offcanvas.Body>
