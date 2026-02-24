@@ -1,12 +1,10 @@
 import React, { useState, useRef } from "react";
 import PropTypes from "prop-types";
-import _ from "utils/utils";
 
 import App from "../app";
 import { toTitleCase } from "../utils";
 import GameOptions from "./GameOptions";
 
-import "./CreateGameButton.scss";
 import { Button, Col, Container, Form, Modal, Row, Stack } from "react-bootstrap";
 
 // set this out here so the create button has the capability

@@ -2,14 +2,13 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import _ from "utils/utils";
-import { uniq } from "lodash";
 import App from "../app";
-import Spaced from "../components/Spaced";
 import {ZONE_PACK, getZoneDisplayName} from "../zones";
 import CardDefault from "./card/CardDefault.jsx";
 import CardGlimpse from "./card/CardGlimpse.jsx";
 import CardPlaceholder from "./card/CardPlaceholder.jsx";
 import "./Grid.scss";
+import { Button, Card, Row } from "react-bootstrap";
 
 const Grid = ({zones, filter}) => (
   <div>
@@ -44,9 +43,6 @@ const Zone = ({ name: zoneName, filter }) => {
   const zone = App.getSortedZone(zoneName, filter);
   const values = _.values(zone);
   const cards = _.flat(values).reverse();
-  const cardTypes = uniq(cards, function(card) {
-    return card.type;
-  });
 
   const isPackZone = zoneName === ZONE_PACK;
 
@@ -60,16 +56,14 @@ const Zone = ({ name: zoneName, filter }) => {
   const showBurnsDetail = game.burnsPerPack > 0;
   return (
     <div className='Grid zone'>
-      <div className='header'>
-        <h1>
-          <Spaced elements={[
+      <Card>
+        <Card.Header>
+          <h4>{[
             getZoneDisplayName(zoneName) + (isPackZone ? " " + (round === 1? "Leader" : (round -1)) : ""),
             getZoneDetails(App.state, zoneName, cards)
-          ]} />
-        </h1>
-
-        {
-          (showPicksDetail || showBurnsDetail) &&
+          ].join(" ")}</h4>
+          {
+            (showPicksDetail || showBurnsDetail) &&
           <div className='pick-burn-detail'>
             {
               showPicksDetail &&
@@ -80,37 +74,37 @@ const Zone = ({ name: zoneName, filter }) => {
               <div className="burns">{`Burn ${remainingCardsToBurn}`}</div>
             }
           </div>
-        }
+          }
 
-        {
-          cards.length > 0 && zoneName === ZONE_PACK &&
-            <button
-              className="confirm-btn"
+          {
+            cards.length > 0 && zoneName === ZONE_PACK &&
+            <Button
               disabled={!canConfirm}
+              variant="success"
               onClick={() => App.emit("confirmSelection")}
             >
               Confirm
-            </button>
-        }
-      </div>
-
-      <div className={`cards -${cardTypes.map(({type}) => type).join(" -")} -${filter}`}>
-        {
-          cards.map((card, i) => isPackZone && game.burnsPerPack > 0
-            ? <CardGlimpse key={i+zoneName+card.name+card.foil} card={card} zoneName={zoneName} />
-            : <CardDefault key={i+zoneName+card.name+card.foil} card={card} zoneName={zoneName} />
-          )
-        }
-
-        {
-          cards.length === 0 && isPackZone && // TODO game is not over!
-          ([
-            <h2 className='waiting' key='other'>Waiting for the next pack...</h2>,
-            Array(cardsInNextPack).fill(0)
-              .map((_, i) => <CardPlaceholder key={i} />)
-          ])
-        }
-      </div>
+            </Button>
+          }
+        </Card.Header>
+        <Card.Body>
+          <Row>
+            {
+              cards.map((card, i) => isPackZone && game.burnsPerPack > 0
+                ? <CardGlimpse key={i+zoneName+card.name+card.foil} card={card} zoneName={zoneName} />
+                : <CardDefault key={i+zoneName+card.name+card.foil} card={card} zoneName={zoneName} />
+              )
+            }{
+              cards.length === 0 && isPackZone && // TODO game is not over!
+                ([
+                  <h2 className='waiting' key='other'>Waiting for the next pack...</h2>,
+                  Array(cardsInNextPack).fill(0)
+                    .map((_, i) => <CardPlaceholder key={i} />)
+                ])
+            }
+          </Row>
+        </Card.Body>
+      </Card>
     </div>
   );
 };

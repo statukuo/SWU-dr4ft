@@ -9,6 +9,7 @@
 
     img {
       transition: all 0.2s;
+      width: 100%;
 
       &.loading {
         opacity: 0;
@@ -177,37 +178,22 @@
 }
 
 .CardBaseImage {
-  width: var(--card-width);
-  height: var(--card-height);
-
   img {
-    width: var(--card-width);
-    height: var(--card-height);
     max-width: var(--card-width);
     max-height: var(--card-height);
     border-radius: 10px;
   }
 
   &.-rotated {
-    width: var(--card-height);
-    height: var(--card-width);
-
     img {
-      width: var(--card-height);
-      height: var(--card-width);
       max-width: var(--card-height);
       max-height: var(--card-width);
       border-radius: 10px;
     }
   }
   &.-base {
-    height: calc( var(--card-width) / 1.3);
-    width: calc(var(--card-height) / 1.3);
-    height: calc(var(--card-width) / 1.3);
 
     img {
-      width: calc(var(--card-height) / 1.3);
-      height: calc(var(--card-width) / 1.3);
       max-width: calc(var(--card-height) / 1.3);
       max-height: calc(var(--card-width) / 1.3);
       border-radius: 10px;

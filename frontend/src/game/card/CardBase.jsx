@@ -5,6 +5,7 @@ import App from "../../app";
 import "./CardBase.scss";
 import SelectionState from "./SelectionState.jsx";
 import { ZONE_PACK } from "../../zones";
+import { Card } from "react-bootstrap";
 
 const DEFAULT = 0;
 const FLIP = 1;
@@ -80,7 +81,6 @@ export default class CardBase extends Component {
       card.type === "Base"? "-base":""
     ].join(" ");
 
-    const rotated = (card.type === "Leader" && !this.state.isFlipped) || card.type === "Base";
     const base = card.type === "Base";
     const isPick = this.props.zoneName === ZONE_PACK && App.state.gameState.isPick(card.cardId);
     const swuCardId = `${card.defaultExpansionAbbreviation}_${card.defaultCardNumber}`;
@@ -88,17 +88,8 @@ export default class CardBase extends Component {
     const isBaseSelected = card.type === "Base" && swuCardId === App.state.selectedBase;
 
     return (
-      <div className={_class} onClick={() => this.handleCardSelection(card, swuCardId)}>
-        <CardBaseText {...card} rotated={rotated} base={base}/>
-        {App.state.cardSize !== "text" && !this.state.imageErrored && (
-          <CardBaseImage
-            name={card.name}
-            src={this.getCardImage(this.state.isFlipped ? FLIP : DEFAULT)}
-            handleError={this.onImageError.bind(this)}
-            rotated={rotated}
-            base={base}
-          />
-        )}
+      <Card className={_class} onClick={() => this.handleCardSelection(card, swuCardId)}>
+        <Card.Img variant="top" src={this.getCardImage(this.state.isFlipped ? FLIP : DEFAULT)} />
         {this.props.children}
 
         {card.type==="Leader" &&
@@ -115,7 +106,7 @@ export default class CardBase extends Component {
           <SelectionState selection isPick={isBaseSelected} card={card} isRotated={this.state.isFlipped} base={base}/>
         }
         <SelectionState isPick={isPick} card={card} isRotated={this.state.isFlipped} base={base}/>
-      </div>
+      </Card>
     );
   }
 }
@@ -125,59 +116,4 @@ CardBase.propTypes = {
   zoneName: PropTypes.string,
   showFlipped: PropTypes.bool, // whether the card should be flipped by default,
   staticCard:  PropTypes.bool
-};
-
-const CardBaseImage = ({ src, handleError, name, rotated, base }) => (
-  <div className={`CardBaseImage ${rotated ? "-rotated" : ""} ${base? "-base":""}`}>
-    <img
-      title={name}
-      className="loading"
-      onError={handleError}
-      onLoad={(ev) => ev.target.classList.remove("loading")}
-      src={src}
-    />
-  </div>
-);
-
-CardBaseImage.propTypes = {
-  src: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  handleError: PropTypes.func,
-  rotated: PropTypes.bool,
-  base: PropTypes.bool
-};
-
-const CardBaseText = ({ cardName, title, rarity, aspects, rotated, base }) => {
-  return (
-    <div
-      className={`CardBaseText ${rotated ? "-rotated" : ""} ${base? "-base":""}`}
-      style={{ background: backgroundStyle(aspects) }}
-    >
-      <div className="header">
-        <div className="name">
-          {cardName} {title}
-        </div>
-      </div>
-
-      <div className="sub-header">
-        <div className="rarity">{rarity}</div>
-      </div>
-    </div>
-  );
-};
-function backgroundStyle(aspects) {
-  if (!aspects || !aspects.length) return "var(--colorless)";
-
-  const output = aspects.map((a) => `var(--${a})`).join(", ");
-  if (aspects.length === 1) return output;
-  else return `linear-gradient(to right, ${output})`;
-}
-
-CardBaseText.propTypes = {
-  cardName: PropTypes.string.isRequired,
-  title: PropTypes.string,
-  rarity: PropTypes.number,
-  aspects: PropTypes.array,
-  rotated: PropTypes.bool,
-  base: PropTypes.bool
 };

@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 
 import _ from "utils/utils";
 import App from "../app";
-import Select from "../components/Select";
 
 import SelectSet from "./SelectSet";
 import { Col, Form, InputGroup, Row } from "react-bootstrap";

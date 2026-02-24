@@ -6,6 +6,7 @@ import { ZONE_MAIN } from "../zones";
 
 import "./Leaders.scss";
 import CardDefault from "./card/CardDefault";
+import { Card, Row } from "react-bootstrap";
 
 const LeadersPanel = () => {
   if (App.state.didGameStart || App.state.isGameFinished) {
@@ -21,19 +22,20 @@ const LeadersPanel = () => {
 const LeadersList = () => {
   const zone = App.getSortedZone(ZONE_MAIN, "Leader");
   const values = _.values(zone);
+  console.log(zone);
   const cards = _.flat(values).reverse();
 
   return (
-    <fieldset className="ExportDeckPanel fieldset">
-      <legend className="legend game-legend">Picked Leaders</legend>
-      <div className='Grid zone'>
-        <div className={"cards -Leader"}>
+    <Card>
+      <Card.Header>Picked Leaders</Card.Header>
+      <Card.Body>
+        <Row xs="1" sm="2">
           {
             cards.map((card, i) => <CardDefault key={i+"Leader"+card.name+card.foil} card={card} zoneName={ZONE_MAIN} />)
           }
-        </div>
-      </div>
-    </fieldset>
+        </Row>
+      </Card.Body>
+    </Card>
   );
 };
 
