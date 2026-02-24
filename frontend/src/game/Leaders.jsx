@@ -22,7 +22,6 @@ const LeadersPanel = () => {
 const LeadersList = () => {
   const zone = App.getSortedZone(ZONE_MAIN, "Leader");
   const values = _.values(zone);
-  console.log(zone);
   const cards = _.flat(values).reverse();
 
   return (

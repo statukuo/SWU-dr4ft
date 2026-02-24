@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 
 import App from "../app";
 import exportDeck from "../export";
 
 import "./DeckSettings.scss";
-import { Button, Card, Col, Container, Form, InputGroup, Row, Tab, Tabs } from "react-bootstrap";
+import { Button, Card, Col, Container, Form, InputGroup, Modal, Row, Tab, Tabs } from "react-bootstrap";
+import { ZONE_MAIN } from "../zones";
+import CardPlaceholder from "./card/CardPlaceholder";
+import CardDefault from "./card/CardDefault";
+import _ from "utils/utils";
 
 const DeckSettings = () => {
   if (App.state.didGameStart || App.state.isGameFinished) {
@@ -29,11 +33,53 @@ const DeckSettings = () => {
 };
 
 const ExportDeckPanel = () => {
+  const [leaderSelectShow, setLeaderSelectShow] = useState(false);
+  const [baseSelectShow, setBaseSelectShow] = useState(false);
+
   const activeFormatKey = App.state.exportDeckFormat;
   const activeFormat = exportDeck[activeFormatKey];
 
+  const leaderCard = App.getSortedZone(ZONE_MAIN, "Leader").find(({defaultCardNumber, defaultExpansionAbbreviation}) => defaultCardNumber === App.state.selectedLeader.split("_")[1] && defaultExpansionAbbreviation === App.state.selectedLeader.split("_")[0] );
+  const baseCard = App.getSortedZone(ZONE_MAIN, "Base").find(({defaultCardNumber, defaultExpansionAbbreviation}) => defaultCardNumber === App.state.selectedBase.split("_")[1] && defaultExpansionAbbreviation === App.state.selectedBase.split("_")[0] );
+
   return (
     <Container>
+      <Modal show={leaderSelectShow} onHide={() => setLeaderSelectShow(false)} size="lg">
+        <Modal.Header closeButton>
+          <Modal.Title>Select leader</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          {
+            _.flat(_.values(App.getSortedZone(ZONE_MAIN, "Leader"))).reverse().map((card, i) => <CardDefault key={i+"Leader"+card.name+card.foil} card={card} zoneName={ZONE_MAIN} />)
+          }
+        </Modal.Body>
+      </Modal>
+      <Modal show={baseSelectShow} onHide={() => setBaseSelectShow(false)} size="lg">
+        <Modal.Header closeButton>
+          <Modal.Title>Select leader</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          {
+            _.flat(_.values(App.getSortedZone(ZONE_MAIN, "Base"))).reverse().map((card, i) => <CardDefault key={i+"Base"+card.name+card.foil} card={card} zoneName={ZONE_MAIN} />)
+          }
+        </Modal.Body>
+      </Modal>
+      <Row>
+        <Col xs="12" md="6" align="center">
+          {!leaderCard && <CardPlaceholder horizontal/>}
+          {leaderCard && <CardDefault card={leaderCard} staticCard/>}
+          <Button onClick={() => setLeaderSelectShow(true)}>
+            Select Leader
+          </Button>
+        </Col>
+        <Col xs="12" md="6" align="center">
+          {!baseCard && <CardPlaceholder horizontal/>}
+          {baseCard && <CardDefault card={baseCard} staticCard/>}
+          <Button onClick={() => setBaseSelectShow(true)}>
+            Select Base
+          </Button>
+        </Col>
+      </Row>
       <h4>Deck Export</h4>
 
       <Tabs

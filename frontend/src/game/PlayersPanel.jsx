@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import App from "../app";
 import "./PlayersPanel.scss";
 import CardDefault from "./card/CardDefault";
-import { Card, Col, Container, Row, Modal } from "react-bootstrap";
+import { Card, Col, Container, Row, Modal, Table } from "react-bootstrap";
 
 let showModal;
 
@@ -12,7 +12,9 @@ const PlayersPanel = () => (
   <Card className='PlayersPanel fieldset'>
     <Card.Header>Players ({App.state.players.length}/{App.state.gameSeats})</Card.Header>
     <CreateLeadersModal />
-    <PlayersTable />
+    <Card.Body>
+      <PlayersTable />
+    </Card.Body>
     <div id='self-time-fixed' hidden>
       <div className='label'>Time left</div>
       <div id='self-time-fixed-time' />
@@ -21,12 +23,12 @@ const PlayersPanel = () => (
 );
 
 const PlayersTable = () => (
-  <table id='players'>
+  <Table id='players' responsive>
     <tbody>
       <PlayerTableHeader />
       <PlayerEntries />
     </tbody>
-  </table>
+  </Table>
 );
 
 const PlayerTableHeader = () => (
