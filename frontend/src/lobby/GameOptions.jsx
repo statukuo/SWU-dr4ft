@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 
 import _ from "utils/utils";
 import App from "../app";
-import Select from "../components/Select";
 
 import SelectSet from "./SelectSet";
+import { Col, Form, InputGroup, Row } from "react-bootstrap";
 
 const GameOptions = () => {
   const {
@@ -45,11 +45,16 @@ RegularSealed.propTypes = {
 const Regular = ({sets, type}) => (
   <Fragment>
     <div>
-      Number of packs:{" "}
-      <Select
-        value={sets.length}
-        onChange={App._emit("changeSetsNumber", type)}
-        opts={_.seq(12, 1)} />
+      <InputGroup className="mb-3">
+        <InputGroup.Text id="basic-addon1">
+      Number of packs</InputGroup.Text>
+        <Form.Select aria-label="Default select example" value={sets.length} onChange={App._emit("changeSetsNumber", type)}>
+          {_.seq(12,1).reverse().map(idx => {
+            return <option value={idx} key={idx}>{idx}</option>;
+          })}
+        </Form.Select>
+      </InputGroup>
+
     </div>
     <div>
       <Sets sets={sets} type={type} />
@@ -65,14 +70,17 @@ Regular.propTypes = {
 const Sets = ({sets, type}) => (
   sets.map((set, i) => {
     return (
-      <SelectSet
-        value={App.state[type][i]}
-        key={i}
-        onChange={setCode => {
-          App.state[type][i] = setCode;
-          App.save(type, App.state[type]);
-        }}
-      />
+      <Row key={i}>
+        <Col>
+          <SelectSet
+            value={App.state[type][i]}
+            onChange={setCode => {
+              App.state[type][i] = setCode;
+              App.save(type, App.state[type]);
+            }}
+          />
+        </Col>
+      </Row>
     );
   })
 );

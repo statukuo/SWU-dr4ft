@@ -1,17 +1,20 @@
 import React from "react";
 
-import { STRINGS } from "../config";
-import Spaced from "../components/Spaced";
 import App from "../app";
+import { Alert, Col, Container, Image, Row } from "react-bootstrap";
+import "./Header.scss";
 
 const Header = () => (
-  <header>
-    <h1 className="lobby-header">
-      {STRINGS.BRANDING.SITE_NAME}
-    </h1>
-    <ServerInfo />
-    <ApplicationError />
-  </header>
+  <Container>
+
+    <Row className="justify-content-center">
+      <Col xs="6" align="center" className="header">
+        <Image src="SWUDr4ft-logo.png" className="logo"/>
+      </Col>
+      <ServerInfo />
+      <ApplicationError />
+    </Row>
+  </Container>
 );
 
 const ApplicationError = () => (
@@ -33,7 +36,16 @@ const ServerInfo = () => {
     ? "game"
     : "games"}`;
 
-  return <p><Spaced elements={[users, players]} /></p>;
+  return <Container>
+    <Row>
+      {[users, players].map(((element, key) => {
+        return <Col key={key}>
+          <Alert variant="info">
+            {element}
+          </Alert></Col>;
+      }))}
+    </Row>
+  </Container>;
 };
 
 export default Header;

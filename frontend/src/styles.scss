@@ -1,0 +1,22 @@
+@import './bootstrap.min.css';
+
+body {
+    background-image: url("/frontend/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    margin: 10px;
+}
+
+.toast {
+  z-index: 5;
+  color: black;
+}
+
+.btn-close {
+  background-color: white;
+}

@@ -4,6 +4,7 @@ import { Socket } from "engine.io-client";
 import {times, constant, isObject, mapValues} from "lodash";
 import {STRINGS} from "./config";
 import GameState from "./gamestate";
+import "./styles.scss";
 
 function message(msg) {
   let args = JSON.parse(msg);

@@ -1,5 +1,9 @@
 .PlayersPanel {
 
+    .table > :not(caption) > * > * {
+      padding: 2px;
+    }
+
   #self-time-fixed {
     position: fixed;
     z-index: 99;

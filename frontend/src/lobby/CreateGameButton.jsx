@@ -1,16 +1,11 @@
 import React, { useState, useRef } from "react";
 import PropTypes from "prop-types";
-import _ from "utils/utils";
 
 import App from "../app";
-import RadioOptions from "../components/RadioOptions";
-import Switch from "../components/Switch";
-import Modal from "../components/Modal";
 import { toTitleCase } from "../utils";
-import GameTypes from "./GameTypes";
 import GameOptions from "./GameOptions";
 
-import "./CreateGameButton.scss";
+import { Button, Col, Container, Form, Modal, Row, Stack } from "react-bootstrap";
 
 // set this out here so the create button has the capability
 // to open the modal
@@ -56,78 +51,70 @@ const CreateRoomModal = () => {
     createModalButtonRef.current.focus();
   };
 
-  const {title, seats} = App.state;
+  const {title, seats, gametype, isPrivate} = App.state;
   const gameTypes = ["draft", "sealed"];
 
   return (
-    <Modal
-      show={open}
-      headerText="Create Game"
-      footerConfirmButtonText="Create"
-      onClose={closeModal}
-      onConfirm={App._emit("create")}
-    >
-      <ModalSection label="Name" inputId="game-title-input" >
-        <input type='text'
-          ref={draftNameInput}
-          id="game-title-input"
-          placeholder="Game Room Name"
-          value={title}
-          onChange={(e) => {App.save("title", e.currentTarget.value);}}
-        />
-        <div>
-          <span className='connected-container'>
-            <RadioOptions
-              name="type"
-              description="Game type"
-              appProperty="gametype"
-              options={gameTypes.map(type => {
-                return {
-                  label: toTitleCase(type),
-                  value: type
-                };
-              })}
-              onChange={() => {
-                // always change back to the default when updating main
-                // game type
-                App.save("gamesubtype", "regular");
-              }}
-            />
-          </span>
-        </div>
-      </ModalSection>
+    <Modal show={open} onHide={closeModal}>
+      <Modal.Header closeButton>
+        <Modal.Title>Create Game</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <Container>
+          <Form>
+            <Form.Group>
+              <Form.Label>Game Room Name</Form.Label>
+              <Form.Control type="text" placeholder="Enter game room name" onChange={(e) => {App.save("title", e.currentTarget.value);}} value={title} />
+            </Form.Group>
+            <Form.Group>
+              <Form.Label>Game Type</Form.Label>
+              <Stack gap={2} className="col-md-5 mx-auto" direction="horizontal">
+                {gameTypes.map((gameType, idx) => {
+                  return <Button
+                    key={idx}
+                    id={`gameType-${gameType}`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      App.save("gametype", gameType);
+                      App.save("gamesubtype", "regular");
+                    }}
+                    variant={gametype === gameType ? "success" : "outline-primary"}
+                  >
+                    {toTitleCase(gameType)}
+                  </Button>;
+                })}
+              </Stack>
+            </Form.Group>
 
-      <ModalSection label="Players" inputId="game-players-input" className="Players" >
-        <select id="game-players-input" value={seats} onChange={(e) => {App.save("seats", e.currentTarget.value);}}>
-          {_.seq(100, 1).map((x, i) =>
-            <option key={i}>{x}</option>)}
-        </select>
+            <Form.Group controlId="formGridCity">
+              <Form.Label>Players</Form.Label>
 
-        <Switch
-          appProperty="isPrivate"
-          checked={{
-            label: "Private",
-            tooltip: "A link is required"
-          }}
-          unchecked={{
-            label: "Public",
-            tooltip: "Anyone can join"
-          }}
-        />
-      </ModalSection>
+              <Row className="mb-3">
+                <Col>
+                  <Form.Control type="number" placeholder="8" onChange={(e) => App.save("seats", e.currentTarget.value)} value={seats} />
+                </Col>
+                <Col className="align-self-center">
+                  <Form.Check
+                    type="switch"
+                    label="Private"
+                    name="formHorizontalRadios"
+                    id="formHorizontalRadios1"
+                    onChange={() => App.save("isPrivate", !isPrivate)}
+                    value={isPrivate}
+                  />
+                </Col>
+              </Row>
+            </Form.Group>
 
-      <ModalSection label="Type" inputId="game-type-input" >
-        <GameTypes/>
-      </ModalSection>
-
-      <ModalSection label="Packs" inputId="game-packs-input" >
-        <GameOptions/>
-      </ModalSection>
-
-      {/* TODO This probably needs a better design, but for now, just show all app errors here since most of them at this stage will be about the room setup failing */}
-      <ModalSection hide={!App.err} label="Error" >
-        <p dangerouslySetInnerHTML={{__html: App.err}} className='error' />
-      </ModalSection>
+            <GameOptions/>
+          </Form>
+        </Container>
+      </Modal.Body>
+      <Modal.Footer>
+        <Button variant="primary" onClick={App._emit("create")}>
+            Create Game
+        </Button>
+      </Modal.Footer>
     </Modal>
   );
 };
@@ -138,9 +125,9 @@ const CreateGameButton = () => {
   return (
     <div className="CreateGameButton">
       <CreateRoomModal />
-      <button ref={createModalButtonRef} onClick={e => showModal()}>
+      <Button ref={createModalButtonRef} onClick={() => showModal()} variant="success">
         Create Game
-      </button>
+      </Button>
     </div>
   );
 };

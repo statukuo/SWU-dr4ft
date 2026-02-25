@@ -6,6 +6,7 @@ import { ZONE_MAIN } from "../zones";
 
 import "./Bases.scss";
 import CardDefault from "./card/CardDefault";
+import { Card, Row } from "react-bootstrap";
 
 const BasesPanel = () => {
   if (App.state.didGameStart || App.state.isGameFinished) {
@@ -24,16 +25,16 @@ const BasesList = () => {
   const cards = _.flat(values).reverse();
 
   return (
-    <fieldset className="ExportDeckPanel fieldset">
-      <legend className="legend game-legend">Available Bases</legend>
-      <div className='Grid zone'>
-        <div className={"cards -Base"}>
+    <Card>
+      <Card.Header>Available Bases</Card.Header>
+      <Card.Body>
+        <Row xs="2" sm="4">
           {
             cards.map((card, i) => <CardDefault key={i+"Base"+card.name+card.foil} card={card} zoneName={ZONE_MAIN} />)
           }
-        </div>
-      </div>
-    </fieldset>
+        </Row>
+      </Card.Body>
+    </Card>
   );
 };
 

@@ -1,24 +1,21 @@
 .CardDefault {
   --pick-color: #2ba62b;
 
+  padding: 0;
   position: relative;
-
-  width: var(--card-width);
-  height: var(--card-height);
   cursor: pointer;
 
   display: grid;
 
-  &.-rotated {
-    width: var(--card-height);
-    height: var(--card-width);
-  }
+  width: 50%;
+  max-width: 300px;
+  margin: auto;
+  aspect-ratio: 2.5/3.4;
 
-  &.-leader {
-    height: auto;
-  }
-  &.-base {
-    height: calc( var(--card-width) / 1.3);
+  &.-leader, &.-base {
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 3.5/2.5;
   }
 
   .CardBase {

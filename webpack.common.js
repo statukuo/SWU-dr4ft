@@ -35,7 +35,7 @@ module.exports = {
     })
   ],
   resolve: {
-    extensions: [".js", ".jsx", ".css", ".less"],
+    extensions: [".js", ".jsx", ".css", ".less", ".scss"],
   },
   optimization: {
     splitChunks: {
@@ -87,8 +87,11 @@ module.exports = {
         ]
       },
       {
-        test: /\.(jpe?g|png|gif|svg)$/,
-        loader: "url-loader"
+        test: /\.(jpe?g|png|gif|svg|webp)$/,
+        type: "asset/resource",
+        generator: {
+          filename: "./images/[name].[ext]"
+        }
       }
     ]
   }

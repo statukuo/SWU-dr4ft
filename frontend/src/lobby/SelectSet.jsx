@@ -1,41 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
-import SelectSearch from "react-select-search";
-import Fuse from "fuse.js";
-
-import "./SelectSet.scss";
-
-function fuzzySearch (options) {
-  return value => {
-    if (!value.length) {
-      return options;
-    }
-
-    return options.reduce((acc, group) => {
-      const fuse = new Fuse(group.items, {
-        keys: ["name", "value"],
-        minMatchCharLength: 2,
-        threshold: 0.3
-      });
-      const matches = fuse.search(value);
-
-      if (matches.length) {
-        acc.push({
-          ...group,
-          items: matches.map(match => match.item)
-        });
-      }
-      return acc;
-    }, []);
-  };
-}
 
 import App from "../app";
+import { Form } from "react-bootstrap";
 
 const SelectSet = ({ value, onChange }) => {
   const options = Object.entries(App.state.availableSets).reduce((acc, [setType, sets]) => {
     acc.push({
-      type: "group",
       name: setType, // TODO titlecase
       items: sets.map(set => ({
         name: set.name,
@@ -44,39 +15,15 @@ const SelectSet = ({ value, onChange }) => {
     });
 
     return acc;
-  }, []);
+  }, [])[0].items; //WE CURRENTLY ONLY HAVE REGULAR SETS so we only need [0].items
 
-  return (
-    <SelectSearch
-      className="SelectSet"
-      options={options}
-      name="card-set"
-      placeholder="Choose a set"
-      value={value}
-      onChange={onChange}
-      search
-      filterOptions={fuzzySearch}
-      renderValue={(valueProps) => {
-        return (
-          <div className="SelectSet__input-container" >
-            <i className={`ss ss-${value?.toLowerCase()}`} />
-            <input className='SelectSet__input' {...valueProps} />
-          </div>
-        );
-      }}
-      renderOption={(optionProps, optionData, snapshot, className) => {
-        return (
-          <button {...optionProps} className={className} type="button">
-            <i className={`ss ss-${optionData.value.toLowerCase()}`} />
-            {optionData.name}
-            <span className='set-code'>
-              {optionData.value}
-            </span>
-          </button>
 
-        );
-      }}
-    />
+  return(
+    <Form.Select aria-label="Default select example" value={value} onChange={(e) => onChange(e.target.value)}>
+      {options.map(({name, value}, idx) => {
+        return <option value={value} key={idx}>{value} - {name}</option>;
+      })}
+    </Form.Select>
   );
 };
 

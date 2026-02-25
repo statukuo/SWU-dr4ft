@@ -1,7 +1,7 @@
 /*global BUILD_DATE*/
 import React from "react";
 import PropTypes from "prop-types";
-import "./Version.scss"
+import "./Version.scss";
 
 const getLink = (version) => (
   (/^v\d+\.\d+\.\d+$/.test(version)) ?

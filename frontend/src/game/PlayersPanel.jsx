@@ -3,30 +3,32 @@ import PropTypes from "prop-types";
 
 import App from "../app";
 import "./PlayersPanel.scss";
-import Modal from "../components/Modal";
 import CardDefault from "./card/CardDefault";
+import { Card, Col, Container, Row, Modal, Table } from "react-bootstrap";
 
 let showModal;
 
 const PlayersPanel = () => (
-  <fieldset className='PlayersPanel fieldset'>
+  <Card className='PlayersPanel fieldset'>
+    <Card.Header>Players ({App.state.players.length}/{App.state.gameSeats})</Card.Header>
     <CreateLeadersModal />
-    <legend className='legend game-legend'>Players ({App.state.players.length}/{App.state.gameSeats})</legend>
-    <PlayersTable />
+    <Card.Body>
+      <PlayersTable />
+    </Card.Body>
     <div id='self-time-fixed' hidden>
       <div className='label'>Time left</div>
       <div id='self-time-fixed-time' />
     </div>
-  </fieldset>
+  </Card>
 );
 
 const PlayersTable = () => (
-  <table id='players'>
+  <Table id='players' responsive>
     <tbody>
       <PlayerTableHeader />
       <PlayerEntries />
     </tbody>
-  </table>
+  </Table>
 );
 
 const PlayerTableHeader = () => (
@@ -36,7 +38,6 @@ const PlayerTableHeader = () => (
     <th key="3">Drafter</th>
     <th key="4" className={columnVisibility("packs")}>Packs</th>
     <th key="5" className={columnVisibility("timer")}>Timer</th>
-    <th key="6" className={columnVisibility("trice")}>Hash</th>
     <th key="7" className={columnVisibility("leader")}>Leaders</th>
   </tr>
 );
@@ -123,7 +124,6 @@ const PlayerEntry = ({player, index}) => {
     <td key={2}>{index === self ? <SelfName name={App.state.name} /> : name}</td>,
     <td key={3} className={columnVisibility("packs")} >{packs}</td>,
     <td key={4} id={className==="self" ? "self-time":""} className={columnVisibility("timer")}>{time}</td>,
-    <td key={5} className={columnVisibility("trice")}>{hash && hash.cock}</td>,
     <td key={6} className={columnVisibility("leader", index === self)} onClick={() => showModal(index, App.state.gameId, player) }><i className="icon ion-android-person"></i><i className="icon ion-android-person"></i><i className="icon ion-android-person"></i></td>,
   ];
 
@@ -202,31 +202,41 @@ const CreateLeadersModal = () => {
   };
 
   return (
-    <Modal
-      show={open}
-      headerText={"Leaders picked by" + player?.name}
-      onClose={closeModal}
-      onConfirm={closeModal}
-      showButtons={false}
-    >
-      {
-        playerLeaders?.currentPack?.length &&
-        <div>
-          <h2>Current Pack</h2>
-          <div className="leaders">
-            {playerLeaders.currentPack.map((card, i) => <CardDefault key={i+"Leader"+card.name+card.foil} card={card} staticCard/>)}
-          </div>
-        </div>
-      }
-      {
-        playerLeaders?.picked?.length &&
-        <div>
-          <h2>Picked</h2>
-          <div className="leaders">
-            {playerLeaders.picked.map((card, i) => <CardDefault key={i+"Leader"+card.name+card.foil} card={card} staticCard/>)}
-          </div>
-        </div>
-      }
+    <Modal show={open} onHide={closeModal} size="lg">
+      <Modal.Header closeButton>
+        <Modal.Title>Leaders picked by {player?.name}</Modal.Title>
+      </Modal.Header>
+      <Modal.Body>
+        <Container>
+          {
+            playerLeaders?.currentPack?.length &&
+          <Row>
+            <h2>Current Pack</h2>
+            <Row xs="1" sm="2" md="3">
+              {playerLeaders.currentPack.map((card, idx) =>{
+                return (<Col key={idx}>
+                  <CardDefault key={"Leader"+card.name+card.foil} card={card} staticCard/>
+                </Col>);
+              })}
+            </Row>
+          </Row>
+          }
+
+          {
+            playerLeaders?.picked?.length &&
+          <Row>
+            <h2>Picked</h2>
+            <Row xs="1" md="2">
+              {playerLeaders.picked.map((card, idx) =>{
+                return (<Col key={idx}>
+                  <CardDefault key={"Leader"+card.name+card.foil} card={card} staticCard/>
+                </Col>);
+              })}
+            </Row>
+          </Row>
+          }
+        </Container>
+      </Modal.Body>
     </Modal>
   );
 };
