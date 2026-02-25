@@ -10,10 +10,12 @@
   width: 50%;
   max-width: 300px;
   margin: auto;
+  aspect-ratio: 2.5/3.4;
 
   &.-leader, &.-base {
     width: 100%;
     max-width: 400px;
+    aspect-ratio: 3.4/2.5;
   }
 
   .CardBase {

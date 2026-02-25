@@ -5,7 +5,7 @@ import App from "../../app";
 import "./CardBase.scss";
 import SelectionState from "./SelectionState.jsx";
 import { ZONE_PACK } from "../../zones";
-import { Card } from "react-bootstrap";
+import { Card, Container, Row } from "react-bootstrap";
 
 const DEFAULT = 0;
 const FLIP = 1;
@@ -79,7 +79,8 @@ export default class CardBase extends Component {
       (card.type === "Leader") != this.state.isFlipped
         ? "-rotate"
         : "",
-      card.type === "Base"? "-base":""
+      card.type === "Base"? "-base":"",
+      card.aspects?.length ? `-${card.aspects[0]}` : ""
     ].join(" ");
 
     const base = card.type === "Base";
@@ -87,10 +88,16 @@ export default class CardBase extends Component {
     const swuCardId = `${card.defaultExpansionAbbreviation}_${card.defaultCardNumber}`;
     const isLeaderSelected = card.type === "Leader" && swuCardId === App.state.selectedLeader;
     const isBaseSelected = card.type === "Base" && swuCardId === App.state.selectedBase;
-
     return (
       <Card className={_class} onClick={() => this.handleCardSelection(card, swuCardId)}>
-        <Card.Img variant="top" src={this.getCardImage(this.state.isFlipped ? FLIP : DEFAULT)} />
+        {!this.state.imageErrored && <Card.Img variant="top" src={this.getCardImage(this.state.isFlipped ? FLIP : DEFAULT)} onError={this.onImageError}/>}
+        <Container className="fallback" align="center">
+          <Row align="center">
+            <h4>{card.cardName}</h4>
+            <p>{card.title}</p>
+          </Row>
+        </Container>
+
         {this.props.children}
 
         {card.type==="Leader" &&

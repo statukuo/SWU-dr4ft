@@ -91,7 +91,6 @@ const ExportDeckPanel = () => {
         {
           Object.entries(exportDeck).map(([formatKey, format], idx) => {
             if (!format) return null;
-            console.log(formatKey);
             return (
               <Tab
                 eventKey={formatKey}
