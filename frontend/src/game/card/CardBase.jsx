@@ -90,7 +90,6 @@ export default class CardBase extends Component {
     const isBaseSelected = card.type === "Base" && swuCardId === App.state.selectedBase;
     return (
       <Card className={_class} onClick={() => this.handleCardSelection(card, swuCardId)}>
-        {!this.state.imageErrored && <Card.Img variant="top" src={this.getCardImage(this.state.isFlipped ? FLIP : DEFAULT)} onError={this.onImageError}/>}
         <Container className="fallback" align="center">
           <Row align="center">
             <h4>{card.cardName}</h4>
@@ -98,6 +97,7 @@ export default class CardBase extends Component {
           </Row>
         </Container>
 
+        {!this.state.imageErrored && <Card.Img variant="top" src={this.getCardImage(this.state.isFlipped ? FLIP : DEFAULT)} onError={this.onImageError}/>}
         {this.props.children}
 
         {card.type==="Leader" &&

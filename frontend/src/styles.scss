@@ -1,4 +1,4 @@
-@import '~bootstrap/scss/bootstrap';
+@import './bootstrap.min.css';
 
 body {
     background-image: url("/frontend/background.jpg");
@@ -10,4 +10,13 @@ body {
 
 .card {
     margin: 10px;
+}
+
+.toast {
+  z-index: 5;
+  color: black;
+}
+
+.btn-close {
+  background-color: white;
 }

@@ -85,14 +85,12 @@
 
   .fallback {
     position: absolute;
-    height: 100%;
-    width: 100%;
     top: 20%;
-    z-index: 0;
+    z-index: 1;
   }
 
   img {
-    z-index: 1;
+    z-index: 2;
   }
 }
 @keyframes rainbow {

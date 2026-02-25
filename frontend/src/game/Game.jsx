@@ -23,7 +23,7 @@ export default class Game extends Component {
     App.register(this);
 
     this.state = {
-      showToast: App.state.name === STRINGS.BRANDING.DEFAULT_USERNAME,
+      showToast: App.state.name === STRINGS.BRANDING.DEFAULT_USERNAME && !App.state.didGameStart,
       showSettings: false,
       showLeaders: false
     };
