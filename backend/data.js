@@ -6,6 +6,7 @@ const { app: { LOG_PATH } } = require("../config");
 
 const DATA_DIR = "data";
 const DRAFT_STATS_DIR = "draftStats";
+const GAME_STATS_DIR = "gameStats";
 const CARDS_PATH = "cards.json";
 const CUBABLE_CARDS_PATH = "cubable_cards_by_name.json";
 const SETS_PATH = "sets.json";
@@ -186,6 +187,14 @@ function saveDraftStats(id, stats) {
   fs.writeFileSync(`${getLogDir()}/${DRAFT_STATS_DIR}/${id}.json`, JSON.stringify(stats, undefined, 4));
 }
 
+function saveGameStats(id, stats) {
+  if (!fs.existsSync(`${getLogDir()}/${GAME_STATS_DIR}`)) {
+    fs.mkdirSync(`${getLogDir()}/${GAME_STATS_DIR}`);
+  }
+
+  fs.writeFileSync(`${getLogDir()}/${GAME_STATS_DIR}/${id}.json`, JSON.stringify(stats, undefined, 4));
+}
+
 const getBoosterRules = (setCode) => {
   if (!boosterRules) {
     boosterRules = readFile(`${getDataDir()}/${BOOSTER_RULES_PATH}`);
@@ -219,6 +228,7 @@ module.exports = {
   saveSetAndCards,
   saveSetsAndCards,
   saveDraftStats,
+  saveGameStats,
   mergeCardsTogether,
   getCardByUuid,
   getCardByName: getCubableCardByName,

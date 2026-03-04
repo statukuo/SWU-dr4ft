@@ -84,6 +84,7 @@ let App = {
     gameStates: {}, // Object representation of the gameState
     selectedLeader: "",
     selectedBase: "",
+    stats: {},
 
     get didGameStart() {
       // both round === 0 and round is undefined
@@ -200,6 +201,9 @@ let App = {
       initializeIfEmpty(App.state.setsDecadentDraft, 36);
     }
     App.update();
+  },
+  async getStats() {
+    App.save("stats", await (await fetch("/api/stats")).json());
   },
   update() {
     if(App.component) {

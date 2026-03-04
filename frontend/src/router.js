@@ -6,6 +6,7 @@ import {STRINGS} from "./config";
 
 const Lobby = React.lazy(() => import("./lobby/Lobby"));
 const Game = React.lazy(() => import("./game/Game"));
+const Stats = React.lazy(() => import("./stats/Stats"));
 let App;
 
 export default function router(_App) {
@@ -28,6 +29,13 @@ function route() {
   let component;
 
   switch(route) {
+  case "stats":
+    component = (
+      <Suspense fallback={Loading()}>
+        <Stats />
+      </Suspense>
+    );
+    break;
   case "g":
     App.state.gameId = id;
     App.initGameState(id);

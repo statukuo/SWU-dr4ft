@@ -10,7 +10,7 @@ const Room = require("./room");
 const Rooms = require("./rooms");
 const logger = require("./logger");
 const Sock = require("./sock");
-const {saveDraftStats, getCardByUuid, getLogDir} = require("./data");
+const {saveDraftStats, getCardByUuid, getLogDir, saveGameStats} = require("./data");
 const {distributeArrays} = require("./util");
 
 module.exports = class Game extends Room {
@@ -335,6 +335,7 @@ module.exports = class Game extends Room {
         "id": player.id,
         "name": player.name,
         "seat": seat,
+        "pool": player.pool?.map(card => `${card.defaultExpansionAbbreviation}_${card.defaultCardNumber}`),
         "picks": player.cap.packs,
         "cubeHash": cubeHash
       }))
@@ -348,6 +349,9 @@ module.exports = class Game extends Room {
     this.renew();
     this.round = -1;
     this.meta({ round: -1 });
+
+    saveGameStats(this.id, draftcap);
+
     if (["cube draft", "draft"].includes(this.type)) {
       this.uploadDraftStats();
     }
@@ -486,6 +490,8 @@ module.exports = class Game extends Room {
       p.send("pool", p.pool);
       p.send("set", { round: -1 });
     });
+
+    this.end();
   }
 
   handleDraft() {
