@@ -38,7 +38,14 @@ statsRouter
         if (json.type === "sealed") { sealedCount++;}
       } catch (e){
         console.error("Error processing:", file);
-        console.error(e);
+        try {
+          fs.unlink(path.join("./log/gameStats", file), (err) => {
+            if (err) throw err;
+            console.log("File deleted successfully");
+          });
+        } catch (error) {
+          console.log(error);
+        }
       }
     });
 
