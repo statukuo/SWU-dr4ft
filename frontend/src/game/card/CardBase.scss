@@ -49,6 +49,7 @@
   }
 
   &.-foil:before {
+    z-index: 3;
     content: '';
 
     display: block;
