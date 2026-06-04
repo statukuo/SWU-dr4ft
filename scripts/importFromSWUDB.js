@@ -25,7 +25,7 @@ async function importSet() {
 
   const allSets = (await (await fetch("https://swudb.com/api/card/getAllSets")).json()).map((set) => ({...set, cardCount: set.previewedCount}));
   const setsToForceUpdate = [];
-  const setsToIgnore = ["CE25", "GGTS", "J25", "J24", "P25", "P26"];
+  const setsToIgnore = ["CE25", "GGTS", "J25", "J24", "P25", "P26", "C26", "TS26", "IC27"];
 
   allSets.forEach(({expansionAbbreviation, cardCount}) => {
     if (cardCount <= 0) {

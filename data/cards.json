@@ -78220,5 +78220,4263 @@
     "rarity": 1,
     "cost": 1,
     "type": "Event"
+  },
+  "ASH_001": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "The Armorer",
+    "title": "Steel Shapes Us",
+    "defaultCardNumber": "001",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/001.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/001.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/001-back.png",
+    "aspects": [
+      "Command",
+      "Vigilance"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "ASH_002": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Fennec Shand",
+    "title": "Ready for War",
+    "defaultCardNumber": "002",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/002.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/002.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/002-back.png",
+    "aspects": [
+      "Aggression",
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Leader"
+  },
+  "ASH_003": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Baylan Skoll",
+    "title": "Power Beyond Dream",
+    "defaultCardNumber": "003",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/003.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/003.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/003-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "ASH_004": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Grand Admiral Thrawn",
+    "title": "Victory Is Mine",
+    "defaultCardNumber": "004",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/004.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/004.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/004-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 8,
+    "type": "Leader"
+  },
+  "ASH_005": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Luke Skywalker",
+    "title": "I Can Save Him",
+    "defaultCardNumber": "005",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/005.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/005.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/005-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 5,
+    "cost": 7,
+    "type": "Leader"
+  },
+  "ASH_006": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Sabine Wren",
+    "title": "Bargaining on Belief",
+    "defaultCardNumber": "006",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/006.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/006.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/006-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "ASH_007": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Grand Admiral Sloane",
+    "title": "Holding the Empire Together",
+    "defaultCardNumber": "007",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/007.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/007.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/007-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "ASH_008": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Moff Gideon",
+    "title": "Indomitable Warload",
+    "defaultCardNumber": "008",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/008.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/008.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/008-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 7,
+    "type": "Leader"
+  },
+  "ASH_009": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Ahsoka Tano",
+    "title": "Trust in the Force",
+    "defaultCardNumber": "009",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/009.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/009.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/009-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "ASH_010": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Bo-Katan Kryze",
+    "title": "Reclaiming Mandalore",
+    "defaultCardNumber": "010",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/010.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/010.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/010-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 10,
+    "type": "Leader"
+  },
+  "ASH_011": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Cad Bane",
+    "title": "Still Faster Than You",
+    "defaultCardNumber": "011",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/011.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/011.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/011-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "ASH_012": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Vane",
+    "title": "Quarrelsome Pirate",
+    "defaultCardNumber": "012",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/012.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/012.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/012-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "ASH_013": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Ezra Bridger",
+    "title": "It's Now or Never",
+    "defaultCardNumber": "013",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/013.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/013.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/013-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "ASH_014": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "The Mandalorian",
+    "title": "We Can't Keep Running",
+    "defaultCardNumber": "014",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/014.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/014.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/014-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "ASH_015": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Emperor Palpatine",
+    "title": "According to My Design",
+    "defaultCardNumber": "015",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/015.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/015.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/015-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 5,
+    "cost": 7,
+    "type": "Leader"
+  },
+  "ASH_016": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Shin Hati",
+    "title": "Eager Adversary",
+    "defaultCardNumber": "016",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/016.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/016.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/016-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "ASH_017": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Greef Karga",
+    "title": "Gracious Magistrate",
+    "defaultCardNumber": "017",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/017.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/017.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/017-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "MV26_001": {
+    "defaultExpansionAbbreviation": "MV26",
+    "cardName": "",
+    "title": "",
+    "defaultCardNumber": "001",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 3,
+    "cost": 4,
+    "type": ""
+  },
+  "ASH_018": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Grogu",
+    "title": "Charming Companion",
+    "defaultCardNumber": "018",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/018.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/018.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/018-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Leader"
+  },
+  "ASH_784": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Grogu",
+    "title": "Charming Companion",
+    "defaultCardNumber": "784",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/784.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/784.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/784-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Leader"
+  },
+  "ASH_019": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Fortress of the Great Mothers",
+    "title": "",
+    "defaultCardNumber": "019",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/019.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/019.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "ASH_020": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Nevarro City, Restored",
+    "title": "",
+    "defaultCardNumber": "020",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/020.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/020.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "ASH_021": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Emperor's Throne Room",
+    "title": "",
+    "defaultCardNumber": "021",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/021.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/021.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "ASH_022": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Kryze Castle",
+    "title": "",
+    "defaultCardNumber": "022",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/022.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/022.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "ASH_023": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Ancient Henge",
+    "title": "",
+    "defaultCardNumber": "023",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/023.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/023.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "ASH_024": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Dragonsnake Bog",
+    "title": "",
+    "defaultCardNumber": "024",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/024.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/024.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "ASH_025": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Emperor's Observatory",
+    "title": "",
+    "defaultCardNumber": "025",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/025.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/025.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "ASH_026": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Freetown",
+    "title": "",
+    "defaultCardNumber": "026",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/026.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/026.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "ASH_027": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Enoch",
+    "title": "Solemn Servant",
+    "defaultCardNumber": "027",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/027.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/027.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_028": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Paz Vizsla",
+    "title": "For a Brighter Future",
+    "defaultCardNumber": "028",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/028.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/028.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_029": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Scorpenek Annihilator Droid",
+    "title": "",
+    "defaultCardNumber": "029",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/029.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/029.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Command"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_030": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Marrok",
+    "title": "Mysterious Warrior",
+    "defaultCardNumber": "030",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/030.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/030.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_031": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Hera Syndulla",
+    "title": "Renegade General",
+    "defaultCardNumber": "031",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/031.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/031.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_032": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Rancor Keeper",
+    "title": "",
+    "defaultCardNumber": "032",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/032.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/032.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_033": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Grand Admiral Thrawn",
+    "title": "Orchestrating His Return",
+    "defaultCardNumber": "033",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/033.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/033.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "ASH_034": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Wicket",
+    "title": "Yub Nub!",
+    "defaultCardNumber": "034",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/034.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/034.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_035": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Tatooine Repulsor Train",
+    "title": "",
+    "defaultCardNumber": "035",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/035.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/035.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "ASH_036": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Rukh",
+    "title": "From the Shadows",
+    "defaultCardNumber": "036",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/036.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/036.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_037": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Red Leader",
+    "title": "Strike the Reactor",
+    "defaultCardNumber": "037",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/037.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/037.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "ASH_038": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Purrgil Ultra",
+    "title": "",
+    "defaultCardNumber": "038",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/038.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/038.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 8,
+    "type": "Unit"
+  },
+  "ASH_039": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Baylan Skoll",
+    "title": "Fallen Jedi",
+    "defaultCardNumber": "039",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/039.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/039.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_040": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Poe Dameron",
+    "title": "I'll Come Back For You",
+    "defaultCardNumber": "040",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/040.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/040.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_041": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Outcast",
+    "title": "Mercenary Starship",
+    "defaultCardNumber": "041",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/041.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/041.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_042": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Jabba the Hutt",
+    "title": "Eminence of Tatooine",
+    "defaultCardNumber": "042",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/042.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/042.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_043": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Corona Four",
+    "title": "Justice for Alderaan",
+    "defaultCardNumber": "043",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/043.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/043.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_044": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Barriss Offee",
+    "title": "Redeeming Herself",
+    "defaultCardNumber": "044",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/044.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/044.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_045": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Reanimated Night Trooper",
+    "title": "",
+    "defaultCardNumber": "045",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/045.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/045.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_046": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Scion Shuttle",
+    "title": "At Morgan's Bidding",
+    "defaultCardNumber": "046",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/046.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/046.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_047": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Gar Saxon",
+    "title": "Coveting Power",
+    "defaultCardNumber": "047",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/047.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/047.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_048": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Imperial Armored Commando",
+    "title": "",
+    "defaultCardNumber": "048",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/048.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/048.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_049": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Shin Hati",
+    "title": "Going Somewhere?",
+    "defaultCardNumber": "049",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/049.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/049.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_050": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Morgan Elsbeth",
+    "title": "Life Abandoned",
+    "defaultCardNumber": "050",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/050.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/050.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_051": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Reinforcing Light Cruiser",
+    "title": "",
+    "defaultCardNumber": "051",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/051.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/051.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_052": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Chimaera",
+    "title": "A Frightening Reality",
+    "defaultCardNumber": "052",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/052.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/052.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "ASH_053": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Pre Vizsla",
+    "title": "Strong-Willed Ruler",
+    "defaultCardNumber": "053",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/053.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/053.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 8,
+    "type": "Unit"
+  },
+  "ASH_054": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Pointless to Resist",
+    "title": "",
+    "defaultCardNumber": "054",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/054.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/054.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "ASH_055": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Blade of Talzin",
+    "title": "A Gift of Shadows",
+    "defaultCardNumber": "055",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/055.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/055.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "ASH_056": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Huyang",
+    "title": "Your Aptitude Falls Short",
+    "defaultCardNumber": "056",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/056.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/056.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_057": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Lothal E-Wing",
+    "title": "",
+    "defaultCardNumber": "057",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/057.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/057.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_058": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Duchess's Protector",
+    "title": "",
+    "defaultCardNumber": "058",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/058.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/058.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_059": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Leia Organa",
+    "title": "Vigilant for Danger",
+    "defaultCardNumber": "059",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/059.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/059.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 5,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_060": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Cobb Vanth",
+    "title": "Let Me Handle This",
+    "defaultCardNumber": "060",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/060.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/060.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_061": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Strike Team Vanguard",
+    "title": "",
+    "defaultCardNumber": "061",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/061.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/061.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_062": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "The Mandalorian",
+    "title": "Devoted Rescuer",
+    "defaultCardNumber": "062",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/062.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/062.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_063": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Bo-Katan's Gauntlet",
+    "title": "Reinforce From Above",
+    "defaultCardNumber": "063",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/063.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/063.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_064": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "The Armorer",
+    "title": "Secrecy Is Our Survival",
+    "defaultCardNumber": "064",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/064.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/064.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_065": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Home One",
+    "title": "Heart of the Fleet",
+    "defaultCardNumber": "065",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/065.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/065.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 8,
+    "type": "Unit"
+  },
+  "ASH_066": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Luke's Jedi Lightsaber",
+    "title": "Constructed by Hand",
+    "defaultCardNumber": "066",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/066.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/066.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 5,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "ASH_067": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Get Lost",
+    "title": "",
+    "defaultCardNumber": "067",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/067.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/067.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 4,
+    "type": "Event"
+  },
+  "ASH_068": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Domesticated Loth-Cat",
+    "title": "",
+    "defaultCardNumber": "068",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/068.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/068.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_069": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Noti Nomad",
+    "title": "",
+    "defaultCardNumber": "069",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/069.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/069.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_070": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "At Attin Safety Droid",
+    "title": "",
+    "defaultCardNumber": "070",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/070.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/070.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_071": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Battered Haulcraft",
+    "title": "",
+    "defaultCardNumber": "071",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/071.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/071.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_072": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Doctor Pershing",
+    "title": "Dedicated to Research",
+    "defaultCardNumber": "072",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/072.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/072.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_073": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Palace Chef Droid",
+    "title": "",
+    "defaultCardNumber": "073",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/073.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/073.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_074": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Mos Eisley Modifier",
+    "title": "",
+    "defaultCardNumber": "074",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/074.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/074.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_075": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Pit Droid Team",
+    "title": "",
+    "defaultCardNumber": "075",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/075.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/075.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_076": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Remnant Official",
+    "title": "",
+    "defaultCardNumber": "076",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/076.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/076.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_077": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Ryder Azadi",
+    "title": "Restored Governor",
+    "defaultCardNumber": "077",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/077.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/077.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_078": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "B-Wing Rearguard",
+    "title": "",
+    "defaultCardNumber": "078",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/078.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/078.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_079": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Koska Reeves",
+    "title": "Warrior of Mandalore",
+    "defaultCardNumber": "079",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/079.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/079.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_080": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Covert Believers",
+    "title": "",
+    "defaultCardNumber": "080",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/080.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/080.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_081": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Nebulon-C Frigate",
+    "title": "",
+    "defaultCardNumber": "081",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/081.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/081.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_082": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Trexler Armored Marauder",
+    "title": "",
+    "defaultCardNumber": "082",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/082.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/082.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_083": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Summa-verminoth",
+    "title": "",
+    "defaultCardNumber": "083",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/083.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/083.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 4,
+    "cost": 12,
+    "type": "Unit"
+  },
+  "ASH_084": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Arcana Star Map",
+    "title": "Path to Peridea",
+    "defaultCardNumber": "084",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/084.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/084.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 4,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "ASH_085": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Grav Charge",
+    "title": "",
+    "defaultCardNumber": "085",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/085.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/085.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "ASH_086": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Durasteel Plating",
+    "title": "",
+    "defaultCardNumber": "086",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/086.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/086.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "ASH_087": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Cybernetic Enhancements",
+    "title": "",
+    "defaultCardNumber": "087",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/087.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/087.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "ASH_088": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "The Conflict Within",
+    "title": "",
+    "defaultCardNumber": "088",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/088.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/088.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "ASH_089": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Perseverance",
+    "title": "",
+    "defaultCardNumber": "089",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/089.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/089.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "ASH_090": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Reforge",
+    "title": "",
+    "defaultCardNumber": "090",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/090.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/090.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Event"
+  },
+  "ASH_091": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Buy Time",
+    "title": "",
+    "defaultCardNumber": "091",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/091.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/091.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Event"
+  },
+  "ASH_092": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Foundling Rescue",
+    "title": "",
+    "defaultCardNumber": "092",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/092.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/092.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Event"
+  },
+  "ASH_093": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Captain Pellaeon",
+    "title": "Plotting from the Shadows",
+    "defaultCardNumber": "093",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/093.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/093.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_094": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Moff Jerjerrod",
+    "title": "We Shall Redouble Our Efforts",
+    "defaultCardNumber": "094",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/094.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/094.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 5,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_095": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Remnant Interceptor",
+    "title": "",
+    "defaultCardNumber": "095",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/095.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/095.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_096": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Forest Patroller",
+    "title": "",
+    "defaultCardNumber": "096",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/096.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/096.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_097": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Moff Gideon",
+    "title": "Remnant Commander",
+    "defaultCardNumber": "097",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/097.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/097.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_098": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "AT-ST Raider",
+    "title": "",
+    "defaultCardNumber": "098",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/098.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/098.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_099": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Gozanti Assault Carrier",
+    "title": "",
+    "defaultCardNumber": "099",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/099.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/099.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_100": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Gallius Rax",
+    "title": "Counselor to the Empire",
+    "defaultCardNumber": "100",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/100.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/100.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_101": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "The Great Mothers",
+    "title": "With Strange Magicks",
+    "defaultCardNumber": "101",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/101.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/101.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "ASH_102": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Ravager",
+    "title": "Final Imperial Command",
+    "defaultCardNumber": "102",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/102.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/102.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 9,
+    "type": "Unit"
+  },
+  "ASH_103": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Long Live the Empire",
+    "title": "",
+    "defaultCardNumber": "103",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/103.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/103.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Event"
+  },
+  "ASH_104": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Dathomiri Magicks",
+    "title": "",
+    "defaultCardNumber": "104",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/104.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/104.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Event"
+  },
+  "ASH_105": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Bo-Katan Kryze",
+    "title": "For All of Mandalore",
+    "defaultCardNumber": "105",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/105.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/105.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_106": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Pathfinder Sergeant",
+    "title": "",
+    "defaultCardNumber": "106",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/106.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/106.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_107": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Clan Wren Loyalist",
+    "title": "",
+    "defaultCardNumber": "107",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/107.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/107.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_108": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Crix Madine",
+    "title": "Strike Team Strategist",
+    "defaultCardNumber": "108",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/108.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/108.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_109": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "T-6 Shuttle 1974",
+    "title": "With a Mentor's Dedication",
+    "defaultCardNumber": "109",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/109.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/109.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_110": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Admiral Ackbar",
+    "title": "Assume Attack Coordinates",
+    "defaultCardNumber": "110",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/110.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/110.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_111": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Children of the Watch",
+    "title": "",
+    "defaultCardNumber": "111",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/111.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/111.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_112": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Luke Skywalker",
+    "title": "Answering the Call",
+    "defaultCardNumber": "112",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/112.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/112.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_113": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Mandalorian Flagship",
+    "title": "Captured from the Empire",
+    "defaultCardNumber": "113",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/113.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/113.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "ASH_114": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Sabine's Lightsaber",
+    "title": "Not Alone",
+    "defaultCardNumber": "114",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/114.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/114.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "ASH_115": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "The Student Guides the Master",
+    "title": "",
+    "defaultCardNumber": "115",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/115.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/115.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Event"
+  },
+  "ASH_116": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Ant Droid",
+    "title": "",
+    "defaultCardNumber": "116",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/116.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/116.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_117": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Outland Protector",
+    "title": "",
+    "defaultCardNumber": "117",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/117.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/117.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_118": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "8D8",
+    "title": "Daimyo's Majordomo",
+    "defaultCardNumber": "118",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/118.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/118.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_119": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Greef Karga",
+    "title": "Introductions are in Order",
+    "defaultCardNumber": "119",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/119.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/119.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_120": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Warrior of Clan Kryze",
+    "title": "",
+    "defaultCardNumber": "120",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/120.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/120.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_121": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Blurrg",
+    "title": "",
+    "defaultCardNumber": "121",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/121.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/121.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_122": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Consortium StarViper",
+    "title": "",
+    "defaultCardNumber": "122",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/122.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/122.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_123": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Lang",
+    "title": "Arrogant Mercenary",
+    "defaultCardNumber": "123",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/123.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/123.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_124": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Protectorate Fighter",
+    "title": "",
+    "defaultCardNumber": "124",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/124.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/124.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_125": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Stolen Eta Shuttle",
+    "title": "",
+    "defaultCardNumber": "125",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/125.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/125.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 2,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_126": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Survivors' Langskib",
+    "title": "",
+    "defaultCardNumber": "126",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/126.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/126.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_127": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "The Twins",
+    "title": "We Don't Want War",
+    "defaultCardNumber": "127",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/127.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/127.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_128": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Bothan-5",
+    "title": "New Republic Prison Ship",
+    "defaultCardNumber": "128",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/128.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/128.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_129": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Defenders of the Forest",
+    "title": "",
+    "defaultCardNumber": "129",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/129.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/129.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_130": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Fang Fighter Squadron",
+    "title": "",
+    "defaultCardNumber": "130",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/130.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/130.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_131": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Dinosaur Turtle",
+    "title": "",
+    "defaultCardNumber": "131",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/131.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/131.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_132": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Queen Soruna",
+    "title": "Willing to Fight",
+    "defaultCardNumber": "132",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/132.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/132.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_133": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Trask Walker",
+    "title": "",
+    "defaultCardNumber": "133",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/133.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/133.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 2,
+    "cost": 8,
+    "type": "Unit"
+  },
+  "ASH_134": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Warrior's Legacy",
+    "title": "",
+    "defaultCardNumber": "134",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/134.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/134.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "ASH_135": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "The Darksaber",
+    "title": "Icon of Leadership",
+    "defaultCardNumber": "135",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/135.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/135.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 4,
+    "cost": 4,
+    "type": "Upgrade"
+  },
+  "ASH_136": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Display of Strength",
+    "title": "",
+    "defaultCardNumber": "136",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/136.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/136.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "ASH_137": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Wipe Them Out",
+    "title": "",
+    "defaultCardNumber": "137",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/137.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/137.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Event"
+  },
+  "ASH_138": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Turning the Tide",
+    "title": "",
+    "defaultCardNumber": "138",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/138.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/138.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Event"
+  },
+  "ASH_139": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Hold Them Off",
+    "title": "",
+    "defaultCardNumber": "139",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/139.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/139.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 2,
+    "cost": 4,
+    "type": "Event"
+  },
+  "ASH_140": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Stronger Together",
+    "title": "",
+    "defaultCardNumber": "140",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/140.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/140.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Event"
+  },
+  "ASH_141": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "TIE Striker",
+    "title": "",
+    "defaultCardNumber": "141",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/141.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/141.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_142": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Mortar Trooper",
+    "title": "",
+    "defaultCardNumber": "142",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/142.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/142.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_143": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Tempest Lieutenant",
+    "title": "",
+    "defaultCardNumber": "143",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/143.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/143.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_144": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Vane's Snub Fighter",
+    "title": "Brash and Proud",
+    "defaultCardNumber": "144",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/144.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/144.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_145": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Praetorian Elite",
+    "title": "",
+    "defaultCardNumber": "145",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/145.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/145.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_146": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Justifier",
+    "title": "Relentless",
+    "defaultCardNumber": "146",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/146.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/146.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_147": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "The Cyborg Mech",
+    "title": "Mysterious Threat",
+    "defaultCardNumber": "147",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/147.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/147.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_148": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Ninth Sister",
+    "title": "Hulking Inquisitor",
+    "defaultCardNumber": "148",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/148.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/148.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "ASH_149": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Eviscerator",
+    "title": "Burn Them Away",
+    "defaultCardNumber": "149",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/149.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/149.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 8,
+    "type": "Unit"
+  },
+  "ASH_150": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Deadly Vulnerability",
+    "title": "",
+    "defaultCardNumber": "150",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/150.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/150.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "ASH_151": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Operation Cinder",
+    "title": "",
+    "defaultCardNumber": "151",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/151.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/151.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Event"
+  },
+  "LAW_682": {
+    "defaultExpansionAbbreviation": "LAW",
+    "cardName": "Inspired Recruit",
+    "title": "",
+    "defaultCardNumber": "682",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/LAW/682.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/LAW/682.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_152": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Inspired Recruit",
+    "title": "",
+    "defaultCardNumber": "152",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/152.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/152.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_153": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Green Leader",
+    "title": "Crynyd's Sacrifice",
+    "defaultCardNumber": "153",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/153.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/153.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_154": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Honorable Nite Owl",
+    "title": "",
+    "defaultCardNumber": "154",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/154.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/154.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_155": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Grogu",
+    "title": "Yes. Yes. Yes.",
+    "defaultCardNumber": "155",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/155.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/155.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_156": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "R5-D4",
+    "title": "Built for Adventure",
+    "defaultCardNumber": "156",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/156.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/156.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_157": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Danger Squadron Wingmen",
+    "title": "",
+    "defaultCardNumber": "157",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/157.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/157.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_158": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Han Solo",
+    "title": "It'll Work",
+    "defaultCardNumber": "158",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/158.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/158.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 5,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_159": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Alphabet Squadron U-Wing",
+    "title": "Quiet Devotion",
+    "defaultCardNumber": "159",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/159.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/159.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_160": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Kachirho Militia",
+    "title": "",
+    "defaultCardNumber": "160",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/160.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/160.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_161": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Zeb Orrelios",
+    "title": "Fists Work Every Time",
+    "defaultCardNumber": "161",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/161.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/161.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "ASH_162": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Rash Action",
+    "title": "",
+    "defaultCardNumber": "162",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/162.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/162.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Event"
+  },
+  "ASH_163": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Reckless Sacrifice",
+    "title": "",
+    "defaultCardNumber": "163",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/163.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/163.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Event"
+  },
+  "ASH_164": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Alamite Hunter",
+    "title": "",
+    "defaultCardNumber": "164",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/164.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/164.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_165": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Clan Vizsla Soldier",
+    "title": "",
+    "defaultCardNumber": "165",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/165.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/165.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_166": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Ewok Warrior",
+    "title": "",
+    "defaultCardNumber": "166",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/166.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/166.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_167": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Flarestar Attack Shuttle",
+    "title": "",
+    "defaultCardNumber": "167",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/167.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/167.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_168": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Migs Mayfeld",
+    "title": "How About a Toast?",
+    "defaultCardNumber": "168",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/168.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/168.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_169": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Axe Woves",
+    "title": "Undaunted",
+    "defaultCardNumber": "169",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/169.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/169.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_170": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Desert Sharpshooter",
+    "title": "",
+    "defaultCardNumber": "170",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/170.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/170.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_171": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Pegasus Tri-Wing",
+    "title": "",
+    "defaultCardNumber": "171",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/171.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/171.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "MV26_002": {
+    "defaultExpansionAbbreviation": "MV26",
+    "cardName": "",
+    "title": "",
+    "defaultCardNumber": "002",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 2,
+    "cost": 4,
+    "type": ""
+  },
+  "ASH_172": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Razor Crest",
+    "title": "Outfitted Armament",
+    "defaultCardNumber": "172",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/172.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/172.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_173": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Shydopp Pirate Skiff",
+    "title": "",
+    "defaultCardNumber": "173",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/173.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/173.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_174": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "StarFortress Heavy Bomber",
+    "title": "",
+    "defaultCardNumber": "174",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/174.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/174.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_175": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Wookiee Chieftain",
+    "title": "",
+    "defaultCardNumber": "175",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/175.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/175.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_176": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Imposing Scout Walker",
+    "title": "",
+    "defaultCardNumber": "176",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/176.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/176.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_177": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Onyx Cinder",
+    "title": "Adventure Awaits",
+    "defaultCardNumber": "177",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/177.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/177.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_178": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Knobby White Ice Spider",
+    "title": "",
+    "defaultCardNumber": "178",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/178.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/178.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "ASH_179": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Boba Fett's Rancor",
+    "title": "Emotionally Complex Creature",
+    "defaultCardNumber": "179",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/179.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/179.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 4,
+    "cost": 8,
+    "type": "Unit"
+  },
+  "ASH_180": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Bokken Saber",
+    "title": "",
+    "defaultCardNumber": "180",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/180.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/180.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "ASH_181": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Mark My Words",
+    "title": "",
+    "defaultCardNumber": "181",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/181.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/181.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "ASH_182": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Unfettered Ambition",
+    "title": "",
+    "defaultCardNumber": "182",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/182.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/182.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "ASH_183": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Whistling Birds",
+    "title": "",
+    "defaultCardNumber": "183",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/183.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/183.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 4,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "ASH_807": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Whistling Birds",
+    "title": "",
+    "defaultCardNumber": "807",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/807.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/807.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 4,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "ASH_184": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Follow Me",
+    "title": "",
+    "defaultCardNumber": "184",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/184.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/184.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Event"
+  },
+  "ASH_185": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Intimidation",
+    "title": "",
+    "defaultCardNumber": "185",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/185.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/185.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "ASH_186": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Treacherous Minefield",
+    "title": "",
+    "defaultCardNumber": "186",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/186.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/186.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Event"
+  },
+  "ASH_187": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Reckoning",
+    "title": "",
+    "defaultCardNumber": "187",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/187.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/187.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Event"
+  },
+  "ASH_188": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Galvanized Leap",
+    "title": "",
+    "defaultCardNumber": "188",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/188.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/188.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Event"
+  },
+  "ASH_189": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Emperor's Messenger",
+    "title": "",
+    "defaultCardNumber": "189",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/189.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/189.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_190": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Peridea Bandit",
+    "title": "",
+    "defaultCardNumber": "190",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/190.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/190.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_191": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Shin Hati's Fiend Fighter",
+    "title": "Compact and Agile",
+    "defaultCardNumber": "191",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/191.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/191.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_192": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Fennec Shand",
+    "title": "The Galaxy Is Dangerous",
+    "defaultCardNumber": "192",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/192.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/192.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_193": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Emperor's Champion",
+    "title": "",
+    "defaultCardNumber": "193",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/193.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/193.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_194": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Snub Fighter Squadron",
+    "title": "",
+    "defaultCardNumber": "194",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/194.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/194.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_195": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Helgait",
+    "title": "Dooku Was a Visionary",
+    "defaultCardNumber": "195",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/195.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/195.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_196": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Gorian Shard's Corsair",
+    "title": "Pirate Warship",
+    "defaultCardNumber": "196",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/196.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/196.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_197": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Executor",
+    "title": "Final Destruction of the Alliance",
+    "defaultCardNumber": "197",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/197.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/197.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 5,
+    "cost": 8,
+    "type": "Unit"
+  },
+  "ASH_198": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Nowhere to Hide",
+    "title": "",
+    "defaultCardNumber": "198",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/198.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/198.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "ASH_199": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "There Is No Conflict",
+    "title": "",
+    "defaultCardNumber": "199",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/199.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/199.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 5,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "ASH_200": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Rehabilitation",
+    "title": "",
+    "defaultCardNumber": "200",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/200.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/200.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Event"
+  },
+  "ASH_201": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Open Circle Ace",
+    "title": "",
+    "defaultCardNumber": "201",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/201.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/201.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_202": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Carson Teva",
+    "title": "There's Something Going On",
+    "defaultCardNumber": "202",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/202.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/202.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_203": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Mando's N-1 Starfighter",
+    "title": "Faster Than a Fathier",
+    "defaultCardNumber": "203",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/203.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/203.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_204": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Blade Three",
+    "title": "Bane of the Devastator",
+    "defaultCardNumber": "204",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/204.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/204.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_205": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Inspiring Veteran",
+    "title": "",
+    "defaultCardNumber": "205",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/205.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/205.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_206": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Kelleran Beq",
+    "title": "Where Are the Others?",
+    "defaultCardNumber": "206",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/206.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/206.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_207": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Heroic Purrgil",
+    "title": "",
+    "defaultCardNumber": "207",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/207.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/207.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_208": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Sabine Wren",
+    "title": "I Learned the Hard Way",
+    "defaultCardNumber": "208",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/208.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/208.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_209": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Ezra Bridger",
+    "title": "The Force Is All I Need",
+    "defaultCardNumber": "209",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/209.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/209.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_210": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "DDC Defender",
+    "title": "",
+    "defaultCardNumber": "210",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/210.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/210.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "ASH_211": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Fateful Goodbye",
+    "title": "",
+    "defaultCardNumber": "211",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/211.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/211.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Event"
+  },
+  "ASH_212": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Peli Motto",
+    "title": "You Bring the Cash?",
+    "defaultCardNumber": "212",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/212.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/212.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_213": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Womp Rat",
+    "title": "",
+    "defaultCardNumber": "213",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/213.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/213.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_214": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Amnesty Officer",
+    "title": "",
+    "defaultCardNumber": "214",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/214.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/214.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_215": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Flanking TIE Interceptor",
+    "title": "",
+    "defaultCardNumber": "215",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/215.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/215.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_216": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Mandalorian Scout",
+    "title": "",
+    "defaultCardNumber": "216",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/216.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/216.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_217": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Mayor's Majordomo",
+    "title": "No Problem Groveling",
+    "defaultCardNumber": "217",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/217.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/217.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_218": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Ferry Droid",
+    "title": "",
+    "defaultCardNumber": "218",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/218.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/218.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_219": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Jod Na Nawood",
+    "title": "Keeping Secrets",
+    "defaultCardNumber": "219",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/219.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/219.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_220": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Remnant Lookouts",
+    "title": "",
+    "defaultCardNumber": "220",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/220.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/220.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_221": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Helix Starfighter",
+    "title": "",
+    "defaultCardNumber": "221",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/221.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/221.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_222": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Unsanctioned Patrol",
+    "title": "",
+    "defaultCardNumber": "222",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/222.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/222.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_223": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Halo",
+    "title": "Not According to Plan",
+    "defaultCardNumber": "223",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/223.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/223.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_224": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Elzar Mann",
+    "title": "Haunted by a Vision",
+    "defaultCardNumber": "224",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/224.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/224.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 4,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "ASH_225": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Tatooine Sand Beast",
+    "title": "",
+    "defaultCardNumber": "225",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/225.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/225.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "C26_004": {
+    "defaultExpansionAbbreviation": "C26",
+    "cardName": "",
+    "title": "",
+    "defaultCardNumber": "004",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 2,
+    "cost": 7,
+    "type": ""
+  },
+  "ASH_226": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Qi'ra",
+    "title": "Master of Teräs Käsi",
+    "defaultCardNumber": "226",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/226.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/226.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "ASH_227": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Heightened Awareness",
+    "title": "",
+    "defaultCardNumber": "227",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/227.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/227.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "ASH_228": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Preparation",
+    "title": "",
+    "defaultCardNumber": "228",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/228.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/228.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "ASH_229": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Camtono",
+    "title": "",
+    "defaultCardNumber": "229",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/229.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/229.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "ASH_230": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Improvised Identity",
+    "title": "",
+    "defaultCardNumber": "230",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/230.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/230.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 4,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "ASH_231": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Diplomatic Pageantry",
+    "title": "",
+    "defaultCardNumber": "231",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/231.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/231.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Event"
+  },
+  "ASH_232": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Full of Surprises",
+    "title": "",
+    "defaultCardNumber": "232",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/232.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/232.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "ASH_233": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Keep Them Talking",
+    "title": "",
+    "defaultCardNumber": "233",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/233.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/233.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "ASH_234": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Masterstroke",
+    "title": "",
+    "defaultCardNumber": "234",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/234.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/234.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "ASH_235": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Sense Through the Force",
+    "title": "",
+    "defaultCardNumber": "235",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/235.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/235.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Event"
+  },
+  "ASH_236": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Far Far Away",
+    "title": "",
+    "defaultCardNumber": "236",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/236.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/236.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Event"
+  },
+  "ASH_237": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Mouse Droid",
+    "title": "",
+    "defaultCardNumber": "237",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/237.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/237.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_238": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Attendant Navigator",
+    "title": "",
+    "defaultCardNumber": "238",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/238.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/238.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_239": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Imperial Loyalist",
+    "title": "",
+    "defaultCardNumber": "239",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/239.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/239.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_240": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Mandalorian Super Commandos",
+    "title": "",
+    "defaultCardNumber": "240",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/240.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/240.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_241": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Marrok's Fiend Fighter",
+    "title": "Formidable Pursuer",
+    "defaultCardNumber": "241",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/241.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/241.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_242": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Death Trooper Squad",
+    "title": "",
+    "defaultCardNumber": "242",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/242.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/242.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "P26_001": {
+    "defaultExpansionAbbreviation": "P26",
+    "cardName": "",
+    "title": "",
+    "defaultCardNumber": "001",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 5,
+    "cost": 5,
+    "type": ""
+  },
+  "ASH_243": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Darth Vader",
+    "title": "Meet Your Destiny",
+    "defaultCardNumber": "243",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/243.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/243.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 5,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_244": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Remnant Trooper Corps",
+    "title": "",
+    "defaultCardNumber": "244",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/244.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/244.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_245": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Eye of Sion",
+    "title": "Delivered From Exile",
+    "defaultCardNumber": "245",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/245.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/245.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "ASH_246": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Exploit Advantage",
+    "title": "",
+    "defaultCardNumber": "246",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/246.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/246.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "ASH_247": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "One Must Destroy to Create",
+    "title": "",
+    "defaultCardNumber": "247",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/247.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/247.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Event"
+  },
+  "ASH_248": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Neel",
+    "title": "The Cutest Boy",
+    "defaultCardNumber": "248",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/248.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/248.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_249": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Covert Veteran",
+    "title": "",
+    "defaultCardNumber": "249",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/249.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/249.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_250": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Imperial Defector",
+    "title": "",
+    "defaultCardNumber": "250",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/250.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/250.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_251": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Zealous Soldier",
+    "title": "",
+    "defaultCardNumber": "251",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/251.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/251.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_252": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "N5 Sentry Droid",
+    "title": "",
+    "defaultCardNumber": "252",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/252.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/252.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_253": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Yellow Aces Bomber",
+    "title": "",
+    "defaultCardNumber": "253",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/253.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/253.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_254": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Gallofree Transport",
+    "title": "",
+    "defaultCardNumber": "254",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/254.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/254.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "ASH_255": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Anakin Skywalker",
+    "title": "You Were Right About Me",
+    "defaultCardNumber": "255",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/255.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/255.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 5,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_256": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Rebel Infiltrators",
+    "title": "",
+    "defaultCardNumber": "256",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/256.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/256.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "ASH_257": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Choose Your Path",
+    "title": "",
+    "defaultCardNumber": "257",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/257.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/257.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Event"
+  },
+  "SEC_522": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Grassroots Resistance",
+    "title": "",
+    "defaultCardNumber": "522",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/522.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/522.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Event"
+  },
+  "SEC_768": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Grassroots Resistance",
+    "title": "",
+    "defaultCardNumber": "768",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/768.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/768.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Event"
+  },
+  "SEC_1014": {
+    "defaultExpansionAbbreviation": "SEC",
+    "cardName": "Grassroots Resistance",
+    "title": "",
+    "defaultCardNumber": "1014",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/1014.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/SEC/1014.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Event"
+  },
+  "SECP_020": {
+    "defaultExpansionAbbreviation": "SECP",
+    "cardName": "",
+    "title": "",
+    "defaultCardNumber": "020",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 4,
+    "type": ""
+  },
+  "SECP_040": {
+    "defaultExpansionAbbreviation": "SECP",
+    "cardName": "",
+    "title": "",
+    "defaultCardNumber": "040",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 4,
+    "type": ""
+  },
+  "ASH_258": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Grassroots Resistance",
+    "title": "",
+    "defaultCardNumber": "258",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/258.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/258.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Event"
+  },
+  "ASH_259": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "LEP Ratcatcher",
+    "title": "",
+    "defaultCardNumber": "259",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/259.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/259.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "ASH_260": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Mos Espa Watermonger",
+    "title": "",
+    "defaultCardNumber": "260",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/260.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/260.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "ASH_261": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Noti Mobile Pod",
+    "title": "",
+    "defaultCardNumber": "261",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/261.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/261.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "ASH_262": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "Faith in the Empire",
+    "title": "",
+    "defaultCardNumber": "262",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/262.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/262.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "ASH_263": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "The Way of the Mand'alor",
+    "title": "",
+    "defaultCardNumber": "263",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/263.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/263.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "ASH_264": {
+    "defaultExpansionAbbreviation": "ASH",
+    "cardName": "A New Order",
+    "title": "",
+    "defaultCardNumber": "264",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/264.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/ASH/264.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Event"
   }
 }
