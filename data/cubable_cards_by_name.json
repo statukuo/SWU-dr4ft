@@ -10546,10 +10546,13 @@
     }
   },
   "Consortium StarViper": {
-    "default": "SOR_112",
+    "default": "ASH_122",
     "SOR": {
-      "112": "SOR_112",
-      "376": "SOR_112"
+      "112": "ASH_122",
+      "376": "ASH_122"
+    },
+    "ASH": {
+      "122": "ASH_122"
     }
   },
   "Escort Skiff": {
@@ -12964,9 +12967,19 @@
     }
   },
   "Grassroots Resistance": {
-    "default": "SEC_258",
+    "default": "ASH_258",
     "SEC": {
-      "258": "SEC_258"
+      "258": "ASH_258",
+      "522": "ASH_258",
+      "768": "ASH_258",
+      "1014": "ASH_258"
+    },
+    "SECP": {
+      "020": "ASH_258",
+      "040": "ASH_258"
+    },
+    "ASH": {
+      "258": "ASH_258"
     }
   },
   "ASP Laborer": {
@@ -14255,10 +14268,14 @@
     }
   },
   "Inspired Recruit": {
-    "default": "LAW_180",
+    "default": "ASH_152",
     "LAW": {
-      "180": "LAW_180",
-      "444": "LAW_180"
+      "180": "ASH_152",
+      "444": "ASH_152",
+      "682": "ASH_152"
+    },
+    "ASH": {
+      "152": "ASH_152"
     }
   },
   "Cloud-Rider Veteran": {
@@ -14836,6 +14853,1586 @@
     "LAW": {
       "264": "LAW_264",
       "528": "LAW_264"
+    }
+  },
+  "The Armorer, Steel Shapes Us": {
+    "default": "ASH_001",
+    "ASH": {
+      "001": "ASH_001"
+    }
+  },
+  "Fennec Shand, Ready for War": {
+    "default": "ASH_002",
+    "ASH": {
+      "002": "ASH_002"
+    }
+  },
+  "Baylan Skoll, Power Beyond Dream": {
+    "default": "ASH_003",
+    "ASH": {
+      "003": "ASH_003"
+    }
+  },
+  "Grand Admiral Thrawn, Victory Is Mine": {
+    "default": "ASH_004",
+    "ASH": {
+      "004": "ASH_004"
+    }
+  },
+  "Luke Skywalker, I Can Save Him": {
+    "default": "ASH_005",
+    "ASH": {
+      "005": "ASH_005"
+    }
+  },
+  "Sabine Wren, Bargaining on Belief": {
+    "default": "ASH_006",
+    "ASH": {
+      "006": "ASH_006"
+    }
+  },
+  "Grand Admiral Sloane, Holding the Empire Together": {
+    "default": "ASH_007",
+    "ASH": {
+      "007": "ASH_007"
+    }
+  },
+  "Moff Gideon, Indomitable Warload": {
+    "default": "ASH_008",
+    "ASH": {
+      "008": "ASH_008"
+    }
+  },
+  "Ahsoka Tano, Trust in the Force": {
+    "default": "ASH_009",
+    "ASH": {
+      "009": "ASH_009"
+    }
+  },
+  "Bo-Katan Kryze, Reclaiming Mandalore": {
+    "default": "ASH_010",
+    "ASH": {
+      "010": "ASH_010"
+    }
+  },
+  "Cad Bane, Still Faster Than You": {
+    "default": "ASH_011",
+    "ASH": {
+      "011": "ASH_011"
+    }
+  },
+  "Vane, Quarrelsome Pirate": {
+    "default": "ASH_012",
+    "ASH": {
+      "012": "ASH_012"
+    }
+  },
+  "Ezra Bridger, It's Now or Never": {
+    "default": "ASH_013",
+    "ASH": {
+      "013": "ASH_013"
+    }
+  },
+  "The Mandalorian, We Can't Keep Running": {
+    "default": "ASH_014",
+    "ASH": {
+      "014": "ASH_014"
+    }
+  },
+  "Emperor Palpatine, According to My Design": {
+    "default": "ASH_015",
+    "ASH": {
+      "015": "ASH_015"
+    }
+  },
+  "Shin Hati, Eager Adversary": {
+    "default": "ASH_016",
+    "ASH": {
+      "016": "ASH_016"
+    }
+  },
+  "Greef Karga, Gracious Magistrate": {
+    "default": "ASH_017",
+    "ASH": {
+      "017": "ASH_017"
+    }
+  },
+  "Grogu, Charming Companion": {
+    "default": "ASH_018",
+    "MV26": {
+      "001": "ASH_018"
+    },
+    "ASH": {
+      "784": "ASH_018",
+      "018": "ASH_018"
+    }
+  },
+  "Fortress of the Great Mothers": {
+    "default": "ASH_019",
+    "ASH": {
+      "019": "ASH_019"
+    }
+  },
+  "Nevarro City, Restored": {
+    "default": "ASH_020",
+    "ASH": {
+      "020": "ASH_020"
+    }
+  },
+  "Emperor's Throne Room": {
+    "default": "ASH_021",
+    "ASH": {
+      "021": "ASH_021"
+    }
+  },
+  "Kryze Castle": {
+    "default": "ASH_022",
+    "ASH": {
+      "022": "ASH_022"
+    }
+  },
+  "Ancient Henge": {
+    "default": "ASH_023",
+    "ASH": {
+      "023": "ASH_023"
+    }
+  },
+  "Dragonsnake Bog": {
+    "default": "ASH_024",
+    "ASH": {
+      "024": "ASH_024"
+    }
+  },
+  "Emperor's Observatory": {
+    "default": "ASH_025",
+    "ASH": {
+      "025": "ASH_025"
+    }
+  },
+  "Freetown": {
+    "default": "ASH_026",
+    "ASH": {
+      "026": "ASH_026"
+    }
+  },
+  "Enoch, Solemn Servant": {
+    "default": "ASH_027",
+    "ASH": {
+      "027": "ASH_027"
+    }
+  },
+  "Paz Vizsla, For a Brighter Future": {
+    "default": "ASH_028",
+    "ASH": {
+      "028": "ASH_028"
+    }
+  },
+  "Scorpenek Annihilator Droid": {
+    "default": "ASH_029",
+    "ASH": {
+      "029": "ASH_029"
+    }
+  },
+  "Marrok, Mysterious Warrior": {
+    "default": "ASH_030",
+    "ASH": {
+      "030": "ASH_030"
+    }
+  },
+  "Hera Syndulla, Renegade General": {
+    "default": "ASH_031",
+    "ASH": {
+      "031": "ASH_031"
+    }
+  },
+  "Rancor Keeper": {
+    "default": "ASH_032",
+    "ASH": {
+      "032": "ASH_032"
+    }
+  },
+  "Grand Admiral Thrawn, Orchestrating His Return": {
+    "default": "ASH_033",
+    "ASH": {
+      "033": "ASH_033"
+    }
+  },
+  "Wicket, Yub Nub!": {
+    "default": "ASH_034",
+    "ASH": {
+      "034": "ASH_034"
+    }
+  },
+  "Tatooine Repulsor Train": {
+    "default": "ASH_035",
+    "ASH": {
+      "035": "ASH_035"
+    }
+  },
+  "Rukh, From the Shadows": {
+    "default": "ASH_036",
+    "ASH": {
+      "036": "ASH_036"
+    }
+  },
+  "Red Leader, Strike the Reactor": {
+    "default": "ASH_037",
+    "ASH": {
+      "037": "ASH_037"
+    }
+  },
+  "Purrgil Ultra": {
+    "default": "ASH_038",
+    "ASH": {
+      "038": "ASH_038"
+    }
+  },
+  "Baylan Skoll, Fallen Jedi": {
+    "default": "ASH_039",
+    "ASH": {
+      "039": "ASH_039"
+    }
+  },
+  "Poe Dameron, I'll Come Back For You": {
+    "default": "ASH_040",
+    "ASH": {
+      "040": "ASH_040"
+    }
+  },
+  "Outcast, Mercenary Starship": {
+    "default": "ASH_041",
+    "ASH": {
+      "041": "ASH_041"
+    }
+  },
+  "Jabba the Hutt, Eminence of Tatooine": {
+    "default": "ASH_042",
+    "ASH": {
+      "042": "ASH_042"
+    }
+  },
+  "Corona Four, Justice for Alderaan": {
+    "default": "ASH_043",
+    "ASH": {
+      "043": "ASH_043"
+    }
+  },
+  "Barriss Offee, Redeeming Herself": {
+    "default": "ASH_044",
+    "ASH": {
+      "044": "ASH_044"
+    }
+  },
+  "Reanimated Night Trooper": {
+    "default": "ASH_045",
+    "ASH": {
+      "045": "ASH_045"
+    }
+  },
+  "Scion Shuttle, At Morgan's Bidding": {
+    "default": "ASH_046",
+    "ASH": {
+      "046": "ASH_046"
+    }
+  },
+  "Gar Saxon, Coveting Power": {
+    "default": "ASH_047",
+    "ASH": {
+      "047": "ASH_047"
+    }
+  },
+  "Imperial Armored Commando": {
+    "default": "ASH_048",
+    "ASH": {
+      "048": "ASH_048"
+    }
+  },
+  "Shin Hati, Going Somewhere?": {
+    "default": "ASH_049",
+    "ASH": {
+      "049": "ASH_049"
+    }
+  },
+  "Morgan Elsbeth, Life Abandoned": {
+    "default": "ASH_050",
+    "ASH": {
+      "050": "ASH_050"
+    }
+  },
+  "Reinforcing Light Cruiser": {
+    "default": "ASH_051",
+    "ASH": {
+      "051": "ASH_051"
+    }
+  },
+  "Chimaera, A Frightening Reality": {
+    "default": "ASH_052",
+    "ASH": {
+      "052": "ASH_052"
+    }
+  },
+  "Pre Vizsla, Strong-Willed Ruler": {
+    "default": "ASH_053",
+    "ASH": {
+      "053": "ASH_053"
+    }
+  },
+  "Pointless to Resist": {
+    "default": "ASH_054",
+    "ASH": {
+      "054": "ASH_054"
+    }
+  },
+  "Blade of Talzin, A Gift of Shadows": {
+    "default": "ASH_055",
+    "ASH": {
+      "055": "ASH_055"
+    }
+  },
+  "Huyang, Your Aptitude Falls Short": {
+    "default": "ASH_056",
+    "ASH": {
+      "056": "ASH_056"
+    }
+  },
+  "Lothal E-Wing": {
+    "default": "ASH_057",
+    "ASH": {
+      "057": "ASH_057"
+    }
+  },
+  "Duchess's Protector": {
+    "default": "ASH_058",
+    "ASH": {
+      "058": "ASH_058"
+    }
+  },
+  "Leia Organa, Vigilant for Danger": {
+    "default": "ASH_059",
+    "ASH": {
+      "059": "ASH_059"
+    }
+  },
+  "Cobb Vanth, Let Me Handle This": {
+    "default": "ASH_060",
+    "ASH": {
+      "060": "ASH_060"
+    }
+  },
+  "Strike Team Vanguard": {
+    "default": "ASH_061",
+    "ASH": {
+      "061": "ASH_061"
+    }
+  },
+  "The Mandalorian, Devoted Rescuer": {
+    "default": "ASH_062",
+    "ASH": {
+      "062": "ASH_062"
+    }
+  },
+  "Bo-Katan's Gauntlet, Reinforce From Above": {
+    "default": "ASH_063",
+    "ASH": {
+      "063": "ASH_063"
+    }
+  },
+  "The Armorer, Secrecy Is Our Survival": {
+    "default": "ASH_064",
+    "ASH": {
+      "064": "ASH_064"
+    }
+  },
+  "Home One, Heart of the Fleet": {
+    "default": "ASH_065",
+    "ASH": {
+      "065": "ASH_065"
+    }
+  },
+  "Luke's Jedi Lightsaber, Constructed by Hand": {
+    "default": "ASH_066",
+    "ASH": {
+      "066": "ASH_066"
+    }
+  },
+  "Get Lost": {
+    "default": "ASH_067",
+    "ASH": {
+      "067": "ASH_067"
+    }
+  },
+  "Domesticated Loth-Cat": {
+    "default": "ASH_068",
+    "ASH": {
+      "068": "ASH_068"
+    }
+  },
+  "Noti Nomad": {
+    "default": "ASH_069",
+    "ASH": {
+      "069": "ASH_069"
+    }
+  },
+  "At Attin Safety Droid": {
+    "default": "ASH_070",
+    "ASH": {
+      "070": "ASH_070"
+    }
+  },
+  "Battered Haulcraft": {
+    "default": "ASH_071",
+    "ASH": {
+      "071": "ASH_071"
+    }
+  },
+  "Doctor Pershing, Dedicated to Research": {
+    "default": "ASH_072",
+    "ASH": {
+      "072": "ASH_072"
+    }
+  },
+  "Palace Chef Droid": {
+    "default": "ASH_073",
+    "ASH": {
+      "073": "ASH_073"
+    }
+  },
+  "Mos Eisley Modifier": {
+    "default": "ASH_074",
+    "ASH": {
+      "074": "ASH_074"
+    }
+  },
+  "Pit Droid Team": {
+    "default": "ASH_075",
+    "ASH": {
+      "075": "ASH_075"
+    }
+  },
+  "Remnant Official": {
+    "default": "ASH_076",
+    "ASH": {
+      "076": "ASH_076"
+    }
+  },
+  "Ryder Azadi, Restored Governor": {
+    "default": "ASH_077",
+    "ASH": {
+      "077": "ASH_077"
+    }
+  },
+  "B-Wing Rearguard": {
+    "default": "ASH_078",
+    "ASH": {
+      "078": "ASH_078"
+    }
+  },
+  "Koska Reeves, Warrior of Mandalore": {
+    "default": "ASH_079",
+    "ASH": {
+      "079": "ASH_079"
+    }
+  },
+  "Covert Believers": {
+    "default": "ASH_080",
+    "ASH": {
+      "080": "ASH_080"
+    }
+  },
+  "Nebulon-C Frigate": {
+    "default": "ASH_081",
+    "ASH": {
+      "081": "ASH_081"
+    }
+  },
+  "Trexler Armored Marauder": {
+    "default": "ASH_082",
+    "ASH": {
+      "082": "ASH_082"
+    }
+  },
+  "Summa-verminoth": {
+    "default": "ASH_083",
+    "ASH": {
+      "083": "ASH_083"
+    }
+  },
+  "Arcana Star Map, Path to Peridea": {
+    "default": "ASH_084",
+    "ASH": {
+      "084": "ASH_084"
+    }
+  },
+  "Grav Charge": {
+    "default": "ASH_085",
+    "ASH": {
+      "085": "ASH_085"
+    }
+  },
+  "Durasteel Plating": {
+    "default": "ASH_086",
+    "ASH": {
+      "086": "ASH_086"
+    }
+  },
+  "Cybernetic Enhancements": {
+    "default": "ASH_087",
+    "ASH": {
+      "087": "ASH_087"
+    }
+  },
+  "The Conflict Within": {
+    "default": "ASH_088",
+    "ASH": {
+      "088": "ASH_088"
+    }
+  },
+  "Perseverance": {
+    "default": "ASH_089",
+    "ASH": {
+      "089": "ASH_089"
+    }
+  },
+  "Reforge": {
+    "default": "ASH_090",
+    "ASH": {
+      "090": "ASH_090"
+    }
+  },
+  "Buy Time": {
+    "default": "ASH_091",
+    "ASH": {
+      "091": "ASH_091"
+    }
+  },
+  "Foundling Rescue": {
+    "default": "ASH_092",
+    "ASH": {
+      "092": "ASH_092"
+    }
+  },
+  "Captain Pellaeon, Plotting from the Shadows": {
+    "default": "ASH_093",
+    "ASH": {
+      "093": "ASH_093"
+    }
+  },
+  "Moff Jerjerrod, We Shall Redouble Our Efforts": {
+    "default": "ASH_094",
+    "ASH": {
+      "094": "ASH_094"
+    }
+  },
+  "Remnant Interceptor": {
+    "default": "ASH_095",
+    "ASH": {
+      "095": "ASH_095"
+    }
+  },
+  "Forest Patroller": {
+    "default": "ASH_096",
+    "ASH": {
+      "096": "ASH_096"
+    }
+  },
+  "Moff Gideon, Remnant Commander": {
+    "default": "ASH_097",
+    "ASH": {
+      "097": "ASH_097"
+    }
+  },
+  "AT-ST Raider": {
+    "default": "ASH_098",
+    "ASH": {
+      "098": "ASH_098"
+    }
+  },
+  "Gozanti Assault Carrier": {
+    "default": "ASH_099",
+    "ASH": {
+      "099": "ASH_099"
+    }
+  },
+  "Gallius Rax, Counselor to the Empire": {
+    "default": "ASH_100",
+    "ASH": {
+      "100": "ASH_100"
+    }
+  },
+  "The Great Mothers, With Strange Magicks": {
+    "default": "ASH_101",
+    "ASH": {
+      "101": "ASH_101"
+    }
+  },
+  "Ravager, Final Imperial Command": {
+    "default": "ASH_102",
+    "ASH": {
+      "102": "ASH_102"
+    }
+  },
+  "Long Live the Empire": {
+    "default": "ASH_103",
+    "ASH": {
+      "103": "ASH_103"
+    }
+  },
+  "Dathomiri Magicks": {
+    "default": "ASH_104",
+    "ASH": {
+      "104": "ASH_104"
+    }
+  },
+  "Bo-Katan Kryze, For All of Mandalore": {
+    "default": "ASH_105",
+    "ASH": {
+      "105": "ASH_105"
+    }
+  },
+  "Pathfinder Sergeant": {
+    "default": "ASH_106",
+    "ASH": {
+      "106": "ASH_106"
+    }
+  },
+  "Clan Wren Loyalist": {
+    "default": "ASH_107",
+    "ASH": {
+      "107": "ASH_107"
+    }
+  },
+  "Crix Madine, Strike Team Strategist": {
+    "default": "ASH_108",
+    "ASH": {
+      "108": "ASH_108"
+    }
+  },
+  "T-6 Shuttle 1974, With a Mentor's Dedication": {
+    "default": "ASH_109",
+    "ASH": {
+      "109": "ASH_109"
+    }
+  },
+  "Admiral Ackbar, Assume Attack Coordinates": {
+    "default": "ASH_110",
+    "ASH": {
+      "110": "ASH_110"
+    }
+  },
+  "Children of the Watch": {
+    "default": "ASH_111",
+    "ASH": {
+      "111": "ASH_111"
+    }
+  },
+  "Luke Skywalker, Answering the Call": {
+    "default": "ASH_112",
+    "ASH": {
+      "112": "ASH_112"
+    }
+  },
+  "Mandalorian Flagship, Captured from the Empire": {
+    "default": "ASH_113",
+    "ASH": {
+      "113": "ASH_113"
+    }
+  },
+  "Sabine's Lightsaber, Not Alone": {
+    "default": "ASH_114",
+    "ASH": {
+      "114": "ASH_114"
+    }
+  },
+  "The Student Guides the Master": {
+    "default": "ASH_115",
+    "ASH": {
+      "115": "ASH_115"
+    }
+  },
+  "Ant Droid": {
+    "default": "ASH_116",
+    "ASH": {
+      "116": "ASH_116"
+    }
+  },
+  "Outland Protector": {
+    "default": "ASH_117",
+    "ASH": {
+      "117": "ASH_117"
+    }
+  },
+  "8D8, Daimyo's Majordomo": {
+    "default": "ASH_118",
+    "ASH": {
+      "118": "ASH_118"
+    }
+  },
+  "Greef Karga, Introductions are in Order": {
+    "default": "ASH_119",
+    "ASH": {
+      "119": "ASH_119"
+    }
+  },
+  "Warrior of Clan Kryze": {
+    "default": "ASH_120",
+    "ASH": {
+      "120": "ASH_120"
+    }
+  },
+  "Blurrg": {
+    "default": "ASH_121",
+    "ASH": {
+      "121": "ASH_121"
+    }
+  },
+  "Lang, Arrogant Mercenary": {
+    "default": "ASH_123",
+    "ASH": {
+      "123": "ASH_123"
+    }
+  },
+  "Protectorate Fighter": {
+    "default": "ASH_124",
+    "ASH": {
+      "124": "ASH_124"
+    }
+  },
+  "Stolen Eta Shuttle": {
+    "default": "ASH_125",
+    "ASH": {
+      "125": "ASH_125"
+    }
+  },
+  "Survivors' Langskib": {
+    "default": "ASH_126",
+    "ASH": {
+      "126": "ASH_126"
+    }
+  },
+  "The Twins, We Don't Want War": {
+    "default": "ASH_127",
+    "ASH": {
+      "127": "ASH_127"
+    }
+  },
+  "Bothan-5, New Republic Prison Ship": {
+    "default": "ASH_128",
+    "ASH": {
+      "128": "ASH_128"
+    }
+  },
+  "Defenders of the Forest": {
+    "default": "ASH_129",
+    "ASH": {
+      "129": "ASH_129"
+    }
+  },
+  "Fang Fighter Squadron": {
+    "default": "ASH_130",
+    "ASH": {
+      "130": "ASH_130"
+    }
+  },
+  "Dinosaur Turtle": {
+    "default": "ASH_131",
+    "ASH": {
+      "131": "ASH_131"
+    }
+  },
+  "Queen Soruna, Willing to Fight": {
+    "default": "ASH_132",
+    "ASH": {
+      "132": "ASH_132"
+    }
+  },
+  "Trask Walker": {
+    "default": "ASH_133",
+    "ASH": {
+      "133": "ASH_133"
+    }
+  },
+  "Warrior's Legacy": {
+    "default": "ASH_134",
+    "ASH": {
+      "134": "ASH_134"
+    }
+  },
+  "The Darksaber, Icon of Leadership": {
+    "default": "ASH_135",
+    "ASH": {
+      "135": "ASH_135"
+    }
+  },
+  "Display of Strength": {
+    "default": "ASH_136",
+    "ASH": {
+      "136": "ASH_136"
+    }
+  },
+  "Wipe Them Out": {
+    "default": "ASH_137",
+    "ASH": {
+      "137": "ASH_137"
+    }
+  },
+  "Turning the Tide": {
+    "default": "ASH_138",
+    "ASH": {
+      "138": "ASH_138"
+    }
+  },
+  "Hold Them Off": {
+    "default": "ASH_139",
+    "ASH": {
+      "139": "ASH_139"
+    }
+  },
+  "Stronger Together": {
+    "default": "ASH_140",
+    "ASH": {
+      "140": "ASH_140"
+    }
+  },
+  "TIE Striker": {
+    "default": "ASH_141",
+    "ASH": {
+      "141": "ASH_141"
+    }
+  },
+  "Mortar Trooper": {
+    "default": "ASH_142",
+    "ASH": {
+      "142": "ASH_142"
+    }
+  },
+  "Tempest Lieutenant": {
+    "default": "ASH_143",
+    "ASH": {
+      "143": "ASH_143"
+    }
+  },
+  "Vane's Snub Fighter, Brash and Proud": {
+    "default": "ASH_144",
+    "ASH": {
+      "144": "ASH_144"
+    }
+  },
+  "Praetorian Elite": {
+    "default": "ASH_145",
+    "ASH": {
+      "145": "ASH_145"
+    }
+  },
+  "Justifier, Relentless": {
+    "default": "ASH_146",
+    "ASH": {
+      "146": "ASH_146"
+    }
+  },
+  "The Cyborg Mech, Mysterious Threat": {
+    "default": "ASH_147",
+    "ASH": {
+      "147": "ASH_147"
+    }
+  },
+  "Ninth Sister, Hulking Inquisitor": {
+    "default": "ASH_148",
+    "ASH": {
+      "148": "ASH_148"
+    }
+  },
+  "Eviscerator, Burn Them Away": {
+    "default": "ASH_149",
+    "ASH": {
+      "149": "ASH_149"
+    }
+  },
+  "Deadly Vulnerability": {
+    "default": "ASH_150",
+    "ASH": {
+      "150": "ASH_150"
+    }
+  },
+  "Operation Cinder": {
+    "default": "ASH_151",
+    "ASH": {
+      "151": "ASH_151"
+    }
+  },
+  "Green Leader, Crynyd's Sacrifice": {
+    "default": "ASH_153",
+    "ASH": {
+      "153": "ASH_153"
+    }
+  },
+  "Honorable Nite Owl": {
+    "default": "ASH_154",
+    "ASH": {
+      "154": "ASH_154"
+    }
+  },
+  "Grogu, Yes. Yes. Yes.": {
+    "default": "ASH_155",
+    "ASH": {
+      "155": "ASH_155"
+    }
+  },
+  "R5-D4, Built for Adventure": {
+    "default": "ASH_156",
+    "ASH": {
+      "156": "ASH_156"
+    }
+  },
+  "Danger Squadron Wingmen": {
+    "default": "ASH_157",
+    "ASH": {
+      "157": "ASH_157"
+    }
+  },
+  "Han Solo, It'll Work": {
+    "default": "ASH_158",
+    "ASH": {
+      "158": "ASH_158"
+    }
+  },
+  "Alphabet Squadron U-Wing, Quiet Devotion": {
+    "default": "ASH_159",
+    "ASH": {
+      "159": "ASH_159"
+    }
+  },
+  "Kachirho Militia": {
+    "default": "ASH_160",
+    "ASH": {
+      "160": "ASH_160"
+    }
+  },
+  "Zeb Orrelios, Fists Work Every Time": {
+    "default": "ASH_161",
+    "ASH": {
+      "161": "ASH_161"
+    }
+  },
+  "Rash Action": {
+    "default": "ASH_162",
+    "ASH": {
+      "162": "ASH_162"
+    }
+  },
+  "Reckless Sacrifice": {
+    "default": "ASH_163",
+    "ASH": {
+      "163": "ASH_163"
+    }
+  },
+  "Alamite Hunter": {
+    "default": "ASH_164",
+    "ASH": {
+      "164": "ASH_164"
+    }
+  },
+  "Clan Vizsla Soldier": {
+    "default": "ASH_165",
+    "ASH": {
+      "165": "ASH_165"
+    }
+  },
+  "Ewok Warrior": {
+    "default": "ASH_166",
+    "ASH": {
+      "166": "ASH_166"
+    }
+  },
+  "Flarestar Attack Shuttle": {
+    "default": "ASH_167",
+    "ASH": {
+      "167": "ASH_167"
+    }
+  },
+  "Migs Mayfeld, How About a Toast?": {
+    "default": "ASH_168",
+    "ASH": {
+      "168": "ASH_168"
+    }
+  },
+  "Axe Woves, Undaunted": {
+    "default": "ASH_169",
+    "ASH": {
+      "169": "ASH_169"
+    }
+  },
+  "Desert Sharpshooter": {
+    "default": "ASH_170",
+    "ASH": {
+      "170": "ASH_170"
+    }
+  },
+  "Pegasus Tri-Wing": {
+    "default": "ASH_171",
+    "ASH": {
+      "171": "ASH_171"
+    }
+  },
+  "Razor Crest, Outfitted Armament": {
+    "default": "ASH_172",
+    "MV26": {
+      "002": "ASH_172"
+    },
+    "ASH": {
+      "172": "ASH_172"
+    }
+  },
+  "Shydopp Pirate Skiff": {
+    "default": "ASH_173",
+    "ASH": {
+      "173": "ASH_173"
+    }
+  },
+  "StarFortress Heavy Bomber": {
+    "default": "ASH_174",
+    "ASH": {
+      "174": "ASH_174"
+    }
+  },
+  "Wookiee Chieftain": {
+    "default": "ASH_175",
+    "ASH": {
+      "175": "ASH_175"
+    }
+  },
+  "Imposing Scout Walker": {
+    "default": "ASH_176",
+    "ASH": {
+      "176": "ASH_176"
+    }
+  },
+  "Onyx Cinder, Adventure Awaits": {
+    "default": "ASH_177",
+    "ASH": {
+      "177": "ASH_177"
+    }
+  },
+  "Knobby White Ice Spider": {
+    "default": "ASH_178",
+    "ASH": {
+      "178": "ASH_178"
+    }
+  },
+  "Boba Fett's Rancor, Emotionally Complex Creature": {
+    "default": "ASH_179",
+    "ASH": {
+      "179": "ASH_179"
+    }
+  },
+  "Bokken Saber": {
+    "default": "ASH_180",
+    "ASH": {
+      "180": "ASH_180"
+    }
+  },
+  "Mark My Words": {
+    "default": "ASH_181",
+    "ASH": {
+      "181": "ASH_181"
+    }
+  },
+  "Unfettered Ambition": {
+    "default": "ASH_182",
+    "ASH": {
+      "182": "ASH_182"
+    }
+  },
+  "Whistling Birds": {
+    "default": "ASH_183",
+    "ASH": {
+      "183": "ASH_183",
+      "807": "ASH_183"
+    }
+  },
+  "Follow Me": {
+    "default": "ASH_184",
+    "ASH": {
+      "184": "ASH_184"
+    }
+  },
+  "Intimidation": {
+    "default": "ASH_185",
+    "ASH": {
+      "185": "ASH_185"
+    }
+  },
+  "Treacherous Minefield": {
+    "default": "ASH_186",
+    "ASH": {
+      "186": "ASH_186"
+    }
+  },
+  "Reckoning": {
+    "default": "ASH_187",
+    "ASH": {
+      "187": "ASH_187"
+    }
+  },
+  "Galvanized Leap": {
+    "default": "ASH_188",
+    "ASH": {
+      "188": "ASH_188"
+    }
+  },
+  "Emperor's Messenger": {
+    "default": "ASH_189",
+    "ASH": {
+      "189": "ASH_189"
+    }
+  },
+  "Peridea Bandit": {
+    "default": "ASH_190",
+    "ASH": {
+      "190": "ASH_190"
+    }
+  },
+  "Shin Hati's Fiend Fighter, Compact and Agile": {
+    "default": "ASH_191",
+    "ASH": {
+      "191": "ASH_191"
+    }
+  },
+  "Fennec Shand, The Galaxy Is Dangerous": {
+    "default": "ASH_192",
+    "ASH": {
+      "192": "ASH_192"
+    }
+  },
+  "Emperor's Champion": {
+    "default": "ASH_193",
+    "ASH": {
+      "193": "ASH_193"
+    }
+  },
+  "Snub Fighter Squadron": {
+    "default": "ASH_194",
+    "ASH": {
+      "194": "ASH_194"
+    }
+  },
+  "Helgait, Dooku Was a Visionary": {
+    "default": "ASH_195",
+    "ASH": {
+      "195": "ASH_195"
+    }
+  },
+  "Gorian Shard's Corsair, Pirate Warship": {
+    "default": "ASH_196",
+    "ASH": {
+      "196": "ASH_196"
+    }
+  },
+  "Executor, Final Destruction of the Alliance": {
+    "default": "ASH_197",
+    "ASH": {
+      "197": "ASH_197"
+    }
+  },
+  "Nowhere to Hide": {
+    "default": "ASH_198",
+    "ASH": {
+      "198": "ASH_198"
+    }
+  },
+  "There Is No Conflict": {
+    "default": "ASH_199",
+    "ASH": {
+      "199": "ASH_199"
+    }
+  },
+  "Rehabilitation": {
+    "default": "ASH_200",
+    "ASH": {
+      "200": "ASH_200"
+    }
+  },
+  "Open Circle Ace": {
+    "default": "ASH_201",
+    "ASH": {
+      "201": "ASH_201"
+    }
+  },
+  "Carson Teva, There's Something Going On": {
+    "default": "ASH_202",
+    "ASH": {
+      "202": "ASH_202"
+    }
+  },
+  "Mando's N-1 Starfighter, Faster Than a Fathier": {
+    "default": "ASH_203",
+    "ASH": {
+      "203": "ASH_203"
+    }
+  },
+  "Blade Three, Bane of the Devastator": {
+    "default": "ASH_204",
+    "ASH": {
+      "204": "ASH_204"
+    }
+  },
+  "Inspiring Veteran": {
+    "default": "ASH_205",
+    "ASH": {
+      "205": "ASH_205"
+    }
+  },
+  "Kelleran Beq, Where Are the Others?": {
+    "default": "ASH_206",
+    "ASH": {
+      "206": "ASH_206"
+    }
+  },
+  "Heroic Purrgil": {
+    "default": "ASH_207",
+    "ASH": {
+      "207": "ASH_207"
+    }
+  },
+  "Sabine Wren, I Learned the Hard Way": {
+    "default": "ASH_208",
+    "ASH": {
+      "208": "ASH_208"
+    }
+  },
+  "Ezra Bridger, The Force Is All I Need": {
+    "default": "ASH_209",
+    "ASH": {
+      "209": "ASH_209"
+    }
+  },
+  "DDC Defender": {
+    "default": "ASH_210",
+    "ASH": {
+      "210": "ASH_210"
+    }
+  },
+  "Fateful Goodbye": {
+    "default": "ASH_211",
+    "ASH": {
+      "211": "ASH_211"
+    }
+  },
+  "Peli Motto, You Bring the Cash?": {
+    "default": "ASH_212",
+    "ASH": {
+      "212": "ASH_212"
+    }
+  },
+  "Womp Rat": {
+    "default": "ASH_213",
+    "ASH": {
+      "213": "ASH_213"
+    }
+  },
+  "Amnesty Officer": {
+    "default": "ASH_214",
+    "ASH": {
+      "214": "ASH_214"
+    }
+  },
+  "Flanking TIE Interceptor": {
+    "default": "ASH_215",
+    "ASH": {
+      "215": "ASH_215"
+    }
+  },
+  "Mandalorian Scout": {
+    "default": "ASH_216",
+    "ASH": {
+      "216": "ASH_216"
+    }
+  },
+  "Mayor's Majordomo, No Problem Groveling": {
+    "default": "ASH_217",
+    "ASH": {
+      "217": "ASH_217"
+    }
+  },
+  "Ferry Droid": {
+    "default": "ASH_218",
+    "ASH": {
+      "218": "ASH_218"
+    }
+  },
+  "Jod Na Nawood, Keeping Secrets": {
+    "default": "ASH_219",
+    "ASH": {
+      "219": "ASH_219"
+    }
+  },
+  "Remnant Lookouts": {
+    "default": "ASH_220",
+    "ASH": {
+      "220": "ASH_220"
+    }
+  },
+  "Helix Starfighter": {
+    "default": "ASH_221",
+    "ASH": {
+      "221": "ASH_221"
+    }
+  },
+  "Unsanctioned Patrol": {
+    "default": "ASH_222",
+    "ASH": {
+      "222": "ASH_222"
+    }
+  },
+  "Halo, Not According to Plan": {
+    "default": "ASH_223",
+    "ASH": {
+      "223": "ASH_223"
+    }
+  },
+  "Elzar Mann, Haunted by a Vision": {
+    "default": "ASH_224",
+    "ASH": {
+      "224": "ASH_224"
+    }
+  },
+  "Tatooine Sand Beast": {
+    "default": "ASH_225",
+    "ASH": {
+      "225": "ASH_225"
+    }
+  },
+  "Qi'ra, Master of Teräs Käsi": {
+    "default": "ASH_226",
+    "C26": {
+      "004": "ASH_226"
+    },
+    "ASH": {
+      "226": "ASH_226"
+    }
+  },
+  "Heightened Awareness": {
+    "default": "ASH_227",
+    "ASH": {
+      "227": "ASH_227"
+    }
+  },
+  "Preparation": {
+    "default": "ASH_228",
+    "ASH": {
+      "228": "ASH_228"
+    }
+  },
+  "Camtono": {
+    "default": "ASH_229",
+    "ASH": {
+      "229": "ASH_229"
+    }
+  },
+  "Improvised Identity": {
+    "default": "ASH_230",
+    "ASH": {
+      "230": "ASH_230"
+    }
+  },
+  "Diplomatic Pageantry": {
+    "default": "ASH_231",
+    "ASH": {
+      "231": "ASH_231"
+    }
+  },
+  "Full of Surprises": {
+    "default": "ASH_232",
+    "ASH": {
+      "232": "ASH_232"
+    }
+  },
+  "Keep Them Talking": {
+    "default": "ASH_233",
+    "ASH": {
+      "233": "ASH_233"
+    }
+  },
+  "Masterstroke": {
+    "default": "ASH_234",
+    "ASH": {
+      "234": "ASH_234"
+    }
+  },
+  "Sense Through the Force": {
+    "default": "ASH_235",
+    "ASH": {
+      "235": "ASH_235"
+    }
+  },
+  "Far Far Away": {
+    "default": "ASH_236",
+    "ASH": {
+      "236": "ASH_236"
+    }
+  },
+  "Mouse Droid": {
+    "default": "ASH_237",
+    "ASH": {
+      "237": "ASH_237"
+    }
+  },
+  "Attendant Navigator": {
+    "default": "ASH_238",
+    "ASH": {
+      "238": "ASH_238"
+    }
+  },
+  "Imperial Loyalist": {
+    "default": "ASH_239",
+    "ASH": {
+      "239": "ASH_239"
+    }
+  },
+  "Mandalorian Super Commandos": {
+    "default": "ASH_240",
+    "ASH": {
+      "240": "ASH_240"
+    }
+  },
+  "Marrok's Fiend Fighter, Formidable Pursuer": {
+    "default": "ASH_241",
+    "ASH": {
+      "241": "ASH_241"
+    }
+  },
+  "Death Trooper Squad": {
+    "default": "ASH_242",
+    "ASH": {
+      "242": "ASH_242"
+    }
+  },
+  "Darth Vader, Meet Your Destiny": {
+    "default": "ASH_243",
+    "P26": {
+      "001": "ASH_243"
+    },
+    "ASH": {
+      "243": "ASH_243"
+    }
+  },
+  "Remnant Trooper Corps": {
+    "default": "ASH_244",
+    "ASH": {
+      "244": "ASH_244"
+    }
+  },
+  "Eye of Sion, Delivered From Exile": {
+    "default": "ASH_245",
+    "ASH": {
+      "245": "ASH_245"
+    }
+  },
+  "Exploit Advantage": {
+    "default": "ASH_246",
+    "ASH": {
+      "246": "ASH_246"
+    }
+  },
+  "One Must Destroy to Create": {
+    "default": "ASH_247",
+    "ASH": {
+      "247": "ASH_247"
+    }
+  },
+  "Neel, The Cutest Boy": {
+    "default": "ASH_248",
+    "ASH": {
+      "248": "ASH_248"
+    }
+  },
+  "Covert Veteran": {
+    "default": "ASH_249",
+    "ASH": {
+      "249": "ASH_249"
+    }
+  },
+  "Imperial Defector": {
+    "default": "ASH_250",
+    "ASH": {
+      "250": "ASH_250"
+    }
+  },
+  "Zealous Soldier": {
+    "default": "ASH_251",
+    "ASH": {
+      "251": "ASH_251"
+    }
+  },
+  "N5 Sentry Droid": {
+    "default": "ASH_252",
+    "ASH": {
+      "252": "ASH_252"
+    }
+  },
+  "Yellow Aces Bomber": {
+    "default": "ASH_253",
+    "ASH": {
+      "253": "ASH_253"
+    }
+  },
+  "Gallofree Transport": {
+    "default": "ASH_254",
+    "ASH": {
+      "254": "ASH_254"
+    }
+  },
+  "Anakin Skywalker, You Were Right About Me": {
+    "default": "ASH_255",
+    "ASH": {
+      "255": "ASH_255"
+    }
+  },
+  "Rebel Infiltrators": {
+    "default": "ASH_256",
+    "ASH": {
+      "256": "ASH_256"
+    }
+  },
+  "Choose Your Path": {
+    "default": "ASH_257",
+    "ASH": {
+      "257": "ASH_257"
+    }
+  },
+  "LEP Ratcatcher": {
+    "default": "ASH_259",
+    "ASH": {
+      "259": "ASH_259"
+    }
+  },
+  "Mos Espa Watermonger": {
+    "default": "ASH_260",
+    "ASH": {
+      "260": "ASH_260"
+    }
+  },
+  "Noti Mobile Pod": {
+    "default": "ASH_261",
+    "ASH": {
+      "261": "ASH_261"
+    }
+  },
+  "Faith in the Empire": {
+    "default": "ASH_262",
+    "ASH": {
+      "262": "ASH_262"
+    }
+  },
+  "The Way of the Mand'alor": {
+    "default": "ASH_263",
+    "ASH": {
+      "263": "ASH_263"
+    }
+  },
+  "A New Order": {
+    "default": "ASH_264",
+    "ASH": {
+      "264": "ASH_264"
     }
   }
 }
