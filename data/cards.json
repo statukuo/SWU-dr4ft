@@ -82478,5 +82478,4703 @@
     "rarity": 1,
     "cost": 1,
     "type": "Event"
+  },
+  "HMW_001": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Asajj Ventress",
+    "title": "No Time For Regret",
+    "defaultCardNumber": "001",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/001.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/001.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/001-back.png",
+    "aspects": [
+      "Vigilance",
+      "Aggression"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "HMW_002": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Maz Kanata",
+    "title": "Eclectic Pirate Queen",
+    "defaultCardNumber": "002",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/002.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/002.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/002-back.png",
+    "aspects": [
+      "Command",
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "HMW_003": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Doctor Hemlock",
+    "title": "Emotion Has No Place Here",
+    "defaultCardNumber": "003",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/003.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/003.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/003-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "HMW_004": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Grand Moff Tarkin",
+    "title": "Tyrant of the Outer Rim",
+    "defaultCardNumber": "004",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/004.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/004.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/004-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 5,
+    "cost": 9,
+    "type": "Leader"
+  },
+  "HMW_786": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Grand Moff Tarkin",
+    "title": "Tyrant of the Outer Rim",
+    "defaultCardNumber": "786",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/786.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/786.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/786-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 5,
+    "cost": 9,
+    "type": "Leader"
+  },
+  "HMW_005": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Jar Jar Binks",
+    "title": "Bombad General",
+    "defaultCardNumber": "005",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/005.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/005.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/005-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "HMW_006": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Omega",
+    "title": "Close Your Eyes and Focus",
+    "defaultCardNumber": "006",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/006.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/006.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/006-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "HMW_788": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Omega",
+    "title": "Close Your Eyes and Focus",
+    "defaultCardNumber": "788",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/788.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/788.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/788-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "HMW_007": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Darth Vader",
+    "title": "Might of the Empire",
+    "defaultCardNumber": "007",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/007.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/007.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/007-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "HMW_008": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "General Grievous",
+    "title": "Separatist Warlord",
+    "defaultCardNumber": "008",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/008.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/008.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/008-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "HMW_790": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "General Grievous",
+    "title": "Separatist Warlord",
+    "defaultCardNumber": "790",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/790.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/790.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/790-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "HMW_009": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Chewbacca",
+    "title": "Relentless Rebel",
+    "defaultCardNumber": "009",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/009.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/009.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/009-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 5,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "HMW_791": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Chewbacca",
+    "title": "Relentless Rebel",
+    "defaultCardNumber": "791",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/791.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/791.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/791-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 5,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "HMW_010": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Tarfful",
+    "title": "Fighting from the Shadowlands",
+    "defaultCardNumber": "010",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/010.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/010.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/010-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "HMW_011": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Darth Sidious",
+    "title": "There is No Mercy",
+    "defaultCardNumber": "011",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/011.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/011.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/011-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "HMW_793": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Darth Sidious",
+    "title": "There is No Mercy",
+    "defaultCardNumber": "793",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/793.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/793.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/793-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "HMW_012": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Poggle the Lesser",
+    "title": "Let the Executions Begin",
+    "defaultCardNumber": "012",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/012.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/012.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/012-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "HMW_013": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Cham Syndulla",
+    "title": "Hammer of Ryloth",
+    "defaultCardNumber": "013",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/013.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/013.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/013-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "HMW_014": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Wicket",
+    "title": "Few Greater Battles to Fight",
+    "defaultCardNumber": "014",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/014.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/014.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/014-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Leader"
+  },
+  "HMW_015": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Bossk",
+    "title": "Cruel Hunter",
+    "defaultCardNumber": "015",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/015.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/015.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/015-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "HMW_016": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Maul",
+    "title": "Old Master",
+    "defaultCardNumber": "016",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/016.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/016.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/016-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 7,
+    "type": "Leader"
+  },
+  "HMW_017": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Osha",
+    "title": "Haunted by her Past",
+    "defaultCardNumber": "017",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/017.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/017.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/017-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Leader"
+  },
+  "HMW_018": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "The Warrior",
+    "title": "Deft Duelist",
+    "defaultCardNumber": "018",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/018.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/018.png",
+    "backImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/018-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Leader"
+  },
+  "HMW_019": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Dune Sea",
+    "title": "",
+    "defaultCardNumber": "019",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/019.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/019.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "HMW_020": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Great Grass Plains",
+    "title": "",
+    "defaultCardNumber": "020",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/020.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/020.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "HMW_021": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Kachirho",
+    "title": "",
+    "defaultCardNumber": "021",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/021.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/021.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "HMW_022": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Shield Generator Complex",
+    "title": "",
+    "defaultCardNumber": "022",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/022.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/022.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "HMW_023": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Bright Tree Village",
+    "title": "",
+    "defaultCardNumber": "023",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/023.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/023.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "HMW_024": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Origin Tree",
+    "title": "",
+    "defaultCardNumber": "024",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/024.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/024.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "HMW_025": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Theed Palace",
+    "title": "",
+    "defaultCardNumber": "025",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/025.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/025.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "HMW_026": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Tusken Camp",
+    "title": "",
+    "defaultCardNumber": "026",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/026.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/026.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "HMW_027": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Bioweapons Lab",
+    "title": "",
+    "defaultCardNumber": "027",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/027.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/027.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "HMW_028": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Jundland Wastes",
+    "title": "",
+    "defaultCardNumber": "028",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/028.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/028.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "HMW_029": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Dendroid Wilds",
+    "title": "",
+    "defaultCardNumber": "029",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/029.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/029.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "HMW_030": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Shadowlands",
+    "title": "",
+    "defaultCardNumber": "030",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/030.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/030.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "HMW_031": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Kyyyalstaad Swamp",
+    "title": "",
+    "defaultCardNumber": "031",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/031.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/031.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "HMW_032": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Mos Eisley",
+    "title": "",
+    "defaultCardNumber": "032",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/032.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/032.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "HMW_033": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Otoh Gunga",
+    "title": "",
+    "defaultCardNumber": "033",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/033.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/033.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "HMW_034": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Research Station 9",
+    "title": "",
+    "defaultCardNumber": "034",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/034.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/034.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": null,
+    "type": "Base"
+  },
+  "HMW_035": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Hunter",
+    "title": "Everyone Get to Cover!",
+    "defaultCardNumber": "035",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/035.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/035.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_036": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Kelnacca",
+    "title": "Solitary Master",
+    "defaultCardNumber": "036",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/036.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/036.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Command"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_037": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Bacta Tank",
+    "title": "",
+    "defaultCardNumber": "037",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/037.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/037.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Command"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "HMW_038": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Bestial Bond",
+    "title": "",
+    "defaultCardNumber": "038",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/038.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/038.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Command"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "HMW_039": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Mother Talzin",
+    "title": "Pledged to the Sisterhood",
+    "defaultCardNumber": "039",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/039.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/039.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Aggression"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_040": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Talzin's Shuttle",
+    "title": "Mysterious Arrival",
+    "defaultCardNumber": "040",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/040.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/040.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_041": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Keeper of Skara Nal",
+    "title": "Awoken",
+    "defaultCardNumber": "041",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/041.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/041.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Vigilance"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_042": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Dooku",
+    "title": "Corruption Must Be Eradicated",
+    "defaultCardNumber": "042",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/042.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/042.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Aggression"
+    ],
+    "rarity": 4,
+    "cost": 8,
+    "type": "Unit"
+  },
+  "HMW_043": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Darth Vader",
+    "title": "Any Methods Necessary",
+    "defaultCardNumber": "043",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/043.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/043.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 9,
+    "type": "Unit"
+  },
+  "P26_264": {
+    "defaultExpansionAbbreviation": "P26",
+    "cardName": "Ima-Gun Di",
+    "title": "Holding Out For Resupply",
+    "defaultCardNumber": "264",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/264.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/264.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_044": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Ima-Gun Di",
+    "title": "Holding Out For Resupply",
+    "defaultCardNumber": "044",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/044.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/044.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_045": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Logray",
+    "title": "Bright Tree Shaman",
+    "defaultCardNumber": "045",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/045.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/045.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_801": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Logray",
+    "title": "Bright Tree Shaman",
+    "defaultCardNumber": "801",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/801.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/801.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_046": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Krrsantan",
+    "title": "Santo",
+    "defaultCardNumber": "046",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/046.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/046.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Aggression"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_047": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Eravana",
+    "title": "Hauling Rathtars",
+    "defaultCardNumber": "047",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/047.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/047.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_048": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Vernestra Rwoh",
+    "title": "We Should Handle This Ourselves",
+    "defaultCardNumber": "048",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/048.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/048.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Cunning"
+    ],
+    "rarity": 4,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_049": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Greater Sarlacc",
+    "title": "",
+    "defaultCardNumber": "049",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/049.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/049.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 9,
+    "type": "Unit"
+  },
+  "HMW_050": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Low Altitude Combat",
+    "title": "",
+    "defaultCardNumber": "050",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/050.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/050.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Event"
+  },
+  "HMW_051": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Third Sister",
+    "title": "Cycle of Vengeance",
+    "defaultCardNumber": "051",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/051.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/051.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_052": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "A'Koba",
+    "title": "Restless Raider",
+    "defaultCardNumber": "052",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/052.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/052.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_899": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "A'Koba",
+    "title": "Restless Raider",
+    "defaultCardNumber": "899",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/899.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/899.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "P26_032": {
+    "defaultExpansionAbbreviation": "P26",
+    "cardName": "",
+    "title": "",
+    "defaultCardNumber": "032",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 3,
+    "cost": 6,
+    "type": ""
+  },
+  "P26_241": {
+    "defaultExpansionAbbreviation": "P26",
+    "cardName": "Fett's Firespray",
+    "title": "Settling the Score",
+    "defaultCardNumber": "241",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/241.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/241.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_053": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Fett's Firespray",
+    "title": "Settling the Score",
+    "defaultCardNumber": "053",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/053.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/053.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_054": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Seismic Detonation",
+    "title": "",
+    "defaultCardNumber": "054",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/054.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/054.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Event"
+  },
+  "P26_270": {
+    "defaultExpansionAbbreviation": "P26",
+    "cardName": "Mae",
+    "title": "Kill the Dream",
+    "defaultCardNumber": "270",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/270.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/270.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_055": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Mae",
+    "title": "Kill the Dream",
+    "defaultCardNumber": "055",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/055.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/055.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_056": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Yoda",
+    "title": "Trickster In Exile",
+    "defaultCardNumber": "056",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/056.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/056.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_057": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Boss Lyonie",
+    "title": "Hypnotized",
+    "defaultCardNumber": "057",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/057.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/057.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_058": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Mysterious Disappearance",
+    "title": "",
+    "defaultCardNumber": "058",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/058.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/058.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Vigilance"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Event"
+  },
+  "HMW_059": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Clone X Assassin",
+    "title": "",
+    "defaultCardNumber": "059",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/059.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/059.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_060": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Vice Admiral Rampart",
+    "title": "A New Era of Safety",
+    "defaultCardNumber": "060",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/060.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/060.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 5,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_061": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Director Krennic",
+    "title": "The Work Has Stalled",
+    "defaultCardNumber": "061",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/061.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/061.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 5,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "P26_265": {
+    "defaultExpansionAbbreviation": "P26",
+    "cardName": "Nuvo Vindi",
+    "title": "Blue Shadow Perfected",
+    "defaultCardNumber": "265",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/265.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/265.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_062": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Nuvo Vindi",
+    "title": "Blue Shadow Perfected",
+    "defaultCardNumber": "062",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/062.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/062.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_063": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Rho Medical Shuttle",
+    "title": "",
+    "defaultCardNumber": "063",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/063.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/063.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_064": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Scorch",
+    "title": "Imperial Commando",
+    "defaultCardNumber": "064",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/064.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/064.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_065": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Clone of the Zillo Beast",
+    "title": "Emperor's Experiment",
+    "defaultCardNumber": "065",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/065.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/065.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_066": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Carrion Spike",
+    "title": "Harbinger of Tyranny",
+    "defaultCardNumber": "066",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/066.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/066.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_067": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "The Great Progenitor",
+    "title": "First of the Drengir",
+    "defaultCardNumber": "067",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/067.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/067.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_068": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Imperial Commandos",
+    "title": "",
+    "defaultCardNumber": "068",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/068.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/068.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_069": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Imperial Venator",
+    "title": "",
+    "defaultCardNumber": "069",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/069.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/069.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "HMW_070": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Dark Sanctum",
+    "title": "",
+    "defaultCardNumber": "070",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/070.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/070.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "HMW_071": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Ravage",
+    "title": "",
+    "defaultCardNumber": "071",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/071.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/071.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 4,
+    "type": "Event"
+  },
+  "HMW_072": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Grand Army Marine",
+    "title": "",
+    "defaultCardNumber": "072",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/072.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/072.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_073": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Peppi Bow",
+    "title": "Shaak Herder",
+    "defaultCardNumber": "073",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/073.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/073.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_074": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Yord Fandar",
+    "title": "Devoutly Disciplined",
+    "defaultCardNumber": "074",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/074.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/074.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_075": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Wookiee Protector",
+    "title": "",
+    "defaultCardNumber": "075",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/075.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/075.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_076": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Yanna",
+    "title": "Sanctuary Elder",
+    "defaultCardNumber": "076",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/076.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/076.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_077": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Boss Nass",
+    "title": "Otoh Gunga Boss",
+    "defaultCardNumber": "077",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/077.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/077.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_807": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Boss Nass",
+    "title": "Otoh Gunga Boss",
+    "defaultCardNumber": "807",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/807.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/807.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "P26_037": {
+    "defaultExpansionAbbreviation": "P26",
+    "cardName": "",
+    "title": "",
+    "defaultCardNumber": "037",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 4,
+    "cost": 5,
+    "type": ""
+  },
+  "HMW_078": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Qui-Gon Jinn",
+    "title": "We'll Handle This",
+    "defaultCardNumber": "078",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/078.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/078.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_079": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Radiant VII",
+    "title": "Negotiating For Naboo",
+    "defaultCardNumber": "079",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/079.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/079.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_080": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Fambaa Shield Team",
+    "title": "",
+    "defaultCardNumber": "080",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/080.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/080.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "HMW_081": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Alliance Shield Generator",
+    "title": "",
+    "defaultCardNumber": "081",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/081.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/081.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "HMW_082": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Nala Se",
+    "title": "Silent Survivor",
+    "defaultCardNumber": "082",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/082.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/082.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance",
+      "Vigilance"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_083": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Batcher",
+    "title": "Loyal Hound",
+    "defaultCardNumber": "083",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/083.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/083.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_084": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Gunga City Guard",
+    "title": "",
+    "defaultCardNumber": "084",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/084.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/084.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_085": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Remote Scout",
+    "title": "",
+    "defaultCardNumber": "085",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/085.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/085.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_086": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "N-1 Patroller",
+    "title": "",
+    "defaultCardNumber": "086",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/086.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/086.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_087": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Venomous Wyyyshokk",
+    "title": "",
+    "defaultCardNumber": "087",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/087.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/087.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_088": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Numa",
+    "title": "Still Fighting",
+    "defaultCardNumber": "088",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/088.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/088.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_089": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Territorial Mudhorn",
+    "title": "",
+    "defaultCardNumber": "089",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/089.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/089.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_090": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Opee Sea Killer",
+    "title": "",
+    "defaultCardNumber": "090",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/090.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/090.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_091": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Pelta Relief Frigate",
+    "title": "",
+    "defaultCardNumber": "091",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/091.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/091.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_092": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Starlit Purrgil",
+    "title": "",
+    "defaultCardNumber": "092",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/092.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/092.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_093": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Coastal Catamarans",
+    "title": "",
+    "defaultCardNumber": "093",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/093.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/093.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "HMW_094": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Sando Aqua Monster",
+    "title": "",
+    "defaultCardNumber": "094",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/094.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/094.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 4,
+    "cost": 8,
+    "type": "Unit"
+  },
+  "HMW_826": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Sando Aqua Monster",
+    "title": "",
+    "defaultCardNumber": "826",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/826.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/826.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 4,
+    "cost": 8,
+    "type": "Unit"
+  },
+  "HMW_095": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Carbonite Chamber",
+    "title": "",
+    "defaultCardNumber": "095",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/095.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/095.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "HMW_096": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Devotion",
+    "title": "",
+    "defaultCardNumber": "096",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/096.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/096.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "HMW_097": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Dire Prowess",
+    "title": "",
+    "defaultCardNumber": "097",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/097.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/097.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "HMW_098": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Resonate",
+    "title": "",
+    "defaultCardNumber": "098",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/098.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/098.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Event"
+  },
+  "HMW_099": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Always a Bigger Fish",
+    "title": "",
+    "defaultCardNumber": "099",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/099.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/099.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Event"
+  },
+  "HMW_100": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Torrent",
+    "title": "",
+    "defaultCardNumber": "100",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/100.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/100.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "HMW_101": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Trust Yourself",
+    "title": "",
+    "defaultCardNumber": "101",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/101.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/101.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "HMW_102": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Dragon's Might",
+    "title": "",
+    "defaultCardNumber": "102",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/102.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/102.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Vigilance"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Event"
+  },
+  "HMW_103": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Disposable B1",
+    "title": "",
+    "defaultCardNumber": "103",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/103.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/103.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "P26_246": {
+    "defaultExpansionAbbreviation": "P26",
+    "cardName": "Garnac",
+    "title": "Let the Hunt Begin!",
+    "defaultCardNumber": "246",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/246.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/246.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "HMW_104": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Garnac",
+    "title": "Let the Hunt Begin!",
+    "defaultCardNumber": "104",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/104.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/104.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "HMW_105": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Nute Gunray",
+    "title": "Perfectly Legal",
+    "defaultCardNumber": "105",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/105.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/105.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_106": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Secessionist Convert",
+    "title": "",
+    "defaultCardNumber": "106",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/106.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/106.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_107": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Stormtrooper Patrol",
+    "title": "",
+    "defaultCardNumber": "107",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/107.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/107.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_108": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "The First Legion",
+    "title": "Vader's Fist",
+    "defaultCardNumber": "108",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/108.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/108.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_109": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Tireless Magnaguard",
+    "title": "",
+    "defaultCardNumber": "109",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/109.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/109.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_110": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Emperor Palpatine",
+    "title": "Consolidating Power",
+    "defaultCardNumber": "110",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/110.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/110.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_111": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Invasion Lander",
+    "title": "",
+    "defaultCardNumber": "111",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/111.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/111.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_112": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Military Academy",
+    "title": "",
+    "defaultCardNumber": "112",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/112.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/112.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "HMW_113": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Sinister War Memorial",
+    "title": "",
+    "defaultCardNumber": "113",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/113.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/113.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 5,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "HMW_114": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Breach",
+    "title": "",
+    "defaultCardNumber": "114",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/114.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/114.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Event"
+  },
+  "HMW_115": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Leia Organa",
+    "title": "These Are My Friends",
+    "defaultCardNumber": "115",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/115.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/115.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "HMW_116": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Ewok Brigade",
+    "title": "",
+    "defaultCardNumber": "116",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/116.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/116.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "P26_275": {
+    "defaultExpansionAbbreviation": "P26",
+    "cardName": "Chewbacca",
+    "title": "Resourceful Wookiee",
+    "defaultCardNumber": "275",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/275.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/275.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_117": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Chewbacca",
+    "title": "Resourceful Wookiee",
+    "defaultCardNumber": "117",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/117.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/117.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_118": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Ryyk Blademaster",
+    "title": "",
+    "defaultCardNumber": "118",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/118.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/118.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_119": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Saw Gerrera",
+    "title": "Shadowlands Insurgent",
+    "defaultCardNumber": "119",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/119.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/119.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_120": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Auzituck Avenger",
+    "title": "",
+    "defaultCardNumber": "120",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/120.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/120.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_121": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Hijacked AT-ST",
+    "title": "",
+    "defaultCardNumber": "121",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/121.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/121.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 5,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_122": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Boga",
+    "title": "Loyal Varactyl",
+    "defaultCardNumber": "122",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/122.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/122.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_123": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "King Grakchawwaa",
+    "title": "King of Kashyyyk",
+    "defaultCardNumber": "123",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/123.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/123.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "P26_271": {
+    "defaultExpansionAbbreviation": "P26",
+    "cardName": "Luminara Unduli",
+    "title": "Besieged General",
+    "defaultCardNumber": "271",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/271.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/271.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "HMW_124": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Luminara Unduli",
+    "title": "Besieged General",
+    "defaultCardNumber": "124",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/124.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/124.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "HMW_838": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Luminara Unduli",
+    "title": "Besieged General",
+    "defaultCardNumber": "838",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/838.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/838.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "HMW_125": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "The Marauder",
+    "title": "A New Home",
+    "defaultCardNumber": "125",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/125.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/125.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "P26_267": {
+    "defaultExpansionAbbreviation": "P26",
+    "cardName": "Verdant Fortress",
+    "title": "",
+    "defaultCardNumber": "267",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/267.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/267.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "HMW_126": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Verdant Fortress",
+    "title": "",
+    "defaultCardNumber": "126",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/126.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/126.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "HMW_127": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Chewbacca's Bowcaster",
+    "title": "Handcrafted Tradition",
+    "defaultCardNumber": "127",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/127.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/127.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Heroism"
+    ],
+    "rarity": 5,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "HMW_128": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Mace Windu",
+    "title": "Austere Centrist",
+    "defaultCardNumber": "128",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/128.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/128.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command",
+      "Command"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_129": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Child of Dathomir",
+    "title": "",
+    "defaultCardNumber": "129",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/129.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/129.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "HMW_130": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Emerie Karr",
+    "title": "For Your Own Good",
+    "defaultCardNumber": "130",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/130.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/130.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "HMW_131": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Soaring Can-Cell",
+    "title": "",
+    "defaultCardNumber": "131",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/131.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/131.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_132": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Tibidee Mate",
+    "title": "",
+    "defaultCardNumber": "132",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/132.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/132.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_133": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Wroshyr Rebel",
+    "title": "",
+    "defaultCardNumber": "133",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/133.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/133.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "C26_003": {
+    "defaultExpansionAbbreviation": "C26",
+    "cardName": "",
+    "title": "",
+    "defaultCardNumber": "003",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 3,
+    "cost": 2,
+    "type": ""
+  },
+  "HMW_134": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Zam Wesell",
+    "title": "Not What She Seems",
+    "defaultCardNumber": "134",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/134.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/134.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_135": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Arena Reek",
+    "title": "Fixture of Ceremony",
+    "defaultCardNumber": "135",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/135.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/135.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_136": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Lifetree Caravan",
+    "title": "",
+    "defaultCardNumber": "136",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/136.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/136.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_137": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "V-19 Skirmisher",
+    "title": "",
+    "defaultCardNumber": "137",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/137.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/137.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_138": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Commander Gree",
+    "title": "Of the 41st Elite Corps",
+    "defaultCardNumber": "138",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/138.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/138.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_139": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Flock of Mynocks",
+    "title": "",
+    "defaultCardNumber": "139",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/139.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/139.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_140": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Assault Frigate",
+    "title": "",
+    "defaultCardNumber": "140",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/140.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/140.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_141": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Rex",
+    "title": "Outserved His Purpose",
+    "defaultCardNumber": "141",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/141.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/141.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_142": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Wookiee Rangers",
+    "title": "",
+    "defaultCardNumber": "142",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/142.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/142.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_143": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Banking Clan Warship",
+    "title": "",
+    "defaultCardNumber": "143",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/143.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/143.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_144": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Howler Pack",
+    "title": "",
+    "defaultCardNumber": "144",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/144.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/144.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_145": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Origin Tree Shyyyo",
+    "title": "",
+    "defaultCardNumber": "145",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/145.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/145.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 4,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_828": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Origin Tree Shyyyo",
+    "title": "",
+    "defaultCardNumber": "828",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/828.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/828.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 4,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_146": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Outer Rim Garrison",
+    "title": "",
+    "defaultCardNumber": "146",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/146.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/146.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "HMW_147": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Beast Lair",
+    "title": "",
+    "defaultCardNumber": "147",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/147.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/147.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "HMW_148": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Local Support",
+    "title": "",
+    "defaultCardNumber": "148",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/148.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/148.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "HMW_149": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Log Trap",
+    "title": "",
+    "defaultCardNumber": "149",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/149.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/149.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Event"
+  },
+  "HMW_150": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Migrate",
+    "title": "",
+    "defaultCardNumber": "150",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/150.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/150.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Event"
+  },
+  "HMW_151": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Overgrowth",
+    "title": "",
+    "defaultCardNumber": "151",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/151.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/151.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Command"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Event"
+  },
+  "HMW_152": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Babwa Venomor",
+    "title": "Burning Kashyyyk",
+    "defaultCardNumber": "152",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/152.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/152.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_153": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Poacher's Starfighter",
+    "title": "",
+    "defaultCardNumber": "153",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/153.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/153.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_154": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Dooku's Solar Sailer",
+    "title": "Droid Army Portent",
+    "defaultCardNumber": "154",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/154.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/154.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_155": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Filthy Dianoga",
+    "title": "",
+    "defaultCardNumber": "155",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/155.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/155.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_156": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Arena Acklay",
+    "title": "Screaming Predator",
+    "defaultCardNumber": "156",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/156.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/156.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_157": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Corpo Thugs",
+    "title": "",
+    "defaultCardNumber": "157",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/157.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/157.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_158": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Battle-Scarred Destroyer",
+    "title": "",
+    "defaultCardNumber": "158",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/158.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/158.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_159": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "General Grievous",
+    "title": "Scourge of Dathomir",
+    "defaultCardNumber": "159",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/159.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/159.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "HMW_912": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "General Grievous",
+    "title": "Scourge of Dathomir",
+    "defaultCardNumber": "912",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/912.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/912.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "HMW_160": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Noxious Refinery",
+    "title": "",
+    "defaultCardNumber": "160",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/160.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/160.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 4,
+    "type": "Upgrade"
+  },
+  "HMW_161": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Raze to Ruin",
+    "title": "",
+    "defaultCardNumber": "161",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/161.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/161.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Event"
+  },
+  "HMW_162": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Teebo",
+    "title": "Striped Hunter",
+    "defaultCardNumber": "162",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/162.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/162.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "HMW_163": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Champions of Endor",
+    "title": "",
+    "defaultCardNumber": "163",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/163.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/163.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_164": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Chief Chirpa",
+    "title": "Defiant Elder",
+    "defaultCardNumber": "164",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/164.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/164.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_818": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Chief Chirpa",
+    "title": "Defiant Elder",
+    "defaultCardNumber": "818",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/818.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/818.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_165": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Commandeered Tour Shuttle",
+    "title": "",
+    "defaultCardNumber": "165",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/165.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/165.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_166": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Gungi",
+    "title": "Fighting For Kashyyyk",
+    "defaultCardNumber": "166",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/166.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/166.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_915": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Gungi",
+    "title": "Fighting For Kashyyyk",
+    "defaultCardNumber": "915",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/915.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/915.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_167": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Dune Sea Nomads",
+    "title": "",
+    "defaultCardNumber": "167",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/167.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/167.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_168": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Ezra Bridger",
+    "title": "What Are You Afraid Of?",
+    "defaultCardNumber": "168",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/168.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/168.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_169": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Crosshair",
+    "title": "I've Changed",
+    "defaultCardNumber": "169",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/169.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/169.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_170": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Han Solo",
+    "title": "My Team's Ready",
+    "defaultCardNumber": "170",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/170.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/170.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_171": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Trap Field",
+    "title": "",
+    "defaultCardNumber": "171",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/171.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/171.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 5,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "HMW_172": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Heavy Ion Cannon",
+    "title": "",
+    "defaultCardNumber": "172",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/172.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/172.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "HMW_173": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Rebel Operation",
+    "title": "",
+    "defaultCardNumber": "173",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/173.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/173.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Event"
+  },
+  "HMW_174": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Maul",
+    "title": "Only Revenge Remains",
+    "defaultCardNumber": "174",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/174.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/174.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression",
+      "Aggression"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_175": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Fennec Shand",
+    "title": "A Ship For a Life",
+    "defaultCardNumber": "175",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/175.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/175.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "HMW_176": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Village Troublemaker",
+    "title": "",
+    "defaultCardNumber": "176",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/176.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/176.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "P26_249": {
+    "defaultExpansionAbbreviation": "P26",
+    "cardName": "Adamant Ewoks",
+    "title": "",
+    "defaultCardNumber": "249",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/249.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/249.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_177": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Adamant Ewoks",
+    "title": "",
+    "defaultCardNumber": "177",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/177.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/177.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_178": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Desperate Nantex",
+    "title": "",
+    "defaultCardNumber": "178",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/178.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/178.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_179": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Feisty Blurrg",
+    "title": "",
+    "defaultCardNumber": "179",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/179.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/179.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_180": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Stormchaser",
+    "title": "",
+    "defaultCardNumber": "180",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/180.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/180.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_181": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Tusken Bantha Rider",
+    "title": "",
+    "defaultCardNumber": "181",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/181.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/181.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_182": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Arena Nexu",
+    "title": "Starved For Prey",
+    "defaultCardNumber": "182",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/182.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/182.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_183": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Nightsister Prodigy",
+    "title": "",
+    "defaultCardNumber": "183",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/183.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/183.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_184": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Aggrocrab",
+    "title": "",
+    "defaultCardNumber": "184",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/184.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/184.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_185": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Ty Yorrick",
+    "title": "Monster Hunter",
+    "defaultCardNumber": "185",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/185.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/185.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_186": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Mining Guild Trespasser",
+    "title": "",
+    "defaultCardNumber": "186",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/186.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/186.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_187": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Dathomiri Rancor",
+    "title": "",
+    "defaultCardNumber": "187",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/187.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/187.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "HMW_188": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Giant Gorax",
+    "title": "",
+    "defaultCardNumber": "188",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/188.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/188.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "HMW_831": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Giant Gorax",
+    "title": "",
+    "defaultCardNumber": "831",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/831.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/831.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "HMW_189": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Neebray Manta",
+    "title": "",
+    "defaultCardNumber": "189",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/189.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/189.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 8,
+    "type": "Unit"
+  },
+  "HMW_190": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Enraged",
+    "title": "",
+    "defaultCardNumber": "190",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/190.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/190.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "HMW_191": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Hunter's Instinct",
+    "title": "",
+    "defaultCardNumber": "191",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/191.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/191.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "HMW_192": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Volley Fire",
+    "title": "",
+    "defaultCardNumber": "192",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/192.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/192.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Event"
+  },
+  "HMW_193": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Nightfall",
+    "title": "",
+    "defaultCardNumber": "193",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/193.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/193.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "HMW_194": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Run Amok",
+    "title": "",
+    "defaultCardNumber": "194",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/194.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/194.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Event"
+  },
+  "HMW_195": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Catch the Scent",
+    "title": "",
+    "defaultCardNumber": "195",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/195.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/195.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Aggression"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Event"
+  },
+  "HMW_196": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Qimir",
+    "title": "Everyone Has a Weakness",
+    "defaultCardNumber": "196",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/196.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/196.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "HMW_197": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Cid Scaleback",
+    "title": "Can't Be Trusted",
+    "defaultCardNumber": "197",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/197.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/197.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_198": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Treacherous Pyke",
+    "title": "",
+    "defaultCardNumber": "198",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/198.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/198.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_199": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Geonosian Picador",
+    "title": "",
+    "defaultCardNumber": "199",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/199.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/199.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_200": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Rish Loo",
+    "title": "Traitorous Minister",
+    "defaultCardNumber": "200",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/200.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/200.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_201": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Sandtrooper Squad",
+    "title": "",
+    "defaultCardNumber": "201",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/201.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/201.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_202": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Inferno Squad",
+    "title": "We Can Grieve Later",
+    "defaultCardNumber": "202",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/202.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/202.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "P26_250": {
+    "defaultExpansionAbbreviation": "P26",
+    "cardName": "Victor Squadron",
+    "title": "In Attack Formation",
+    "defaultCardNumber": "250",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/250.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/250.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_203": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Victor Squadron",
+    "title": "In Attack Formation",
+    "defaultCardNumber": "203",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/203.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/203.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_204": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Nightbrother",
+    "title": "Maul's Gauntlet",
+    "defaultCardNumber": "204",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/204.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/204.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 4,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "HMW_205": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Intelligence Agency",
+    "title": "",
+    "defaultCardNumber": "205",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/205.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/205.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "HMW_206": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "The Tarkin Doctrine",
+    "title": "Protect and Punish",
+    "defaultCardNumber": "206",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/206.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/206.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 5,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "HMW_207": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Maim",
+    "title": "",
+    "defaultCardNumber": "207",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/207.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/207.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Event"
+  },
+  "P26_251": {
+    "defaultExpansionAbbreviation": "P26",
+    "cardName": "Luke Skywalker",
+    "title": "Dreaming Farmboy",
+    "defaultCardNumber": "251",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/251.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/251.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "HMW_208": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Luke Skywalker",
+    "title": "Dreaming Farmboy",
+    "defaultCardNumber": "208",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/208.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/208.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "HMW_209": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Corona Squadron X-Wing",
+    "title": "",
+    "defaultCardNumber": "209",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/209.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/209.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_210": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Sol",
+    "title": "Compassionate Guardian",
+    "defaultCardNumber": "210",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/210.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/210.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_211": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Tech",
+    "title": "I Thought It Was Obvious",
+    "defaultCardNumber": "211",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/211.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/211.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_212": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "The Chieftain",
+    "title": "Here Since the Oceans Dried",
+    "defaultCardNumber": "212",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/212.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/212.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_213": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Tribubble Bongo Sub",
+    "title": "",
+    "defaultCardNumber": "213",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/213.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/213.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_214": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Phee Genoa",
+    "title": "Liberator of Ancient Wonders",
+    "defaultCardNumber": "214",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/214.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/214.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_215": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "L3-37",
+    "title": "We're Programmed to Learn",
+    "defaultCardNumber": "215",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/215.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/215.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 4,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_216": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Insurgent Camp",
+    "title": "",
+    "defaultCardNumber": "216",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/216.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/216.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "HMW_217": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Don't Touch Anything",
+    "title": "",
+    "defaultCardNumber": "217",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/217.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/217.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Event"
+  },
+  "HMW_218": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "New Tactics",
+    "title": "",
+    "defaultCardNumber": "218",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/218.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/218.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Event"
+  },
+  "HMW_219": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Jaxxon",
+    "title": "I Can Hear you Breathing!",
+    "defaultCardNumber": "219",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/219.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/219.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning",
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "HMW_220": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Clever Trapper",
+    "title": "",
+    "defaultCardNumber": "220",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/220.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/220.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "HMW_221": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Teeka",
+    "title": "You're In Luck",
+    "defaultCardNumber": "221",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/221.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/221.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "HMW_222": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Sandcrawler Sales Team",
+    "title": "",
+    "defaultCardNumber": "222",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/222.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/222.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_223": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Therm Scissorpunch",
+    "title": "Boastful Gambler",
+    "defaultCardNumber": "223",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/223.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/223.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_224": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Tusken Raider",
+    "title": "",
+    "defaultCardNumber": "224",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/224.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/224.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "P26_272": {
+    "defaultExpansionAbbreviation": "P26",
+    "cardName": "Boba Fett",
+    "title": "Family Found",
+    "defaultCardNumber": "272",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/272.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/P26/272.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_225": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Boba Fett",
+    "title": "Family Found",
+    "defaultCardNumber": "225",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/225.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/225.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_226": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Gungan Battle Wagon",
+    "title": "",
+    "defaultCardNumber": "226",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/226.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/226.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_227": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Horizon Chaser",
+    "title": "",
+    "defaultCardNumber": "227",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/227.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/227.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_228": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Lakeside Shaaks",
+    "title": "",
+    "defaultCardNumber": "228",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/228.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/228.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_229": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Lurking Wampa",
+    "title": "",
+    "defaultCardNumber": "229",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/229.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/229.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_230": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Raiding Party",
+    "title": "",
+    "defaultCardNumber": "230",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/230.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/230.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_231": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Dragonboat Freighter",
+    "title": "",
+    "defaultCardNumber": "231",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/231.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/231.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_232": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Mon Cal Cruiser",
+    "title": "",
+    "defaultCardNumber": "232",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/232.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/232.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_233": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Awakened Exogorth",
+    "title": "",
+    "defaultCardNumber": "233",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/233.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/233.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 7,
+    "type": "Unit"
+  },
+  "HMW_234": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Ritual Dragon",
+    "title": "",
+    "defaultCardNumber": "234",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/234.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/234.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 4,
+    "cost": 8,
+    "type": "Unit"
+  },
+  "HMW_833": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Ritual Dragon",
+    "title": "",
+    "defaultCardNumber": "833",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/833.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/833.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 4,
+    "cost": 8,
+    "type": "Unit"
+  },
+  "HMW_235": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Gaderffii Stick",
+    "title": "",
+    "defaultCardNumber": "235",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/235.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/235.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Upgrade"
+  },
+  "HMW_236": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Booma Ball",
+    "title": "",
+    "defaultCardNumber": "236",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/236.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/236.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "HMW_237": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Easy Prey",
+    "title": "",
+    "defaultCardNumber": "237",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/237.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/237.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Event"
+  },
+  "HMW_238": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Exploit Confidence",
+    "title": "",
+    "defaultCardNumber": "238",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/238.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/238.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 3,
+    "cost": 2,
+    "type": "Event"
+  },
+  "HMW_239": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Pounce",
+    "title": "",
+    "defaultCardNumber": "239",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/239.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/239.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "HMW_240": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Sandstorm",
+    "title": "",
+    "defaultCardNumber": "240",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/240.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/240.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Event"
+  },
+  "HMW_241": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Howl",
+    "title": "",
+    "defaultCardNumber": "241",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/241.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/241.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Cunning"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Event"
+  },
+  "HMW_242": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Occupation Officer",
+    "title": "",
+    "defaultCardNumber": "242",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/242.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/242.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_243": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Sun Fac",
+    "title": "Poggle's Second",
+    "defaultCardNumber": "243",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/243.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/243.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_244": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Separatist Harbinger",
+    "title": "",
+    "defaultCardNumber": "244",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/244.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/244.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_245": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Trandoshan Collaborator",
+    "title": "",
+    "defaultCardNumber": "245",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/245.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/245.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_246": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Pyke Sarisa",
+    "title": "",
+    "defaultCardNumber": "246",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/246.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/246.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_247": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Surveillance Cruiser",
+    "title": "",
+    "defaultCardNumber": "247",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/247.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/247.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_248": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Defoliator Tank",
+    "title": "",
+    "defaultCardNumber": "248",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/248.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/248.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 3,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_249": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Frenzied Tri-Fighters",
+    "title": "",
+    "defaultCardNumber": "249",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/249.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/249.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_250": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Imperial Cavalry",
+    "title": "",
+    "defaultCardNumber": "250",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/250.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/250.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_251": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Blockade Ship",
+    "title": "",
+    "defaultCardNumber": "251",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/251.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/251.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 8,
+    "type": "Unit"
+  },
+  "HMW_252": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Villainous Ambition",
+    "title": "",
+    "defaultCardNumber": "252",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/252.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/252.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "HMW_253": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Forced Pacification",
+    "title": "",
+    "defaultCardNumber": "253",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/253.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/253.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Villainy"
+    ],
+    "rarity": 2,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_254": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Captain Tarpals",
+    "title": "Grand Army Captain",
+    "defaultCardNumber": "254",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/254.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/254.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "HMW_255": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "C-3PO",
+    "title": "Captivating Storyteller",
+    "defaultCardNumber": "255",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/255.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/255.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 5,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_256": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Jedi Interceptor",
+    "title": "",
+    "defaultCardNumber": "256",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/256.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/256.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_257": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Ewok Archers",
+    "title": "",
+    "defaultCardNumber": "257",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/257.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/257.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_258": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Ryloth Revolutionary Rider",
+    "title": "",
+    "defaultCardNumber": "258",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/258.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/258.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_259": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Pack Guardian",
+    "title": "",
+    "defaultCardNumber": "259",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/259.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/259.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_260": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Queen Amidala",
+    "title": "Retaking Theed",
+    "defaultCardNumber": "260",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/260.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/260.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Unit"
+  },
+  "HMW_261": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Ben Kenobi",
+    "title": "Don't Be Afraid",
+    "defaultCardNumber": "261",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/261.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/261.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 5,
+    "type": "Unit"
+  },
+  "HMW_262": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Mylaya Rider",
+    "title": "",
+    "defaultCardNumber": "262",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/262.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/262.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_263": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Wrecker",
+    "title": "Wrecking the Empire",
+    "defaultCardNumber": "263",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/263.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/263.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 2,
+    "cost": 6,
+    "type": "Unit"
+  },
+  "HMW_264": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Heroic Bravery",
+    "title": "",
+    "defaultCardNumber": "264",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/264.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/264.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Upgrade"
+  },
+  "HMW_265": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Twi'lek Kalikori",
+    "title": "",
+    "defaultCardNumber": "265",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/265.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/265.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 3,
+    "cost": 4,
+    "type": "Upgrade"
+  },
+  "HMW_266": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Familiar Strategem",
+    "title": "",
+    "defaultCardNumber": "266",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/266.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/266.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Event"
+  },
+  "HMW_267": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Renew",
+    "title": "",
+    "defaultCardNumber": "267",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/267.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/267.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [
+      "Heroism"
+    ],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Event"
+  },
+  "HMW_268": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Offworld Jawa",
+    "title": "",
+    "defaultCardNumber": "268",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/268.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/268.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 1,
+    "type": "Unit"
+  },
+  "HMW_269": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Friendly Eopie",
+    "title": "",
+    "defaultCardNumber": "269",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/269.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/269.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 2,
+    "type": "Unit"
+  },
+  "HMW_270": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Wild Space Wanderer",
+    "title": "",
+    "defaultCardNumber": "270",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/270.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/270.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 2,
+    "cost": 3,
+    "type": "Unit"
+  },
+  "HMW_271": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Landing Pad",
+    "title": "",
+    "defaultCardNumber": "271",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/271.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/271.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 3,
+    "type": "Upgrade"
+  },
+  "HMW_272": {
+    "defaultExpansionAbbreviation": "HMW",
+    "cardName": "Growth",
+    "title": "",
+    "defaultCardNumber": "272",
+    "defaultImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/272.png",
+    "frontImagePath": "https:/swudb.com/cdn-cgi/image/width=300/images/cards/HMW/272.png",
+    "backImagePath": "https://karabast.net/card-back.png",
+    "aspects": [],
+    "rarity": 1,
+    "cost": 5,
+    "type": "Event"
   }
 }
