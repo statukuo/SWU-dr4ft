@@ -40,8 +40,6 @@ async function downloadAssets () {
             return {url: currentCard.frontImagePath.replace("width=300", "width=500"), name: cardKeys[cardKeyIdx + idx]};
           }
 
-          console.log(currentCard.frontImagePath);
-
           return {url: currentCard.frontImagePath, name: cardKeys[cardKeyIdx + idx]};
         }).filter((l) => !!l),
         ...batch.map((_, idx) => {

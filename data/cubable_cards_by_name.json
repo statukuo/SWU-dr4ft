@@ -2711,12 +2711,15 @@
     }
   },
   "Pounce": {
-    "default": "LOF_224",
+    "default": "HMW_239",
     "LOF": {
-      "224": "LOF_224",
-      "488": "LOF_224",
-      "726": "LOF_224",
-      "964": "LOF_224"
+      "224": "HMW_239",
+      "488": "HMW_239",
+      "726": "HMW_239",
+      "964": "HMW_239"
+    },
+    "HMW": {
+      "239": "HMW_239"
     }
   },
   "Three Lessons": {
@@ -3283,13 +3286,16 @@
     }
   },
   "Shield Generator Complex": {
-    "default": "JTL_020",
+    "default": "HMW_022",
     "JTL": {
-      "282": "JTL_020",
-      "020": "JTL_020"
+      "282": "HMW_022",
+      "020": "HMW_022"
     },
     "P25": {
-      "097": "JTL_020"
+      "097": "HMW_022"
+    },
+    "HMW": {
+      "022": "HMW_022"
     }
   },
   "Colossus": {
@@ -3309,13 +3315,16 @@
     }
   },
   "Theed Palace": {
-    "default": "JTL_023",
+    "default": "HMW_025",
     "JTL": {
-      "285": "JTL_023",
-      "023": "JTL_023"
+      "285": "HMW_025",
+      "023": "HMW_025"
     },
     "P25": {
-      "098": "JTL_023"
+      "098": "HMW_025"
+    },
+    "HMW": {
+      "025": "HMW_025"
     }
   },
   "Data Vault": {
@@ -3374,13 +3383,16 @@
     }
   },
   "Mos Eisley": {
-    "default": "JTL_030",
+    "default": "HMW_032",
     "JTL": {
-      "292": "JTL_030",
-      "030": "JTL_030"
+      "292": "HMW_032",
+      "030": "HMW_032"
     },
     "P25": {
-      "100": "JTL_030"
+      "100": "HMW_032"
+    },
+    "HMW": {
+      "032": "HMW_032"
     }
   },
   "Lake Country": {
@@ -10268,10 +10280,13 @@
     }
   },
   "Devotion": {
-    "default": "SOR_070",
+    "default": "HMW_096",
     "SOR": {
-      "335": "SOR_070",
-      "070": "SOR_070"
+      "335": "HMW_096",
+      "070": "HMW_096"
+    },
+    "HMW": {
+      "096": "HMW_096"
     }
   },
   "Electrostaff": {
@@ -16433,6 +16448,1667 @@
     "default": "ASH_264",
     "ASH": {
       "264": "ASH_264"
+    }
+  },
+  "Asajj Ventress, No Time For Regret": {
+    "default": "HMW_001",
+    "HMW": {
+      "001": "HMW_001"
+    }
+  },
+  "Maz Kanata, Eclectic Pirate Queen": {
+    "default": "HMW_002",
+    "HMW": {
+      "002": "HMW_002"
+    }
+  },
+  "Doctor Hemlock, Emotion Has No Place Here": {
+    "default": "HMW_003",
+    "HMW": {
+      "003": "HMW_003"
+    }
+  },
+  "Grand Moff Tarkin, Tyrant of the Outer Rim": {
+    "default": "HMW_004",
+    "HMW": {
+      "786": "HMW_004",
+      "004": "HMW_004"
+    }
+  },
+  "Jar Jar Binks, Bombad General": {
+    "default": "HMW_005",
+    "HMW": {
+      "005": "HMW_005"
+    }
+  },
+  "Omega, Close Your Eyes and Focus": {
+    "default": "HMW_006",
+    "HMW": {
+      "788": "HMW_006",
+      "006": "HMW_006"
+    }
+  },
+  "Darth Vader, Might of the Empire": {
+    "default": "HMW_007",
+    "HMW": {
+      "007": "HMW_007"
+    }
+  },
+  "General Grievous, Separatist Warlord": {
+    "default": "HMW_008",
+    "HMW": {
+      "790": "HMW_008",
+      "008": "HMW_008"
+    }
+  },
+  "Chewbacca, Relentless Rebel": {
+    "default": "HMW_009",
+    "HMW": {
+      "791": "HMW_009",
+      "009": "HMW_009"
+    }
+  },
+  "Tarfful, Fighting from the Shadowlands": {
+    "default": "HMW_010",
+    "HMW": {
+      "010": "HMW_010"
+    }
+  },
+  "Darth Sidious, There is No Mercy": {
+    "default": "HMW_011",
+    "HMW": {
+      "793": "HMW_011",
+      "011": "HMW_011"
+    }
+  },
+  "Poggle the Lesser, Let the Executions Begin": {
+    "default": "HMW_012",
+    "HMW": {
+      "012": "HMW_012"
+    }
+  },
+  "Cham Syndulla, Hammer of Ryloth": {
+    "default": "HMW_013",
+    "HMW": {
+      "013": "HMW_013"
+    }
+  },
+  "Wicket, Few Greater Battles to Fight": {
+    "default": "HMW_014",
+    "HMW": {
+      "014": "HMW_014"
+    }
+  },
+  "Bossk, Cruel Hunter": {
+    "default": "HMW_015",
+    "HMW": {
+      "015": "HMW_015"
+    }
+  },
+  "Maul, Old Master": {
+    "default": "HMW_016",
+    "HMW": {
+      "016": "HMW_016"
+    }
+  },
+  "Osha, Haunted by her Past": {
+    "default": "HMW_017",
+    "HMW": {
+      "017": "HMW_017"
+    }
+  },
+  "The Warrior, Deft Duelist": {
+    "default": "HMW_018",
+    "HMW": {
+      "018": "HMW_018"
+    }
+  },
+  "Dune Sea": {
+    "default": "HMW_019",
+    "HMW": {
+      "019": "HMW_019"
+    }
+  },
+  "Great Grass Plains": {
+    "default": "HMW_020",
+    "HMW": {
+      "020": "HMW_020"
+    }
+  },
+  "Kachirho": {
+    "default": "HMW_021",
+    "HMW": {
+      "021": "HMW_021"
+    }
+  },
+  "Bright Tree Village": {
+    "default": "HMW_023",
+    "HMW": {
+      "023": "HMW_023"
+    }
+  },
+  "Origin Tree": {
+    "default": "HMW_024",
+    "HMW": {
+      "024": "HMW_024"
+    }
+  },
+  "Tusken Camp": {
+    "default": "HMW_026",
+    "HMW": {
+      "026": "HMW_026"
+    }
+  },
+  "Bioweapons Lab": {
+    "default": "HMW_027",
+    "HMW": {
+      "027": "HMW_027"
+    }
+  },
+  "Jundland Wastes": {
+    "default": "HMW_028",
+    "HMW": {
+      "028": "HMW_028"
+    }
+  },
+  "Dendroid Wilds": {
+    "default": "HMW_029",
+    "HMW": {
+      "029": "HMW_029"
+    }
+  },
+  "Shadowlands": {
+    "default": "HMW_030",
+    "HMW": {
+      "030": "HMW_030"
+    }
+  },
+  "Kyyyalstaad Swamp": {
+    "default": "HMW_031",
+    "HMW": {
+      "031": "HMW_031"
+    }
+  },
+  "Otoh Gunga": {
+    "default": "HMW_033",
+    "HMW": {
+      "033": "HMW_033"
+    }
+  },
+  "Research Station 9": {
+    "default": "HMW_034",
+    "HMW": {
+      "034": "HMW_034"
+    }
+  },
+  "Hunter, Everyone Get to Cover!": {
+    "default": "HMW_035",
+    "HMW": {
+      "035": "HMW_035"
+    }
+  },
+  "Kelnacca, Solitary Master": {
+    "default": "HMW_036",
+    "HMW": {
+      "036": "HMW_036"
+    }
+  },
+  "Bacta Tank": {
+    "default": "HMW_037",
+    "HMW": {
+      "037": "HMW_037"
+    }
+  },
+  "Bestial Bond": {
+    "default": "HMW_038",
+    "HMW": {
+      "038": "HMW_038"
+    }
+  },
+  "Mother Talzin, Pledged to the Sisterhood": {
+    "default": "HMW_039",
+    "HMW": {
+      "039": "HMW_039"
+    }
+  },
+  "Talzin's Shuttle, Mysterious Arrival": {
+    "default": "HMW_040",
+    "HMW": {
+      "040": "HMW_040"
+    }
+  },
+  "Keeper of Skara Nal, Awoken": {
+    "default": "HMW_041",
+    "HMW": {
+      "041": "HMW_041"
+    }
+  },
+  "Dooku, Corruption Must Be Eradicated": {
+    "default": "HMW_042",
+    "HMW": {
+      "042": "HMW_042"
+    }
+  },
+  "Darth Vader, Any Methods Necessary": {
+    "default": "HMW_043",
+    "HMW": {
+      "043": "HMW_043"
+    }
+  },
+  "Ima-Gun Di, Holding Out For Resupply": {
+    "default": "HMW_044",
+    "P26": {
+      "264": "HMW_044"
+    },
+    "HMW": {
+      "044": "HMW_044"
+    }
+  },
+  "Logray, Bright Tree Shaman": {
+    "default": "HMW_045",
+    "HMW": {
+      "801": "HMW_045",
+      "045": "HMW_045"
+    }
+  },
+  "Krrsantan, Santo": {
+    "default": "HMW_046",
+    "HMW": {
+      "046": "HMW_046"
+    }
+  },
+  "Eravana, Hauling Rathtars": {
+    "default": "HMW_047",
+    "HMW": {
+      "047": "HMW_047"
+    }
+  },
+  "Vernestra Rwoh, We Should Handle This Ourselves": {
+    "default": "HMW_048",
+    "HMW": {
+      "048": "HMW_048"
+    }
+  },
+  "Greater Sarlacc": {
+    "default": "HMW_049",
+    "HMW": {
+      "049": "HMW_049"
+    }
+  },
+  "Low Altitude Combat": {
+    "default": "HMW_050",
+    "HMW": {
+      "050": "HMW_050"
+    }
+  },
+  "Third Sister, Cycle of Vengeance": {
+    "default": "HMW_051",
+    "HMW": {
+      "051": "HMW_051"
+    }
+  },
+  "A'Koba, Restless Raider": {
+    "default": "HMW_052",
+    "HMW": {
+      "899": "HMW_052",
+      "052": "HMW_052"
+    }
+  },
+  "Fett's Firespray, Settling the Score": {
+    "default": "HMW_053",
+    "P26": {
+      "241": "HMW_053",
+      "032": "HMW_053"
+    },
+    "HMW": {
+      "053": "HMW_053"
+    }
+  },
+  "Seismic Detonation": {
+    "default": "HMW_054",
+    "HMW": {
+      "054": "HMW_054"
+    }
+  },
+  "Mae, Kill the Dream": {
+    "default": "HMW_055",
+    "P26": {
+      "270": "HMW_055"
+    },
+    "HMW": {
+      "055": "HMW_055"
+    }
+  },
+  "Yoda, Trickster In Exile": {
+    "default": "HMW_056",
+    "HMW": {
+      "056": "HMW_056"
+    }
+  },
+  "Boss Lyonie, Hypnotized": {
+    "default": "HMW_057",
+    "HMW": {
+      "057": "HMW_057"
+    }
+  },
+  "Mysterious Disappearance": {
+    "default": "HMW_058",
+    "HMW": {
+      "058": "HMW_058"
+    }
+  },
+  "Clone X Assassin": {
+    "default": "HMW_059",
+    "HMW": {
+      "059": "HMW_059"
+    }
+  },
+  "Vice Admiral Rampart, A New Era of Safety": {
+    "default": "HMW_060",
+    "HMW": {
+      "060": "HMW_060"
+    }
+  },
+  "Director Krennic, The Work Has Stalled": {
+    "default": "HMW_061",
+    "HMW": {
+      "061": "HMW_061"
+    }
+  },
+  "Nuvo Vindi, Blue Shadow Perfected": {
+    "default": "HMW_062",
+    "P26": {
+      "265": "HMW_062"
+    },
+    "HMW": {
+      "062": "HMW_062"
+    }
+  },
+  "Rho Medical Shuttle": {
+    "default": "HMW_063",
+    "HMW": {
+      "063": "HMW_063"
+    }
+  },
+  "Scorch, Imperial Commando": {
+    "default": "HMW_064",
+    "HMW": {
+      "064": "HMW_064"
+    }
+  },
+  "Clone of the Zillo Beast, Emperor's Experiment": {
+    "default": "HMW_065",
+    "HMW": {
+      "065": "HMW_065"
+    }
+  },
+  "Carrion Spike, Harbinger of Tyranny": {
+    "default": "HMW_066",
+    "HMW": {
+      "066": "HMW_066"
+    }
+  },
+  "The Great Progenitor, First of the Drengir": {
+    "default": "HMW_067",
+    "HMW": {
+      "067": "HMW_067"
+    }
+  },
+  "Imperial Commandos": {
+    "default": "HMW_068",
+    "HMW": {
+      "068": "HMW_068"
+    }
+  },
+  "Imperial Venator": {
+    "default": "HMW_069",
+    "HMW": {
+      "069": "HMW_069"
+    }
+  },
+  "Dark Sanctum": {
+    "default": "HMW_070",
+    "HMW": {
+      "070": "HMW_070"
+    }
+  },
+  "Ravage": {
+    "default": "HMW_071",
+    "HMW": {
+      "071": "HMW_071"
+    }
+  },
+  "Grand Army Marine": {
+    "default": "HMW_072",
+    "HMW": {
+      "072": "HMW_072"
+    }
+  },
+  "Peppi Bow, Shaak Herder": {
+    "default": "HMW_073",
+    "HMW": {
+      "073": "HMW_073"
+    }
+  },
+  "Yord Fandar, Devoutly Disciplined": {
+    "default": "HMW_074",
+    "HMW": {
+      "074": "HMW_074"
+    }
+  },
+  "Wookiee Protector": {
+    "default": "HMW_075",
+    "HMW": {
+      "075": "HMW_075"
+    }
+  },
+  "Yanna, Sanctuary Elder": {
+    "default": "HMW_076",
+    "HMW": {
+      "076": "HMW_076"
+    }
+  },
+  "Boss Nass, Otoh Gunga Boss": {
+    "default": "HMW_077",
+    "HMW": {
+      "807": "HMW_077",
+      "077": "HMW_077"
+    }
+  },
+  "Qui-Gon Jinn, We'll Handle This": {
+    "default": "HMW_078",
+    "P26": {
+      "037": "HMW_078"
+    },
+    "HMW": {
+      "078": "HMW_078"
+    }
+  },
+  "Radiant VII, Negotiating For Naboo": {
+    "default": "HMW_079",
+    "HMW": {
+      "079": "HMW_079"
+    }
+  },
+  "Fambaa Shield Team": {
+    "default": "HMW_080",
+    "HMW": {
+      "080": "HMW_080"
+    }
+  },
+  "Alliance Shield Generator": {
+    "default": "HMW_081",
+    "HMW": {
+      "081": "HMW_081"
+    }
+  },
+  "Nala Se, Silent Survivor": {
+    "default": "HMW_082",
+    "HMW": {
+      "082": "HMW_082"
+    }
+  },
+  "Batcher, Loyal Hound": {
+    "default": "HMW_083",
+    "HMW": {
+      "083": "HMW_083"
+    }
+  },
+  "Gunga City Guard": {
+    "default": "HMW_084",
+    "HMW": {
+      "084": "HMW_084"
+    }
+  },
+  "Remote Scout": {
+    "default": "HMW_085",
+    "HMW": {
+      "085": "HMW_085"
+    }
+  },
+  "N-1 Patroller": {
+    "default": "HMW_086",
+    "HMW": {
+      "086": "HMW_086"
+    }
+  },
+  "Venomous Wyyyshokk": {
+    "default": "HMW_087",
+    "HMW": {
+      "087": "HMW_087"
+    }
+  },
+  "Numa, Still Fighting": {
+    "default": "HMW_088",
+    "HMW": {
+      "088": "HMW_088"
+    }
+  },
+  "Territorial Mudhorn": {
+    "default": "HMW_089",
+    "HMW": {
+      "089": "HMW_089"
+    }
+  },
+  "Opee Sea Killer": {
+    "default": "HMW_090",
+    "HMW": {
+      "090": "HMW_090"
+    }
+  },
+  "Pelta Relief Frigate": {
+    "default": "HMW_091",
+    "HMW": {
+      "091": "HMW_091"
+    }
+  },
+  "Starlit Purrgil": {
+    "default": "HMW_092",
+    "HMW": {
+      "092": "HMW_092"
+    }
+  },
+  "Coastal Catamarans": {
+    "default": "HMW_093",
+    "HMW": {
+      "093": "HMW_093"
+    }
+  },
+  "Sando Aqua Monster": {
+    "default": "HMW_094",
+    "HMW": {
+      "826": "HMW_094",
+      "094": "HMW_094"
+    }
+  },
+  "Carbonite Chamber": {
+    "default": "HMW_095",
+    "HMW": {
+      "095": "HMW_095"
+    }
+  },
+  "Dire Prowess": {
+    "default": "HMW_097",
+    "HMW": {
+      "097": "HMW_097"
+    }
+  },
+  "Resonate": {
+    "default": "HMW_098",
+    "HMW": {
+      "098": "HMW_098"
+    }
+  },
+  "Always a Bigger Fish": {
+    "default": "HMW_099",
+    "HMW": {
+      "099": "HMW_099"
+    }
+  },
+  "Torrent": {
+    "default": "HMW_100",
+    "HMW": {
+      "100": "HMW_100"
+    }
+  },
+  "Trust Yourself": {
+    "default": "HMW_101",
+    "HMW": {
+      "101": "HMW_101"
+    }
+  },
+  "Dragon's Might": {
+    "default": "HMW_102",
+    "HMW": {
+      "102": "HMW_102"
+    }
+  },
+  "Disposable B1": {
+    "default": "HMW_103",
+    "HMW": {
+      "103": "HMW_103"
+    }
+  },
+  "Garnac, Let the Hunt Begin!": {
+    "default": "HMW_104",
+    "P26": {
+      "246": "HMW_104"
+    },
+    "HMW": {
+      "104": "HMW_104"
+    }
+  },
+  "Nute Gunray, Perfectly Legal": {
+    "default": "HMW_105",
+    "HMW": {
+      "105": "HMW_105"
+    }
+  },
+  "Secessionist Convert": {
+    "default": "HMW_106",
+    "HMW": {
+      "106": "HMW_106"
+    }
+  },
+  "Stormtrooper Patrol": {
+    "default": "HMW_107",
+    "HMW": {
+      "107": "HMW_107"
+    }
+  },
+  "The First Legion, Vader's Fist": {
+    "default": "HMW_108",
+    "HMW": {
+      "108": "HMW_108"
+    }
+  },
+  "Tireless Magnaguard": {
+    "default": "HMW_109",
+    "HMW": {
+      "109": "HMW_109"
+    }
+  },
+  "Emperor Palpatine, Consolidating Power": {
+    "default": "HMW_110",
+    "HMW": {
+      "110": "HMW_110"
+    }
+  },
+  "Invasion Lander": {
+    "default": "HMW_111",
+    "HMW": {
+      "111": "HMW_111"
+    }
+  },
+  "Military Academy": {
+    "default": "HMW_112",
+    "HMW": {
+      "112": "HMW_112"
+    }
+  },
+  "Sinister War Memorial": {
+    "default": "HMW_113",
+    "HMW": {
+      "113": "HMW_113"
+    }
+  },
+  "Breach": {
+    "default": "HMW_114",
+    "HMW": {
+      "114": "HMW_114"
+    }
+  },
+  "Leia Organa, These Are My Friends": {
+    "default": "HMW_115",
+    "HMW": {
+      "115": "HMW_115"
+    }
+  },
+  "Ewok Brigade": {
+    "default": "HMW_116",
+    "HMW": {
+      "116": "HMW_116"
+    }
+  },
+  "Chewbacca, Resourceful Wookiee": {
+    "default": "HMW_117",
+    "P26": {
+      "275": "HMW_117"
+    },
+    "HMW": {
+      "117": "HMW_117"
+    }
+  },
+  "Ryyk Blademaster": {
+    "default": "HMW_118",
+    "HMW": {
+      "118": "HMW_118"
+    }
+  },
+  "Saw Gerrera, Shadowlands Insurgent": {
+    "default": "HMW_119",
+    "HMW": {
+      "119": "HMW_119"
+    }
+  },
+  "Auzituck Avenger": {
+    "default": "HMW_120",
+    "HMW": {
+      "120": "HMW_120"
+    }
+  },
+  "Hijacked AT-ST": {
+    "default": "HMW_121",
+    "HMW": {
+      "121": "HMW_121"
+    }
+  },
+  "Boga, Loyal Varactyl": {
+    "default": "HMW_122",
+    "HMW": {
+      "122": "HMW_122"
+    }
+  },
+  "King Grakchawwaa, King of Kashyyyk": {
+    "default": "HMW_123",
+    "HMW": {
+      "123": "HMW_123"
+    }
+  },
+  "Luminara Unduli, Besieged General": {
+    "default": "HMW_124",
+    "P26": {
+      "271": "HMW_124"
+    },
+    "HMW": {
+      "124": "HMW_124",
+      "838": "HMW_124"
+    }
+  },
+  "The Marauder, A New Home": {
+    "default": "HMW_125",
+    "HMW": {
+      "125": "HMW_125"
+    }
+  },
+  "Verdant Fortress": {
+    "default": "HMW_126",
+    "P26": {
+      "267": "HMW_126"
+    },
+    "HMW": {
+      "126": "HMW_126"
+    }
+  },
+  "Chewbacca's Bowcaster, Handcrafted Tradition": {
+    "default": "HMW_127",
+    "HMW": {
+      "127": "HMW_127"
+    }
+  },
+  "Mace Windu, Austere Centrist": {
+    "default": "HMW_128",
+    "HMW": {
+      "128": "HMW_128"
+    }
+  },
+  "Child of Dathomir": {
+    "default": "HMW_129",
+    "HMW": {
+      "129": "HMW_129"
+    }
+  },
+  "Emerie Karr, For Your Own Good": {
+    "default": "HMW_130",
+    "HMW": {
+      "130": "HMW_130"
+    }
+  },
+  "Soaring Can-Cell": {
+    "default": "HMW_131",
+    "HMW": {
+      "131": "HMW_131"
+    }
+  },
+  "Tibidee Mate": {
+    "default": "HMW_132",
+    "HMW": {
+      "132": "HMW_132"
+    }
+  },
+  "Wroshyr Rebel": {
+    "default": "HMW_133",
+    "HMW": {
+      "133": "HMW_133"
+    }
+  },
+  "Zam Wesell, Not What She Seems": {
+    "default": "HMW_134",
+    "C26": {
+      "003": "HMW_134"
+    },
+    "HMW": {
+      "134": "HMW_134"
+    }
+  },
+  "Arena Reek, Fixture of Ceremony": {
+    "default": "HMW_135",
+    "HMW": {
+      "135": "HMW_135"
+    }
+  },
+  "Lifetree Caravan": {
+    "default": "HMW_136",
+    "HMW": {
+      "136": "HMW_136"
+    }
+  },
+  "V-19 Skirmisher": {
+    "default": "HMW_137",
+    "HMW": {
+      "137": "HMW_137"
+    }
+  },
+  "Commander Gree, Of the 41st Elite Corps": {
+    "default": "HMW_138",
+    "HMW": {
+      "138": "HMW_138"
+    }
+  },
+  "Flock of Mynocks": {
+    "default": "HMW_139",
+    "HMW": {
+      "139": "HMW_139"
+    }
+  },
+  "Assault Frigate": {
+    "default": "HMW_140",
+    "HMW": {
+      "140": "HMW_140"
+    }
+  },
+  "Rex, Outserved His Purpose": {
+    "default": "HMW_141",
+    "HMW": {
+      "141": "HMW_141"
+    }
+  },
+  "Wookiee Rangers": {
+    "default": "HMW_142",
+    "HMW": {
+      "142": "HMW_142"
+    }
+  },
+  "Banking Clan Warship": {
+    "default": "HMW_143",
+    "HMW": {
+      "143": "HMW_143"
+    }
+  },
+  "Howler Pack": {
+    "default": "HMW_144",
+    "HMW": {
+      "144": "HMW_144"
+    }
+  },
+  "Origin Tree Shyyyo": {
+    "default": "HMW_145",
+    "HMW": {
+      "145": "HMW_145",
+      "828": "HMW_145"
+    }
+  },
+  "Outer Rim Garrison": {
+    "default": "HMW_146",
+    "HMW": {
+      "146": "HMW_146"
+    }
+  },
+  "Beast Lair": {
+    "default": "HMW_147",
+    "HMW": {
+      "147": "HMW_147"
+    }
+  },
+  "Local Support": {
+    "default": "HMW_148",
+    "HMW": {
+      "148": "HMW_148"
+    }
+  },
+  "Log Trap": {
+    "default": "HMW_149",
+    "HMW": {
+      "149": "HMW_149"
+    }
+  },
+  "Migrate": {
+    "default": "HMW_150",
+    "HMW": {
+      "150": "HMW_150"
+    }
+  },
+  "Overgrowth": {
+    "default": "HMW_151",
+    "HMW": {
+      "151": "HMW_151"
+    }
+  },
+  "Babwa Venomor, Burning Kashyyyk": {
+    "default": "HMW_152",
+    "HMW": {
+      "152": "HMW_152"
+    }
+  },
+  "Poacher's Starfighter": {
+    "default": "HMW_153",
+    "HMW": {
+      "153": "HMW_153"
+    }
+  },
+  "Dooku's Solar Sailer, Droid Army Portent": {
+    "default": "HMW_154",
+    "HMW": {
+      "154": "HMW_154"
+    }
+  },
+  "Filthy Dianoga": {
+    "default": "HMW_155",
+    "HMW": {
+      "155": "HMW_155"
+    }
+  },
+  "Arena Acklay, Screaming Predator": {
+    "default": "HMW_156",
+    "HMW": {
+      "156": "HMW_156"
+    }
+  },
+  "Corpo Thugs": {
+    "default": "HMW_157",
+    "HMW": {
+      "157": "HMW_157"
+    }
+  },
+  "Battle-Scarred Destroyer": {
+    "default": "HMW_158",
+    "HMW": {
+      "158": "HMW_158"
+    }
+  },
+  "General Grievous, Scourge of Dathomir": {
+    "default": "HMW_159",
+    "HMW": {
+      "159": "HMW_159",
+      "912": "HMW_159"
+    }
+  },
+  "Noxious Refinery": {
+    "default": "HMW_160",
+    "HMW": {
+      "160": "HMW_160"
+    }
+  },
+  "Raze to Ruin": {
+    "default": "HMW_161",
+    "HMW": {
+      "161": "HMW_161"
+    }
+  },
+  "Teebo, Striped Hunter": {
+    "default": "HMW_162",
+    "HMW": {
+      "162": "HMW_162"
+    }
+  },
+  "Champions of Endor": {
+    "default": "HMW_163",
+    "HMW": {
+      "163": "HMW_163"
+    }
+  },
+  "Chief Chirpa, Defiant Elder": {
+    "default": "HMW_164",
+    "HMW": {
+      "164": "HMW_164",
+      "818": "HMW_164"
+    }
+  },
+  "Commandeered Tour Shuttle": {
+    "default": "HMW_165",
+    "HMW": {
+      "165": "HMW_165"
+    }
+  },
+  "Gungi, Fighting For Kashyyyk": {
+    "default": "HMW_166",
+    "HMW": {
+      "166": "HMW_166",
+      "915": "HMW_166"
+    }
+  },
+  "Dune Sea Nomads": {
+    "default": "HMW_167",
+    "HMW": {
+      "167": "HMW_167"
+    }
+  },
+  "Ezra Bridger, What Are You Afraid Of?": {
+    "default": "HMW_168",
+    "HMW": {
+      "168": "HMW_168"
+    }
+  },
+  "Crosshair, I've Changed": {
+    "default": "HMW_169",
+    "HMW": {
+      "169": "HMW_169"
+    }
+  },
+  "Han Solo, My Team's Ready": {
+    "default": "HMW_170",
+    "HMW": {
+      "170": "HMW_170"
+    }
+  },
+  "Trap Field": {
+    "default": "HMW_171",
+    "HMW": {
+      "171": "HMW_171"
+    }
+  },
+  "Heavy Ion Cannon": {
+    "default": "HMW_172",
+    "HMW": {
+      "172": "HMW_172"
+    }
+  },
+  "Rebel Operation": {
+    "default": "HMW_173",
+    "HMW": {
+      "173": "HMW_173"
+    }
+  },
+  "Maul, Only Revenge Remains": {
+    "default": "HMW_174",
+    "HMW": {
+      "174": "HMW_174"
+    }
+  },
+  "Fennec Shand, A Ship For a Life": {
+    "default": "HMW_175",
+    "HMW": {
+      "175": "HMW_175"
+    }
+  },
+  "Village Troublemaker": {
+    "default": "HMW_176",
+    "HMW": {
+      "176": "HMW_176"
+    }
+  },
+  "Adamant Ewoks": {
+    "default": "HMW_177",
+    "P26": {
+      "249": "HMW_177"
+    },
+    "HMW": {
+      "177": "HMW_177"
+    }
+  },
+  "Desperate Nantex": {
+    "default": "HMW_178",
+    "HMW": {
+      "178": "HMW_178"
+    }
+  },
+  "Feisty Blurrg": {
+    "default": "HMW_179",
+    "HMW": {
+      "179": "HMW_179"
+    }
+  },
+  "Stormchaser": {
+    "default": "HMW_180",
+    "HMW": {
+      "180": "HMW_180"
+    }
+  },
+  "Tusken Bantha Rider": {
+    "default": "HMW_181",
+    "HMW": {
+      "181": "HMW_181"
+    }
+  },
+  "Arena Nexu, Starved For Prey": {
+    "default": "HMW_182",
+    "HMW": {
+      "182": "HMW_182"
+    }
+  },
+  "Nightsister Prodigy": {
+    "default": "HMW_183",
+    "HMW": {
+      "183": "HMW_183"
+    }
+  },
+  "Aggrocrab": {
+    "default": "HMW_184",
+    "HMW": {
+      "184": "HMW_184"
+    }
+  },
+  "Ty Yorrick, Monster Hunter": {
+    "default": "HMW_185",
+    "HMW": {
+      "185": "HMW_185"
+    }
+  },
+  "Mining Guild Trespasser": {
+    "default": "HMW_186",
+    "HMW": {
+      "186": "HMW_186"
+    }
+  },
+  "Dathomiri Rancor": {
+    "default": "HMW_187",
+    "HMW": {
+      "187": "HMW_187"
+    }
+  },
+  "Giant Gorax": {
+    "default": "HMW_188",
+    "HMW": {
+      "188": "HMW_188",
+      "831": "HMW_188"
+    }
+  },
+  "Neebray Manta": {
+    "default": "HMW_189",
+    "HMW": {
+      "189": "HMW_189"
+    }
+  },
+  "Enraged": {
+    "default": "HMW_190",
+    "HMW": {
+      "190": "HMW_190"
+    }
+  },
+  "Hunter's Instinct": {
+    "default": "HMW_191",
+    "HMW": {
+      "191": "HMW_191"
+    }
+  },
+  "Volley Fire": {
+    "default": "HMW_192",
+    "HMW": {
+      "192": "HMW_192"
+    }
+  },
+  "Nightfall": {
+    "default": "HMW_193",
+    "HMW": {
+      "193": "HMW_193"
+    }
+  },
+  "Run Amok": {
+    "default": "HMW_194",
+    "HMW": {
+      "194": "HMW_194"
+    }
+  },
+  "Catch the Scent": {
+    "default": "HMW_195",
+    "HMW": {
+      "195": "HMW_195"
+    }
+  },
+  "Qimir, Everyone Has a Weakness": {
+    "default": "HMW_196",
+    "HMW": {
+      "196": "HMW_196"
+    }
+  },
+  "Cid Scaleback, Can't Be Trusted": {
+    "default": "HMW_197",
+    "HMW": {
+      "197": "HMW_197"
+    }
+  },
+  "Treacherous Pyke": {
+    "default": "HMW_198",
+    "HMW": {
+      "198": "HMW_198"
+    }
+  },
+  "Geonosian Picador": {
+    "default": "HMW_199",
+    "HMW": {
+      "199": "HMW_199"
+    }
+  },
+  "Rish Loo, Traitorous Minister": {
+    "default": "HMW_200",
+    "HMW": {
+      "200": "HMW_200"
+    }
+  },
+  "Sandtrooper Squad": {
+    "default": "HMW_201",
+    "HMW": {
+      "201": "HMW_201"
+    }
+  },
+  "Inferno Squad, We Can Grieve Later": {
+    "default": "HMW_202",
+    "HMW": {
+      "202": "HMW_202"
+    }
+  },
+  "Victor Squadron, In Attack Formation": {
+    "default": "HMW_203",
+    "P26": {
+      "250": "HMW_203"
+    },
+    "HMW": {
+      "203": "HMW_203"
+    }
+  },
+  "Nightbrother, Maul's Gauntlet": {
+    "default": "HMW_204",
+    "HMW": {
+      "204": "HMW_204"
+    }
+  },
+  "Intelligence Agency": {
+    "default": "HMW_205",
+    "HMW": {
+      "205": "HMW_205"
+    }
+  },
+  "The Tarkin Doctrine, Protect and Punish": {
+    "default": "HMW_206",
+    "HMW": {
+      "206": "HMW_206"
+    }
+  },
+  "Maim": {
+    "default": "HMW_207",
+    "HMW": {
+      "207": "HMW_207"
+    }
+  },
+  "Luke Skywalker, Dreaming Farmboy": {
+    "default": "HMW_208",
+    "P26": {
+      "251": "HMW_208"
+    },
+    "HMW": {
+      "208": "HMW_208"
+    }
+  },
+  "Corona Squadron X-Wing": {
+    "default": "HMW_209",
+    "HMW": {
+      "209": "HMW_209"
+    }
+  },
+  "Sol, Compassionate Guardian": {
+    "default": "HMW_210",
+    "HMW": {
+      "210": "HMW_210"
+    }
+  },
+  "Tech, I Thought It Was Obvious": {
+    "default": "HMW_211",
+    "HMW": {
+      "211": "HMW_211"
+    }
+  },
+  "The Chieftain, Here Since the Oceans Dried": {
+    "default": "HMW_212",
+    "HMW": {
+      "212": "HMW_212"
+    }
+  },
+  "Tribubble Bongo Sub": {
+    "default": "HMW_213",
+    "HMW": {
+      "213": "HMW_213"
+    }
+  },
+  "Phee Genoa, Liberator of Ancient Wonders": {
+    "default": "HMW_214",
+    "HMW": {
+      "214": "HMW_214"
+    }
+  },
+  "L3-37, We're Programmed to Learn": {
+    "default": "HMW_215",
+    "HMW": {
+      "215": "HMW_215"
+    }
+  },
+  "Insurgent Camp": {
+    "default": "HMW_216",
+    "HMW": {
+      "216": "HMW_216"
+    }
+  },
+  "Don't Touch Anything": {
+    "default": "HMW_217",
+    "HMW": {
+      "217": "HMW_217"
+    }
+  },
+  "New Tactics": {
+    "default": "HMW_218",
+    "HMW": {
+      "218": "HMW_218"
+    }
+  },
+  "Jaxxon, I Can Hear you Breathing!": {
+    "default": "HMW_219",
+    "HMW": {
+      "219": "HMW_219"
+    }
+  },
+  "Clever Trapper": {
+    "default": "HMW_220",
+    "HMW": {
+      "220": "HMW_220"
+    }
+  },
+  "Teeka, You're In Luck": {
+    "default": "HMW_221",
+    "HMW": {
+      "221": "HMW_221"
+    }
+  },
+  "Sandcrawler Sales Team": {
+    "default": "HMW_222",
+    "HMW": {
+      "222": "HMW_222"
+    }
+  },
+  "Therm Scissorpunch, Boastful Gambler": {
+    "default": "HMW_223",
+    "HMW": {
+      "223": "HMW_223"
+    }
+  },
+  "Tusken Raider": {
+    "default": "HMW_224",
+    "HMW": {
+      "224": "HMW_224"
+    }
+  },
+  "Boba Fett, Family Found": {
+    "default": "HMW_225",
+    "P26": {
+      "272": "HMW_225"
+    },
+    "HMW": {
+      "225": "HMW_225"
+    }
+  },
+  "Gungan Battle Wagon": {
+    "default": "HMW_226",
+    "HMW": {
+      "226": "HMW_226"
+    }
+  },
+  "Horizon Chaser": {
+    "default": "HMW_227",
+    "HMW": {
+      "227": "HMW_227"
+    }
+  },
+  "Lakeside Shaaks": {
+    "default": "HMW_228",
+    "HMW": {
+      "228": "HMW_228"
+    }
+  },
+  "Lurking Wampa": {
+    "default": "HMW_229",
+    "HMW": {
+      "229": "HMW_229"
+    }
+  },
+  "Raiding Party": {
+    "default": "HMW_230",
+    "HMW": {
+      "230": "HMW_230"
+    }
+  },
+  "Dragonboat Freighter": {
+    "default": "HMW_231",
+    "HMW": {
+      "231": "HMW_231"
+    }
+  },
+  "Mon Cal Cruiser": {
+    "default": "HMW_232",
+    "HMW": {
+      "232": "HMW_232"
+    }
+  },
+  "Awakened Exogorth": {
+    "default": "HMW_233",
+    "HMW": {
+      "233": "HMW_233"
+    }
+  },
+  "Ritual Dragon": {
+    "default": "HMW_234",
+    "HMW": {
+      "234": "HMW_234",
+      "833": "HMW_234"
+    }
+  },
+  "Gaderffii Stick": {
+    "default": "HMW_235",
+    "HMW": {
+      "235": "HMW_235"
+    }
+  },
+  "Booma Ball": {
+    "default": "HMW_236",
+    "HMW": {
+      "236": "HMW_236"
+    }
+  },
+  "Easy Prey": {
+    "default": "HMW_237",
+    "HMW": {
+      "237": "HMW_237"
+    }
+  },
+  "Exploit Confidence": {
+    "default": "HMW_238",
+    "HMW": {
+      "238": "HMW_238"
+    }
+  },
+  "Sandstorm": {
+    "default": "HMW_240",
+    "HMW": {
+      "240": "HMW_240"
+    }
+  },
+  "Howl": {
+    "default": "HMW_241",
+    "HMW": {
+      "241": "HMW_241"
+    }
+  },
+  "Occupation Officer": {
+    "default": "HMW_242",
+    "HMW": {
+      "242": "HMW_242"
+    }
+  },
+  "Sun Fac, Poggle's Second": {
+    "default": "HMW_243",
+    "HMW": {
+      "243": "HMW_243"
+    }
+  },
+  "Separatist Harbinger": {
+    "default": "HMW_244",
+    "HMW": {
+      "244": "HMW_244"
+    }
+  },
+  "Trandoshan Collaborator": {
+    "default": "HMW_245",
+    "HMW": {
+      "245": "HMW_245"
+    }
+  },
+  "Pyke Sarisa": {
+    "default": "HMW_246",
+    "HMW": {
+      "246": "HMW_246"
+    }
+  },
+  "Surveillance Cruiser": {
+    "default": "HMW_247",
+    "HMW": {
+      "247": "HMW_247"
+    }
+  },
+  "Defoliator Tank": {
+    "default": "HMW_248",
+    "HMW": {
+      "248": "HMW_248"
+    }
+  },
+  "Frenzied Tri-Fighters": {
+    "default": "HMW_249",
+    "HMW": {
+      "249": "HMW_249"
+    }
+  },
+  "Imperial Cavalry": {
+    "default": "HMW_250",
+    "HMW": {
+      "250": "HMW_250"
+    }
+  },
+  "Blockade Ship": {
+    "default": "HMW_251",
+    "HMW": {
+      "251": "HMW_251"
+    }
+  },
+  "Villainous Ambition": {
+    "default": "HMW_252",
+    "HMW": {
+      "252": "HMW_252"
+    }
+  },
+  "Forced Pacification": {
+    "default": "HMW_253",
+    "HMW": {
+      "253": "HMW_253"
+    }
+  },
+  "Captain Tarpals, Grand Army Captain": {
+    "default": "HMW_254",
+    "HMW": {
+      "254": "HMW_254"
+    }
+  },
+  "C-3PO, Captivating Storyteller": {
+    "default": "HMW_255",
+    "HMW": {
+      "255": "HMW_255"
+    }
+  },
+  "Jedi Interceptor": {
+    "default": "HMW_256",
+    "HMW": {
+      "256": "HMW_256"
+    }
+  },
+  "Ewok Archers": {
+    "default": "HMW_257",
+    "HMW": {
+      "257": "HMW_257"
+    }
+  },
+  "Ryloth Revolutionary Rider": {
+    "default": "HMW_258",
+    "HMW": {
+      "258": "HMW_258"
+    }
+  },
+  "Pack Guardian": {
+    "default": "HMW_259",
+    "HMW": {
+      "259": "HMW_259"
+    }
+  },
+  "Queen Amidala, Retaking Theed": {
+    "default": "HMW_260",
+    "HMW": {
+      "260": "HMW_260"
+    }
+  },
+  "Ben Kenobi, Don't Be Afraid": {
+    "default": "HMW_261",
+    "HMW": {
+      "261": "HMW_261"
+    }
+  },
+  "Mylaya Rider": {
+    "default": "HMW_262",
+    "HMW": {
+      "262": "HMW_262"
+    }
+  },
+  "Wrecker, Wrecking the Empire": {
+    "default": "HMW_263",
+    "HMW": {
+      "263": "HMW_263"
+    }
+  },
+  "Heroic Bravery": {
+    "default": "HMW_264",
+    "HMW": {
+      "264": "HMW_264"
+    }
+  },
+  "Twi'lek Kalikori": {
+    "default": "HMW_265",
+    "HMW": {
+      "265": "HMW_265"
+    }
+  },
+  "Familiar Strategem": {
+    "default": "HMW_266",
+    "HMW": {
+      "266": "HMW_266"
+    }
+  },
+  "Renew": {
+    "default": "HMW_267",
+    "HMW": {
+      "267": "HMW_267"
+    }
+  },
+  "Offworld Jawa": {
+    "default": "HMW_268",
+    "HMW": {
+      "268": "HMW_268"
+    }
+  },
+  "Friendly Eopie": {
+    "default": "HMW_269",
+    "HMW": {
+      "269": "HMW_269"
+    }
+  },
+  "Wild Space Wanderer": {
+    "default": "HMW_270",
+    "HMW": {
+      "270": "HMW_270"
+    }
+  },
+  "Landing Pad": {
+    "default": "HMW_271",
+    "HMW": {
+      "271": "HMW_271"
+    }
+  },
+  "Growth": {
+    "default": "HMW_272",
+    "HMW": {
+      "272": "HMW_272"
     }
   }
 }
